@@ -1,0 +1,1836 @@
+{
+  "sourceHash": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+  "batchDigest": "bd2d81158b9e1cd29922c6d5643784449ff561cf8b9d37ba223e25f32bb8dae4",
+  "batchId": "b0009",
+  "pages": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "reviewedAt": "2026-10-04T07:20:15.157Z",
+  "reviewer": "Codex extraction + omission + identity passes; not human review",
+  "extraction": {
+    "entities": [
+      {
+        "key": "sauti",
+        "name": "Sauti",
+        "kind": "unknown",
+        "description": "Framing narrator who identifies Lomaharshana as his father.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e25_lineage1",
+          "e28_narrators"
+        ]
+      },
+      {
+        "key": "saunaka",
+        "name": "Saunaka",
+        "kind": "sage",
+        "description": "Framing questioner addressed as an ascetic; requests the histories of Astika and Uchchaihsravas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e28_astika_sage",
+          "e30_steed",
+          "e30_saunaka_question"
+        ]
+      },
+      {
+        "key": "bhrigu",
+        "name": "Bhrigu",
+        "kind": "unknown",
+        "description": "Named as Chyavana's parent; another passage calls Pramati his son.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e25_lineage1",
+          "e26_pramati_parentage"
+        ]
+      },
+      {
+        "key": "chyavana",
+        "name": "Chyavana",
+        "kind": "unknown",
+        "description": "Bhrigu's son and Sukanya's husband; the opening genealogy says he begot Pramati.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called Bhrigu's son.",
+            "evidenceKeys": [
+              "e25_lineage1"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25_lineage1"
+        ]
+      },
+      {
+        "key": "sukanya",
+        "name": "Sukanya",
+        "kind": "unknown",
+        "description": "Chyavana's wife, in whose womb Pramati was begotten.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called Chyavana's wife.",
+            "evidenceKeys": [
+              "e25_lineage1"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25_lineage1"
+        ]
+      },
+      {
+        "key": "pramati",
+        "name": "Pramati",
+        "kind": "human",
+        "description": "Named Brahmana and Ruru's father, who relates Astika's history to Ruru. His paternal genealogy differs between passages.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called Ruru's father.",
+            "evidenceKeys": [
+              "e26_pramati_parentage"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25_lineage1",
+          "e25_lineage2",
+          "e26_pramati_parentage",
+          "e26_brahmanas",
+          "e26_named_attendees",
+          "e28_father_narrates"
+        ]
+      },
+      {
+        "key": "ghritachi",
+        "name": "Ghritachi",
+        "kind": "unknown",
+        "description": "The individual in whose womb Pramati begot Ruru.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Ruru is explicitly begotten in her womb.",
+            "evidenceKeys": [
+              "e25_lineage2"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25_lineage2"
+        ]
+      },
+      {
+        "key": "ruru",
+        "name": "Ruru",
+        "kind": "sage",
+        "description": "Son of Pramati and Ghritachi, husband of Pramadvara, and begetter of Sunaka; encounters Sahasrapat in serpent form.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e25_lineage2"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25_lineage2",
+          "e27_ruru_rishi",
+          "e27_sahasrapat"
+        ]
+      },
+      {
+        "key": "pramadvara",
+        "name": "Pramadvara",
+        "kind": "unknown",
+        "description": "Menaka's child, whose father is the Gandharva king; reared and named by Sthulakesa, married to Ruru, and mother of Sunaka.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "The child reared and named by Sthulakesa is explicitly female.",
+            "evidenceKeys": [
+              "e25_fostering",
+              "e25_pramadvara_name"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25_menaka_birth",
+          "e25_fostering",
+          "e25_pramadvara_name",
+          "e26_gandharva_dharma",
+          "e25_lineage2"
+        ]
+      },
+      {
+        "key": "sunaka",
+        "name": "Sunaka",
+        "kind": "unknown",
+        "description": "Son begotten by Ruru on his wife Pramadvara.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e25_lineage2"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25_lineage2"
+        ]
+      },
+      {
+        "key": "sthulakesa",
+        "name": "Sthulakesa",
+        "kind": "sage",
+        "description": "Rishi who reared and named Pramadvara and acted as her foster-father.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The Rishi who reared Pramadvara is subsequently called her foster-father.",
+            "evidenceKeys": [
+              "e25_fostering",
+              "e26_foster_betrothal"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25_sthulakesa",
+          "e25_fostering",
+          "e25_pramadvara_name",
+          "e26_foster_betrothal"
+        ]
+      },
+      {
+        "key": "viswavasu",
+        "name": "Viswavasu",
+        "kind": "other",
+        "description": "Gandharva king who had intimacy with Menaka and is identified as Pramadvara's father.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "King of the Gandharvas",
+            "evidenceKeys": [
+              "e25_viswavasu_menaka"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The Gandharva king is explicitly identified as Pramadvara's father.",
+            "evidenceKeys": [
+              "e25_viswavasu_menaka",
+              "e26_gandharva_dharma"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25_viswavasu_menaka",
+          "e26_gandharva_dharma"
+        ]
+      },
+      {
+        "key": "menaka",
+        "name": "Menaka",
+        "kind": "other",
+        "description": "Apsara and celestial dancing-girl who gave birth to the infant later named Pramadvara.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called a celestial dancing-girl.",
+            "evidenceKeys": [
+              "e25_viswavasu_menaka"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25_viswavasu_menaka",
+          "e25_menaka_birth",
+          "e25_fostering",
+          "e25_pramadvara_name"
+        ]
+      },
+      {
+        "key": "god_of_love",
+        "name": "God of love (unnamed)",
+        "kind": "deity",
+        "description": "Unnamed god invoked as piercing Ruru's heart upon seeing Pramadvara.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e25_ruru_attraction",
+          "e26_god_of_love"
+        ]
+      },
+      {
+        "key": "pramadvara_biting_serpent",
+        "name": "Serpent that bit Pramadvara (unnamed)",
+        "kind": "animal",
+        "description": "Individual serpent inadvertently trodden upon by Pramadvara, which bites her with envenomed fangs.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e26_serpent_encounter",
+          "e26_serpent_fate"
+        ]
+      },
+      {
+        "key": "fate",
+        "name": "Fate",
+        "kind": "unknown",
+        "description": "Referent whose will the biting serpent executes; whether this denotes an individual personification is uncertain.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e26_serpent_fate"
+        ]
+      },
+      {
+        "key": "swastyatreya",
+        "name": "Swastyatreya",
+        "kind": "human",
+        "description": "Named among the Brahmanas who came to the fallen maiden.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e26_brahmanas",
+          "e26_named_attendees"
+        ]
+      },
+      {
+        "key": "mahajana",
+        "name": "Mahajana",
+        "kind": "human",
+        "description": "Named among the Brahmanas who came to the fallen maiden.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e26_brahmanas",
+          "e26_named_attendees"
+        ]
+      },
+      {
+        "key": "kushika",
+        "name": "Kushika",
+        "kind": "human",
+        "description": "Named among the Brahmanas who came to the fallen maiden.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e26_brahmanas",
+          "e26_named_attendees"
+        ]
+      },
+      {
+        "key": "sankhamekhala",
+        "name": "Sankhamekhala",
+        "kind": "human",
+        "description": "Named among the Brahmanas who came to the fallen maiden.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e26_brahmanas",
+          "e26_named_attendees"
+        ]
+      },
+      {
+        "key": "uddalaka",
+        "name": "Uddalaka",
+        "kind": "human",
+        "description": "Named among the Brahmanas who came to the fallen maiden.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e26_brahmanas",
+          "e26_named_attendees"
+        ]
+      },
+      {
+        "key": "katha",
+        "name": "Katha",
+        "kind": "human",
+        "description": "Named among the Brahmanas who came to the fallen maiden.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e26_brahmanas",
+          "e26_named_attendees"
+        ]
+      },
+      {
+        "key": "sweta",
+        "name": "Sweta",
+        "kind": "human",
+        "description": "Individual of great renown named among the Brahmanas who came to the fallen maiden.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e26_brahmanas",
+          "e26_named_attendees"
+        ]
+      },
+      {
+        "key": "bharadwaja",
+        "name": "Bharadwaja",
+        "kind": "human",
+        "description": "Named among the Brahmanas who came to the fallen maiden.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e26_brahmanas",
+          "e26_named_attendees"
+        ]
+      },
+      {
+        "key": "kaunakutsya",
+        "name": "Kaunakutsya",
+        "kind": "human",
+        "description": "Named among the Brahmanas who came to the fallen maiden.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e26_brahmanas",
+          "e26_named_attendees"
+        ]
+      },
+      {
+        "key": "arshtishena",
+        "name": "Arshtishena",
+        "kind": "human",
+        "description": "Named among the Brahmanas who came to the fallen maiden.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e26_brahmanas",
+          "e26_named_attendees"
+        ]
+      },
+      {
+        "key": "gautama",
+        "name": "Gautama",
+        "kind": "human",
+        "description": "Named among the Brahmanas who came to the fallen maiden.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e26_brahmanas",
+          "e26_named_attendees"
+        ]
+      },
+      {
+        "key": "celestial_messenger",
+        "name": "Celestial messenger (unnamed)",
+        "kind": "other",
+        "description": "Messenger from heaven who explains how Ruru can revive Pramadvara and accompanies her father to Dharma.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "messenger of the gods",
+            "evidenceKeys": [
+              "e26_dharmaraja"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "e26_messenger",
+          "e26_life_offer",
+          "e26_gandharva_dharma",
+          "e26_dharmaraja"
+        ]
+      },
+      {
+        "key": "dharma",
+        "name": "Dharma",
+        "kind": "deity",
+        "description": "God and Judge of the dead who permits Pramadvara to rise with half of Ruru's life.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Dharmaraja",
+            "evidenceKeys": [
+              "e26_gandharva_dharma",
+              "e26_dharmaraja_address",
+              "e26_dharmaraja"
+            ]
+          },
+          {
+            "label": "Judge of the dead",
+            "evidenceKeys": [
+              "e26_gandharva_dharma"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The visitors address Dharma using the pronoun 'him'.",
+            "evidenceKeys": [
+              "e26_gandharva_dharma"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e26_gandharva_dharma",
+          "e26_dharmaraja_address",
+          "e26_dharmaraja"
+        ]
+      },
+      {
+        "key": "death",
+        "name": "Death",
+        "kind": "unknown",
+        "description": "Referent of the comparison with the staff of Death; whether this denotes an individual personification is uncertain.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e26_death_staff"
+        ]
+      },
+      {
+        "key": "sahasrapat",
+        "name": "Sahasrapat",
+        "kind": "sage",
+        "description": "Rishi cursed by Khagama into a venomless serpent of the Dundubha species; regains his original form upon meeting Ruru.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a man when restored to his original form.",
+            "evidenceKeys": [
+              "e27_restoration"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e26_dundubha",
+          "e27_sahasrapat",
+          "e27_khagama",
+          "e27_khagama_curse",
+          "e27_release_condition",
+          "e27_restoration"
+        ]
+      },
+      {
+        "key": "khagama",
+        "name": "Khagama",
+        "kind": "sage",
+        "description": "Sahasrapat's ascetic friend who curses him after being frightened with a mock snake.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The named friend is referred to as 'He'.",
+            "evidenceKeys": [
+              "e27_khagama"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e27_khagama",
+          "e27_khagama_curse"
+        ]
+      },
+      {
+        "key": "janamejaya",
+        "name": "Janamejaya",
+        "kind": "human",
+        "description": "King who undertakes a sacrifice to destroy the snakes.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The monarch is referred to as a son in Saunaka's question.",
+            "evidenceKeys": [
+              "e28_janamejaya",
+              "e28_monarch_son"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e27_janamejaya_astika",
+          "e28_janamejaya",
+          "e28_monarch_son"
+        ]
+      },
+      {
+        "key": "astika",
+        "name": "Astika",
+        "kind": "sage",
+        "description": "Rishi born from the two Jaratkarus who saves the snakes from the snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e29_astika_birth"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e28_astika_sage",
+          "e28_jaratkaru",
+          "e29_astika_birth",
+          "e27_janamejaya_astika"
+        ]
+      },
+      {
+        "key": "god_unspecified",
+        "name": "God (unspecified)",
+        "kind": "deity",
+        "description": "Divine referent in Sahasrapat's instruction to inspire belief in God; its individual identity is unspecified.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e27_god"
+        ]
+      },
+      {
+        "key": "krishna_dwaipayana",
+        "name": "Krishna-Dwaipayana",
+        "kind": "unknown",
+        "description": "First reciter of the history described by Sauti.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e28_narrators"
+        ]
+      },
+      {
+        "key": "lomaharshana",
+        "name": "Lomaharshana",
+        "kind": "unknown",
+        "description": "Sauti's wise father, disciple of Vyasa, and earlier narrator of the history.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called Sauti's father.",
+            "evidenceKeys": [
+              "e28_narrators"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e28_narrators"
+        ]
+      },
+      {
+        "key": "vyasa",
+        "name": "Vyasa",
+        "kind": "unknown",
+        "description": "The individual whose disciple is Lomaharshana.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e28_narrators"
+        ]
+      },
+      {
+        "key": "jaratkaru_rishi",
+        "name": "Jaratkaru (Rishi)",
+        "kind": "sage",
+        "description": "Ascetic father of Astika who marries Vasuki's younger sister of the same name.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly identified as Astika's father.",
+            "evidenceKeys": [
+              "e28_jaratkaru"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e28_jaratkaru",
+          "e29_jaratkaru_sister",
+          "e29_jaratkaru_marriage",
+          "e29_astika_birth"
+        ]
+      },
+      {
+        "key": "prajapati",
+        "name": "Prajapati",
+        "kind": "unknown",
+        "description": "Parent of Kadru and Vinata, also invoked in comparisons with Jaratkaru and Kasyapa.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as 'Prajapati himself'.",
+            "evidenceKeys": [
+              "e29_kasyapa_boon"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e28_jaratkaru",
+          "e29_daughters_wives",
+          "e29_kasyapa_boon"
+        ]
+      },
+      {
+        "key": "kasyapa",
+        "name": "Kasyapa",
+        "kind": "unknown",
+        "description": "Husband of Kadru and Vinata who grants their requested boons concerning offspring.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The husband of the two wives is referred to as 'he'.",
+            "evidenceKeys": [
+              "e29_daughters_wives",
+              "e29_kasyapa_boon"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e29_daughters_wives",
+          "e29_kasyapa_boon",
+          "e29_offspring_boons"
+        ]
+      },
+      {
+        "key": "ancestor_rope_rat",
+        "name": "Rat eating the ancestors' rope (unnamed)",
+        "kind": "animal",
+        "description": "Individual rat eating into the rope of virana fibres from which Jaratkaru's ancestors hang.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e28_rat"
+        ]
+      },
+      {
+        "key": "vasuki",
+        "name": "Vasuki",
+        "kind": "animal",
+        "description": "Snake who offers his younger sister Jaratkaru to the Rishi Jaratkaru.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Vasuki is the individual whom the Rishi asks using 'him'.",
+            "evidenceKeys": [
+              "e29_vasuki_offer",
+              "e29_vasuki_snake"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e29_vasuki_offer",
+          "e29_vasuki_snake",
+          "e29_jaratkaru_sister"
+        ]
+      },
+      {
+        "key": "jaratkaru_vasuki_sister",
+        "name": "Jaratkaru (Vasuki's sister)",
+        "kind": "unknown",
+        "description": "Vasuki's younger sister, wife of the Rishi Jaratkaru, and mother of Astika.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called a younger sister and damsel.",
+            "evidenceKeys": [
+              "e29_jaratkaru_sister"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e29_jaratkaru_sister",
+          "e29_jaratkaru_marriage",
+          "e29_astika_birth"
+        ]
+      },
+      {
+        "key": "mother_of_snakes_unnamed",
+        "name": "Mother of the snakes (unnamed)",
+        "kind": "unknown",
+        "description": "Mother who curses the snakes to be burned in Janamejaya's sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called the mother of the snakes.",
+            "evidenceKeys": [
+              "e29_snake_mother_agni"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e29_snake_mother_agni"
+        ]
+      },
+      {
+        "key": "brahma",
+        "name": "Brahma",
+        "kind": "unknown",
+        "description": "Referent in Sauti's address about being acquainted with Brahma; whether this denotes an individual or a spiritual concept is uncertain.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e29_snake_mother_agni"
+        ]
+      },
+      {
+        "key": "agni",
+        "name": "Agni",
+        "kind": "unknown",
+        "description": "Being foretold to burn the snakes in Janamejaya's sacrifice, with Wind as charioteer.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly designated 'He' in the curse.",
+            "evidenceKeys": [
+              "e29_snake_mother_agni"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e29_snake_mother_agni"
+        ]
+      },
+      {
+        "key": "wind",
+        "name": "Wind",
+        "kind": "unknown",
+        "description": "Wind, described as Agni's charioteer.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e29_snake_mother_agni"
+        ]
+      },
+      {
+        "key": "kadru",
+        "name": "Kadru",
+        "kind": "unknown",
+        "description": "Prajapati's daughter, Vinata's sister, and Kasyapa's wife; brings forth the eggs producing a thousand offspring.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly one of Prajapati's daughters and Kasyapa's wives.",
+            "evidenceKeys": [
+              "e29_daughters_wives"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e29_daughters_wives",
+          "e29_offspring_requests",
+          "e29_kadru_sons",
+          "e30_eggs",
+          "e30_twins"
+        ]
+      },
+      {
+        "key": "vinata",
+        "name": "Vinata",
+        "kind": "unknown",
+        "description": "Prajapati's daughter, Kadru's sister, and Kasyapa's wife; mother of Garuda and the prematurely hatched child who becomes Surya's charioteer.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly one of Prajapati's daughters and Kasyapa's wives.",
+            "evidenceKeys": [
+              "e29_daughters_wives"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e29_daughters_wives",
+          "e30_eggs",
+          "e30_first_child",
+          "e30_surya_charioteer",
+          "e30_garuda",
+          "e30_garuda_son"
+        ]
+      },
+      {
+        "key": "vinata_first_son",
+        "name": "Vinata's prematurely hatched son (unnamed)",
+        "kind": "unknown",
+        "description": "Child with an undeveloped lower body when Vinata breaks his egg; curses his mother and becomes Surya's morning charioteer.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "charioteer of Surya",
+            "evidenceKeys": [
+              "e30_surya_charioteer"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The child is referred to using 'his' and 'he'.",
+            "evidenceKeys": [
+              "e30_first_child",
+              "e30_surya_charioteer"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e30_first_child",
+          "e30_surya_charioteer",
+          "e30_twins"
+        ]
+      },
+      {
+        "key": "surya",
+        "name": "Surya",
+        "kind": "unknown",
+        "description": "Being whose charioteer is Vinata's prematurely hatched child.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e30_surya_charioteer"
+        ]
+      },
+      {
+        "key": "garuda",
+        "name": "Garuda",
+        "kind": "animal",
+        "description": "Vinata's son who emerges from her other egg; winged lord of birds and serpent-eater.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "serpent-eater",
+            "evidenceKeys": [
+              "e30_garuda"
+            ]
+          },
+          {
+            "label": "lord of birds",
+            "evidenceKeys": [
+              "e30_ordainer"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called Vinata's son.",
+            "evidenceKeys": [
+              "e30_garuda_son"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e30_garuda",
+          "e30_garuda_son",
+          "e30_ordainer"
+        ]
+      },
+      {
+        "key": "great_ordainer",
+        "name": "Great Ordainer of all",
+        "kind": "unknown",
+        "description": "Unspecified being who assigns Garuda's food.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e30_ordainer"
+        ]
+      },
+      {
+        "key": "uchchaihsravas",
+        "name": "Uchchaihsravas",
+        "kind": "animal",
+        "description": "Divine steed worshipped by the gods, arising at the churning of the Ocean for nectar.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e30_steed",
+          "e30_steed_divine"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromKey": "bhrigu",
+        "toKey": "chyavana",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e25_lineage1"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "chyavana",
+        "toKey": "sukanya",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e25_lineage1"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "chyavana",
+        "toKey": "pramati",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e25_lineage1",
+          "e26_pramati_parentage"
+        ],
+        "status": "disputed"
+      },
+      {
+        "fromKey": "sukanya",
+        "toKey": "pramati",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e25_lineage1"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "pramati",
+        "toKey": "ruru",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e25_lineage2"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "ghritachi",
+        "toKey": "ruru",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e25_lineage2"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "ruru",
+        "toKey": "pramadvara",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e25_lineage2",
+          "e26_ruru_marriage"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "ruru",
+        "toKey": "sunaka",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e25_lineage2"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "pramadvara",
+        "toKey": "sunaka",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e25_lineage2"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "bhrigu",
+        "toKey": "pramati",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e26_pramati_parentage",
+          "e25_lineage1"
+        ],
+        "status": "disputed"
+      },
+      {
+        "fromKey": "menaka",
+        "toKey": "pramadvara",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e25_menaka_birth",
+          "e25_fostering",
+          "e25_pramadvara_name"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "viswavasu",
+        "toKey": "pramadvara",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e25_viswavasu_menaka",
+          "e26_gandharva_dharma"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "sthulakesa",
+        "toKey": "pramadvara",
+        "type": "parent_of",
+        "parenthood": "social",
+        "evidenceKeys": [
+          "e25_fostering",
+          "e25_pramadvara_name",
+          "e26_foster_betrothal"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "lomaharshana",
+        "toKey": "sauti",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e28_narrators"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "jaratkaru_vasuki_sister",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e29_jaratkaru_sister"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "jaratkaru_rishi",
+        "toKey": "jaratkaru_vasuki_sister",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e29_jaratkaru_sister",
+          "e29_jaratkaru_marriage"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "jaratkaru_rishi",
+        "toKey": "astika",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e28_jaratkaru",
+          "e29_astika_birth"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "jaratkaru_vasuki_sister",
+        "toKey": "astika",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e29_jaratkaru_sister",
+          "e29_jaratkaru_marriage",
+          "e29_astika_birth"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "prajapati",
+        "toKey": "kadru",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e29_daughters_wives"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "prajapati",
+        "toKey": "vinata",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e29_daughters_wives"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kadru",
+        "toKey": "vinata",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e29_daughters_wives"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kasyapa",
+        "toKey": "kadru",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e29_daughters_wives"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kasyapa",
+        "toKey": "vinata",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e29_daughters_wives"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vinata",
+        "toKey": "vinata_first_son",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e30_eggs",
+          "e30_first_child",
+          "e30_surya_charioteer"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vinata",
+        "toKey": "garuda",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e30_eggs",
+          "e30_first_child",
+          "e30_garuda",
+          "e30_garuda_son"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vinata_first_son",
+        "toKey": "garuda",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e30_twins",
+          "e30_first_child",
+          "e30_garuda"
+        ],
+        "status": "supported"
+      }
+    ],
+    "evidence": [
+      {
+        "key": "e25_lineage1",
+        "page": 25,
+        "excerpt": "Sauti said, 'O Brahmana, Chyavana, the son of Bhrigu, begot a son in the womb of his wife Sukanya. And that son was the illustrious Pramati of resplendent energy."
+      },
+      {
+        "key": "e25_lineage2",
+        "page": 25,
+        "excerpt": "And Pramati begot in the womb of Ghritachi a son called Ruru. And Ruru begot on his wife Pramadvara a son called Sunaka."
+      },
+      {
+        "key": "e25_sthulakesa",
+        "page": 25,
+        "excerpt": "Formerly there was a great Rishi called Sthulakesa possessed of ascetic power and learning and kindly disposed towards all creatures."
+      },
+      {
+        "key": "e25_viswavasu_menaka",
+        "page": 25,
+        "excerpt": "Viswavasu, the King of the Gandharvas, it is said, had intimacy with Menaka, the celestial dancing-girl."
+      },
+      {
+        "key": "e25_menaka_birth",
+        "page": 25,
+        "excerpt": "And the Apsara, Menaka, O thou of the Bhrigu race, when her time was come, brought forth an infant near the hermitage of Sthulakesa."
+      },
+      {
+        "key": "e25_fostering",
+        "page": 25,
+        "excerpt": "And he perceived that it was a female child, bright as the offspring of an Immortal and blazing, as it were, with beauty: And the great Brahmana, Sthulakesa, the first of Munis, seeing that female child, and filled with compassion, took it up and reared it."
+      },
+      {
+        "key": "e25_pramadvara_name",
+        "page": 25,
+        "excerpt": "And because she surpassed all of her sex in goodness, beauty, and every quality, the great Rishi called her by the name of Pramadvara."
+      },
+      {
+        "key": "e25_ruru_attraction",
+        "page": 25,
+        "excerpt": "And the pious Ruru having seen Pramadvara in the hermitage of Sthulakesa became one whose heart was pierced"
+      },
+      {
+        "key": "e26_god_of_love",
+        "page": 26,
+        "excerpt": "by the god of love."
+      },
+      {
+        "key": "e26_pramati_parentage",
+        "page": 26,
+        "excerpt": "And Ruru by means of his companions made his father Pramati, the son of Bhrigu, acquainted with his passion."
+      },
+      {
+        "key": "e26_foster_betrothal",
+        "page": 26,
+        "excerpt": "And Pramati demanded her of the far-famed Sthulakesa for his son. And her foster-father betrothed the virgin Pramadvara to Ruru"
+      },
+      {
+        "key": "e26_serpent_encounter",
+        "page": 26,
+        "excerpt": "the beautiful virgin while at play with companions of her own sex, her time having come, impelled by fate, trod upon a serpent which she did not perceive as it lay in coil."
+      },
+      {
+        "key": "e26_serpent_fate",
+        "page": 26,
+        "excerpt": "And the reptile, urged to execute the will of Fate, violently darted its envenomed fangs into the body of the heedless maiden."
+      },
+      {
+        "key": "e26_brahmanas",
+        "page": 26,
+        "excerpt": "And then there came many noted Brahmanas filled with compassion, and they sat around her."
+      },
+      {
+        "key": "e26_named_attendees",
+        "page": 26,
+        "excerpt": "And Swastyatreya, Mahajana, Kushika, Sankhamekhala, Uddalaka, Katha, and Sweta of great renown, Bharadwaja, Kaunakutsya, Arshtishena, Gautama, Pramati, and Pramati's son Ruru, and other inhabitants of the forest, came there."
+      },
+      {
+        "key": "e26_messenger",
+        "page": 26,
+        "excerpt": "a messenger from heaven came to him in the forest and addressed him thus"
+      },
+      {
+        "key": "e26_life_offer",
+        "page": 26,
+        "excerpt": "And the celestial messenger said unto Ruru, 'Resign half of thy own life to thy bride, and then, O Ruru of the race of Bhrigu, thy Pramadvara shall rise from the ground."
+      },
+      {
+        "key": "e26_gandharva_dharma",
+        "page": 26,
+        "excerpt": "Then the king of Gandharvas (the father of Pramadvara) and the celestial messenger, both of excellent qualities, went to the god Dharma (the Judge of the dead) and addressed him, saying,"
+      },
+      {
+        "key": "e26_dharmaraja_address",
+        "page": 26,
+        "excerpt": "If it be thy will, O Dharmaraja, let the amiable Pramadvara, the betrothed wife of Ruru, now lying dead, rise up with a moiety of Ruru's life."
+      },
+      {
+        "key": "e26_dharmaraja",
+        "page": 26,
+        "excerpt": "And Dharmaraja answered, 'O messenger of the gods, if it be thy wish, let Pramadvara, the betrothed wife of Ruru, rise up endued with a moiety of Ruru's life."
+      },
+      {
+        "key": "e26_ruru_marriage",
+        "page": 26,
+        "excerpt": "And on an auspicious day their fathers gladly married them with due rites. And the couple passed their days, devoted to each other. And Ruru having obtained such a wife"
+      },
+      {
+        "key": "e26_dundubha",
+        "page": 26,
+        "excerpt": "And there he saw an old serpent of the Dundubha species lying stretched on the ground."
+      },
+      {
+        "key": "e26_death_staff",
+        "page": 26,
+        "excerpt": "And Ruru thereupon lifted up in anger his staff, even like to the staff of Death"
+      },
+      {
+        "key": "e27_ruru_rishi",
+        "page": 27,
+        "excerpt": "And the Rishi Ruru hearing these words of the serpent, and seeing that it was bewildered with fear, albeit a snake of the Dundubha species, killed it not."
+      },
+      {
+        "key": "e27_sahasrapat",
+        "page": 27,
+        "excerpt": "And the Dundubha replied, 'O Ruru! I was formerly a Rishi by name Sahasrapat. And it is by the curse of a Brahmana that I have been transformed into a snake."
+      },
+      {
+        "key": "e27_khagama",
+        "page": 27,
+        "excerpt": "In former times, I had a friend Khagama by name. He was impetuous in his speech and possessed of spiritual power by virtue of his austerities."
+      },
+      {
+        "key": "e27_khagama_curse",
+        "page": 27,
+        "excerpt": "On recovering his senses, that truth-telling and vow-observing ascetic, burning with wrath, exclaimed, 'Since thou hast made a powerless mock snake to frighten me, thou shalt be turned even into a venomless serpent thyself by my curse."
+      },
+      {
+        "key": "e27_release_condition",
+        "page": 27,
+        "excerpt": "O pious one! when Ruru the pure son of Pramati, will appear, thou shall be delivered from the curse the moment thou seest him. Thou art the very Ruru and the son of Pramati."
+      },
+      {
+        "key": "e27_restoration",
+        "page": 27,
+        "excerpt": "And that illustrious man and the best of Brahmanas then left his snake-body, and attained his own form and original brightness."
+      },
+      {
+        "key": "e27_god",
+        "page": 27,
+        "excerpt": "A Brahmana should be versed in the Vedas and Vedangas, and should inspire all creatures with belief in God."
+      },
+      {
+        "key": "e27_janamejaya_astika",
+        "page": 27,
+        "excerpt": "why was king Janamejaya bent upon destroying the serpents?--And why and how were they saved by the wise Astika?"
+      },
+      {
+        "key": "e28_father_narrates",
+        "page": 28,
+        "excerpt": "Regaining consciousness, he came home and asked his father to relate the history in question. Thus asked, his father related all about the story."
+      },
+      {
+        "key": "e28_janamejaya",
+        "page": 28,
+        "excerpt": "For what reason did that tiger among kings, the royal Janamejaya, determine to take the lives of the snakes by means of a sacrifice?"
+      },
+      {
+        "key": "e28_monarch_son",
+        "page": 28,
+        "excerpt": "Whose son was that monarch who celebrated the snake-sacrifice?"
+      },
+      {
+        "key": "e28_astika_sage",
+        "page": 28,
+        "excerpt": "Saunaka said, 'I am desirous of hearing at length the charming story of that Rishi, that illustrious Brahmana named Astika."
+      },
+      {
+        "key": "e28_narrators",
+        "page": 28,
+        "excerpt": "Sauti said, 'This history (first) recited by Krishna-Dwaipayana, is called a Purana by the Brahmanas. It was formerly narrated by my wise father, Lomaharshana, the disciple of Vyasa"
+      },
+      {
+        "key": "e28_jaratkaru",
+        "page": 28,
+        "excerpt": "The father of Astika was powerful like Prajapati. He was a Brahma-charin, always engaged in austere devotions. He ate sparingly, was a great ascetic, and had his lust under complete control. And he was known by the name of Jaratkaru."
+      },
+      {
+        "key": "e28_rat",
+        "page": 28,
+        "excerpt": "Who are you thus hanging heads down in this hole by a rope of virana fibres that is again secretly eaten into on all sides by a rat living here?"
+      },
+      {
+        "key": "e29_vasuki_offer",
+        "page": 29,
+        "excerpt": "Thereupon Vasuki rose and offered his sister for the Rishi's acceptance."
+      },
+      {
+        "key": "e29_vasuki_snake",
+        "page": 29,
+        "excerpt": "Then that Rishi of great wisdom and austere penances asked him, saying, 'Tell me truly what is the name of this thy sister, O snake."
+      },
+      {
+        "key": "e29_jaratkaru_sister",
+        "page": 29,
+        "excerpt": "Vasuki replied, 'O Jaratkaru, this my younger sister is called Jaratkaru. Given away by me, accept this slender-waisted damsel for thy spouse."
+      },
+      {
+        "key": "e29_jaratkaru_marriage",
+        "page": 29,
+        "excerpt": "Saying this, he offered his beautiful sister to Jaratkaru who then espoused her with ordained rites."
+      },
+      {
+        "key": "e29_snake_mother_agni",
+        "page": 29,
+        "excerpt": "Sauti said, 'O foremost of persons acquainted with Brahma, the mother of the snakes had cursed them of old, saying, 'He that hath the Wind for his charioteer (viz., Agni) shall burn you all in Janamejaya's sacrifice!"
+      },
+      {
+        "key": "e29_astika_birth",
+        "page": 29,
+        "excerpt": "It was to neutralise that curse that the chief of the snakes married his sister to that high-souled Rishi of excellent vows. The Rishi wedded her according to the rites ordained (in the scriptures), and from them was born a high-souled son called Astika."
+      },
+      {
+        "key": "e29_astika_relatives",
+        "page": 29,
+        "excerpt": "Astika delivered the Nagas, viz., his brothers and maternal uncles and other snakes (from a fiery death)."
+      },
+      {
+        "key": "e29_daughters_wives",
+        "page": 29,
+        "excerpt": "O Brahmana, in the golden age, Prajapati had two daughters. O sinless one, the sisters were endowed with wonderful beauty. Named Kadru and Vinata, they became the wives of Kasyapa."
+      },
+      {
+        "key": "e29_kasyapa_boon",
+        "page": 29,
+        "excerpt": "Kasyapa derived great pleasure from his two wedded wives and being gratified he, resembling Prajapati himself, offered to give each of them a boon."
+      },
+      {
+        "key": "e29_offspring_requests",
+        "page": 29,
+        "excerpt": "Kadru wished to have for sons a thousand snakes all of equal splendour. And Vinata wished to bring forth two sons surpassing the thousand offsprings of Kadru in strength, energy, size of body, and prowess."
+      },
+      {
+        "key": "e29_offspring_boons",
+        "page": 29,
+        "excerpt": "Unto Kadru her lord gave that boon about a multitude of offspring. And unto Vinata also, Kasyapa said, 'Be it so!"
+      },
+      {
+        "key": "e29_kadru_sons",
+        "page": 29,
+        "excerpt": "Kadru also obtained her thousand sons of equal splendour."
+      },
+      {
+        "key": "e30_eggs",
+        "page": 30,
+        "excerpt": "after a long time, Kadru brought forth a thousand eggs, and Vinata two."
+      },
+      {
+        "key": "e30_twins",
+        "page": 30,
+        "excerpt": "Five hundred years passed away, and the thousand eggs produced by Kadru burst and out came the progeny. But the twins of Vinata did not appear."
+      },
+      {
+        "key": "e30_first_child",
+        "page": 30,
+        "excerpt": "Vinata was jealous, and therefore she broke one of the eggs and found in it an embryo with the upper part developed but the lower one undeveloped. At this, the child in the egg became angry and cursed his mother"
+      },
+      {
+        "key": "e30_surya_charioteer",
+        "page": 30,
+        "excerpt": "Thus cursing his mother, the child rose to the sky. O Brahmana, even he is the charioteer of Surya, always seen in the hour of morning!"
+      },
+      {
+        "key": "e30_garuda",
+        "page": 30,
+        "excerpt": "Then at the expiration of the five hundred years, bursting open the other egg, out came Garuda, the serpent-eater."
+      },
+      {
+        "key": "e30_garuda_son",
+        "page": 30,
+        "excerpt": "immediately on seeing the light, that son of Vinata left his mother."
+      },
+      {
+        "key": "e30_ordainer",
+        "page": 30,
+        "excerpt": "And the lord of birds, feeling hungry, took wing in quest of the food assigned to him by the Great Ordainer of all."
+      },
+      {
+        "key": "e30_steed",
+        "page": 30,
+        "excerpt": "Sauti said, 'O ascetic, about this time the two sisters saw approaching near, that steed of complacent appearance named Uchchaihsravas who was worshipped by the gods, that gem of steeds, who arose at the churning of the Ocean for nectar."
+      },
+      {
+        "key": "e30_steed_divine",
+        "page": 30,
+        "excerpt": "Divine, graceful, perpetually young, creation's master-piece, and of irresistible vigour, it was blest with every auspicious mark."
+      },
+      {
+        "key": "e30_saunaka_question",
+        "page": 30,
+        "excerpt": "Saunaka asked, 'Why did the gods churn the Ocean for nectar, and under what circumstances and when as you say, did that best of steeds so powerful and resplendent spring?"
+      }
+    ],
+    "unresolved": [
+      "Page 25 says Chyavana begot Pramati in Sukanya's womb; page 26 calls Pramati the son of Bhrigu. Both paternal claims are retained as disputed without reconciling the differing descriptions.",
+      "Sunaka and Saunaka remain distinct because this batch does not establish their identity.",
+      "Krishna-Dwaipayana and Vyasa remain distinct because this batch does not explicitly establish that they identify the same individual.",
+      "The unnamed mother of the snakes on page 29 is not explicitly identified as Kadru.",
+      "Brahma may denote a spiritual concept rather than an individual. Fate and Death may be personifications, and the reference to belief in God does not establish a particular individual identity. These records remain provisional.",
+      "The batch does not establish identities among God, the Great Ordainer, Prajapati, Brahma, Dharma, Death, or Fate.",
+      "Dundubha is explicitly a species designation. It is retained in Sahasrapat's description rather than treated as an established personal alias.",
+      "Astika's birth from the two Jaratkarus establishes parentage; its parenthood mode is left unspecified.",
+      "Kasyapa is explicitly the husband of Kadru and Vinata and grants offspring boons, but the batch does not directly identify him as the parent of Garuda or Vinata's unnamed first son.",
+      "Kadru's thousand snake sons, Jaratkaru's hanging ancestors, Astika's brothers and maternal uncles, companions, maid-servants, and unspecified offspring are not individually differentiated. No additional individuals or pairwise family relationships are created from these group references.",
+      "The passage concerning Astika's brothers and maternal uncles does not individually identify an additional sibling or uncle, and does not state Kadru's parentage of Vasuki or Vasuki's sister.",
+      "Vinata's two children are explicitly called twins, supporting their sibling relationship independently of their shared parentage."
+    ]
+  },
+  "reconciliation": {
+    "matches": [
+      {
+        "localKey": "sauti",
+        "existingId": "mahabharata:seed:ugrasrava-sauti",
+        "reason": "The existing record explicitly identifies Ugrasrava as Sauti and Lomaharshana's son; the current narrator names Lomaharshana as his father.",
+        "evidenceKeys": [
+          "e28_narrators"
+        ]
+      },
+      {
+        "localKey": "saunaka",
+        "existingId": "mahabharata:seed:saunaka",
+        "reason": "Both occur as Saunaka in the framing dialogue with Sauti, asking him to recount the epic's histories.",
+        "evidenceKeys": [
+          "e28_astika_sage",
+          "e30_saunaka_question"
+        ]
+      },
+      {
+        "localKey": "bhrigu",
+        "existingId": "mahabharata:b0005:bhrigu",
+        "reason": "Both explicitly identify Bhrigu as Chyavana's parent.",
+        "evidenceKeys": [
+          "e25_lineage1"
+        ]
+      },
+      {
+        "localKey": "chyavana",
+        "existingId": "mahabharata:b0005:chyavana",
+        "reason": "The same genealogy identifies Chyavana as Bhrigu's son, Sukanya's husband, and Pramati's parent.",
+        "evidenceKeys": [
+          "e25_lineage1"
+        ]
+      },
+      {
+        "localKey": "sukanya",
+        "existingId": "mahabharata:b0008:sukanya",
+        "reason": "Both identify Sukanya as Chyavana's wife, in whose womb Pramati was begotten.",
+        "evidenceKeys": [
+          "e25_lineage1"
+        ]
+      },
+      {
+        "localKey": "pramati",
+        "existingId": "mahabharata:b0008:pramati",
+        "reason": "Both give the same genealogy: Pramati is begotten by Chyavana in Sukanya's womb and begets Ruru in Ghritachi's womb.",
+        "evidenceKeys": [
+          "e25_lineage1",
+          "e25_lineage2"
+        ]
+      },
+      {
+        "localKey": "ghritachi",
+        "existingId": "mahabharata:b0008:ghritachi",
+        "reason": "Both identify Ghritachi as the individual in whose womb Pramati begot Ruru.",
+        "evidenceKeys": [
+          "e25_lineage2"
+        ]
+      },
+      {
+        "localKey": "ruru",
+        "existingId": "mahabharata:b0008:ruru",
+        "reason": "Both identify Ruru through Pramati and Ghritachi, his wife Pramadvara, and their son Sunaka.",
+        "evidenceKeys": [
+          "e25_lineage2"
+        ]
+      },
+      {
+        "localKey": "pramadvara",
+        "existingId": "mahabharata:b0008:pramadvara",
+        "reason": "Both identify the female child reared and named by Sthulakesa, subsequently Ruru's wife and Sunaka's mother.",
+        "evidenceKeys": [
+          "e25_fostering",
+          "e25_pramadvara_name",
+          "e25_lineage2"
+        ]
+      },
+      {
+        "localKey": "sunaka",
+        "existingId": "mahabharata:b0008:sunaka",
+        "reason": "Both explicitly identify Sunaka as the son begotten by Ruru on his wife Pramadvara.",
+        "evidenceKeys": [
+          "e25_lineage2"
+        ]
+      },
+      {
+        "localKey": "sthulakesa",
+        "existingId": "mahabharata:b0008:sthulakesa",
+        "reason": "Both identify the Rishi who reared the abandoned female child and named her Pramadvara.",
+        "evidenceKeys": [
+          "e25_sthulakesa",
+          "e25_fostering",
+          "e25_pramadvara_name"
+        ]
+      },
+      {
+        "localKey": "viswavasu",
+        "existingId": "mahabharata:b0008:viswavasu",
+        "reason": "Both identify Viswavasu as King of the Gandharvas who had intimacy with Menaka.",
+        "evidenceKeys": [
+          "e25_viswavasu_menaka"
+        ]
+      },
+      {
+        "localKey": "menaka",
+        "existingId": "mahabharata:b0008:menaka",
+        "reason": "Both identify the Apsara and celestial dancing-girl associated with Viswavasu who gives birth near Sthulakesa's hermitage.",
+        "evidenceKeys": [
+          "e25_viswavasu_menaka",
+          "e25_menaka_birth"
+        ]
+      },
+      {
+        "localKey": "dharma",
+        "existingId": "mahabharata:seed:dharma",
+        "reason": "The name is corroborated by the distinctive judicial divine role: the existing god of justice and the current god designated Judge of the dead.",
+        "evidenceKeys": [
+          "e26_gandharva_dharma",
+          "e26_dharmaraja"
+        ]
+      },
+      {
+        "localKey": "janamejaya",
+        "existingId": "mahabharata:seed:janamejaya-son-parikshit",
+        "reason": "Both identify the king of the snake-sacrifice; the current destruction of snakes distinguishes him from the other Janamejaya records.",
+        "evidenceKeys": [
+          "e27_janamejaya_astika",
+          "e28_janamejaya"
+        ]
+      },
+      {
+        "localKey": "astika",
+        "existingId": "mahabharata:b0001:astika",
+        "reason": "Both identify the subject of the explicitly named Astika story in the Bharata: the existing introductory reading reference and the current framing introduction to that history.",
+        "evidenceKeys": [
+          "e28_astika_sage",
+          "e28_narrators"
+        ]
+      },
+      {
+        "localKey": "krishna_dwaipayana",
+        "existingId": "mahabharata:seed:vyasa",
+        "reason": "Existing evidence explicitly names Krishna-Dwaipayana Vyasa and identifies Dwaipayana as the Purana's first promulgator; the current passage identifies Krishna-Dwaipayana as this history's first reciter.",
+        "evidenceKeys": [
+          "e28_narrators"
+        ]
+      },
+      {
+        "localKey": "lomaharshana",
+        "existingId": "mahabharata:seed:lomaharshana",
+        "reason": "Both explicitly identify Lomaharshana as the father of the narrator Sauti/Ugrasrava.",
+        "evidenceKeys": [
+          "e28_narrators"
+        ]
+      },
+      {
+        "localKey": "vyasa",
+        "existingId": "mahabharata:seed:vyasa",
+        "reason": "Existing evidence explicitly joins the names Krishna-Dwaipayana Vyasa and places Sauti's father reading the Bharata with Krishna-Dwaipayana. This corroborates the current Lomaharshana-as-disciple context and resolves the two local names as one established identity.",
+        "evidenceKeys": [
+          "e28_narrators"
+        ]
+      },
+      {
+        "localKey": "garuda",
+        "existingId": "mahabharata:b0004:garuda",
+        "reason": "The existing synopsis specifically locates Garuda's birth in Astika; the current Astika Parva passage narrates Garuda emerging from Vinata's other egg.",
+        "evidenceKeys": [
+          "e30_garuda",
+          "e30_garuda_son"
+        ]
+      }
+    ],
+    "unresolved": [
+      "god_of_love: No supplied existing record identifies the unnamed god invoked in Ruru's attraction.",
+      "pramadvara_biting_serpent: No supplied existing record identifies this particular biting serpent.",
+      "fate: Individual personification remains uncertain; no supplied evidence establishes an existing identity.",
+      "swastyatreya: No supported counterpart appears among the supplied existing records.",
+      "mahajana: No supported counterpart appears among the supplied existing records.",
+      "kushika: No supported counterpart appears among the supplied existing records.",
+      "sankhamekhala: No supported counterpart appears among the supplied existing records.",
+      "uddalaka: Attendance at Pramadvara's death does not establish identity with Aruni, the disciple renamed Uddalaka.",
+      "katha: No supported counterpart appears among the supplied existing records.",
+      "sweta: The current Brahmana attendee is not established as the existing enumerated former ruler.",
+      "bharadwaja: The attendee passage supplies neither Drona parentage nor the military role needed to identify either existing Bharadwaja.",
+      "kaunakutsya: No supported counterpart appears among the supplied existing records.",
+      "arshtishena: Attendance at Pramadvara's death does not establish identity with the individual associated with the Pandavas' asylum.",
+      "gautama: No supported counterpart appears among the supplied existing records.",
+      "celestial_messenger: No supplied existing record identifies the messenger who negotiates Pramadvara's restoration.",
+      "death: The staff comparison does not establish identity with Dharma or another existing being.",
+      "sahasrapat: No supplied existing record identifies the Rishi transformed into a Dundubha serpent.",
+      "khagama: No supplied existing record identifies Sahasrapat's friend and curser.",
+      "god_unspecified: The reference to belief in God supplies no particular existing identity.",
+      "jaratkaru_rishi: No supplied existing record identifies Astika's ascetic father.",
+      "prajapati: The current parent of Kadru and Vinata is not explicitly linked to the existing primordial-egg being called Prajapati.",
+      "kasyapa: Marriage to Kadru and Vinata does not establish identity with the existing physician intercepted by Takshaka.",
+      "ancestor_rope_rat: No supplied existing record identifies this particular rat.",
+      "vasuki: No supported counterpart appears among the supplied existing records.",
+      "jaratkaru_vasuki_sister: No supplied existing record identifies Vasuki's sister; she remains distinct from her same-named husband.",
+      "mother_of_snakes_unnamed: The curse passage does not name this mother or establish another existing identity.",
+      "brahma: The address about acquaintance with Brahma does not distinguish among the existing Brahma records or establish an individual referent.",
+      "agni: None of the supplied existing Agni excerpts corroborates the current Wind-as-charioteer or snake-sacrifice context sufficiently to select an identity.",
+      "wind: No supplied existing record establishes the identity of Agni's charioteer.",
+      "kadru: No supported counterpart appears among the supplied existing records.",
+      "vinata: No supported counterpart appears among the supplied existing records.",
+      "vinata_first_son: No supplied existing record identifies Vinata's prematurely hatched child or supplies his name.",
+      "surya: No supported counterpart appears among the supplied existing records.",
+      "great_ordainer: Assigning Garuda's food does not establish identity with any supplied creator or divine record.",
+      "uchchaihsravas: No supplied existing record identifies the steed born during the Ocean's churning."
+    ]
+  }
+}

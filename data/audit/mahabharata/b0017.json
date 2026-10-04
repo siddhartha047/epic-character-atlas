@@ -1,0 +1,3880 @@
+{
+  "sourceHash": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+  "batchDigest": "9fb96184ff978945c7ef8b25a9418b6316fed7b9965870ea87246ba255b2f479",
+  "batchId": "b0017",
+  "pages": [
+    55,
+    56,
+    57,
+    58,
+    59,
+    60
+  ],
+  "reviewedAt": "2026-10-04T09:46:56.590Z",
+  "reviewer": "Codex extraction + omission + identity passes; not human review",
+  "extraction": {
+    "entities": [
+      {
+        "key": "sauti",
+        "name": "Sauti",
+        "kind": "human",
+        "description": "Framing narrator recounting Astika's history and the snake-sacrifice.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Suta",
+            "evidenceKeys": [
+              "e48"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Addressed as the son of a Suta.",
+            "evidenceKeys": [
+              "e37"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e01",
+          "e37",
+          "e48"
+        ]
+      },
+      {
+        "key": "chandabhargava",
+        "name": "Chandabhargava",
+        "kind": "human",
+        "description": "Learned Brahmana of Chyavana's race serving as Hotri.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as he.",
+            "evidenceKeys": [
+              "e02"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e02"
+        ]
+      },
+      {
+        "key": "chyavana",
+        "name": "Chyavana",
+        "kind": "unknown",
+        "description": "Namesake of Chandabhargava's race.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e02"
+        ]
+      },
+      {
+        "key": "kautsa",
+        "name": "Kautsa",
+        "kind": "human",
+        "description": "Learned old Brahmana serving as Udgatri and chanter of Vedic hymns.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e03"
+        ]
+      },
+      {
+        "key": "jaimini",
+        "name": "Jaimini",
+        "kind": "human",
+        "description": "Participant serving as the Brahmana officiant.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e03"
+        ]
+      },
+      {
+        "key": "sarngarva",
+        "name": "Sarngarva",
+        "kind": "human",
+        "description": "One of the Adhvaryus at the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e03"
+        ]
+      },
+      {
+        "key": "pingala_adhvaryu",
+        "name": "Pingala",
+        "kind": "human",
+        "description": "Pingala listed as an Adhvaryu; identity with the Sadasya-list occurrence is uncertain.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e03"
+        ]
+      },
+      {
+        "key": "vyasa",
+        "name": "Vyasa",
+        "kind": "human",
+        "description": "Brahmana participant attending with his son and disciples.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The passage refers to his son.",
+            "evidenceKeys": [
+              "e04"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e01",
+          "e04"
+        ]
+      },
+      {
+        "key": "vyasa_son",
+        "name": "Unnamed son of Vyasa",
+        "kind": "unknown",
+        "description": "Individually identifiable son accompanying Vyasa.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e04"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "key": "uddalaka",
+        "name": "Uddalaka",
+        "kind": "human",
+        "description": "Brahmana participant listed among the Sadasyas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e04"
+        ]
+      },
+      {
+        "key": "pramataka",
+        "name": "Pramataka",
+        "kind": "human",
+        "description": "Brahmana participant listed among the Sadasyas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e04"
+        ]
+      },
+      {
+        "key": "swetaketu",
+        "name": "Swetaketu",
+        "kind": "human",
+        "description": "Brahmana participant listed among the Sadasyas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e04"
+        ]
+      },
+      {
+        "key": "pingala_sadasya",
+        "name": "Pingala",
+        "kind": "human",
+        "description": "Pingala listed among the Sadasyas; identity with the Adhvaryu-list occurrence is uncertain.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e04"
+        ]
+      },
+      {
+        "key": "asita",
+        "name": "Asita",
+        "kind": "human",
+        "description": "Brahmana participant listed among the Sadasyas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e04"
+        ]
+      },
+      {
+        "key": "devala",
+        "name": "Devala",
+        "kind": "human",
+        "description": "Brahmana participant listed among the Sadasyas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e04"
+        ]
+      },
+      {
+        "key": "narada",
+        "name": "Narada",
+        "kind": "human",
+        "description": "Brahmana participant listed among the Sadasyas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e04"
+        ]
+      },
+      {
+        "key": "parvata",
+        "name": "Parvata",
+        "kind": "human",
+        "description": "Brahmana participant listed among the Sadasyas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e04"
+        ]
+      },
+      {
+        "key": "atreya",
+        "name": "Atreya",
+        "kind": "human",
+        "description": "Brahmana participant listed among the Sadasyas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e04"
+        ]
+      },
+      {
+        "key": "kundajathara",
+        "name": "Kundajathara",
+        "kind": "human",
+        "description": "Brahmana participant listed among the Sadasyas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e04"
+        ]
+      },
+      {
+        "key": "kalaghata",
+        "name": "Kalaghata",
+        "kind": "human",
+        "description": "Brahmana listed among the Sadasyas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "key": "vatsya",
+        "name": "Vatsya",
+        "kind": "human",
+        "description": "Brahmana participant listed among the Sadasyas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e04"
+        ]
+      },
+      {
+        "key": "srutasravas",
+        "name": "Srutasravas",
+        "kind": "human",
+        "description": "Old participant engaged in japa and study of the Vedas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "key": "kohala",
+        "name": "Kohala",
+        "kind": "human",
+        "description": "Possible separate Brahmana name in the unpunctuated Sadasya-list span Kohala Devasarman.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "key": "devasarman",
+        "name": "Devasarman",
+        "kind": "human",
+        "description": "Possible separate Brahmana name in the unpunctuated Sadasya-list span Kohala Devasarman.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "key": "maudgalya",
+        "name": "Maudgalya",
+        "kind": "human",
+        "description": "Brahmana participant listed among the Sadasyas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e04"
+        ]
+      },
+      {
+        "key": "samasaurava",
+        "name": "Samasaurava",
+        "kind": "human",
+        "description": "Brahmana participant listed among the Sadasyas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e04"
+        ]
+      },
+      {
+        "key": "parikshit",
+        "name": "Parikshit",
+        "kind": "unknown",
+        "description": "Parent of Janamejaya, who is repeatedly called the son of Parikshit.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e45"
+        ]
+      },
+      {
+        "key": "janamejaya",
+        "name": "Janamejaya",
+        "kind": "human",
+        "description": "King conducting the snake-sacrifice that Astika brings to an end.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Identified as king and son of Parikshit.",
+            "evidenceKeys": [
+              "e05",
+              "e22",
+              "e45"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e05",
+          "e22",
+          "e30",
+          "e45"
+        ]
+      },
+      {
+        "key": "takshaka",
+        "name": "Takshaka",
+        "kind": "animal",
+        "description": "Prince of snakes seeking Indra's protection from the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as him and through his fault.",
+            "evidenceKeys": [
+              "e05"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e05"
+        ]
+      },
+      {
+        "key": "indra",
+        "name": "Indra",
+        "kind": "deity",
+        "description": "Protects Takshaka, appears with the gods, and abandons Takshaka when drawn toward the sacrifice.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Purandara",
+            "evidenceKeys": [
+              "e05"
+            ]
+          },
+          {
+            "label": "wielder of thunder",
+            "evidenceKeys": [
+              "e50",
+              "e51"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The passage refers to his car.",
+            "evidenceKeys": [
+              "e35"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e05",
+          "e35",
+          "e50",
+          "e51"
+        ]
+      },
+      {
+        "key": "brahman",
+        "name": "Brahman",
+        "kind": "deity",
+        "description": "Grandsire approached by the gods who predicts the marriage of the two Jaratkarus.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Grandsire",
+            "evidenceKeys": [
+              "e15",
+              "e16",
+              "e17"
+            ]
+          },
+          {
+            "label": "Grandsire of all the worlds",
+            "evidenceKeys": [
+              "e14",
+              "e15",
+              "e16",
+              "e17"
+            ]
+          },
+          {
+            "label": "Him who was born of the lotus",
+            "evidenceKeys": [
+              "e15",
+              "e16",
+              "e17"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as Him who was born of the lotus.",
+            "evidenceKeys": [
+              "e15"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e06",
+          "e14",
+          "e15",
+          "e16",
+          "e17"
+        ]
+      },
+      {
+        "key": "vasuki",
+        "name": "Vasuki",
+        "kind": "animal",
+        "description": "King of the snakes and brother of the snake-dame Jaratkaru who seeks Astika's help.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as he and as Jaratkaru's brother.",
+            "evidenceKeys": [
+              "e07",
+              "e10",
+              "e18"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e07",
+          "e10",
+          "e16",
+          "e18"
+        ]
+      },
+      {
+        "key": "jaratkaru_snake",
+        "name": "Jaratkaru",
+        "kind": "animal",
+        "description": "Snake-dame, sister of Vasuki, wife of Jaratkaru, and mother of Astika.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Called a snake-dame, sister, mother, and one of the women of the snake race.",
+            "evidenceKeys": [
+              "e09",
+              "e10",
+              "e11",
+              "e12"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e09",
+          "e10",
+          "e11",
+          "e12",
+          "e17",
+          "e18"
+        ]
+      },
+      {
+        "key": "jaratkaru_husband",
+        "name": "Jaratkaru",
+        "kind": "unknown",
+        "description": "Husband of the snake-dame Jaratkaru and father of Astika.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Takes a wife unto himself and is identified as Astika's father.",
+            "evidenceKeys": [
+              "e09",
+              "e17",
+              "e18"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e09",
+          "e17",
+          "e18"
+        ]
+      },
+      {
+        "key": "astika",
+        "name": "Astika",
+        "kind": "sage",
+        "description": "Brahmana ascetic who obtains the boon ending the snake-sacrifice and later ascends to heaven.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Identified as Jaratkaru's son and as one of the virtuous men.",
+            "evidenceKeys": [
+              "e10",
+              "e11",
+              "e21"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e10",
+          "e11",
+          "e18",
+          "e19",
+          "e21",
+          "e45",
+          "e49"
+        ]
+      },
+      {
+        "key": "king_of_dead",
+        "name": "Unnamed king of the dead",
+        "kind": "unknown",
+        "description": "Ruler whose abode Vasuki fears entering.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Designated king.",
+            "evidenceKeys": [
+              "e08"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e08"
+        ]
+      },
+      {
+        "key": "kadru",
+        "name": "Kadru",
+        "kind": "unknown",
+        "description": "Called the mother of all snakes; her curse threatens Vasuki and his relatives.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Called mother and referred to as she.",
+            "evidenceKeys": [
+              "e12"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e12",
+          "e13",
+          "e16"
+        ]
+      },
+      {
+        "key": "uchchaihsravas",
+        "name": "Uchchaihsravas",
+        "kind": "animal",
+        "description": "Prince of horses whom the snakes refused to falsely represent in the wager.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Designated prince of horses.",
+            "evidenceKeys": [
+              "e13"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e13"
+        ]
+      },
+      {
+        "key": "vinata",
+        "name": "Vinata",
+        "kind": "unknown",
+        "description": "Individual whose bondage was sought through the wager concerning Uchchaihsravas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e13"
+        ]
+      },
+      {
+        "key": "vayu",
+        "name": "Vayu",
+        "kind": "unknown",
+        "description": "Charioteer of the unnamed being foretold to burn the snakes.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e13"
+        ]
+      },
+      {
+        "key": "vayu_passenger",
+        "name": "Unnamed being whose charioteer is Vayu",
+        "kind": "unknown",
+        "description": "Being whom Kadru's curse says will burn the snakes in Janamejaya's sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as he.",
+            "evidenceKeys": [
+              "e13"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e13"
+        ]
+      },
+      {
+        "key": "soma",
+        "name": "Soma",
+        "kind": "unknown",
+        "description": "Named as having performed sacrifices at Prayaga.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22"
+        ]
+      },
+      {
+        "key": "varuna",
+        "name": "Varuna",
+        "kind": "unknown",
+        "description": "Named as a sacrificer at Prayaga and as a comparison for Janamejaya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e31"
+        ]
+      },
+      {
+        "key": "prajapati",
+        "name": "Prajapati",
+        "kind": "unknown",
+        "description": "Named as having performed sacrifices at Prayaga.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22"
+        ]
+      },
+      {
+        "key": "bharata",
+        "name": "Bharata",
+        "kind": "unknown",
+        "description": "Namesake of Janamejaya's race.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e45"
+        ]
+      },
+      {
+        "key": "sakra",
+        "name": "Sakra",
+        "kind": "unknown",
+        "description": "Performer of a hundred sacrifices and thunderbolt-bearing exemplar.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as Sakra himself.",
+            "evidenceKeys": [
+              "e31"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e23",
+          "e31"
+        ]
+      },
+      {
+        "key": "yama",
+        "name": "Yama",
+        "kind": "deity",
+        "description": "God of Justice whose sacrifice and administration of justice are invoked in praise.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e24",
+          "e31",
+          "e32"
+        ]
+      },
+      {
+        "key": "harimedha",
+        "name": "Harimedha",
+        "kind": "unknown",
+        "description": "Named as a sacrificer whose sacrifice is compared with Janamejaya's.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e24"
+        ]
+      },
+      {
+        "key": "rantideva",
+        "name": "Rantideva",
+        "kind": "unknown",
+        "description": "King whose sacrifice is compared with Janamejaya's.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Designated king.",
+            "evidenceKeys": [
+              "e24"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e24"
+        ]
+      },
+      {
+        "key": "maya",
+        "name": "Maya",
+        "kind": "unknown",
+        "description": "Named as a sacrificer whose sacrifice is compared with Janamejaya's.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e25"
+        ]
+      },
+      {
+        "key": "sasavindu",
+        "name": "Sasavindu",
+        "kind": "unknown",
+        "description": "King whose sacrifice is compared with Janamejaya's.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Designated king.",
+            "evidenceKeys": [
+              "e25"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25"
+        ]
+      },
+      {
+        "key": "vaisravana",
+        "name": "Vaisravana",
+        "kind": "unknown",
+        "description": "King named in the sacrifice comparison.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Designated king.",
+            "evidenceKeys": [
+              "e25"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25"
+        ]
+      },
+      {
+        "key": "satyavati",
+        "name": "Satyavati",
+        "kind": "unknown",
+        "description": "Parent of Krishna (Dwaipayana), also named in a malformed address within the sacrifice comparison.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e25",
+          "e27"
+        ]
+      },
+      {
+        "key": "nriga",
+        "name": "Nriga",
+        "kind": "unknown",
+        "description": "Named in the sacrifice comparison.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e25"
+        ]
+      },
+      {
+        "key": "ajamida",
+        "name": "Ajamida",
+        "kind": "unknown",
+        "description": "Named in the sacrifice comparison and as namesake of Yudhishthira's race.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e25",
+          "e26"
+        ]
+      },
+      {
+        "key": "dasaratha",
+        "name": "Dasaratha",
+        "kind": "unknown",
+        "description": "Parent of an unnamed son mentioned in the sacrifice comparison.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e25"
+        ]
+      },
+      {
+        "key": "dasaratha_son",
+        "name": "Unnamed son of Dasaratha",
+        "kind": "unknown",
+        "description": "Individually identifiable son mentioned in the sacrifice comparison.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e25"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25"
+        ]
+      },
+      {
+        "key": "yudhishthira",
+        "name": "Yudhishthira",
+        "kind": "unknown",
+        "description": "King, son of a god, and member of Ajamida's race whose sacrifice was heard of in heaven.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called king and son.",
+            "evidenceKeys": [
+              "e26"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e26"
+        ]
+      },
+      {
+        "key": "yudhishthira_god_parent",
+        "name": "Unnamed god parent of Yudhishthira",
+        "kind": "deity",
+        "description": "Individually identifiable god of whom Yudhishthira is called the son.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e26"
+        ]
+      },
+      {
+        "key": "krishna_dwaipayana",
+        "name": "Krishna (Dwaipayana)",
+        "kind": "human",
+        "description": "Son of Satyavati, chief priest at his own sacrifice, and Ritwik praised by Astika.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Krishna",
+            "evidenceKeys": [
+              "e27"
+            ]
+          },
+          {
+            "label": "Dwaipayana",
+            "evidenceKeys": [
+              "e27",
+              "e29"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as son, he, and his.",
+            "evidenceKeys": [
+              "e27",
+              "e29"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e27",
+          "e29"
+        ]
+      },
+      {
+        "key": "vritra",
+        "name": "Vritra",
+        "kind": "unknown",
+        "description": "Being mentioned through the epithet identifying Vritra's slayer.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e28"
+        ]
+      },
+      {
+        "key": "vritra_slayer",
+        "name": "Unnamed slayer of Vritra",
+        "kind": "unknown",
+        "description": "Identifiable slayer whose sacrifice is used as a comparison.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e28"
+        ]
+      },
+      {
+        "key": "agni",
+        "name": "Agni",
+        "kind": "deity",
+        "description": "High-souled bearer of sacrificial libations to the gods.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Vibhavasu",
+            "evidenceKeys": [
+              "e30"
+            ]
+          },
+          {
+            "label": "Chitrabhanu",
+            "evidenceKeys": [
+              "e30"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The passage refers to his vital seed and his path.",
+            "evidenceKeys": [
+              "e30"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e20",
+          "e30"
+        ]
+      },
+      {
+        "key": "sun",
+        "name": "Sun",
+        "kind": "unknown",
+        "description": "Named alongside Agni in a comparison of splendour; personification is uncertain.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e20"
+        ]
+      },
+      {
+        "key": "khatwanga",
+        "name": "Khatwanga",
+        "kind": "unknown",
+        "description": "Named as a comparison for Janamejaya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e32"
+        ]
+      },
+      {
+        "key": "nabhaga",
+        "name": "Nabhaga",
+        "kind": "unknown",
+        "description": "Named as a comparison for Janamejaya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e32"
+        ]
+      },
+      {
+        "key": "dilipa",
+        "name": "Dilipa",
+        "kind": "unknown",
+        "description": "Named as a comparison for Janamejaya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e32"
+        ]
+      },
+      {
+        "key": "yayati",
+        "name": "Yayati",
+        "kind": "unknown",
+        "description": "Named as an exemplar of prowess.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e32"
+        ]
+      },
+      {
+        "key": "mandhatri",
+        "name": "Mandhatri",
+        "kind": "unknown",
+        "description": "Named as an exemplar of prowess.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e32"
+        ]
+      },
+      {
+        "key": "bhishma",
+        "name": "Bhishma",
+        "kind": "unknown",
+        "description": "Named as a comparison for splendour and excellent vows.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e32"
+        ]
+      },
+      {
+        "key": "valmiki",
+        "name": "Valmiki",
+        "kind": "unknown",
+        "description": "Named as an exemplar of concealed energy.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e32"
+        ]
+      },
+      {
+        "key": "vasishtha",
+        "name": "Vasishtha",
+        "kind": "unknown",
+        "description": "Named as an exemplar of controlled wrath.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e32"
+        ]
+      },
+      {
+        "key": "narayana",
+        "name": "Narayana",
+        "kind": "unknown",
+        "description": "Named as an exemplar of splendour.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e32"
+        ]
+      },
+      {
+        "key": "krishna_virtue",
+        "name": "Krishna",
+        "kind": "unknown",
+        "description": "Krishna invoked as an exemplar adorned with every virtue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e32"
+        ]
+      },
+      {
+        "key": "damvodbhava",
+        "name": "Damvodbhava",
+        "kind": "unknown",
+        "description": "Named as an exemplar of strength.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e33"
+        ]
+      },
+      {
+        "key": "rama_jamadagni",
+        "name": "Rama",
+        "kind": "unknown",
+        "description": "Son of Jamadagni invoked as an exemplar of knowledge of scriptures and arms.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called the son of Jamadagni.",
+            "evidenceKeys": [
+              "e33"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e33"
+        ]
+      },
+      {
+        "key": "jamadagni",
+        "name": "Jamadagni",
+        "kind": "unknown",
+        "description": "Parent of the Rama mentioned in Astika's praise.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e33"
+        ]
+      },
+      {
+        "key": "aurva",
+        "name": "Aurva",
+        "kind": "unknown",
+        "description": "Named as an exemplar of energy.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e33"
+        ]
+      },
+      {
+        "key": "trita",
+        "name": "Trita",
+        "kind": "unknown",
+        "description": "Named as an exemplar of energy.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e33"
+        ]
+      },
+      {
+        "key": "bhagiratha",
+        "name": "Bhagiratha",
+        "kind": "unknown",
+        "description": "Named as a comparison for inspiring terror by one's looks.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e33"
+        ]
+      },
+      {
+        "key": "lohitaksha",
+        "name": "Lohitaksha",
+        "kind": "human",
+        "description": "Suta versed in the Puranas and building foundations who predicted the sacrifice's interruption.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The king gives him wealth and other things.",
+            "evidenceKeys": [
+              "e46"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e34",
+          "e46"
+        ]
+      },
+      {
+        "key": "saunaka",
+        "name": "Saunaka",
+        "kind": "human",
+        "description": "Brahmana framing listener who asks Sauti about the sacrificed snakes.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e37",
+          "e38",
+          "e48"
+        ]
+      },
+      {
+        "key": "bhrigu",
+        "name": "Bhrigu",
+        "kind": "unknown",
+        "description": "Namesake of the race invoked in Sauti's address to his listener.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e36"
+        ]
+      },
+      {
+        "key": "sauti_suta_parent",
+        "name": "Unnamed Suta parent of Sauti",
+        "kind": "human",
+        "description": "Individually identifiable Suta of whom Sauti is called the son.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e37",
+          "e38"
+        ]
+      },
+      {
+        "key": "airavata",
+        "name": "Airavata",
+        "kind": "unknown",
+        "description": "Namesake of a race of snakes burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e42"
+        ]
+      },
+      {
+        "key": "kauravya",
+        "name": "Kauravya",
+        "kind": "unknown",
+        "description": "Namesake of a race of snakes burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e43"
+        ]
+      },
+      {
+        "key": "dhritarashtra_snake_lineage",
+        "name": "Dhritarashtra",
+        "kind": "unknown",
+        "description": "Namesake of a race of swift, venomous snakes listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "artiman",
+        "name": "Artiman",
+        "kind": "unknown",
+        "description": "Named with Astika and Sunitha in a protective remembrance against snakes.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e47"
+        ]
+      },
+      {
+        "key": "sunitha",
+        "name": "Sunitha",
+        "kind": "unknown",
+        "description": "Named with Astika and Artiman in a protective remembrance against snakes.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e47"
+        ]
+      },
+      {
+        "key": "kotisa",
+        "name": "Kotisa",
+        "kind": "animal",
+        "description": "Snake of Vasuki's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "manasa",
+        "name": "Manasa",
+        "kind": "animal",
+        "description": "Snake of Vasuki's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "purna",
+        "name": "Purna",
+        "kind": "animal",
+        "description": "Snake of Vasuki's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "cala",
+        "name": "Cala",
+        "kind": "animal",
+        "description": "Snake of Vasuki's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "pala",
+        "name": "Pala",
+        "kind": "animal",
+        "description": "Possible separate snake name in the unpunctuated Vasuki-list span Pala Halmaka.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "halmaka",
+        "name": "Halmaka",
+        "kind": "animal",
+        "description": "Possible separate snake name in the unpunctuated Vasuki-list span Pala Halmaka.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "pichchala",
+        "name": "Pichchala",
+        "kind": "animal",
+        "description": "Snake of Vasuki's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "kaunapa",
+        "name": "Kaunapa",
+        "kind": "animal",
+        "description": "Snake of Vasuki's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "cakra",
+        "name": "Cakra",
+        "kind": "animal",
+        "description": "Snake of Vasuki's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "kalavega",
+        "name": "Kalavega",
+        "kind": "animal",
+        "description": "Snake of Vasuki's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "prakalana",
+        "name": "Prakalana",
+        "kind": "animal",
+        "description": "Snake of Vasuki's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "hiranyavahu",
+        "name": "Hiranyavahu",
+        "kind": "animal",
+        "description": "Snake of Vasuki's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "carana",
+        "name": "Carana",
+        "kind": "animal",
+        "description": "Snake of Vasuki's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "kakshaka",
+        "name": "Kakshaka",
+        "kind": "animal",
+        "description": "Snake of Vasuki's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "kaladantaka",
+        "name": "Kaladantaka",
+        "kind": "animal",
+        "description": "Snake of Vasuki's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "puchchandaka",
+        "name": "Puchchandaka",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "mandalaka",
+        "name": "Mandalaka",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "pindasektri",
+        "name": "Pindasektri",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "ravenaka",
+        "name": "Ravenaka",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "uchochikha",
+        "name": "Uchochikha",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "carava",
+        "name": "Carava",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "bhangas",
+        "name": "Bhangas",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "vilwatejas",
+        "name": "Vilwatejas",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "virohana",
+        "name": "Virohana",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "sili",
+        "name": "Sili",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "salakara",
+        "name": "Salakara",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "muka",
+        "name": "Muka",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "sukumara",
+        "name": "Sukumara",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "pravepana",
+        "name": "Pravepana",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "mudgara",
+        "name": "Mudgara",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "sisuroman",
+        "name": "Sisuroman",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "suroman",
+        "name": "Suroman",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "mahahanu",
+        "name": "Mahahanu",
+        "kind": "animal",
+        "description": "Snake of Takshaka's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ]
+      },
+      {
+        "key": "paravata",
+        "name": "Paravata",
+        "kind": "animal",
+        "description": "Snake of Airavata's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e42"
+        ]
+      },
+      {
+        "key": "parijata",
+        "name": "Parijata",
+        "kind": "animal",
+        "description": "Snake of Airavata's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e42"
+        ]
+      },
+      {
+        "key": "pandara",
+        "name": "Pandara",
+        "kind": "animal",
+        "description": "Snake of Airavata's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e42"
+        ]
+      },
+      {
+        "key": "harina",
+        "name": "Harina",
+        "kind": "animal",
+        "description": "Snake of Airavata's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e42"
+        ]
+      },
+      {
+        "key": "krisa",
+        "name": "Krisa",
+        "kind": "animal",
+        "description": "Snake of Airavata's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e42"
+        ]
+      },
+      {
+        "key": "vihanga",
+        "name": "Vihanga",
+        "kind": "animal",
+        "description": "Snake of Airavata's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e42"
+        ]
+      },
+      {
+        "key": "sarabha",
+        "name": "Sarabha",
+        "kind": "animal",
+        "description": "Snake of Airavata's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e42"
+        ]
+      },
+      {
+        "key": "meda",
+        "name": "Meda",
+        "kind": "animal",
+        "description": "Snake of Airavata's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e42"
+        ]
+      },
+      {
+        "key": "pramoda",
+        "name": "Pramoda",
+        "kind": "animal",
+        "description": "Snake of Airavata's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e42"
+        ]
+      },
+      {
+        "key": "sauhatapana",
+        "name": "Sauhatapana",
+        "kind": "animal",
+        "description": "Snake of Airavata's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e42"
+        ]
+      },
+      {
+        "key": "eraka",
+        "name": "Eraka",
+        "kind": "animal",
+        "description": "Snake of Kauravya's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e43"
+        ]
+      },
+      {
+        "key": "kundala",
+        "name": "Kundala",
+        "kind": "animal",
+        "description": "Possible separate snake name in the unpunctuated Kauravya-list span Kundala Veni.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e43"
+        ]
+      },
+      {
+        "key": "veni",
+        "name": "Veni",
+        "kind": "animal",
+        "description": "Possible separate snake name in the unpunctuated Kauravya-list span Kundala Veni.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e43"
+        ]
+      },
+      {
+        "key": "veniskandha",
+        "name": "Veniskandha",
+        "kind": "animal",
+        "description": "Snake of Kauravya's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e43"
+        ]
+      },
+      {
+        "key": "kumaraka",
+        "name": "Kumaraka",
+        "kind": "animal",
+        "description": "Snake of Kauravya's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e43"
+        ]
+      },
+      {
+        "key": "vahuka",
+        "name": "Vahuka",
+        "kind": "animal",
+        "description": "Snake of Kauravya's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e43"
+        ]
+      },
+      {
+        "key": "sringavera",
+        "name": "Sringavera",
+        "kind": "animal",
+        "description": "Snake of Kauravya's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e43"
+        ]
+      },
+      {
+        "key": "dhurtaka",
+        "name": "Dhurtaka",
+        "kind": "animal",
+        "description": "Snake of Kauravya's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e43"
+        ]
+      },
+      {
+        "key": "pratara",
+        "name": "Pratara",
+        "kind": "animal",
+        "description": "Snake of Kauravya's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e43"
+        ]
+      },
+      {
+        "key": "astaka",
+        "name": "Astaka",
+        "kind": "animal",
+        "description": "Snake of Kauravya's race burned in the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e43"
+        ]
+      },
+      {
+        "key": "sankukarna",
+        "name": "Sankukarna",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "pitharaka",
+        "name": "Pitharaka",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "kuthara",
+        "name": "Kuthara",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "sukhana",
+        "name": "Sukhana",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "shechaka",
+        "name": "Shechaka",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "purnangada",
+        "name": "Purnangada",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "purnamukha",
+        "name": "Purnamukha",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "prahasa",
+        "name": "Prahasa",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "sakuni",
+        "name": "Sakuni",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "dari",
+        "name": "Dari",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "amahatha",
+        "name": "Amahatha",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "kumathaka",
+        "name": "Kumathaka",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "sushena",
+        "name": "Sushena",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "vyaya",
+        "name": "Vyaya",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "bhairava",
+        "name": "Bhairava",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "mundavedanga",
+        "name": "Mundavedanga",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "pisanga",
+        "name": "Pisanga",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "udraparaka",
+        "name": "Udraparaka",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "rishabha",
+        "name": "Rishabha",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "vegavat",
+        "name": "Vegavat",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "pindaraka",
+        "name": "Pindaraka",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "raktanga",
+        "name": "Raktanga",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "sarvasaranga",
+        "name": "Sarvasaranga",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "samriddha",
+        "name": "Samriddha",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "patha",
+        "name": "Patha",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "vasaka",
+        "name": "Vasaka",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "varahaka",
+        "name": "Varahaka",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "viranaka",
+        "name": "Viranaka",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "suchitra",
+        "name": "Suchitra",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "chitravegika",
+        "name": "Chitravegika",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "parasara_snake",
+        "name": "Parasara",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "tarunaka",
+        "name": "Tarunaka",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "maniskandha",
+        "name": "Maniskandha",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "key": "aruni_snake",
+        "name": "Aruni",
+        "kind": "animal",
+        "description": "Snake of Dhritarashtra's race listed among the sacrificial victims.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromKey": "parikshit",
+        "toKey": "janamejaya",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e22",
+          "e45"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vyasa",
+        "toKey": "vyasa_son",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e04"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "jaratkaru_snake",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e07",
+          "e09",
+          "e10",
+          "e12",
+          "e18"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "jaratkaru_husband",
+        "toKey": "jaratkaru_snake",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e09",
+          "e17",
+          "e18"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "jaratkaru_snake",
+        "toKey": "astika",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e10",
+          "e11",
+          "e18"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "jaratkaru_husband",
+        "toKey": "astika",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e09",
+          "e11",
+          "e17",
+          "e18"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kadru",
+        "toKey": "vasuki",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e12",
+          "e13",
+          "e16"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "satyavati",
+        "toKey": "krishna_dwaipayana",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e27"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "satyavati",
+        "toKey": "janamejaya",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e25"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "dasaratha",
+        "toKey": "dasaratha_son",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e25"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "yudhishthira_god_parent",
+        "toKey": "yudhishthira",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e26"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "jamadagni",
+        "toKey": "rama_jamadagni",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e33"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "sauti_suta_parent",
+        "toKey": "sauti",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e37",
+          "e38"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "kotisa",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "manasa",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "purna",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "cala",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "pala",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "halmaka",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "pichchala",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "kaunapa",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "cakra",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "kalavega",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "prakalana",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "hiranyavahu",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "carana",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "kakshaka",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "kaladantaka",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39",
+          "e52"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "puchchandaka",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "mandalaka",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "pindasektri",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "ravenaka",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "uchochikha",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "carava",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "bhangas",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "vilwatejas",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "virohana",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "sili",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "salakara",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "muka",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "sukumara",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "pravepana",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "mudgara",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "sisuroman",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "suroman",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "mahahanu",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40",
+          "e41"
+        ],
+        "status": "provisional"
+      }
+    ],
+    "evidence": [
+      {
+        "key": "e01",
+        "page": 55,
+        "excerpt": "Sauti replied, 'I will recite the names of those wise ones who became the monarch's Ritwiks and Sadasyas."
+      },
+      {
+        "key": "e02",
+        "page": 55,
+        "excerpt": "The Brahmana Chandabhargava became the Hotri in that sacrifice. He was of great reputation, and was born in the race of Chyavana and was the foremost of those acquainted with the Vedas."
+      },
+      {
+        "key": "e03",
+        "page": 55,
+        "excerpt": "The learned old Brahmana, Kautsa, became the Udgatri, the chanter of the Vedic hymns. Jaimini became the Brahmana, and Sarngarva and Pingala the Adhvaryus,"
+      },
+      {
+        "key": "e04",
+        "page": 55,
+        "excerpt": "Vyasa with his son and disciples, and Uddalaka, Pramataka, Swetaketu, Pingala, Asita, Devala, Narada, Parvata, Atreya, Kundajathara, the Brahmana Kalaghata, Vatsya, old Srutasravas ever engaged in japa and the study of the Vedas. Kohala Devasarman, Maudgalya, Samasaurava, and many other Brahmanas who had got through the Vedas became the Sadasyas at that sacrifice of the son of Parikshit."
+      },
+      {
+        "key": "e05",
+        "page": 55,
+        "excerpt": "Meanwhile, Takshaka, that prince of snakes, as soon as he heard that king Janamejaya was engaged in the sacrifice, went to the palace of Purandara (Indra). And that best of snakes, having represented all that had taken place, sought in terror the protection of Indra after having acknowledged his fault."
+      },
+      {
+        "key": "e06",
+        "page": 56,
+        "excerpt": "The Grandsire was pacified by me for thy sake. Therefore, thou hast no fear."
+      },
+      {
+        "key": "e07",
+        "page": 56,
+        "excerpt": "But Vasuki, seeing that the snakes were incessantly falling into the fire and that his family was reduced to only a few, became exceedingly sorry. And the king of the snakes was afflicted with great grief, and his heart was about to break. And summoning his sister, he spake unto her,"
+      },
+      {
+        "key": "e08",
+        "page": 56,
+        "excerpt": "It is evident I also shall have to go to the abode of the king of the dead."
+      },
+      {
+        "key": "e09",
+        "page": 56,
+        "excerpt": "The time is come, O my sister, on account of which thou wert bestowed by me on Jaratkaru to protect us with our relatives. O best of the women of the snake race, Astika will put an end to the sacrifice that is going on."
+      },
+      {
+        "key": "e10",
+        "page": 56,
+        "excerpt": "Sauti said, 'Then the snake-dame Jaratkaru, calling her own son, told him the following words according to the directions of Vasuki, the king of the snakes. 'O son, the time is come for the accomplishment of that object for which I was bestowed on thy father by my brother."
+      },
+      {
+        "key": "e11",
+        "page": 56,
+        "excerpt": "Astika asked, 'Why wert thou, O mother, bestowed on my father by my uncle?"
+      },
+      {
+        "key": "e12",
+        "page": 56,
+        "excerpt": "Then Jaratkaru, the sister of the king of the snakes, herself unmoved by the general distress, and even desirous of the welfare of her relatives, said unto him, 'O son, it is said that the mother of all the snakes is Kadru. Know thou why she cursed in anger her sons.'"
+      },
+      {
+        "key": "e13",
+        "page": 56,
+        "excerpt": "As ye have refused to falsely represent Uchchaihsravas, the prince of horses, for bringing about Vinata's bondage according to the wager, therefore, shall he whose charioteer is Vayu burn you all in Janamejaya's sacrifice."
+      },
+      {
+        "key": "e14",
+        "page": 56,
+        "excerpt": "The Grandsire of all the worlds spake unto her while uttering this curse, 'Be it so,' and thus approved of her speech."
+      },
+      {
+        "key": "e15",
+        "page": 56,
+        "excerpt": "And the gods, their object fulfilled, for they had obtained the excellent amrita, with Vasuki ahead, approached the Grandsire. And all the gods, with king Vasuki, sought to incline Him who was born of the lotus to be propitious, so that the curse might be made abortive."
+      },
+      {
+        "key": "e16",
+        "page": 56,
+        "excerpt": "And the gods said, 'O Lord, Vasuki, the king of the snakes, is sorry on account of his relatives. How may his mother's curse prove abortive?'"
+      },
+      {
+        "key": "e17",
+        "page": 56,
+        "excerpt": "Brahman thereupon replied, saying, 'Jaratkaru will take unto himself a wife of the name of Jaratkaru; the Brahmana born of her will relieve the snakes.'"
+      },
+      {
+        "key": "e18",
+        "page": 56,
+        "excerpt": "Vasuki, the best of snakes, hearing those words, bestowed me, O thou of godlike looks, on thy high-souled father some time before the commencement of the sacrifice. And from that marriage thou art born of me. That time has come. It behoveth thee to protect us from this danger. It behoveth thee to protect my brother and myself from the fire,"
+      },
+      {
+        "key": "e19",
+        "page": 57,
+        "excerpt": "Then that best of Brahmanas, Astika, quelling the terrible fear of the Vasuki's heart, and taking it, as it were, on himself, wended, for the relief of the king of the snakes, with speed to Janamejaya's sacrifice blessed with every merit."
+      },
+      {
+        "key": "e20",
+        "page": 57,
+        "excerpt": "And Astika having gone thither, beheld the excellent sacrificial compound with numerous Sadasyas on it whose splendour was like unto that of the Sun or Agni."
+      },
+      {
+        "key": "e21",
+        "page": 57,
+        "excerpt": "And the mighty ascetic gratified them, being desirous of entering the sacrificial compound. And that best of Brahmanas, that foremost of all virtuous men, having entered the excellent sacrificial compound, began to adore the king of infinite achievements, Ritwiks, the Sadasyas, and also the sacred fire."
+      },
+      {
+        "key": "e22",
+        "page": 57,
+        "excerpt": "Astika said, 'Soma and Varuna and Prajapati performed sacrifices of old in Prayaga. But thy sacrifice, O foremost one of Bharata's race, O son of Parikshit, is not inferior to any of those."
+      },
+      {
+        "key": "e23",
+        "page": 57,
+        "excerpt": "Sakra performed a hundred sacrifices. But this sacrifice of thine, O foremost one of Bharata's race, O son of Parikshit, is fully equal to ten thousand sacrifices of Sakra."
+      },
+      {
+        "key": "e24",
+        "page": 57,
+        "excerpt": "Like the sacrifice of Yama, of Harimedha, or of king Rantideva, is the sacrifice of thine, O foremost one of Bharata's race, O son of Parikshit."
+      },
+      {
+        "key": "e25",
+        "page": 57,
+        "excerpt": "Like the sacrifice of Maya, of king Sasavindu, or of king Vaisravana, is this sacrifice of thine, O foremost one of Bharata's race, O son of Satyavati, in which he himself was the chief priest, is this sacrifice of Nriga, of Ajamida, of the son of Dasaratha, is this sacrifice of thine, O foremost one of Bharata's race, O son of Parikshit."
+      },
+      {
+        "key": "e26",
+        "page": 57,
+        "excerpt": "Like the sacrifice of king Yudhishthira, the son of a god and belonging to Ajamida race, heard of (even) in the heavens, is this sacrifice of thine."
+      },
+      {
+        "key": "e27",
+        "page": 57,
+        "excerpt": "Like the sacrifice of Krishna (Dwaipayana), the son of Satyavati, in which he himself was the chief priest, is this sacrifice of thine,"
+      },
+      {
+        "key": "e28",
+        "page": 57,
+        "excerpt": "These (Ritwiks and Sadasyas) that are here engaged in making thy sacrifice, like unto that of the slayer of Vritra, are of splendour equal to that of the sun."
+      },
+      {
+        "key": "e29",
+        "page": 57,
+        "excerpt": "It is my conviction that there is no Ritwik in all the worlds who is equal to thy Ritwik, Dwaipayana. His disciples, becoming Ritwiks, competent for their duties, travel over the earth."
+      },
+      {
+        "key": "e30",
+        "page": 57,
+        "excerpt": "The high-souled bearer of libation (viz., Agni), called also Vibhavasu and Chitrabhanu, having gold for his vital seed and having his path, marked by black smoke, blazing up with flames inclined to the right, beareth these thy libations of clarified butter to the gods. In this world of men there is no other monarch equal to thee in the protection of subjects."
+      },
+      {
+        "key": "e31",
+        "page": 57,
+        "excerpt": "Indeed, thou art either Varuna, or Yama, the god of Justice. Like Sakra himself, thunderbolt in hand, thou art, in this world, the protector of all creatures."
+      },
+      {
+        "key": "e32",
+        "page": 57,
+        "excerpt": "Thou art like Khatwanga, Nabhaga, and Dilipa. In prowess thou art like Yayati and Mandhatri. In splendour equal to the sun, and of excellent vows, thou art O monarch, like Bhishma! Like Valmiki thou art of energy concealed. Like Vasishtha thou hast controlled thy wrath. Like Indra is thy lordship. Thy splendour also shines like that of Narayana. Like Yama art thou conversant with the dispensation of justice. Thou art like Krishna adorned with every virtue."
+      },
+      {
+        "key": "e33",
+        "page": 57,
+        "excerpt": "In strength thou art equal to Damvodbhava. Like Rama (the son of Jamadagni) thou art conversant with the scriptures and arms. In energy thou art equal to Aurva and Trita. Thou inspirest terror by thy looks like Bhagiratha."
+      },
+      {
+        "key": "e34",
+        "page": 58,
+        "excerpt": "The illustrious Suta named Lohitaksha also, conversant with the Puranas, had said so before."
+      },
+      {
+        "key": "e35",
+        "page": 58,
+        "excerpt": "And as the Hotri, with mantras, began to pour clarified butter into the fire Indra himself appeared on the scene. And the illustrious one came in his car, adorned by all the gods standing around, followed by masses of clouds, celestial singers, and the several bevies of celestial dancing girls."
+      },
+      {
+        "key": "e36",
+        "page": 58,
+        "excerpt": "But, O thou of Bhrigu's race, he did not beg any other boon."
+      },
+      {
+        "key": "e37",
+        "page": 58,
+        "excerpt": "Saunaka said, 'O son of a Suta, I desire to hear the names of all those snakes that fell into the fire of this snake-sacrifice!'"
+      },
+      {
+        "key": "e38",
+        "page": 58,
+        "excerpt": "Sauti replied, 'Many thousands and tens of thousands and billions of snakes fell into the fire. O most excellent Brahmana, so great is the number that I am unable to count them all."
+      },
+      {
+        "key": "e39",
+        "page": 58,
+        "excerpt": "Kotisa, Manasa, Purna, Cala, Pala Halmaka, Pichchala, Kaunapa, Cakra, Kalavega, Prakalana, Hiranyavahu, Carana, Kakshaka, Kaladantaka—these snakes born of Vasuki, fell into the fire."
+      },
+      {
+        "key": "e40",
+        "page": 58,
+        "excerpt": "I shall now mention those born in the race of Takshaka. Hear thou their names. Puchchandaka, Mandalaka, Pindasektri, Ravenaka; Uchochikha, Carava, Bhangas, Vilwatejas,"
+      },
+      {
+        "key": "e41",
+        "page": 59,
+        "excerpt": "Virohana; Sili, Salakara, Muka, Sukumara, Pravepana, Mudgara and Sisuroman, Suroman and Mahahanu. These snakes born of Takshaka fell into the fire."
+      },
+      {
+        "key": "e42",
+        "page": 59,
+        "excerpt": "And Paravata, Parijata, Pandara, Harina, Krisa, Vihanga, Sarabha, Meda, Pramoda, Sauhatapana- -these born in the race of Airavata fell into the fire."
+      },
+      {
+        "key": "e43",
+        "page": 59,
+        "excerpt": "Now hear, O best of Brahmanas, the names of the snakes I mention born in the race of Kauravya: Eraka, Kundala Veni, Veniskandha, Kumaraka, Vahuka, Sringavera, Dhurtaka, Pratara and Astaka. There born in the race of Kauravya fell into the fire."
+      },
+      {
+        "key": "e44",
+        "page": 59,
+        "excerpt": "Now hear the names I mention, in order, of those snakes endued with the speed of the wind and with virulent poison, born in the race of Dhritarashtra: Sankukarna, Pitharaka, Kuthara, Sukhana, and Shechaka; Purnangada, Purnamukha, Prahasa, Sakuni, Dari, Amahatha, Kumathaka, Sushena, Vyaya, Bhairava, Mundavedanga, Pisanga, Udraparaka, Rishabha, Vegavat, Pindaraka; Raktanga, Sarvasaranga, Samriddha, Patha and Vasaka; Varahaka, Viranaka, Suchitra, Chitravegika, Parasara, Tarunaka, Maniskandha and Aruni."
+      },
+      {
+        "key": "e45",
+        "page": 59,
+        "excerpt": "Thus the sacrifice of the son of Parikshit—that king of the Pandava race--came to an end. The king Janamejaya of the Bharata race was himself pleased,"
+      },
+      {
+        "key": "e46",
+        "page": 59,
+        "excerpt": "And unto Suta Lohitaksha--conversant with the rules of building and foundations--who had at the commencement said that a Brahmana would be the cause of the interruption of the snake-sacrifice, the king gave much wealth. The king, of uncommon kindness, also gave him various things, with food and wearing apparel, according to his desire,"
+      },
+      {
+        "key": "e47",
+        "page": 59,
+        "excerpt": "And those also that call to mind Astika, Artiman and Sunitha, in the day or in the night, shall have no fear of snakes."
+      },
+      {
+        "key": "e48",
+        "page": 59,
+        "excerpt": "Saunaka said, 'Was it, O Suta, that the mantras of those wise Brahmanas were not potent; since Takshaka did not fall into the fire?'"
+      },
+      {
+        "key": "e49",
+        "page": 60,
+        "excerpt": "And that best of Brahmanas, having saved the snakes from the snake-sacrifice, ascended to heaven when his time came, leaving sons and grandsons behind him."
+      },
+      {
+        "key": "e50",
+        "page": 58,
+        "excerpt": "Then Purandara, seeing that sacrifice, became much alarmed, and quickly casting Takshaka off, went back to his own abode. After Indra had gone away,"
+      },
+      {
+        "key": "e51",
+        "page": 58,
+        "excerpt": "Assuredly, the snake hath been forsaken by the wielder of thunder."
+      },
+      {
+        "key": "e52",
+        "page": 58,
+        "excerpt": "Hear first the names of the principal ones of Vasuki's race alone,"
+      },
+      {
+        "key": "e53",
+        "page": 58,
+        "excerpt": "So far, however, as I remember, hear the names I mention of the principal snakes cast into the fire."
+      }
+    ],
+    "unresolved": [
+      "Pingala occurs as an Adhvaryu and again in the Sadasya list. The supplied text does not establish identity between these occurrences; they remain separate provisional records.",
+      "The unpunctuated spans Kohala Devasarman, Pala Halmaka, and Kundala Veni are provisionally segmented into two possible names each. The supplied text does not conclusively distinguish two individuals from one individual with a two-word name.",
+      "The ritual participants are identified as Brahmanas or Vedic officiants, but are not expressly called ascetics or sages in this batch. Astika is expressly called an ascetic.",
+      "The batch does not explicitly identify Vyasa with Krishna (Dwaipayana). Their records remain separate.",
+      "The Krishna invoked as an exemplar of virtue is not explicitly identified with Krishna (Dwaipayana).",
+      "The batch does not explicitly identify Sakra with Indra, the king of the dead with Yama, the slayer of Vritra with Indra, or the being whose charioteer is Vayu with Agni.",
+      "Sun occurs as a comparison of splendour. Whether it denotes a personified narrative being or the celestial luminary remains uncertain.",
+      "The malformed comparison on page 57 contains the address O son of Satyavati amid mixed sacrifice clauses. Its apparent parentage claim concerning Janamejaya is retained provisionally without repairing the text.",
+      "The Vasuki and Takshaka lists say born of, but are introduced as lists of their races. Immediate parenthood, rather than broader descent, therefore remains provisional.",
+      "Race membership involving Chyavana, Bharata, Bhrigu, Ajamida, Airavata, Kauravya, and Dhritarashtra does not establish direct parenthood and has not been converted into parent_of records.",
+      "Kadru is called the mother of all snakes, and Vasuki's mother's curse is individually identified. The collective statement has not been expanded into parenthood claims for every listed snake or into inferred parenthood of Vasuki's sister.",
+      "The page 59 invocation calling Astika born of Jaratkaru does not distinguish his two parents of that name.",
+      "The Hotri speaking later in the sacrifice is already individually identified as Chandabhargava; no additional unnamed Hotri has been created. The Suta addressed by the king in connection with the prediction is represented by Lohitaksha.",
+      "Unnamed plural sons, grandsons, disciples, door-keepers, snakes, gods, singers, dancing girls, and other groups do not identify separate individuals. No individuals have been created from their counts.",
+      "The Vasus and the Pandava race are collective references. Generic future reciters, a hypothetical snake addressed in the protective formula, and comparison figures such as a wise old man or a person between sky and earth are not individually identifiable characters."
+    ]
+  },
+  "reconciliation": {
+    "matches": [
+      {
+        "localKey": "sauti",
+        "existingId": "mahabharata:seed:ugrasrava-sauti",
+        "reason": "Explicit existing Sauti alias, corroborated by the framing dialogue with Saunaka and address as son of Suta.",
+        "evidenceKeys": [
+          "e01",
+          "e37",
+          "e38",
+          "e48"
+        ]
+      },
+      {
+        "localKey": "chandabhargava",
+        "existingId": "mahabharata:b0016:chandabhargava",
+        "reason": "Same Hotri at the snake-sacrifice, with the same Chyavana-lineage description.",
+        "evidenceKeys": [
+          "e02"
+        ]
+      },
+      {
+        "localKey": "chyavana",
+        "existingId": "mahabharata:b0016:chyavana_lineage",
+        "reason": "Same namesake of the race in which Chandabhargava was born.",
+        "evidenceKeys": [
+          "e02"
+        ]
+      },
+      {
+        "localKey": "kautsa",
+        "existingId": "mahabharata:b0016:kautsa",
+        "reason": "Same learned old Brahmana serving as Udgatri and chanter of Vedic hymns.",
+        "evidenceKeys": [
+          "e03"
+        ]
+      },
+      {
+        "localKey": "jaimini",
+        "existingId": "mahabharata:b0016:jaimini",
+        "reason": "Same participant occupying the Brahmana ritual office in this sacrifice.",
+        "evidenceKeys": [
+          "e03"
+        ]
+      },
+      {
+        "localKey": "sarngarva",
+        "existingId": "mahabharata:b0016:sarngarva",
+        "reason": "Same Adhvaryu named alongside Pingala.",
+        "evidenceKeys": [
+          "e03"
+        ]
+      },
+      {
+        "localKey": "pingala_adhvaryu",
+        "existingId": "mahabharata:b0016:pingala_adhvaryu",
+        "reason": "Same Adhvaryu occurrence alongside Sarngarva; preserved separately from the Sadasya occurrence.",
+        "evidenceKeys": [
+          "e03"
+        ]
+      },
+      {
+        "localKey": "vyasa",
+        "existingId": "mahabharata:seed:vyasa",
+        "reason": "Supplied existing evidence contains this exact attendance with his son and disciples at the sacrifice.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "uddalaka",
+        "existingId": "mahabharata:b0016:uddalaka",
+        "reason": "Same occurrence in the Sadasya list at Janamejaya's snake-sacrifice.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "pramataka",
+        "existingId": "mahabharata:b0016:pramataka",
+        "reason": "Same occurrence in the Sadasya list at Janamejaya's snake-sacrifice.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "swetaketu",
+        "existingId": "mahabharata:b0016:swetaketu",
+        "reason": "Same occurrence in the Sadasya list at Janamejaya's snake-sacrifice.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "pingala_sadasya",
+        "existingId": "mahabharata:b0016:pingala_sadasya",
+        "reason": "Same Sadasya occurrence immediately after Swetaketu; preserved separately from the Adhvaryu occurrence.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "asita",
+        "existingId": "mahabharata:b0016:asita",
+        "reason": "Same occurrence in the Sadasya list at Janamejaya's snake-sacrifice.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "devala",
+        "existingId": "mahabharata:b0016:devala",
+        "reason": "Same occurrence in the Sadasya list at Janamejaya's snake-sacrifice.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "narada",
+        "existingId": "mahabharata:b0016:narada",
+        "reason": "Same occurrence in the Sadasya list at Janamejaya's snake-sacrifice.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "parvata",
+        "existingId": "mahabharata:b0016:parvata",
+        "reason": "Same occurrence in the Sadasya list at Janamejaya's snake-sacrifice.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "atreya",
+        "existingId": "mahabharata:b0016:atreya",
+        "reason": "Same occurrence in the Sadasya list at Janamejaya's snake-sacrifice.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "kundajathara",
+        "existingId": "mahabharata:b0016:kundajathara",
+        "reason": "Same occurrence in the Sadasya list at Janamejaya's snake-sacrifice.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "kalaghata",
+        "existingId": "mahabharata:b0016:kalaghata",
+        "reason": "Same expressly designated Brahmana in the Sadasya list.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "vatsya",
+        "existingId": "mahabharata:b0016:vatsya",
+        "reason": "Same occurrence in the Sadasya list at Janamejaya's snake-sacrifice.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "srutasravas",
+        "existingId": "mahabharata:b0016:srutasravas",
+        "reason": "Same old Sadasya continually engaged in japa and study of the Vedas.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "maudgalya",
+        "existingId": "mahabharata:b0016:maudgalya",
+        "reason": "Same Sadasya occurrence following Kohala Devasarman.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "samasaurava",
+        "existingId": "mahabharata:b0016:samasaurava",
+        "reason": "Same Sadasya occurrence following Maudgalya.",
+        "evidenceKeys": [
+          "e04"
+        ]
+      },
+      {
+        "localKey": "parikshit",
+        "existingId": "mahabharata:seed:parikshit-son-abhimanyu",
+        "reason": "Corroborated by parentage of Janamejaya, specifically the Pandava-lineage snake-sacrifice king.",
+        "evidenceKeys": [
+          "e22",
+          "e45"
+        ]
+      },
+      {
+        "localKey": "janamejaya",
+        "existingId": "mahabharata:seed:janamejaya-son-parikshit",
+        "reason": "Same son of Parikshit conducting the snake-sacrifice ended through Astika's intervention.",
+        "evidenceKeys": [
+          "e05",
+          "e22",
+          "e45"
+        ]
+      },
+      {
+        "localKey": "takshaka",
+        "existingId": "mahabharata:b0007:takshaka",
+        "reason": "Supplied existing evidence contains this exact serpent prince seeking Indra's protection from Janamejaya's sacrifice.",
+        "evidenceKeys": [
+          "e05"
+        ]
+      },
+      {
+        "localKey": "indra",
+        "existingId": "mahabharata:b0002:indra",
+        "reason": "Explicit Purandara alias and the exact existing episode of protecting Takshaka from the sacrifice.",
+        "evidenceKeys": [
+          "e05",
+          "e50",
+          "e51"
+        ]
+      },
+      {
+        "localKey": "brahman",
+        "existingId": "mahabharata:b0010:brahman",
+        "reason": "Same Grandsire involved in Kadru's curse and the prophecy concerning Jaratkaru's snake-saving son.",
+        "evidenceKeys": [
+          "e14",
+          "e15",
+          "e16",
+          "e17"
+        ]
+      },
+      {
+        "localKey": "vasuki",
+        "existingId": "mahabharata:b0009:vasuki",
+        "reason": "Same snake king who gives his sister Jaratkaru to the husband Jaratkaru to secure relief for the snakes.",
+        "evidenceKeys": [
+          "e07",
+          "e09",
+          "e10",
+          "e18"
+        ]
+      },
+      {
+        "localKey": "jaratkaru_snake",
+        "existingId": "mahabharata:b0014:jaratkaru_sister",
+        "reason": "Same sister of Vasuki, wife of Jaratkaru, and mother of the son destined to save the snakes.",
+        "evidenceKeys": [
+          "e09",
+          "e10",
+          "e12",
+          "e17",
+          "e18"
+        ]
+      },
+      {
+        "localKey": "jaratkaru_husband",
+        "existingId": "mahabharata:b0014:jaratkaru_rishi",
+        "reason": "Same husband of Vasuki's sister Jaratkaru and father of Astika.",
+        "evidenceKeys": [
+          "e09",
+          "e11",
+          "e17",
+          "e18"
+        ]
+      },
+      {
+        "localKey": "astika",
+        "existingId": "mahabharata:b0001:astika",
+        "reason": "Same son of the two Jaratkarus whose foretold intervention saves the snakes from Janamejaya's sacrifice.",
+        "evidenceKeys": [
+          "e09",
+          "e10",
+          "e11",
+          "e18",
+          "e19",
+          "e49"
+        ]
+      },
+      {
+        "localKey": "kadru",
+        "existingId": "mahabharata:b0009:kadru",
+        "reason": "Same mother of the snakes who curses them for refusing the deception intended to enslave Vinata.",
+        "evidenceKeys": [
+          "e12",
+          "e13",
+          "e16"
+        ]
+      },
+      {
+        "localKey": "uchchaihsravas",
+        "existingId": "mahabharata:b0009:uchchaihsravas",
+        "reason": "Same prince of horses involved in Kadru and Vinata's wager and the snakes' refused deception.",
+        "evidenceKeys": [
+          "e13"
+        ]
+      },
+      {
+        "localKey": "vinata",
+        "existingId": "mahabharata:b0009:vinata",
+        "reason": "Same intended victim of bondage through the wager concerning Uchchaihsravas.",
+        "evidenceKeys": [
+          "e13"
+        ]
+      },
+      {
+        "localKey": "vayu_passenger",
+        "existingId": "mahabharata:b0009:agni",
+        "reason": "The supplied prior version of this same curse explicitly identifies its Wind-charioteer being as Agni.",
+        "evidenceKeys": [
+          "e12",
+          "e13"
+        ]
+      },
+      {
+        "localKey": "bharata",
+        "existingId": "mahabharata:b0001:bharata",
+        "reason": "Same progenitor whose named lineage includes Parikshit and the snake-sacrifice king Janamejaya.",
+        "evidenceKeys": [
+          "e22",
+          "e45"
+        ]
+      },
+      {
+        "localKey": "sakra",
+        "existingId": "mahabharata:b0002:indra",
+        "reason": "Existing record explicitly supplies Sakra as Indra's alias; hundred sacrifices and the thunderbolt independently corroborate it.",
+        "evidenceKeys": [
+          "e23",
+          "e31"
+        ]
+      },
+      {
+        "localKey": "satyavati",
+        "existingId": "mahabharata:seed:satyavati",
+        "reason": "Same parent of Dwaipayana, explicitly corroborated by the supplied existing account of her son.",
+        "evidenceKeys": [
+          "e27"
+        ]
+      },
+      {
+        "localKey": "dasaratha",
+        "existingId": "mahabharata:b0003:dasaratha",
+        "reason": "Same parent designated through the identifying patronymic son of Dasaratha in the royal exemplar context.",
+        "evidenceKeys": [
+          "e25"
+        ]
+      },
+      {
+        "localKey": "dasaratha_son",
+        "existingId": "mahabharata:b0003:rama_dasaratha",
+        "reason": "The supplied earlier royal enumeration explicitly identifies Rama by this same patronymic, son of Dasaratha.",
+        "evidenceKeys": [
+          "e25"
+        ]
+      },
+      {
+        "localKey": "yudhishthira",
+        "existingId": "mahabharata:seed:yudhishthira",
+        "reason": "Divine parentage and the royal sacrifice corroborate the existing son of Dharma who performs the Rajasuya.",
+        "evidenceKeys": [
+          "e26"
+        ]
+      },
+      {
+        "localKey": "krishna_dwaipayana",
+        "existingId": "mahabharata:seed:vyasa",
+        "reason": "Existing evidence explicitly identifies Dwaipayana Vyasa as Satyavati's son and supplies Krishna-Dwaipayana aliases, establishing identity with Vyasa.",
+        "evidenceKeys": [
+          "e27",
+          "e29"
+        ]
+      },
+      {
+        "localKey": "vritra",
+        "existingId": "mahabharata:b0005:vritra",
+        "reason": "Same named victim in the slayer-of-Vritra epithet, explicitly associated with Indra's victory in existing evidence.",
+        "evidenceKeys": [
+          "e28"
+        ]
+      },
+      {
+        "localKey": "vritra_slayer",
+        "existingId": "mahabharata:b0002:indra",
+        "reason": "Supplied existing passages explicitly address Indra as the slayer of Vritra, establishing this epithet's identity.",
+        "evidenceKeys": [
+          "e28"
+        ]
+      },
+      {
+        "localKey": "agni",
+        "existingId": "mahabharata:b0009:agni",
+        "reason": "Explicit Vibhavasu alias matches the existing Vibhavasu (Agni) identification; sacrificial fire role corroborates it.",
+        "evidenceKeys": [
+          "e30"
+        ]
+      },
+      {
+        "localKey": "rama_jamadagni",
+        "existingId": "mahabharata:b0003:rama_jamadagni",
+        "reason": "Same expressly named son of Jamadagni, corroborated by his association with arms.",
+        "evidenceKeys": [
+          "e33"
+        ]
+      },
+      {
+        "localKey": "jamadagni",
+        "existingId": "mahabharata:b0003:jamadagni",
+        "reason": "Same named parent of the Rama associated with arms.",
+        "evidenceKeys": [
+          "e33"
+        ]
+      },
+      {
+        "localKey": "saunaka",
+        "existingId": "mahabharata:seed:saunaka",
+        "reason": "Same framing listener questioning Sauti about the snake-sacrifice narrative.",
+        "evidenceKeys": [
+          "e37",
+          "e38",
+          "e48"
+        ]
+      },
+      {
+        "localKey": "bhrigu",
+        "existingId": "mahabharata:b0010:bhrigu",
+        "reason": "Same lineage namesake invoked in Sauti's repeated addresses to his framing listener.",
+        "evidenceKeys": [
+          "e36"
+        ]
+      },
+      {
+        "localKey": "sauti_suta_parent",
+        "existingId": "mahabharata:seed:lomaharshana",
+        "reason": "Same replying narrator's parent; existing framing passages explicitly name Sauti's father Lomaharshana and supply the Suta designation.",
+        "evidenceKeys": [
+          "e37",
+          "e38"
+        ]
+      },
+      {
+        "localKey": "airavata",
+        "existingId": "mahabharata:b0007:airavata_serpent_king",
+        "reason": "Serpent-lineage namesake corroborates the prior serpent king addressed through his children of Airavata.",
+        "evidenceKeys": [
+          "e42"
+        ]
+      },
+      {
+        "localKey": "kauravya",
+        "existingId": "mahabharata:b0013:snake_kauravya",
+        "reason": "Kauravya and Dhritarashtra recur together in Sauti's serpent catalogues; CURRENT specifies their snake lineages.",
+        "evidenceKeys": [
+          "e43",
+          "e44"
+        ]
+      },
+      {
+        "localKey": "dhritarashtra_snake_lineage",
+        "existingId": "mahabharata:b0013:snake_dhritarashtra",
+        "reason": "Paired with Kauravya in both serpent catalogues; CURRENT identifies Dhritarashtra as a snake-lineage namesake.",
+        "evidenceKeys": [
+          "e43",
+          "e44"
+        ]
+      },
+      {
+        "localKey": "pitharaka",
+        "existingId": "mahabharata:b0013:snake_pitharaka",
+        "reason": "Pitharaka recurs with Kuthara in Sauti's principal-serpent catalogues; CURRENT adds the Dhritarashtra-lineage sacrifice context.",
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "localKey": "kuthara",
+        "existingId": "mahabharata:b0013:snake_kuthara",
+        "reason": "Kuthara recurs with Pitharaka in Sauti's principal-serpent catalogues; CURRENT adds the Dhritarashtra-lineage sacrifice context.",
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      },
+      {
+        "localKey": "pindaraka",
+        "existingId": "mahabharata:b0013:snake_pindaraka",
+        "reason": "Recurs in Sauti's principal-serpent catalogues with Pitharaka and Kuthara; CURRENT specifies its Dhritarashtra-lineage victim role.",
+        "evidenceKeys": [
+          "e44",
+          "e53"
+        ]
+      }
+    ],
+    "unresolved": [
+      "vyasa_son: e04 identifies the accompanying son but supplies no name. No existing candidate ID for that individual is provided; the earlier mention of Suka does not establish that he is this attendee.",
+      "kohala, devasarman: no candidate IDs are supplied for these possible segments of the unpunctuated Kohala Devasarman span in e04. Whether the span identifies one or two people remains uncertain.",
+      "king_of_dead: e08 supplies only a title. Existing Yama/Death passages do not explicitly identify this unnamed ruler.",
+      "vayu: e13 names the curse's charioteer. The existing Vayu records concern divine parentage and an elemental reference in a hymn; neither establishes which record represents this appearance.",
+      "soma: e22 identifies a sacrificer at Prayaga. No distinctive context connects this appearance to either the churning participant or the appearance-comparison record.",
+      "varuna: e22 and e31 do not establish identity with Vandi's parent, the figure at whose sacrifice Bhrigu was produced, or the water-god record.",
+      "prajapati: e22 supplies no distinguishing identity. Existing evidence applies this designation to Brahma, Kasyapa, and the parent of Kadru and Vinata.",
+      "yama: e24, e31 and e32 describe a sacrificer and god of Justice. The earlier discipline, wrath and Death appearances are compatible, but lack an explicit identity link or distinctive shared episode.",
+      "rantideva, sasavindu: e24 and e25 identify royal sacrifice exemplars. Royal status alone does not establish identity with the earlier royal-enumeration records.",
+      "maya: e25 gives a sacrifice exemplar without the architecture, Asura identity or Arjuna episode needed to match the existing architect.",
+      "vaisravana: e25 supplies a king and sacrifice exemplar, without the Kuvera alias or Pandava-companion context of the existing record.",
+      "yudhishthira_god_parent: e26 leaves the god unnamed. Existing evidence names Dharma as Yudhishthira's parent, but no POSSIBLE EXISTING Dharma character ID is supplied.",
+      "sun: e20 leaves personification uncertain and provides no distinctive context selecting among the existing Sun records.",
+      "yayati: e32 gives only a prowess comparison, insufficient to select or establish identity with the existing descent-account or royal-sacrificer records.",
+      "bhishma: e32 mentions excellent vows, but does not identify a particular vow, lineage or episode establishing identity with the seed record.",
+      "vasishtha: the controlled-wrath comparison in e32 does not connect this appearance to either the creation-list entry or the Gandharva-history subject.",
+      "narayana: the splendour comparison in e32 does not distinguish the invocation figure, the Nara-and-Narayana identification, or the Vishnu narrative record.",
+      "krishna_virtue: e32 supplies only a virtue comparison. It does not establish identity with Krishna-Dwaipayana, Krishna/Vasudeva, or any other existing Krishna record.",
+      "aurva, bhagiratha: e33 gives energy and terrifying-look comparisons without the distinctive history or royal-enumeration context needed for the existing candidates.",
+      "krisa: e42 explicitly identifies a snake in Airavata's lineage. This does not match the existing sage who is Sringin's companion.",
+      "sankukarna: e44 identifies a snake in Dhritarashtra's lineage, distinct from the existing human son of Janamejaya and Vapushtama.",
+      "sakuni: e44 identifies a snake, without the gambling or Kuru-court context of the existing Sakuni.",
+      "parasara_snake: e44 identifies a snake, distinct from the existing Rishi and parent of Vyasa.",
+      "aruni_snake: e44 identifies a snake, without the disciple-of-Ayoda-Dhaumya identity or Uddalaka alias of the existing Aruni.",
+      "No existing candidate IDs are supplied for harimedha, nriga, ajamida, khatwanga, nabhaga, dilipa, mandhatri, valmiki, damvodbhava, trita, lohitaksha, artiman or sunitha.",
+      "No existing candidate IDs are supplied for the Vasuki-lineage victims kotisa, manasa, purna, cala, pala, halmaka, pichchala, kaunapa, cakra, kalavega, prakalana, hiranyavahu, carana, kakshaka or kaladantaka. The pala/halmaka segmentation in e39 remains uncertain.",
+      "No existing candidate IDs are supplied for the Takshaka-lineage victims puchchandaka, mandalaka, pindasektri, ravenaka, uchochikha, carava, bhangas, vilwatejas, virohana, sili, salakara, muka, sukumara, pravepana, mudgara, sisuroman, suroman or mahahanu.",
+      "No existing candidate IDs are supplied for the Airavata-lineage victims paravata, parijata, pandara, harina, vihanga, sarabha, meda, pramoda or sauhatapana.",
+      "No existing candidate IDs are supplied for the Kauravya-lineage victims eraka, kundala, veni, veniskandha, kumaraka, vahuka, sringavera, dhurtaka, pratara or astaka. The kundala/veni segmentation in e43 remains uncertain.",
+      "No existing candidate IDs are supplied for the Dhritarashtra-lineage victims sukhana, shechaka, purnangada, purnamukha, prahasa, dari, amahatha, kumathaka, sushena, vyaya, bhairava, mundavedanga, pisanga, udraparaka, rishabha, vegavat, raktanga, sarvasaranga, samriddha, patha, vasaka, varahaka, viranaka, suchitra, chitravegika, tarunaka or maniskandha."
+    ]
+  }
+}

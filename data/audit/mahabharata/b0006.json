@@ -1,0 +1,1636 @@
+{
+  "sourceHash": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+  "batchDigest": "36a5572cf0fc10ada11a664195d36d497333f296b98d06145fa8e05123e9c8d3",
+  "batchId": "b0006",
+  "pages": [
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "reviewedAt": "2026-10-04T06:33:30.696Z",
+  "reviewer": "Codex extraction + omission + identity passes; not human review",
+  "extraction": {
+    "entities": [
+      {
+        "key": "dhritarashtra",
+        "name": "Dhritarashtra",
+        "kind": "unknown",
+        "description": "Monarch who breaks Krishna's iron substitute for Bhima and later retires to the woods.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with his and him.",
+            "evidenceKeys": [
+              "ev15_01"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev15_01",
+          "ev15_02",
+          "ev16_06"
+        ]
+      },
+      {
+        "key": "bhima",
+        "name": "Bhima",
+        "kind": "unknown",
+        "description": "Target of Dhritarashtra's enmity, for whom Krishna substitutes an iron statue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev15_01"
+        ]
+      },
+      {
+        "key": "krishna",
+        "name": "Krishna",
+        "kind": "unknown",
+        "description": "Places the iron substitute for Bhima and revives Parikshit.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Kesava",
+            "evidenceKeys": [
+              "ev16_12"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "ev15_01",
+          "ev16_02",
+          "ev16_12"
+        ]
+      },
+      {
+        "key": "vidura",
+        "name": "Vidura",
+        "kind": "unknown",
+        "description": "Consoles Dhritarashtra and accompanies him into the woods.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with his.",
+            "evidenceKeys": [
+              "ev16_08"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev15_02",
+          "ev16_06",
+          "ev16_08"
+        ]
+      },
+      {
+        "key": "gandhari",
+        "name": "Gandhari",
+        "kind": "unknown",
+        "description": "Grieves her sons and grandsons and accompanies Dhritarashtra into the woods.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Referred to with her.",
+            "evidenceKeys": [
+              "ev15_03"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev15_03",
+          "ev16_06"
+        ]
+      },
+      {
+        "key": "yudhishthira",
+        "name": "Yudhishthira",
+        "kind": "human",
+        "description": "King of the Kurus and foremost among virtuous men who hears Bhishma's exposition of duties.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly included among men.",
+            "evidenceKeys": [
+              "ev15_04"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev15_04",
+          "ev15_07"
+        ]
+      },
+      {
+        "key": "kunti",
+        "name": "Kunti",
+        "kind": "unknown",
+        "description": "Acknowledges Karna as her son born in secret.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Referred to with her.",
+            "evidenceKeys": [
+              "ev15_05"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev15_05"
+        ]
+      },
+      {
+        "key": "karna",
+        "name": "Karna",
+        "kind": "unknown",
+        "description": "Acknowledged by Kunti as her son born in secret.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called Kunti's son.",
+            "evidenceKeys": [
+              "ev15_05"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev15_05"
+        ]
+      },
+      {
+        "key": "vyasa",
+        "name": "Vyasa",
+        "kind": "sage",
+        "description": "Great Rishi who describes the Parvas and speaks of the Mahabharata.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with his.",
+            "evidenceKeys": [
+              "ev17_02"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev15_06",
+          "ev17_02"
+        ]
+      },
+      {
+        "key": "bhishma",
+        "name": "Bhishma",
+        "kind": "unknown",
+        "description": "Son of Bhagirathi who expounds duties to Yudhishthira.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called the son of Bhagirathi.",
+            "evidenceKeys": [
+              "ev15_07"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev15_07"
+        ]
+      },
+      {
+        "key": "bhagirathi",
+        "name": "Bhagirathi",
+        "kind": "unknown",
+        "description": "Named parent of Bhishma.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev15_07"
+        ]
+      },
+      {
+        "key": "samvarta",
+        "name": "Samvarta",
+        "kind": "unknown",
+        "description": "Figure in the story of Samvarta and Marutta.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev16_01"
+        ]
+      },
+      {
+        "key": "marutta",
+        "name": "Marutta",
+        "kind": "unknown",
+        "description": "Figure in the story of Samvarta and Marutta.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev16_01"
+        ]
+      },
+      {
+        "key": "parikshit",
+        "name": "Parikshit",
+        "kind": "unknown",
+        "description": "Revived by Krishna after being burnt by Aswatthaman's weapon; named parent of Janamejaya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev16_02",
+          "ev17_04"
+        ]
+      },
+      {
+        "key": "aswatthaman",
+        "name": "Aswatthaman",
+        "kind": "unknown",
+        "description": "Associated with the celestial weapon that burns Parikshit.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev16_02"
+        ]
+      },
+      {
+        "key": "arjuna",
+        "name": "Arjuna",
+        "kind": "human",
+        "description": "Son of Pandu who follows the sacrificial horse and encounters Vabhruvahana, his son by Chitrangada.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called a son and explicitly included among men.",
+            "evidenceKeys": [
+              "ev16_03",
+              "ev16_13"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev16_03",
+          "ev16_04",
+          "ev16_13"
+        ]
+      },
+      {
+        "key": "pandu",
+        "name": "Pandu",
+        "kind": "unknown",
+        "description": "Named parent of Arjuna.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev16_03"
+        ]
+      },
+      {
+        "key": "arjuna_sacrificial_horse",
+        "name": "Sacrificial horse followed by Arjuna",
+        "kind": "animal",
+        "description": "Specific horse let loose for the sacrifice and seized by various princes.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev16_03"
+        ]
+      },
+      {
+        "key": "vabhruvahana",
+        "name": "Vabhruvahana",
+        "kind": "unknown",
+        "description": "Son of Chitrangada by Arjuna who encounters Arjuna.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called Chitrangada's son.",
+            "evidenceKeys": [
+              "ev16_04"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev16_04"
+        ]
+      },
+      {
+        "key": "chitrangada",
+        "name": "Chitrangada",
+        "kind": "unknown",
+        "description": "Appointed daughter of the chief of Manipura and parent of Vabhruvahana by Arjuna.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called a daughter.",
+            "evidenceKeys": [
+              "ev16_04"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev16_04"
+        ]
+      },
+      {
+        "key": "chief_of_manipura",
+        "name": "Chief of Manipura",
+        "kind": "unknown",
+        "description": "Unnamed chief whose appointed daughter is Chitrangada.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev16_04"
+        ]
+      },
+      {
+        "key": "horse_sacrifice_mongoose",
+        "name": "Mongoose of the horse-sacrifice story",
+        "kind": "animal",
+        "description": "Specific mongoose whose story occurs during the horse-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev16_05"
+        ]
+      },
+      {
+        "key": "pritha",
+        "name": "Pritha",
+        "kind": "unknown",
+        "description": "Leaves her sons' court to follow the old couple into the woods.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Referred to with her.",
+            "evidenceKeys": [
+              "ev16_06"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev16_06"
+        ]
+      },
+      {
+        "key": "sanjaya",
+        "name": "Sanjaya",
+        "kind": "unknown",
+        "description": "Learned son of Gavalgana, described as foremost among ministers.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called the son of Gavalgana.",
+            "evidenceKeys": [
+              "ev16_09"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev16_09"
+        ]
+      },
+      {
+        "key": "gavalgana",
+        "name": "Gavalgana",
+        "kind": "unknown",
+        "description": "Named parent of Sanjaya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev16_09"
+        ]
+      },
+      {
+        "key": "narada",
+        "name": "Narada",
+        "kind": "unknown",
+        "description": "Tells Yudhishthira about the extinction of the Vrishnis.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with him.",
+            "evidenceKeys": [
+              "ev16_10"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev16_10"
+        ]
+      },
+      {
+        "key": "vrishni_cursing_brahmana",
+        "name": "Brahmana whose curse afflicts the Vrishnis",
+        "kind": "unknown",
+        "description": "Unnamed Brahmana whose curse oppresses the drinking Vrishni heroes.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev16_11"
+        ]
+      },
+      {
+        "key": "balarama",
+        "name": "Balarama",
+        "kind": "unknown",
+        "description": "Named alongside Kesava in the account of their race's extermination.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev16_12"
+        ]
+      },
+      {
+        "key": "vasudeva",
+        "name": "Vasudeva",
+        "kind": "unknown",
+        "description": "Arjuna's maternal uncle, described as foremost among the Yadus.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called Arjuna's maternal uncle.",
+            "evidenceKeys": [
+              "ev16_13",
+              "ev16_14"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev16_13",
+          "ev16_14"
+        ]
+      },
+      {
+        "key": "draupadi",
+        "name": "Draupadi",
+        "kind": "unknown",
+        "description": "Accompanies the Pandavas on their great journey and is left behind by Yudhishthira.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev16_15",
+          "ev16_17"
+        ]
+      },
+      {
+        "key": "agni",
+        "name": "Agni",
+        "kind": "unknown",
+        "description": "Receives Arjuna's worship and the returned celestial bow Gandiva.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with himself and him.",
+            "evidenceKeys": [
+              "ev16_16"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev16_16"
+        ]
+      },
+      {
+        "key": "dharma",
+        "name": "Dharma",
+        "kind": "deity",
+        "description": "God of justice who accompanies Yudhishthira in canine form before revealing himself.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the dog",
+            "evidenceKeys": [
+              "ev16_18"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with his and himself.",
+            "evidenceKeys": [
+              "ev16_18"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev16_18"
+        ]
+      },
+      {
+        "key": "celestial_messenger",
+        "name": "Celestial messenger",
+        "kind": "unknown",
+        "description": "Unnamed messenger who shows Yudhishthira hell through deception.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev16_19"
+        ]
+      },
+      {
+        "key": "yama",
+        "name": "Yama",
+        "kind": "unknown",
+        "description": "Figure under whose discipline Yudhishthira's brothers abide.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev16_20"
+        ]
+      },
+      {
+        "key": "indra",
+        "name": "Indra",
+        "kind": "deity",
+        "description": "God who, with Dharma, shows Yudhishthira the region appointed for sinners.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev16_21",
+          "ev16_22"
+        ]
+      },
+      {
+        "key": "sauti",
+        "name": "Sauti",
+        "kind": "unknown",
+        "description": "Framing narrator of the Parva-sangraha and Janamejaya's sacrifice story.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev17_01",
+          "ev17_04"
+        ]
+      },
+      {
+        "key": "dwaipayana",
+        "name": "Dwaipayana",
+        "kind": "unknown",
+        "description": "Figure from whose lips the Bharata is said to have been uttered.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev17_03"
+        ]
+      },
+      {
+        "key": "janamejaya",
+        "name": "Janamejaya",
+        "kind": "unknown",
+        "description": "King and son of Parikshit who sacrifices at Kurukshetra and accepts Somasrava as his Purohita.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called the son of Parikshit.",
+            "evidenceKeys": [
+              "ev17_04"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev17_04",
+          "ev17_07",
+          "ev17_10",
+          "ev17_11"
+        ]
+      },
+      {
+        "key": "srutasena",
+        "name": "Srutasena",
+        "kind": "unknown",
+        "description": "One of Janamejaya's three named brothers.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly named among Janamejaya's brothers.",
+            "evidenceKeys": [
+              "ev17_04"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev17_04"
+        ]
+      },
+      {
+        "key": "ugrasena",
+        "name": "Ugrasena",
+        "kind": "unknown",
+        "description": "One of Janamejaya's three named brothers.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly named among Janamejaya's brothers.",
+            "evidenceKeys": [
+              "ev17_04"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev17_04"
+        ]
+      },
+      {
+        "key": "bhimasena_janamejaya_brother",
+        "name": "Bhimasena",
+        "kind": "unknown",
+        "description": "One of Janamejaya's three named brothers.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly named among Janamejaya's brothers.",
+            "evidenceKeys": [
+              "ev17_04"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev17_04"
+        ]
+      },
+      {
+        "key": "sarama",
+        "name": "Sarama",
+        "kind": "animal",
+        "description": "Celestial bitch and mother of the offspring beaten by Janamejaya's brothers.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called a bitch and a mother.",
+            "evidenceKeys": [
+              "ev17_05",
+              "ev17_06"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev17_05",
+          "ev17_06"
+        ]
+      },
+      {
+        "key": "sarama_son",
+        "name": "Sarama's unnamed son",
+        "kind": "animal",
+        "description": "Male offspring of the celestial bitch Sarama, beaten by Janamejaya's brothers.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with he and explicitly called a son.",
+            "evidenceKeys": [
+              "ev17_05",
+              "ev17_06"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev17_05",
+          "ev17_06"
+        ]
+      },
+      {
+        "key": "srutasrava",
+        "name": "Srutasrava",
+        "kind": "sage",
+        "description": "Rishi whose son Somasrava is born from a she-snake that drank his vital fluid.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with he.",
+            "evidenceKeys": [
+              "ev17_07"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev17_07",
+          "ev17_08"
+        ]
+      },
+      {
+        "key": "somasrava",
+        "name": "Somasrava",
+        "kind": "unknown",
+        "description": "Ascetic son of Srutasrava and a she-snake, accepted as Janamejaya's Purohita.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called Srutasrava's son.",
+            "evidenceKeys": [
+              "ev17_07",
+              "ev17_08"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev17_07",
+          "ev17_08",
+          "ev17_10"
+        ]
+      },
+      {
+        "key": "somasrava_snake_mother",
+        "name": "She-snake who bore Somasrava",
+        "kind": "animal",
+        "description": "Unnamed she-snake from whose womb Somasrava is born after she drinks Srutasrava's vital fluid.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called a she-snake.",
+            "evidenceKeys": [
+              "ev17_08"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev17_07",
+          "ev17_08"
+        ]
+      },
+      {
+        "key": "mahadeva",
+        "name": "Mahadeva",
+        "kind": "unknown",
+        "description": "Figure against whom offences are excepted from Somasrava's power of absolution.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev17_08",
+          "ev17_09"
+        ]
+      },
+      {
+        "key": "ayoda_dhaumya",
+        "name": "Ayoda-Dhaumya",
+        "kind": "sage",
+        "description": "Rishi and preceptor of Upamanyu, Aruni, and Veda.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Dhaumya",
+            "evidenceKeys": [
+              "ev18_02",
+              "ev18_03"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with his.",
+            "evidenceKeys": [
+              "ev18_02"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev18_01",
+          "ev18_02",
+          "ev18_03"
+        ]
+      },
+      {
+        "key": "upamanyu",
+        "name": "Upamanyu",
+        "kind": "unknown",
+        "description": "Disciple of Ayoda-Dhaumya who tends kine, becomes blind after eating Arka leaves, falls into a well, and glorifies the twin Aswins.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with him and he.",
+            "evidenceKeys": [
+              "ev18_06"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev18_01",
+          "ev18_06",
+          "ev18_07",
+          "ev19_02"
+        ]
+      },
+      {
+        "key": "aruni",
+        "name": "Aruni",
+        "kind": "unknown",
+        "description": "Disciple of Ayoda-Dhaumya from Panchala, renamed Uddalaka by his preceptor.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Aruni of Panchala",
+            "evidenceKeys": [
+              "ev18_02"
+            ]
+          },
+          {
+            "label": "Uddalaka",
+            "evidenceKeys": [
+              "ev18_04",
+              "ev18_05"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with his.",
+            "evidenceKeys": [
+              "ev18_05"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev18_01",
+          "ev18_02",
+          "ev18_04",
+          "ev18_05"
+        ]
+      },
+      {
+        "key": "veda",
+        "name": "Veda",
+        "kind": "unknown",
+        "description": "Named disciple of Ayoda-Dhaumya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev18_01"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromKey": "kunti",
+        "toKey": "karna",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev15_05"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "bhagirathi",
+        "toKey": "bhishma",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev15_07"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "pandu",
+        "toKey": "arjuna",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev16_03"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "chitrangada",
+        "toKey": "vabhruvahana",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev16_04"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "arjuna",
+        "toKey": "vabhruvahana",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev16_04"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "chief_of_manipura",
+        "toKey": "chitrangada",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev16_04"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "dhritarashtra",
+        "toKey": "gandhari",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "ev16_06",
+          "ev16_07"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "gavalgana",
+        "toKey": "sanjaya",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev16_09"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "parikshit",
+        "toKey": "janamejaya",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev17_04"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "janamejaya",
+        "toKey": "srutasena",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "ev17_04"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "janamejaya",
+        "toKey": "ugrasena",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "ev17_04"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "janamejaya",
+        "toKey": "bhimasena_janamejaya_brother",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "ev17_04"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "sarama",
+        "toKey": "sarama_son",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev17_05",
+          "ev17_06"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "srutasrava",
+        "toKey": "somasrava",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "ev17_07",
+          "ev17_08"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "somasrava_snake_mother",
+        "toKey": "somasrava",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "ev17_07",
+          "ev17_08"
+        ],
+        "status": "supported"
+      }
+    ],
+    "evidence": [
+      {
+        "key": "ev15_01",
+        "page": 15,
+        "excerpt": "Dhritarashtra of prophetic eye, afflicted at the death of his children, and moved by enmity towards Bhima, broke into pieces a statue of hard iron deftly placed before him by Krishna (as substitute of Bhima)."
+      },
+      {
+        "key": "ev15_02",
+        "page": 15,
+        "excerpt": "Then Vidura, removing the distressed Dhritarashtra's affection for worldly things by reasons pointing to final release, consoled that wise monarch."
+      },
+      {
+        "key": "ev15_03",
+        "page": 15,
+        "excerpt": "Then the pacification by Krishna of the wrath of Gandhari distressed at the death of her sons and grandsons."
+      },
+      {
+        "key": "ev15_04",
+        "page": 15,
+        "excerpt": "Then the cremation of the bodies of the deceased Rajas with due rites by that monarch (Yudhishthira) of great wisdom and the foremost also of all virtuous men."
+      },
+      {
+        "key": "ev15_05",
+        "page": 15,
+        "excerpt": "the story of Kunti's acknowledgment of Karna as her son born in secret."
+      },
+      {
+        "key": "ev15_06",
+        "page": 15,
+        "excerpt": "Those have all been described by the great Rishi Vyasa in the highly pathetic eleventh Parva."
+      },
+      {
+        "key": "ev15_07",
+        "page": 15,
+        "excerpt": "Yudhishthira, the king of the Kurus, was reconciled to himself on hearing the exposition of duties by Bhishma, the son of Bhagirathi."
+      },
+      {
+        "key": "ev15_08",
+        "page": 15,
+        "excerpt": "the despondency of Yudhishthira on his having slain his fathers, brothers, sons, maternal uncles and matrimonial relations."
+      },
+      {
+        "key": "ev16_01",
+        "page": 16,
+        "excerpt": "In this is the excellent story of Samvarta and Marutta."
+      },
+      {
+        "key": "ev16_02",
+        "page": 16,
+        "excerpt": "and then the birth of Parikshit who was revived by Krishna after having been burnt by the (celestial) weapon of Aswatthaman."
+      },
+      {
+        "key": "ev16_03",
+        "page": 16,
+        "excerpt": "The battles of Arjuna the son of Pandu, while following the sacrificial horse let loose, with various princes who in wrath seized it."
+      },
+      {
+        "key": "ev16_04",
+        "page": 16,
+        "excerpt": "Then is shown the great risk of Arjuna in his encounter with Vabhruvahana the son of Chitrangada (by Arjuna) the appointed daughter of the chief of Manipura."
+      },
+      {
+        "key": "ev16_05",
+        "page": 16,
+        "excerpt": "Then the story of the mongoose during the performance of the horse-sacrifice."
+      },
+      {
+        "key": "ev16_06",
+        "page": 16,
+        "excerpt": "In this, Dhritarashtra, abdicating the kingdom, and accompanied by Gandhari and Vidura went to the woods. Seeing this, the virtuous Pritha also, ever engaged in cherishing her superiors, leaving the court of her sons, followed the old couple."
+      },
+      {
+        "key": "ev16_07",
+        "page": 16,
+        "excerpt": "Then the monarch abandoning his sorrows acquired with his wife the highest fruit of his meritorious actions."
+      },
+      {
+        "key": "ev16_08",
+        "page": 16,
+        "excerpt": "In this Parva, Vidura after having leaned on virtue all his life attaineth to the most meritorious state."
+      },
+      {
+        "key": "ev16_09",
+        "page": 16,
+        "excerpt": "The learned son of Gavalgana, Sanjaya, also of passions under full control, and the foremost of ministers, attained, in the Parva, to the blessed state."
+      },
+      {
+        "key": "ev16_10",
+        "page": 16,
+        "excerpt": "In this, Yudhishthira the just met Narada and heard from him about the extinction of the race of Vrishnis."
+      },
+      {
+        "key": "ev16_11",
+        "page": 16,
+        "excerpt": "In this, those lion-hearted heroes (of the race of Vrishni) with the scars of many a field on their bodies, oppressed with the curse of a Brahmana, while deprived of reason from drink"
+      },
+      {
+        "key": "ev16_12",
+        "page": 16,
+        "excerpt": "In this, both Balarama and Kesava (Krishna) after causing the extermination of their race, their hour having come, themselves did not rise superior to the sway of all-destroying Time."
+      },
+      {
+        "key": "ev16_13",
+        "page": 16,
+        "excerpt": "In this, Arjuna the foremost among men, going to Dwaravati (Dwaraka) and seeing the city destitute of the Vrishnis was much affected and became exceedingly sorry."
+      },
+      {
+        "key": "ev16_14",
+        "page": 16,
+        "excerpt": "Then after the funeral of his maternal uncle Vasudeva the foremost among the Yadus (Vrishnis), he saw the heroes of the Yadu race lying stretched in death on the spot where they had been drinking."
+      },
+      {
+        "key": "ev16_15",
+        "page": 16,
+        "excerpt": "In this, those foremost among men the Pandavas abdicating their kingdom went with Draupadi on their great journey called Mahaprasthana."
+      },
+      {
+        "key": "ev16_16",
+        "page": 16,
+        "excerpt": "In this, asked by Agni himself, Arjuna worshipped him duly, returned to him the excellent celestial bow called Gandiva."
+      },
+      {
+        "key": "ev16_17",
+        "page": 16,
+        "excerpt": "In this, leaving his brothers who dropped one after another and Draupadi also, Yudhishthira went on his journey without once looking back on them."
+      },
+      {
+        "key": "ev16_18",
+        "page": 16,
+        "excerpt": "Then seeing the celestial car come to take him, Yudhishthira moved by kindness towards the dog that accompanied him, refused to ascend it without his companion. Observing the illustrious Yudhishthira's steady adherence to virtue, Dharma (the god of justice) abandoning his canine form showed himself to the king."
+      },
+      {
+        "key": "ev16_19",
+        "page": 16,
+        "excerpt": "Then Yudhishthira ascending to heaven felt much pain. The celestial messenger showed him hell by an act of deception."
+      },
+      {
+        "key": "ev16_20",
+        "page": 16,
+        "excerpt": "Then Yudhishthira, the soul of justice, heard the heart-rending lamentations of his brothers abiding in that region under the discipline of Yama."
+      },
+      {
+        "key": "ev16_21",
+        "page": 16,
+        "excerpt": "Then Dharma and Indra showed Yudhishthira the region appointed for sinners."
+      },
+      {
+        "key": "ev16_22",
+        "page": 16,
+        "excerpt": "began to live in joy respected by Indra and all other gods."
+      },
+      {
+        "key": "ev16_23",
+        "page": 16,
+        "excerpt": "In this is described the wonderful meeting through the kindness of Vyasa of the king (Dhritarashtra) with the spirits of his slain children, grand-children, and other princes, returned from the other world."
+      },
+      {
+        "key": "ev17_01",
+        "page": 17,
+        "excerpt": "These are the contents of the section called Parva-sangraha. Sauti continued, \"Eighteen Akshauhinis of troops came together for battle."
+      },
+      {
+        "key": "ev17_02",
+        "page": 17,
+        "excerpt": "Vyasa of immeasurable intelligence, has spoken of the Mahabharata as a treatise on Artha, on Dharma, and on Kama. Those who have listened to his history can never bear to listen to others"
+      },
+      {
+        "key": "ev17_03",
+        "page": 17,
+        "excerpt": "The Bharata uttered by the lips of Dwaipayana is without a parallel; it is virtue itself and sacred."
+      },
+      {
+        "key": "ev17_04",
+        "page": 17,
+        "excerpt": "Sauti said, \"Janamejaya, the son of Parikshit, was, with his brothers, attending his long sacrifice on the plains of Kurukshetra. His brothers were three, Srutasena, Ugrasena, and Bhimasena."
+      },
+      {
+        "key": "ev17_05",
+        "page": 17,
+        "excerpt": "And as they were sitting at the sacrifice, there arrived at the spot an offspring of Sarama (the celestial bitch). And belaboured by the brothers of Janamejaya, he ran away to his mother, crying in pain."
+      },
+      {
+        "key": "ev17_06",
+        "page": 17,
+        "excerpt": "His mother Sarama hearing this and much distressed at the affliction of her son went to the place where Janamejaya with his brothers was at his long-extending sacrifice."
+      },
+      {
+        "key": "ev17_07",
+        "page": 17,
+        "excerpt": "One day Janamejaya, the son of Parikshit, while a-hunting, observed in a particular part of his dominions a hermitage where dwelt a certain Rishi of fame, Srutasrava. He had a son named Somasrava deeply engaged in ascetic devotions."
+      },
+      {
+        "key": "ev17_08",
+        "page": 17,
+        "excerpt": "The Rishi thus addressed, answered Janamejaya, 'O Janamejaya, this my son, deep in ascetic devotions, accomplished in the study of the Vedas, and endued with the full force of my asceticism, is born of (the womb of) a she-snake that had drunk my vital fluid."
+      },
+      {
+        "key": "ev17_09",
+        "page": 17,
+        "excerpt": "He is able to absolve thee from all offences save those committed against Mahadeva."
+      },
+      {
+        "key": "ev17_10",
+        "page": 17,
+        "excerpt": "And accepting him for his Purohita, he returned to his capital"
+      },
+      {
+        "key": "ev17_11",
+        "page": 17,
+        "excerpt": "And giving these directions to his brothers, the king marched towards Takshyashila and brought that country under his authority."
+      },
+      {
+        "key": "ev18_01",
+        "page": 18,
+        "excerpt": "About this time there was a Rishi, Ayoda-Dhaumya by name. And Ayoda-Dhaumya had three disciples, Upamanyu, Aruni, and Veda."
+      },
+      {
+        "key": "ev18_02",
+        "page": 18,
+        "excerpt": "And some time after, the preceptor Ayoda-Dhaumya asked his other disciples where Aruni of Panchala was."
+      },
+      {
+        "key": "ev18_03",
+        "page": 18,
+        "excerpt": "Thus reminded, Dhaumya, addressing his pupils, said, 'Then let us all go to the place where he is.'"
+      },
+      {
+        "key": "ev18_04",
+        "page": 18,
+        "excerpt": "Because in getting up from the ditch thou hast opened the water-course, thenceforth shalt thou be called Uddalaka as a mark of thy preceptor's favour."
+      },
+      {
+        "key": "ev18_05",
+        "page": 18,
+        "excerpt": "And Aruni, thus addressed by his preceptor, went to the country after his heart."
+      },
+      {
+        "key": "ev18_06",
+        "page": 18,
+        "excerpt": "The name of another of Ayoda-Dhaumya's disciples was Upamanyu. And Dhaumya appointed him saying, 'Go, my child, Upamanyu, look after the kine.' And according to his preceptor's orders, he went to tend the kine."
+      },
+      {
+        "key": "ev18_07",
+        "page": 18,
+        "excerpt": "And Upamanyu replied, 'Having eaten of the leaves of the Arka plant I became blind, and so have I fallen into this well.'"
+      },
+      {
+        "key": "ev19_01",
+        "page": 19,
+        "excerpt": "Glorify the twin Aswins, the joint physicians of the gods, and they will restore thee thy sight."
+      },
+      {
+        "key": "ev19_02",
+        "page": 19,
+        "excerpt": "And Upamanyu thus directed by his preceptor began to glorify the twin Aswins, in the following words of the Rig Veda:"
+      }
+    ],
+    "unresolved": [
+      "The twin Aswins are invoked collectively on page 19 (ev19_01, ev19_02), without individual names or distinguishing actions. No individual twins or sibling record are invented from the group count.",
+      "Kunti and Pritha are retained separately because this batch does not establish their identity.",
+      "Vyasa and Dwaipayana are retained separately because this batch does not establish their identity.",
+      "Bhima and Janamejaya's brother Bhimasena are retained separately because this batch does not establish their identity.",
+      "Dharma and Yama are retained separately because this batch does not establish their identity.",
+      "Vasudeva is Arjuna's maternal uncle (ev16_13, ev16_14). Unclehood is unavailable in the relationship schema; no unnamed mother or sibling relationship is inferred.",
+      "Yudhishthira's brothers are mentioned collectively (ev16_17, ev16_20), without identifying individual brothers in those statements. No named sibling relationships are added from these collective references.",
+      "The three named brothers of Janamejaya are explicitly his siblings (ev17_04). No additional pairwise sibling relationships among those three are inferred.",
+      "Collective family references do not supply individual endpoints: Dhritarashtra's children and grandchildren (ev15_01, ev16_23), Gandhari's sons and grandsons (ev15_03), Pritha's sons (ev16_06), and Yudhishthira's fathers, brothers, sons, maternal uncles, and matrimonial relations (ev15_08). These groups are not expanded into invented individuals.",
+      "All-destroying Time is invoked as a power (ev16_12), but the passage does not clearly establish a distinct narrative being.",
+      "The male Kokila and crow on page 17 are generic animals in a comparison, rather than individually identifiable narrative animals. The kine and calves on page 18 are undifferentiated groups.",
+      "Generic or hypothetical people in the exhortations and comparisons on page 17, including a Brahmana who reads the Bharata, a donor of kine, and any Brahmana who might petition Somasrava, do not establish additional identifiable individuals.",
+      "The celestial Ganges on page 16 is presented as a place of immersion; this passage does not establish it as a separate narrative being or identify it with Bhagirathi.",
+      "Nature, intelligent Soul, birds, and the tree in the page 19 hymn describe or compare the collectively addressed Aswins; they do not establish additional individually identifiable beings."
+    ]
+  },
+  "reconciliation": {
+    "matches": [
+      {
+        "localKey": "dhritarashtra",
+        "existingId": "mahabharata:seed:dhritarashtra",
+        "reason": "Existing evidence repeats the same distinctive passage about his children's deaths and enmity toward Bhima.",
+        "evidenceKeys": [
+          "ev15_01"
+        ]
+      },
+      {
+        "localKey": "bhima",
+        "existingId": "mahabharata:seed:bhima",
+        "reason": "The existing Dhritarashtra passage repeats this enmity toward Bhima, corroborating the existing Bhima's role in the conflict with Dhritarashtra's sons.",
+        "evidenceKeys": [
+          "ev15_01"
+        ]
+      },
+      {
+        "localKey": "krishna",
+        "existingId": "mahabharata:seed:krishna",
+        "reason": "CURRENT pairs Krishna with Balarama in the destruction of their race; existing evidence identifies the same Krishna–Balarama pair as Vrishni heroes.",
+        "evidenceKeys": [
+          "ev16_12"
+        ]
+      },
+      {
+        "localKey": "vidura",
+        "existingId": "mahabharata:seed:vidura",
+        "reason": "His counsel and attendance upon Dhritarashtra corroborate the existing Vidura's distinctive advisory relationship with that monarch.",
+        "evidenceKeys": [
+          "ev15_02",
+          "ev16_06"
+        ]
+      },
+      {
+        "localKey": "gandhari",
+        "existingId": "mahabharata:seed:gandhari",
+        "reason": "Existing evidence contains the same passage about Krishna pacifying her grief and wrath after her sons and grandsons die.",
+        "evidenceKeys": [
+          "ev15_03"
+        ]
+      },
+      {
+        "localKey": "yudhishthira",
+        "existingId": "mahabharata:seed:yudhishthira",
+        "reason": "Existing evidence repeats both his description as the virtuous monarch and his hearing Bhishma's exposition of duties.",
+        "evidenceKeys": [
+          "ev15_04",
+          "ev15_07"
+        ]
+      },
+      {
+        "localKey": "kunti",
+        "existingId": "mahabharata:b0005:kunti",
+        "reason": "The existing record contains the exact same acknowledgment of Karna as her son born in secret.",
+        "evidenceKeys": [
+          "ev15_05"
+        ]
+      },
+      {
+        "localKey": "karna",
+        "existingId": "mahabharata:b0002:karna",
+        "reason": "Existing evidence contains the same passage explicitly identifying him as Kunti's secret-born son.",
+        "evidenceKeys": [
+          "ev15_05"
+        ]
+      },
+      {
+        "localKey": "vyasa",
+        "existingId": "mahabharata:seed:vyasa",
+        "reason": "Both identify the great Rishi as the author and compiler of the Mahabharata and its Parvas.",
+        "evidenceKeys": [
+          "ev15_06",
+          "ev17_02"
+        ]
+      },
+      {
+        "localKey": "bhishma",
+        "existingId": "mahabharata:seed:bhishma",
+        "reason": "Existing evidence repeats his parentage from Bhagirathi and his exposition of duties to Yudhishthira.",
+        "evidenceKeys": [
+          "ev15_07"
+        ]
+      },
+      {
+        "localKey": "bhagirathi",
+        "existingId": "mahabharata:b0005:bhagirathi",
+        "reason": "The same passage identifies Bhagirathi as Bhishma's parent.",
+        "evidenceKeys": [
+          "ev15_07"
+        ]
+      },
+      {
+        "localKey": "parikshit",
+        "existingId": "mahabharata:seed:parikshit-son-abhimanyu",
+        "reason": "His endangered birth and revival corroborate the existing born-dead child's story, and both accounts identify Parikshit as Janamejaya's parent.",
+        "evidenceKeys": [
+          "ev16_02",
+          "ev17_04"
+        ]
+      },
+      {
+        "localKey": "aswatthaman",
+        "existingId": "mahabharata:b0003:aswatthaman",
+        "reason": "CURRENT's weapon injury to Parikshit at birth corroborates the existing account of Aswatthaman's weapon injuring Uttara's embryo, whose child is identified as Parikshit.",
+        "evidenceKeys": [
+          "ev16_02"
+        ]
+      },
+      {
+        "localKey": "arjuna",
+        "existingId": "mahabharata:seed:arjuna",
+        "reason": "CURRENT identifies Arjuna as Pandu's son and associates him with Dwaravati, corroborating the existing Pandava Arjuna's parentage and Dwaravati story.",
+        "evidenceKeys": [
+          "ev16_03",
+          "ev16_13"
+        ]
+      },
+      {
+        "localKey": "pandu",
+        "existingId": "mahabharata:seed:pandu",
+        "reason": "Arjuna's stated parentage corroborates the existing Pandu's role as parent of the Pandavas.",
+        "evidenceKeys": [
+          "ev16_03"
+        ]
+      },
+      {
+        "localKey": "vabhruvahana",
+        "existingId": "mahabharata:b0004:vabhruvahana",
+        "reason": "The existing record places his birth notice in Arjuna's travels; CURRENT corroborates that specific narrative connection by identifying him as Arjuna's son by Chitrangada.",
+        "evidenceKeys": [
+          "ev16_04"
+        ]
+      },
+      {
+        "localKey": "pritha",
+        "existingId": "mahabharata:seed:kunti",
+        "reason": "Existing evidence explicitly identifies Pritha as Kunti and describes her attention to superiors; CURRENT corroborates that maternal role and conduct.",
+        "evidenceKeys": [
+          "ev16_06"
+        ]
+      },
+      {
+        "localKey": "sanjaya",
+        "existingId": "mahabharata:b0001:sanjaya",
+        "reason": "Both explicitly identify Sanjaya as Gavalgana's learned or wise son in the royal advisory narrative.",
+        "evidenceKeys": [
+          "ev16_09"
+        ]
+      },
+      {
+        "localKey": "gavalgana",
+        "existingId": "mahabharata:b0003:gavalgana",
+        "reason": "Both explicitly identify Gavalgana as Sanjaya's parent.",
+        "evidenceKeys": [
+          "ev16_09"
+        ]
+      },
+      {
+        "localKey": "narada",
+        "existingId": "mahabharata:b0002:narada",
+        "reason": "CURRENT presents Narada as Yudhishthira's informant; existing passages place him in the same Pandava advisory narrative through his injunctions to Pandu's sons and declarations concerning Krishna and Arjuna.",
+        "evidenceKeys": [
+          "ev16_10"
+        ]
+      },
+      {
+        "localKey": "balarama",
+        "existingId": "mahabharata:seed:balarama",
+        "reason": "His pairing with Krishna and their shared race corroborate the existing Krishna–Balarama pair identified as Vrishni heroes.",
+        "evidenceKeys": [
+          "ev16_12"
+        ]
+      },
+      {
+        "localKey": "draupadi",
+        "existingId": "mahabharata:seed:draupadi",
+        "reason": "Her place beside the Pandavas and Yudhishthira on their final journey corroborates the existing Draupadi's distinctive position within that family.",
+        "evidenceKeys": [
+          "ev16_15",
+          "ev16_17"
+        ]
+      },
+      {
+        "localKey": "agni",
+        "existingId": "mahabharata:b0002:agni",
+        "reason": "Both identify Agni as the recipient of Arjuna's acts of gratification or worship in his martial narrative.",
+        "evidenceKeys": [
+          "ev16_16"
+        ]
+      },
+      {
+        "localKey": "dharma",
+        "existingId": "mahabharata:seed:dharma",
+        "reason": "Both explicitly identify Dharma as the god of justice and describe his encounter with Yudhishthira through an assumed form.",
+        "evidenceKeys": [
+          "ev16_18"
+        ]
+      },
+      {
+        "localKey": "indra",
+        "existingId": "mahabharata:b0002:indra",
+        "reason": "CURRENT's celestial god appears alongside Dharma in judging a mortal's experience; existing evidence identifies Indra as king of the gods and an examiner alongside Dharma.",
+        "evidenceKeys": [
+          "ev16_21",
+          "ev16_22"
+        ]
+      },
+      {
+        "localKey": "sauti",
+        "existingId": "mahabharata:seed:ugrasrava-sauti",
+        "reason": "Existing evidence explicitly gives Ugrasrava the surname Sauti and establishes the same framing narration of the Bharata.",
+        "evidenceKeys": [
+          "ev17_01",
+          "ev17_04"
+        ]
+      },
+      {
+        "localKey": "dwaipayana",
+        "existingId": "mahabharata:seed:vyasa",
+        "reason": "Existing evidence explicitly identifies Dwaipayana Vyasa and attributes the Mahabharata's composition to him; CURRENT likewise attributes the Bharata to Dwaipayana.",
+        "evidenceKeys": [
+          "ev17_03"
+        ]
+      },
+      {
+        "localKey": "janamejaya",
+        "existingId": "mahabharata:seed:janamejaya-son-parikshit",
+        "reason": "Both explicitly identify the sacrificing king as Parikshit's son, distinguishing him from the son of Puru and the unspecified former ruler.",
+        "evidenceKeys": [
+          "ev17_04",
+          "ev17_07"
+        ]
+      },
+      {
+        "localKey": "sarama",
+        "existingId": "mahabharata:seed:sarama",
+        "reason": "Existing evidence repeats the same celestial bitch and offspring episode at Janamejaya's sacrifice.",
+        "evidenceKeys": [
+          "ev17_05",
+          "ev17_06"
+        ]
+      }
+    ],
+    "unresolved": [
+      "samvarta: No supplied existing candidate identifies Samvarta or corroborates his story with Marutta (ev16_01).",
+      "marutta: The existing Marutta is only identified in a list of former rulers; CURRENT supplies no role, parentage, or connection establishing that he is Samvarta's story companion (ev16_01).",
+      "arjuna_sacrificial_horse: No supplied existing candidate represents this specific sacrificial horse (ev16_03).",
+      "chitrangada: CURRENT identifies an appointed daughter of Manipura's chief and parent of Vabhruvahana by Arjuna; the existing Chitrangada is Santanu and Satyavati's son (ev16_04).",
+      "chief_of_manipura: No supplied existing candidate corroborates this unnamed parent of Chitrangada (ev16_04).",
+      "horse_sacrifice_mongoose: No supplied existing candidate represents this specific mongoose (ev16_05).",
+      "vrishni_cursing_brahmana: No supplied existing candidate can be identified as the Brahmana responsible for this curse (ev16_11).",
+      "vasudeva: CURRENT identifies Arjuna's maternal uncle; the existing Vasudeva references concern Krishna or the divine Pandava counsellor. This uncle's identity with those figures is not established (ev16_13, ev16_14).",
+      "celestial_messenger: No supplied existing candidate identifies the messenger who deceptively shows Yudhishthira hell (ev16_19).",
+      "yama: No supplied existing candidate identifies Yama, and the supplied passages do not explicitly equate him with Dharma (ev16_20, ev16_21).",
+      "srutasena: No supplied existing candidate corroborates this named brother of Janamejaya (ev17_04).",
+      "ugrasena: No supplied existing candidate corroborates this named brother of Janamejaya (ev17_04).",
+      "bhimasena_janamejaya_brother: His explicit sibling relationship with Janamejaya does not corroborate any existing Bhima or Bhimasena record; the Pandava alias alone cannot establish identity (ev17_04).",
+      "sarama_son: The existing Sarama record describes his mother, not a separate existing identity for this unnamed son (ev17_05, ev17_06).",
+      "srutasrava: No supplied existing candidate corroborates this Rishi and parent of Somasrava (ev17_07, ev17_08).",
+      "somasrava: No supplied existing candidate corroborates Srutasrava's son and Janamejaya's Purohita (ev17_07, ev17_08, ev17_10).",
+      "somasrava_snake_mother: No supplied existing candidate represents the she-snake who bore Somasrava (ev17_08).",
+      "mahadeva: CURRENT mentions offences against Mahadeva, while the existing record describes Arjuna's hunter opponent; no distinctive shared context establishes identity (ev17_09).",
+      "ayoda_dhaumya: CURRENT explicitly uses Dhaumya for Ayoda-Dhaumya, but does not connect this preceptor of Upamanyu, Aruni, and Veda with the existing adviser of Yudhishthira (ev18_01, ev18_02, ev18_03).",
+      "upamanyu: No supplied existing candidate corroborates Ayoda-Dhaumya's disciple and his blindness episode (ev18_06, ev18_07).",
+      "aruni: No supplied existing candidate corroborates Aruni of Panchala or his renaming as Uddalaka (ev18_02, ev18_04, ev18_05).",
+      "veda: CURRENT identifies a disciple of Ayoda-Dhaumya; the existing Veda record concerns a personified text, without evidence connecting these identities (ev18_01)."
+    ]
+  }
+}

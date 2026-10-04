@@ -1,0 +1,1422 @@
+{
+  "sourceHash": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+  "batchDigest": "39148bdd0fc776f1315b6801d5904a6b86558b34c6fd07085462a201a464a990",
+  "batchId": "b0008",
+  "pages": [
+    22,
+    23,
+    24,
+    25
+  ],
+  "reviewedAt": "2026-10-04T07:04:21.578Z",
+  "reviewer": "Codex extraction + omission + identity passes; not human review",
+  "extraction": {
+    "entities": [
+      {
+        "key": "utanka",
+        "name": "Utanka",
+        "kind": "human",
+        "description": "Brahmana who recovers the ear-rings, seeks vengeance on Takshaka, and approaches King Janamejaya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The narration refers to Utanka with 'himself'.",
+            "evidenceKeys": [
+              "e22_utanka"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e22_utanka",
+          "e22_janamejaya",
+          "e22_takshaka_returns"
+        ]
+      },
+      {
+        "key": "utanka_preceptor",
+        "name": "Utanka's unnamed preceptor",
+        "kind": "unknown",
+        "description": "Teacher whom Utanka consults after returning from his journey.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Utanka addresses his preceptor as 'Sir'.",
+            "evidenceKeys": [
+              "e22_preceptor_address"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e22_preceptor",
+          "e22_preceptor_address",
+          "e22_damsels"
+        ]
+      },
+      {
+        "key": "utanka_preceptress",
+        "name": "Utanka's unnamed preceptress",
+        "kind": "unknown",
+        "description": "Preceptress who considers cursing Utanka if he returns late.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Called a preceptress and referred to with 'her'.",
+            "evidenceKeys": [
+              "e22_preceptress"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e22_preceptress"
+        ]
+      },
+      {
+        "key": "takshaka",
+        "name": "Takshaka",
+        "kind": "animal",
+        "description": "King of serpents who obstructs Utanka, returns the ear-rings, and kills Janamejaya's father.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with 'his' and 'him'.",
+            "evidenceKeys": [
+              "e22_takshaka_returns"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e22_takshaka_returns",
+          "e22_takshaka_king",
+          "e22_father_death"
+        ]
+      },
+      {
+        "key": "dhata",
+        "name": "Dhata",
+        "kind": "unknown",
+        "description": "One of the two damsels seen by Utanka and identified by his preceptor.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Identified as one of two damsels.",
+            "evidenceKeys": [
+              "e22_damsels"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e22_damsels"
+        ]
+      },
+      {
+        "key": "vidhata",
+        "name": "Vidhata",
+        "kind": "unknown",
+        "description": "One of the two damsels seen by Utanka and identified by his preceptor.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Identified as one of two damsels.",
+            "evidenceKeys": [
+              "e22_damsels"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e22_damsels"
+        ]
+      },
+      {
+        "key": "parjanya",
+        "name": "Parjanya",
+        "kind": "deity",
+        "description": "Deity of rain identified as the man seen by Utanka.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly identified as the man.",
+            "evidenceKeys": [
+              "e22_rain_fire"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e22_rain_fire"
+        ]
+      },
+      {
+        "key": "agni",
+        "name": "Agni",
+        "kind": "deity",
+        "description": "God of fire identified as the horse seen by Utanka and later cursed by Bhrigu.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "god of fire",
+            "evidenceKeys": [
+              "e22_rain_fire"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called the god of fire; the horse identified as Agni is referred to with 'his'.",
+            "evidenceKeys": [
+              "e22_rain_fire",
+              "e22_horse_fire"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e22_rain_fire",
+          "e22_horse_fire",
+          "e24_agni_curse"
+        ]
+      },
+      {
+        "key": "airavata",
+        "name": "Airavata",
+        "kind": "animal",
+        "description": "King of elephants identified as the bull carrying Indra.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Identified as a bull and king of elephants.",
+            "evidenceKeys": [
+              "e22_airavata_indra"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e22_airavata_indra"
+        ]
+      },
+      {
+        "key": "indra",
+        "name": "Indra",
+        "kind": "unknown",
+        "description": "Man identified as Airavata's rider and named alongside the gods as revering Bhrigu.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Identified as the man mounted on Airavata.",
+            "evidenceKeys": [
+              "e22_airavata_indra"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e22_airavata_indra",
+          "e23_lineage_address"
+        ]
+      },
+      {
+        "key": "janamejaya",
+        "name": "Janamejaya",
+        "kind": "human",
+        "description": "King approached by Utanka and urged to avenge his father's death.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called king and prince, with masculine possessive pronouns.",
+            "evidenceKeys": [
+              "e22_janamejaya",
+              "e23_janamejaya_grief"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e22_janamejaya",
+          "e22_father_death",
+          "e23_janamejaya_grief"
+        ]
+      },
+      {
+        "key": "janamejaya_father",
+        "name": "Janamejaya's unnamed father",
+        "kind": "human",
+        "description": "Royal father of Janamejaya, killed by Takshaka's bite.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called Janamejaya's father.",
+            "evidenceKeys": [
+              "e22_father_death",
+              "e22_father_king"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e22_father_death",
+          "e22_father_king"
+        ]
+      },
+      {
+        "key": "kasyapa",
+        "name": "Kasyapa",
+        "kind": "unknown",
+        "description": "Prince of physicians who was coming to aid Janamejaya's father when Takshaka caused him to turn back.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called the prince of physicians.",
+            "evidenceKeys": [
+              "e22_kasyapa"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e22_kasyapa"
+        ]
+      },
+      {
+        "key": "ugrasrava_sauti",
+        "name": "Ugrasrava Sauti",
+        "kind": "unknown",
+        "description": "Framing narrator, son of Lomaharshana, versed in the Puranas and present at Saunaka's twelve-year sacrifice.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Sauti",
+            "evidenceKeys": [
+              "e22_sauti",
+              "e23_sauti_identity"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called Lomaharshana's son.",
+            "evidenceKeys": [
+              "e23_sauti_identity"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e22_sauti",
+          "e23_sauti_identity"
+        ]
+      },
+      {
+        "key": "lomaharshana",
+        "name": "Lomaharshana",
+        "kind": "unknown",
+        "description": "Sauti's father, who read the Puranas and Bharata with Krishna-Dwaipayana.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Suta",
+            "evidenceKeys": [
+              "e23_sauti_identity",
+              "e23_lomaharshana_krishna",
+              "e23_suta"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly identified as Sauti's father.",
+            "evidenceKeys": [
+              "e23_lomaharshana_krishna"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e23_sauti_identity",
+          "e23_lomaharshana_krishna",
+          "e23_suta"
+        ]
+      },
+      {
+        "key": "saunaka",
+        "name": "Saunaka",
+        "kind": "sage",
+        "description": "Sage at whose twelve-year sacrifice Sauti is present; surnamed Kulapati and addressed as a descendant of the Bhrigu race.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Kulapati",
+            "evidenceKeys": [
+              "e23_sauti_identity"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with 'He'.",
+            "evidenceKeys": [
+              "e23_saunaka"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e23_sauti_identity",
+          "e23_saunaka",
+          "e23_lineage_address"
+        ]
+      },
+      {
+        "key": "krishna_dwaipayana",
+        "name": "Krishna-Dwaipayana",
+        "kind": "unknown",
+        "description": "Figure with whom Lomaharshana read the Puranas and Bharata.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23_lomaharshana_krishna"
+        ]
+      },
+      {
+        "key": "vaisampayana",
+        "name": "Vaisampayana",
+        "kind": "human",
+        "description": "One of the high-souled Brahmanas whose studied and repeated material Sauti acquired.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23_vaisampayana"
+        ]
+      },
+      {
+        "key": "bhrigu",
+        "name": "Bhrigu",
+        "kind": "sage",
+        "description": "Saint produced by Brahma from sacrificial fire, husband of Puloma and father of Chyavana.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with 'he' in the account of his son Chyavana.",
+            "evidenceKeys": [
+              "e23_chyavana_pramati"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e23_bhrigu_origin",
+          "e23_chyavana_pramati",
+          "e23_puloma_pregnancy"
+        ]
+      },
+      {
+        "key": "brahma",
+        "name": "Brahma",
+        "kind": "deity",
+        "description": "Self-existing creator of the universe who produces Bhrigu from sacrificial fire and is identified as Bhrigu's father.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Grandfather of all",
+            "evidenceKeys": [
+              "e24_brahma_father"
+            ]
+          },
+          {
+            "label": "Grandfather of the worlds",
+            "evidenceKeys": [
+              "e24_vadhusara"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called Grandfather and referred to as having a son.",
+            "evidenceKeys": [
+              "e24_brahma_father"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e23_bhrigu_origin",
+          "e24_brahma_father",
+          "e25_brahma_creator"
+        ]
+      },
+      {
+        "key": "varuna",
+        "name": "Varuna",
+        "kind": "unknown",
+        "description": "Named figure associated with the sacrifice at which Bhrigu was produced.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23_bhrigu_origin"
+        ]
+      },
+      {
+        "key": "chyavana",
+        "name": "Chyavana",
+        "kind": "sage",
+        "description": "Son of Bhrigu and Puloma, possessing great ascetic power; born by dropping from his mother's womb and father of Pramati.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e24_pauloma_mother",
+              "e25_sukanya_pramati"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e23_puloma_pregnancy",
+          "e24_chyavana_birth",
+          "e24_pauloma_mother",
+          "e24_chyavana_ascetic",
+          "e25_sukanya_pramati"
+        ]
+      },
+      {
+        "key": "pramati",
+        "name": "Pramati",
+        "kind": "unknown",
+        "description": "Virtuous son of Chyavana and Sukanya, and father of Ruru by Ghritachi.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e23_chyavana_pramati",
+              "e25_sukanya_pramati"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e23_chyavana_pramati",
+          "e25_sukanya_pramati",
+          "e25_ruru_sunaka"
+        ]
+      },
+      {
+        "key": "ghritachi",
+        "name": "Ghritachi",
+        "kind": "other",
+        "description": "Celestial dancer in whose womb Ruru was begotten by Pramati.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Ruru is begotten in her womb.",
+            "evidenceKeys": [
+              "e25_ruru_sunaka"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e23_ghritachi",
+          "e25_ruru_sunaka"
+        ]
+      },
+      {
+        "key": "ruru",
+        "name": "Ruru",
+        "kind": "unknown",
+        "description": "Son of Pramati and Ghritachi, husband of Pramadvara and father of Sunaka.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e25_ruru_sunaka"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e23_ghritachi",
+          "e23_sunaka",
+          "e25_ruru_sunaka"
+        ]
+      },
+      {
+        "key": "pramadvara",
+        "name": "Pramadvara",
+        "kind": "unknown",
+        "description": "Female child born to Menaka, reared and named by Sthulakesa; wife of Ruru and mother of Sunaka.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Identified as a female child, referred to with 'she', and called Ruru's wife.",
+            "evidenceKeys": [
+              "e25_sthulakesa_finds",
+              "e25_pramadvara_named",
+              "e25_ruru_sunaka"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25_menaka_birth",
+          "e25_menaka_abandon",
+          "e25_sthulakesa_finds",
+          "e25_sthulakesa_rears",
+          "e25_pramadvara_named",
+          "e25_ruru_sunaka"
+        ]
+      },
+      {
+        "key": "sunaka",
+        "name": "Sunaka",
+        "kind": "unknown",
+        "description": "Son of Ruru and Pramadvara, devoted to asceticism and called Saunaka's great ancestor.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son and referred to with 'He'.",
+            "evidenceKeys": [
+              "e23_sunaka",
+              "e23_sunaka_ancestor"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e23_sunaka",
+          "e23_sunaka_ancestor",
+          "e25_ruru_sunaka"
+        ]
+      },
+      {
+        "key": "puloma_wife",
+        "name": "Puloma, Bhrigu's wife",
+        "kind": "unknown",
+        "description": "Bhrigu's pregnant wife, abducted by the Rakshasa Puloma, and mother of Chyavana.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Pauloma",
+            "evidenceKeys": [
+              "e24_pauloma_mother"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Called Bhrigu's wife, described as pregnant, and referred to with 'She'.",
+            "evidenceKeys": [
+              "e23_puloma_pregnancy"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e23_puloma_pregnancy",
+          "e24_puloma_abduction",
+          "e24_chyavana_birth",
+          "e24_pauloma_mother"
+        ]
+      },
+      {
+        "key": "puloma_rakshasa",
+        "name": "Puloma, the Rakshasa",
+        "kind": "demon",
+        "description": "Rakshasa who claims Bhrigu's wife as his own and abducts her in the form of a boar.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Pauloma",
+            "evidenceKeys": [
+              "e25_pauloma_rakshasa"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The Rakshasa is referred to with 'he'.",
+            "evidenceKeys": [
+              "e23_puloma_rakshasa"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e23_puloma_rakshasa",
+          "e24_claimed_wife",
+          "e24_puloma_abduction",
+          "e25_pauloma_rakshasa"
+        ]
+      },
+      {
+        "key": "puloma_father",
+        "name": "Puloma's unnamed father",
+        "kind": "unknown",
+        "description": "Father of Bhrigu's wife Puloma, who bestowed her on Bhrigu.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called her father.",
+            "evidenceKeys": [
+              "e24_rejected_claim"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e24_claimed_wife",
+          "e24_rejected_claim"
+        ]
+      },
+      {
+        "key": "vadhusara",
+        "name": "Vadhusara",
+        "kind": "other",
+        "description": "Named river formed from Puloma's tears, which follows her footsteps.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e24_pauloma_mother",
+          "e24_tear_river",
+          "e24_vadhusara"
+        ]
+      },
+      {
+        "key": "sukanya",
+        "name": "Sukanya",
+        "kind": "unknown",
+        "description": "Chyavana's wife, in whose womb Pramati was begotten.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Called Chyavana's wife and described as bearing the child in her womb.",
+            "evidenceKeys": [
+              "e25_sukanya_pramati"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25_sukanya_pramati"
+        ]
+      },
+      {
+        "key": "sthulakesa",
+        "name": "Sthulakesa",
+        "kind": "sage",
+        "description": "Rishi who finds, rears, and names the abandoned child Pramadvara.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with 'he' after being named.",
+            "evidenceKeys": [
+              "e25_sthulakesa_finds"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25_sthulakesa",
+          "e25_sthulakesa_finds",
+          "e25_sthulakesa_rears",
+          "e25_pramadvara_named"
+        ]
+      },
+      {
+        "key": "viswavasu",
+        "name": "Viswavasu",
+        "kind": "other",
+        "description": "King of the Gandharvas who has intimacy with Menaka.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called King of the Gandharvas.",
+            "evidenceKeys": [
+              "e25_viswavasu_menaka"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25_viswavasu_menaka"
+        ]
+      },
+      {
+        "key": "menaka",
+        "name": "Menaka",
+        "kind": "other",
+        "description": "Apsara and celestial dancing-girl who gives birth to and abandons the infant later named Pramadvara.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Called a dancing-girl and described as giving birth.",
+            "evidenceKeys": [
+              "e25_viswavasu_menaka",
+              "e25_menaka_birth"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e25_viswavasu_menaka",
+          "e25_menaka_birth",
+          "e25_menaka_abandon",
+          "e25_sthulakesa_finds",
+          "e25_pramadvara_named"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromKey": "janamejaya_father",
+        "toKey": "janamejaya",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e22_janamejaya",
+          "e22_father_death",
+          "e22_father_king"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "lomaharshana",
+        "toKey": "ugrasrava_sauti",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e23_sauti_identity",
+          "e23_lomaharshana_krishna"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "brahma",
+        "toKey": "bhrigu",
+        "type": "parent_of",
+        "parenthood": "divine",
+        "evidenceKeys": [
+          "e23_bhrigu_origin",
+          "e24_pauloma_mother",
+          "e24_brahma_father"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "bhrigu",
+        "toKey": "chyavana",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e23_puloma_pregnancy",
+          "e24_chyavana_birth",
+          "e24_pauloma_mother"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "puloma_wife",
+        "toKey": "chyavana",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e24_chyavana_birth",
+          "e24_pauloma_mother"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "bhrigu",
+        "toKey": "puloma_wife",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e23_puloma_pregnancy",
+          "e24_marriage"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "puloma_rakshasa",
+        "toKey": "puloma_wife",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e24_claimed_wife",
+          "e24_rejected_claim",
+          "e24_marriage"
+        ],
+        "status": "disputed"
+      },
+      {
+        "fromKey": "puloma_father",
+        "toKey": "puloma_wife",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e24_claimed_wife",
+          "e24_rejected_claim"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "chyavana",
+        "toKey": "sukanya",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e25_sukanya_pramati"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "chyavana",
+        "toKey": "pramati",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e25_sukanya_pramati"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "sukanya",
+        "toKey": "pramati",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e25_sukanya_pramati"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "pramati",
+        "toKey": "ruru",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e25_ruru_sunaka"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "ghritachi",
+        "toKey": "ruru",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e25_ruru_sunaka"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "ruru",
+        "toKey": "pramadvara",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e23_sunaka",
+          "e25_ruru_sunaka"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "ruru",
+        "toKey": "sunaka",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e25_ruru_sunaka"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "pramadvara",
+        "toKey": "sunaka",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e25_ruru_sunaka"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "menaka",
+        "toKey": "pramadvara",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e25_menaka_birth",
+          "e25_menaka_abandon",
+          "e25_sthulakesa_finds",
+          "e25_sthulakesa_rears",
+          "e25_pramadvara_named"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "viswavasu",
+        "toKey": "pramadvara",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e25_viswavasu_menaka",
+          "e25_menaka_birth",
+          "e25_sthulakesa_finds",
+          "e25_pramadvara_named"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "sthulakesa",
+        "toKey": "pramadvara",
+        "type": "parent_of",
+        "parenthood": "social",
+        "evidenceKeys": [
+          "e25_sthulakesa_finds",
+          "e25_sthulakesa_rears",
+          "e25_pramadvara_named"
+        ],
+        "status": "supported"
+      }
+    ],
+    "evidence": [
+      {
+        "key": "e22_utanka",
+        "page": 22,
+        "excerpt": "And Utanka, having obtained his master's leave, moved by anger and resolved to avenge himself on Takshaka, proceeded towards Hastinapura. That excellent Brahmana soon reached Hastinapura."
+      },
+      {
+        "key": "e22_preceptor",
+        "page": 22,
+        "excerpt": "Then Utanka waited on his preceptor. And his preceptor said, 'Thou art welcome! What hath occasioned thy long absence?'"
+      },
+      {
+        "key": "e22_preceptor_address",
+        "page": 22,
+        "excerpt": "And Utanka replied to his preceptor, 'Sir, in the execution of this my business obstruction was offered by Takshaka, the King of serpents."
+      },
+      {
+        "key": "e22_preceptress",
+        "page": 22,
+        "excerpt": "And his preceptress that morning after having bathed was dressing her hair sitting, thinking of uttering a curse on Utanka if he should not return within time."
+      },
+      {
+        "key": "e22_takshaka_returns",
+        "page": 22,
+        "excerpt": "And Takshaka, surprised beyond measure and terrified by the heat of the fire, hastily came out of his abode taking the ear-rings with him, and said unto Utanka, 'Pray, Sir, take back the ear-rings.'"
+      },
+      {
+        "key": "e22_takshaka_king",
+        "page": 22,
+        "excerpt": "Sir, in the execution of this my business obstruction was offered by Takshaka, the King of serpents."
+      },
+      {
+        "key": "e22_damsels",
+        "page": 22,
+        "excerpt": "And his preceptor thus addressed said unto him, 'The two damsels thou hast seen are Dhata and Vidhata;"
+      },
+      {
+        "key": "e22_rain_fire",
+        "page": 22,
+        "excerpt": "The man is Parjanya, the deity of rain, and the horse is Agni, the god of fire."
+      },
+      {
+        "key": "e22_horse_fire",
+        "page": 22,
+        "excerpt": "And from the horse thus blown into, there issued, from every aperture of his body, flames of fire with smoke by which the region of the Nagas was about to be consumed."
+      },
+      {
+        "key": "e22_airavata_indra",
+        "page": 22,
+        "excerpt": "The bull that thou hast seen on the road is Airavata, the king of elephants; the man mounted thereon is Indra;"
+      },
+      {
+        "key": "e22_janamejaya",
+        "page": 22,
+        "excerpt": "And Utanka then waited upon King Janamejaya who had some time before returned victorious from Takshashila."
+      },
+      {
+        "key": "e22_sauti",
+        "page": 22,
+        "excerpt": "Sauti said, 'The monarch Janamejaya, thus addressed, saluting that excellent Brahmana replied unto him,"
+      },
+      {
+        "key": "e22_father_death",
+        "page": 22,
+        "excerpt": "Thy father was deprived of life by Takshaka; therefore do thou avenge thy father's death on that vile serpent."
+      },
+      {
+        "key": "e22_father_king",
+        "page": 22,
+        "excerpt": "The wicked Takshaka, vilest of the serpent race, intoxicated with power committed an unnecessary act when he bit the King, that god-like father, the protector of the race of royal saints."
+      },
+      {
+        "key": "e22_kasyapa",
+        "page": 22,
+        "excerpt": "Wicked in his deeds, he even caused Kasyapa (the prince of physicians) to run back when he was coming for the relief of thy father."
+      },
+      {
+        "key": "e23_janamejaya_grief",
+        "page": 23,
+        "excerpt": "Moved by grief also, in the presence of Utanka, the prince asked his ministers the particulars of his father's journey to the regions of the blessed."
+      },
+      {
+        "key": "e23_sauti_identity",
+        "page": 23,
+        "excerpt": "UGRASRAVA SAUTI, the son of Lomaharshana, versed in the Puranas, while present in the forest of Naimisha, at the twelve years' sacrifice of Saunaka, surnamed Kulapati, stood before the Rishis in attendance."
+      },
+      {
+        "key": "e23_saunaka",
+        "page": 23,
+        "excerpt": "Saunaka, our revered master, is at present attending the apartment of the holy fire. He is acquainted with those divine stories which relate to the gods and asuras."
+      },
+      {
+        "key": "e23_lomaharshana_krishna",
+        "page": 23,
+        "excerpt": "Saunaka said, 'Child, thy father formerly read the whole of the Puranas, O son of Lomaharshana, and the Bharata with Krishna-Dwaipayana."
+      },
+      {
+        "key": "e23_vaisampayana",
+        "page": 23,
+        "excerpt": "By me hath been acquired all that was formerly studied by the high-souled Brahmanas including Vaisampayana and repeated by them; by me hath been acquired all that had been studied by my father."
+      },
+      {
+        "key": "e23_lineage_address",
+        "page": 23,
+        "excerpt": "O descendant of the Bhrigu race, attend then to so much as relateth to the exalted race of Bhrigu, revered by Indra and all the gods, by the tribes of Rishis and Maruts (Winds). O great Muni, I shall first properly recount the story of this family, as told in the Puranas."
+      },
+      {
+        "key": "e23_bhrigu_origin",
+        "page": 23,
+        "excerpt": "The great and blessed saint Bhrigu, we are informed, was produced by the self-existing Brahma from the fire at the sacrifice of Varuna."
+      },
+      {
+        "key": "e23_chyavana_pramati",
+        "page": 23,
+        "excerpt": "And Bhrigu had a son, named Chyavana, whom he dearly loved. And to Chyavana was born a virtuous son called Pramati."
+      },
+      {
+        "key": "e23_ghritachi",
+        "page": 23,
+        "excerpt": "And Pramati had a son named Ruru by Ghritachi (the celestial dancer)."
+      },
+      {
+        "key": "e23_sunaka",
+        "page": 23,
+        "excerpt": "And to Ruru also by his wife Pramadvara, was born a son, whose name was Sunaka."
+      },
+      {
+        "key": "e23_sunaka_ancestor",
+        "page": 23,
+        "excerpt": "He was, O Saunaka, thy great ancestor exceedingly virtuous in his ways. He was devoted to asceticism, of great reputation, proficient in law, and eminent among those having a knowledge of the Vedas."
+      },
+      {
+        "key": "e23_suta",
+        "page": 23,
+        "excerpt": "Saunaka said, 'O son of Suta, I ask thee why the illustrious son of Bhrigu was named Chyavana. Do tell me all.'"
+      },
+      {
+        "key": "e23_puloma_pregnancy",
+        "page": 23,
+        "excerpt": "Bhrigu had a wife named Puloma whom he dearly loved. She became big with child by Bhrigu."
+      },
+      {
+        "key": "e23_puloma_rakshasa",
+        "page": 23,
+        "excerpt": "It was then that the Rakshasa called Puloma came to Bhrigu's abode. And entering the Rishi's abode, the Rakshasa saw the wife of Bhrigu, irreproachable in everything. And seeing her he became filled with lust and lost his senses."
+      },
+      {
+        "key": "e24_claimed_wife",
+        "page": 24,
+        "excerpt": "This lady of superior complexion had been first accepted by me as wife, but her father subsequently bestowed her on the false Bhrigu."
+      },
+      {
+        "key": "e24_rejected_claim",
+        "page": 24,
+        "excerpt": "This Puloma was, indeed, first chosen by thee, O Rakshasa, but she was not taken by thee with holy rites and invocations. But this far-famed lady was bestowed by her father on Bhrigu as a gift from desire of blessing."
+      },
+      {
+        "key": "e24_marriage",
+        "page": 24,
+        "excerpt": "She was not bestowed on thee O Rakshasa, this lady was duly made by the Rishi Bhrigu his wife with Vedic rites in my presence."
+      },
+      {
+        "key": "e24_puloma_abduction",
+        "page": 24,
+        "excerpt": "the Rakshasa assumed the form of a boar, and seizing the lady carried her away with the speed of the wind--even of thought."
+      },
+      {
+        "key": "e24_chyavana_birth",
+        "page": 24,
+        "excerpt": "Then the child of Bhrigu lying in her body enraged at such violence, dropped from his mother's womb, for which he obtained the name of Chyavana."
+      },
+      {
+        "key": "e24_pauloma_mother",
+        "page": 24,
+        "excerpt": "And the beautiful Pauloma, distracted with grief, O Brahmana of the Bhrigu race, took up her offspring Chyavana, the son of Bhrigu and walked away."
+      },
+      {
+        "key": "e24_brahma_father",
+        "page": 24,
+        "excerpt": "And Brahma, the Grandfather of all, himself saw her, the faultless wife of his son, weeping."
+      },
+      {
+        "key": "e24_tear_river",
+        "page": 24,
+        "excerpt": "And the drops of tears which rolled down her eyes formed a great river. And that river began to follow the foot-steps of the wife of the great ascetic Bhrigu."
+      },
+      {
+        "key": "e24_vadhusara",
+        "page": 24,
+        "excerpt": "And the Grandfather of the worlds seeing that river follow the path of his son's wife gave it a name himself, and he called it Vadhusara."
+      },
+      {
+        "key": "e24_chyavana_ascetic",
+        "page": 24,
+        "excerpt": "And it passeth by the hermitage of Chyavana. And in this manner was born Chyavana of great ascetic power, the son of Bhrigu."
+      },
+      {
+        "key": "e24_agni_curse",
+        "page": 24,
+        "excerpt": "Bhrigu, upon hearing this account from Pauloma, became exceedingly enraged. And in excess of passion the Rishi cursed Agni, saying, 'Thou shalt eat of all things.'"
+      },
+      {
+        "key": "e25_brahma_creator",
+        "page": 25,
+        "excerpt": "And the creator of the universe hearing these words of theirs summoned Agni to his presence. And Brahma addressed Agni, the creator of all and eternal as himself, in these gentle words,"
+      },
+      {
+        "key": "e25_pauloma_rakshasa",
+        "page": 25,
+        "excerpt": "And such is the ancient history connected with the destruction of the Rakshasa, Pauloma and the birth of Chyavana."
+      },
+      {
+        "key": "e25_sukanya_pramati",
+        "page": 25,
+        "excerpt": "Chyavana, the son of Bhrigu, begot a son in the womb of his wife Sukanya. And that son was the illustrious Pramati of resplendent energy."
+      },
+      {
+        "key": "e25_ruru_sunaka",
+        "page": 25,
+        "excerpt": "And Pramati begot in the womb of Ghritachi a son called Ruru. And Ruru begot on his wife Pramadvara a son called Sunaka."
+      },
+      {
+        "key": "e25_sthulakesa",
+        "page": 25,
+        "excerpt": "Formerly there was a great Rishi called Sthulakesa possessed of ascetic power and learning and kindly disposed towards all creatures."
+      },
+      {
+        "key": "e25_viswavasu_menaka",
+        "page": 25,
+        "excerpt": "At that time, O Brahmana sage, Viswavasu, the King of the Gandharvas, it is said, had intimacy with Menaka, the celestial dancing-girl."
+      },
+      {
+        "key": "e25_menaka_birth",
+        "page": 25,
+        "excerpt": "And the Apsara, Menaka, O thou of the Bhrigu race, when her time was come, brought forth an infant near the hermitage of Sthulakesa."
+      },
+      {
+        "key": "e25_menaka_abandon",
+        "page": 25,
+        "excerpt": "And dropping the newborn infant on the banks of the river, O Brahmana, Menaka, the Apsara, being destitute of pity and shame, went away."
+      },
+      {
+        "key": "e25_sthulakesa_finds",
+        "page": 25,
+        "excerpt": "And the Rishi, Sthulakesa, of great ascetic power, discovered the infant lying forsaken in a lonely part of the river-side. And he perceived that it was a female child,"
+      },
+      {
+        "key": "e25_sthulakesa_rears",
+        "page": 25,
+        "excerpt": "And the great Brahmana, Sthulakesa, the first of Munis, seeing that female child, and filled with compassion, took it up and reared it."
+      },
+      {
+        "key": "e25_pramadvara_named",
+        "page": 25,
+        "excerpt": "And because she surpassed all of her sex in goodness, beauty, and every quality, the great Rishi called her by the name of Pramadvara."
+      }
+    ],
+    "unresolved": [
+      "PDF page 23 calls Sunaka Saunaka's great ancestor: \"He was, O Saunaka, thy great ancestor exceedingly virtuous in his ways.\" This does not establish direct parenthood or identify intervening generations; Sunaka and Saunaka remain distinct.",
+      "PDF page 23 addresses Saunaka as \"O descendant of the Bhrigu race\" (e23_lineage_address). No direct parent_of relationship between Bhrigu and Saunaka is stated.",
+      "Viswavasu's biological paternity of Pramadvara is implied by the narrative sequence rather than directly stated: PDF page 25 says he \"had intimacy with Menaka\" and then describes Menaka giving birth (e25_viswavasu_menaka, e25_menaka_birth). The parent_of claim remains provisional.",
+      "Utanka's preceptor and preceptress are individually identifiable, but this batch does not explicitly establish that they are spouses. The preceptress's address \"Welcome, my child\" on PDF page 22 does not establish parenthood.",
+      "The Rakshasa Puloma claims Bhrigu's wife as his wife on PDF page 24 (e24_claimed_wife), but Agni distinguishes his prior choice from Bhrigu's marriage with Vedic rites (e24_rejected_claim, e24_marriage). The claimed spouse_of relationship remains disputed."
+    ]
+  },
+  "reconciliation": {
+    "matches": [
+      {
+        "localKey": "utanka",
+        "existingId": "mahabharata:b0004:utanka",
+        "reason": "Both are the disciple whose preceptress requests ear-rings and whose recovery of them involves Takshaka and the serpent region.",
+        "evidenceKeys": [
+          "e22_utanka",
+          "e22_preceptress",
+          "e22_preceptor_address",
+          "e22_takshaka_returns"
+        ]
+      },
+      {
+        "localKey": "takshaka",
+        "existingId": "mahabharata:b0007:takshaka",
+        "reason": "Both are the serpent king who takes Utanka's ear-rings into the serpent region; the current passage continues that episode with their return.",
+        "evidenceKeys": [
+          "e22_takshaka_returns",
+          "e22_takshaka_king",
+          "e22_preceptor_address"
+        ]
+      },
+      {
+        "localKey": "agni",
+        "existingId": "mahabharata:b0007:agni",
+        "reason": "Both are explicitly the god of fire in the form of Utanka's horse. The description of flames issuing from the horse's body is identical.",
+        "evidenceKeys": [
+          "e22_rain_fire",
+          "e22_horse_fire"
+        ]
+      },
+      {
+        "localKey": "indra",
+        "existingId": "mahabharata:b0007:indra",
+        "reason": "Both occur as Indra in Utanka's ear-rings journey involving the serpent region. The existing passage describes his assistance with Vajra; the current identifies Utanka's roadside encounter with him riding Airavata.",
+        "evidenceKeys": [
+          "e22_airavata_indra",
+          "e22_preceptor_address",
+          "e22_takshaka_returns"
+        ]
+      },
+      {
+        "localKey": "janamejaya",
+        "existingId": "mahabharata:seed:janamejaya-son-parikshit",
+        "reason": "The current king has returned victorious from Takshashila, directly continuing the existing passage in which this Janamejaya marches against Takshyashila and brings it under his authority.",
+        "evidenceKeys": [
+          "e22_janamejaya"
+        ]
+      },
+      {
+        "localKey": "ugrasrava_sauti",
+        "existingId": "mahabharata:seed:ugrasrava-sauti",
+        "reason": "Both are the narrator Ugrasrava, called Sauti, explicitly identified as Lomaharshana's son and versed in the Puranas.",
+        "evidenceKeys": [
+          "e23_sauti_identity",
+          "e22_sauti"
+        ]
+      },
+      {
+        "localKey": "lomaharshana",
+        "existingId": "mahabharata:seed:lomaharshana",
+        "reason": "Both are explicitly the father of the framing narrator Ugrasrava Sauti.",
+        "evidenceKeys": [
+          "e23_sauti_identity",
+          "e23_lomaharshana_krishna"
+        ]
+      },
+      {
+        "localKey": "saunaka",
+        "existingId": "mahabharata:seed:saunaka",
+        "reason": "Both host the twelve-year sacrifice in Naimisha and are explicitly surnamed Kulapati.",
+        "evidenceKeys": [
+          "e23_sauti_identity"
+        ]
+      },
+      {
+        "localKey": "krishna_dwaipayana",
+        "existingId": "mahabharata:seed:vyasa",
+        "reason": "The supplied existing evidence explicitly identifies Krishna-Dwaipayana as Vyasa; the current passage places Krishna-Dwaipayana in the transmission of the Puranas and Bharata.",
+        "evidenceKeys": [
+          "e23_lomaharshana_krishna"
+        ]
+      },
+      {
+        "localKey": "vaisampayana",
+        "existingId": "mahabharata:b0001:vaisampayana",
+        "reason": "Both are the Brahmana transmitter named in Sauti's account of the material studied and repeated in the Bharata framing narrative.",
+        "evidenceKeys": [
+          "e23_vaisampayana",
+          "e23_sauti_identity",
+          "e23_lomaharshana_krishna"
+        ]
+      },
+      {
+        "localKey": "bhrigu",
+        "existingId": "mahabharata:b0005:bhrigu",
+        "reason": "Both are explicitly Chyavana's father, corroborated by the shared Chyavana and Sukanya story context.",
+        "evidenceKeys": [
+          "e23_chyavana_pramati",
+          "e25_sukanya_pramati"
+        ]
+      },
+      {
+        "localKey": "chyavana",
+        "existingId": "mahabharata:b0005:chyavana",
+        "reason": "Both are explicitly Bhrigu's son and occur in the Sukanya story; the current passage identifies Sukanya as his wife.",
+        "evidenceKeys": [
+          "e23_chyavana_pramati",
+          "e25_sukanya_pramati"
+        ]
+      }
+    ],
+    "unresolved": [
+      "utanka_preceptor: No supplied candidate represents this teacher. Existing evidence mentions Veda as a teacher, but this batch does not explicitly name Utanka's preceptor Veda.",
+      "utanka_preceptress: No supplied candidate represents the woman who requests and receives Utanka's ear-rings.",
+      "dhata: No supplied candidate represents this named damsel.",
+      "vidhata: No supplied candidate represents this named damsel.",
+      "parjanya: PDF page 22 explicitly identifies the man accompanying the horse as Parjanya (e22_rain_fire). mahabharata:b0002:indra includes that same man-with-horse episode under Indra, creating a naming conflict. The current passage separately identifies the roadside rider as Indra (e22_airavata_indra) and does not equate Parjanya with Indra; no match is made.",
+      "airavata: The current Airavata is explicitly the king of elephants appearing as a bull (e22_airavata_indra). mahabharata:b0007:airavata_serpent_king is a serpent king and Dhritarashtra's brother. The supplied text does not establish their identity.",
+      "janamejaya_father: No supplied candidate represents this father. Existing evidence names Parikshit as the matched Janamejaya's father, but no Parikshit entity ID is available among the candidates.",
+      "kasyapa: No supplied candidate represents the physician diverted by Takshaka.",
+      "brahma: The current creator and Grandfather is explicitly Bhrigu's father (e23_bhrigu_origin, e24_brahma_father, e25_brahma_creator). None of the several supplied Brahma candidates shares that distinctive context, and this batch does not establish identity with Isana, Pitamaha Brahma, the true-light being, Vyasa's visitor, or the possessor of the regions mentioned by Narada.",
+      "varuna: mahabharata:b0005:varuna is identified through Vandi's parentage. The current Varuna is associated only with the sacrifice at Bhrigu's production (e23_bhrigu_origin); name equality provides no sufficient identity bridge.",
+      "pramati: No supplied candidate represents Chyavana and Sukanya's son.",
+      "ghritachi: No supplied candidate represents the celestial dancer who bears Ruru.",
+      "ruru: No supplied candidate represents Pramati and Ghritachi's son.",
+      "pramadvara: No supplied candidate represents Ruru's wife, the child reared by Sthulakesa.",
+      "sunaka: No supplied candidate represents Ruru and Pramadvara's son. PDF page 23 calls him Saunaka's great ancestor (e23_sunaka_ancestor), establishing that he remains distinct from the matched Saunaka.",
+      "puloma_wife: No supplied candidate represents Bhrigu's wife Puloma, also called Pauloma. She remains distinct from the Rakshasa of the same name.",
+      "puloma_rakshasa: No supplied candidate represents the Rakshasa Puloma, also called Pauloma. He remains distinct from Bhrigu's wife.",
+      "puloma_father: No supplied candidate represents the unnamed father who bestows Puloma on Bhrigu.",
+      "vadhusara: No supplied candidate represents the river formed from Puloma's tears.",
+      "sukanya: Existing evidence mentions Su-kanya in Chyavana's story, but the supplied candidate list contains no Sukanya entity ID.",
+      "sthulakesa: No supplied candidate represents the sage who finds, rears, and names Pramadvara.",
+      "viswavasu: No supplied candidate represents the Gandharva king associated with Menaka.",
+      "menaka: No supplied candidate represents the Apsara who gives birth to and abandons Pramadvara."
+    ]
+  }
+}

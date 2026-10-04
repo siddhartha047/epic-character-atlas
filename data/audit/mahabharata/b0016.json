@@ -1,0 +1,1824 @@
+{
+  "sourceHash": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+  "batchDigest": "77b9686d3b3b1624f2b0ddfca1cc5bfd5e597b39ce91848c23e3a464770e1f6d",
+  "batchId": "b0016",
+  "pages": [
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "reviewedAt": "2026-10-04T09:26:06.353Z",
+  "reviewer": "Codex extraction + omission + identity passes; not human review",
+  "extraction": {
+    "entities": [
+      {
+        "key": "jaratkaru_rishi",
+        "name": "Jaratkaru",
+        "kind": "sage",
+        "description": "Ascetic husband of Jaratkaru and father of Astika, who leaves to resume severe penances.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Identified as a husband and father.",
+            "evidenceKeys": [
+              "e52_08",
+              "e52_12"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e52_01",
+          "e52_03",
+          "e52_06",
+          "e52_08",
+          "e52_12"
+        ]
+      },
+      {
+        "key": "jaratkaru_wife",
+        "name": "Jaratkaru",
+        "kind": "animal",
+        "description": "Daughter of the snake race, wife of the ascetic Jaratkaru, sister of Vasuki, and mother of Astika.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Called a wife, daughter, and sister; conceives and gives birth.",
+            "evidenceKeys": [
+              "e52_01",
+              "e52_02",
+              "e52_07",
+              "e52_09",
+              "e52_10"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e52_01",
+          "e52_02",
+          "e52_06",
+          "e52_07",
+          "e52_08",
+          "e52_09",
+          "e52_10",
+          "e52_12"
+        ]
+      },
+      {
+        "key": "agni",
+        "name": "Agni",
+        "kind": "unknown",
+        "description": "Figure compared with the conceived child and called the eater of sacrificial butter.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The comparison refers to Agni as 'himself'.",
+            "evidenceKeys": [
+              "e52_02"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e52_02",
+          "e55_02"
+        ]
+      },
+      {
+        "key": "sauti",
+        "name": "Sauti",
+        "kind": "human",
+        "description": "Framing narrator who answers Saunaka and is addressed as son of Suta.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Addressed as son of Suta.",
+            "evidenceKeys": [
+              "e55_07",
+              "e55_08"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e52_04",
+          "e52_15",
+          "e55_07",
+          "e55_08"
+        ]
+      },
+      {
+        "key": "vasuki",
+        "name": "Vasuki",
+        "kind": "animal",
+        "description": "King of the snakes and brother of Jaratkaru, who hears her account of her husband's departure.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Jaratkaru addresses him as her brother.",
+            "evidenceKeys": [
+              "e52_06",
+              "e52_08"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e52_06",
+          "e52_08",
+          "e52_09"
+        ]
+      },
+      {
+        "key": "grandsire",
+        "name": "The Grandsire",
+        "kind": "unknown",
+        "description": "Figure cited as having spoken among the gods and as having been pacified by Indra.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Identified by the masculine kinship title Grandsire.",
+            "evidenceKeys": [
+              "e52_05"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e52_05",
+          "e55_15",
+          "e56_01"
+        ]
+      },
+      {
+        "key": "astika",
+        "name": "Astika",
+        "kind": "sage",
+        "description": "Son of the two Jaratkarus, raised in the king of the snakes' house and taught the Vedas by Chyavana.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The child subsequently named Astika is called a son and a boy.",
+            "evidenceKeys": [
+              "e52_10",
+              "e52_12"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e52_02",
+          "e52_10",
+          "e52_11",
+          "e52_12"
+        ]
+      },
+      {
+        "key": "chyavana_teacher",
+        "name": "Chyavana",
+        "kind": "sage",
+        "description": "Ascetic, son of Bhrigu, with whom Astika studies the Vedas and their branches.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called the son of Bhrigu.",
+            "evidenceKeys": [
+              "e52_11"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e52_11"
+        ]
+      },
+      {
+        "key": "bhrigu",
+        "name": "Bhrigu",
+        "kind": "unknown",
+        "description": "Parent of Chyavana, the ascetic who teaches Astika.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e52_11"
+        ]
+      },
+      {
+        "key": "mahadeva",
+        "name": "Mahadeva",
+        "kind": "deity",
+        "description": "Lord of the celestials, golden in form and wielding a trident, to whom Astika is compared.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called the lord of the celestials.",
+            "evidenceKeys": [
+              "e52_13"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e52_13"
+        ]
+      },
+      {
+        "key": "saunaka",
+        "name": "Saunaka",
+        "kind": "human",
+        "description": "Framing questioner who asks about Janamejaya's father's death and the officiants at the snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e52_14",
+          "e52_15",
+          "e55_06",
+          "e55_07"
+        ]
+      },
+      {
+        "key": "janamejaya",
+        "name": "Janamejaya",
+        "kind": "human",
+        "description": "King, son of Parikshit, and member of the Pandava line who resolves to perform a snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called the son of Parikshit.",
+            "evidenceKeys": [
+              "e54_09",
+              "e54_10"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e52_14",
+          "e54_09",
+          "e54_10",
+          "e55_06"
+        ]
+      },
+      {
+        "key": "parikshit",
+        "name": "Parikshit",
+        "kind": "human",
+        "description": "King born in Uttara's womb, called the son of Abhimanyu, and killed by Takshaka; parent of Janamejaya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called the son of Abhimanyu and Janamejaya's father.",
+            "evidenceKeys": [
+              "e52_14",
+              "e52_15",
+              "e53_07",
+              "e54_10"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e52_14",
+          "e52_15",
+          "e53_07",
+          "e54_04",
+          "e54_10"
+        ]
+      },
+      {
+        "key": "unnamed_minister",
+        "name": "Janamejaya's responding minister",
+        "kind": "human",
+        "description": "Individual minister who begins the account of Janamejaya's father's life and death.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e52_14",
+          "e53_01"
+        ]
+      },
+      {
+        "key": "earth",
+        "name": "Earth",
+        "kind": "deity",
+        "description": "Goddess described as receiving the king's protection.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called a goddess.",
+            "evidenceKeys": [
+              "e53_02"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e53_02"
+        ]
+      },
+      {
+        "key": "brahma",
+        "name": "Brahma",
+        "kind": "unknown",
+        "description": "Figure invoked as a comparison for the king's equal disposition toward creatures.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Prajapati",
+            "evidenceKeys": [
+              "e53_03"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "e53_03"
+        ]
+      },
+      {
+        "key": "soma",
+        "name": "Soma",
+        "kind": "unknown",
+        "description": "Figure invoked in a comparison for the king's handsome appearance.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e53_04"
+        ]
+      },
+      {
+        "key": "saradwat",
+        "name": "Saradwat",
+        "kind": "unknown",
+        "description": "Named instructor in the science of arms.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e53_05"
+        ]
+      },
+      {
+        "key": "govinda",
+        "name": "Govinda",
+        "kind": "unknown",
+        "description": "Figure to whom Janamejaya's father was dear.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e53_06"
+        ]
+      },
+      {
+        "key": "uttara",
+        "name": "Uttara",
+        "kind": "unknown",
+        "description": "Birth parent in whose womb Parikshit was born.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Identified through the womb in which Parikshit was born.",
+            "evidenceKeys": [
+              "e53_07"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e53_07"
+        ]
+      },
+      {
+        "key": "abhimanyu",
+        "name": "Abhimanyu",
+        "kind": "unknown",
+        "description": "Parent of Parikshit, who is explicitly called Abhimanyu's son.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e53_07"
+        ]
+      },
+      {
+        "key": "pandu",
+        "name": "Pandu",
+        "kind": "unknown",
+        "description": "Mighty-armed bearer of the bow compared with the king in attachment to the sports of the field.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e53_08"
+        ]
+      },
+      {
+        "key": "wounded_deer",
+        "name": "Deer wounded by Parikshit",
+        "kind": "animal",
+        "description": "Individual deer pierced with an arrow and pursued into the deep woods by the king.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e53_09"
+        ]
+      },
+      {
+        "key": "sringin_father",
+        "name": "Sringin's unnamed father",
+        "kind": "sage",
+        "description": "Silent Rishi on whose shoulders the king places a dead snake; father of Sringin and sender of Gaurmukha.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Identified as Sringin's father.",
+            "evidenceKeys": [
+              "e53_12",
+              "e53_13"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e53_10",
+          "e53_11",
+          "e53_12",
+          "e53_13",
+          "e53_16"
+        ]
+      },
+      {
+        "key": "dead_snake",
+        "name": "Dead snake placed on the Rishi",
+        "kind": "animal",
+        "description": "Individual dead snake taken from the ground and placed on the silent Muni's shoulders.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e53_11"
+        ]
+      },
+      {
+        "key": "sringin",
+        "name": "Sringin",
+        "kind": "sage",
+        "description": "Young ascetic, son of the silent Muni and born of a cow, who curses Janamejaya's father.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called the Muni's son.",
+            "evidenceKeys": [
+              "e53_12"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e53_12",
+          "e53_13",
+          "e53_14",
+          "e53_15"
+        ]
+      },
+      {
+        "key": "sringin_cow_parent",
+        "name": "Cow who bore Sringin",
+        "kind": "animal",
+        "description": "Individual cow of whom Sringin is said to have been born.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Called a cow in the statement of Sringin's birth.",
+            "evidenceKeys": [
+              "e53_12"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e53_12"
+        ]
+      },
+      {
+        "key": "sringin_preceptor",
+        "name": "Sringin's unnamed preceptor",
+        "kind": "unknown",
+        "description": "Preceptor whom Sringin habitually worships and whose command precedes Sringin's return home.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The preceptor is referred to as 'him'.",
+            "evidenceKeys": [
+              "e53_13"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e53_13"
+        ]
+      },
+      {
+        "key": "sringin_friend",
+        "name": "Sringin's unnamed friend",
+        "kind": "unknown",
+        "description": "Individual friend who tells Sringin about the insult to his father.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e53_13"
+        ]
+      },
+      {
+        "key": "gaurmukha",
+        "name": "Gaurmukha",
+        "kind": "unknown",
+        "description": "Disciple sent by Sringin's father to tell the king about the curse.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The named disciple is subsequently referred to as 'he'.",
+            "evidenceKeys": [
+              "e53_16"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e53_16"
+        ]
+      },
+      {
+        "key": "takshaka",
+        "name": "Takshaka",
+        "kind": "animal",
+        "description": "Poisonous snake who kills Janamejaya's father and seeks Indra's protection from the snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with the masculine possessive 'his'.",
+            "evidenceKeys": [
+              "e53_15",
+              "e54_04"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e53_15",
+          "e54_02",
+          "e54_04",
+          "e55_14",
+          "e55_15"
+        ]
+      },
+      {
+        "key": "kasyapa",
+        "name": "Kasyapa",
+        "kind": "sage",
+        "description": "Brahmana Rishi who revives the banian tree, accepts wealth from Takshaka, and turns back.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called foremost of men.",
+            "evidenceKeys": [
+              "e54_03"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e54_01",
+          "e54_02",
+          "e54_03"
+        ]
+      },
+      {
+        "key": "banian_tree",
+        "name": "Banian tree bitten by Takshaka",
+        "kind": "other",
+        "description": "Individual tree reduced to ashes by Takshaka's bite and revived by Kasyapa.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e54_02"
+        ]
+      },
+      {
+        "key": "utanka",
+        "name": "Utanka",
+        "kind": "sage",
+        "description": "Rishi whose insult is mentioned when the ministers ask Janamejaya to decide what should follow.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e54_05"
+        ]
+      },
+      {
+        "key": "tree_climber",
+        "name": "Unnamed tree-climbing menial",
+        "kind": "human",
+        "description": "Brahmana's menial who climbs the banian for sacrificial fuel, is burned and revived with it, and reports the encounter.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a man.",
+            "evidenceKeys": [
+              "e54_07",
+              "e54_08"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e54_06",
+          "e54_07",
+          "e54_08"
+        ]
+      },
+      {
+        "key": "menial_brahmana",
+        "name": "Brahmana served by the tree-climber",
+        "kind": "human",
+        "description": "Unidentified Brahmana whose menial witnesses Takshaka's encounter with Kasyapa.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e54_08"
+        ]
+      },
+      {
+        "key": "chief_priest",
+        "name": "Janamejaya's unnamed chief priest",
+        "kind": "human",
+        "description": "Chief priest who tells the king that the gods devised the snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e54_09",
+          "e54_10",
+          "e55_01"
+        ]
+      },
+      {
+        "key": "seated_ritwika",
+        "name": "Unnamed Ritwika seated on the platform",
+        "kind": "human",
+        "description": "Individual ritual officiant said to sit at ease on the sacrificial platform.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_16"
+        ]
+      },
+      {
+        "key": "sacrificial_builder",
+        "name": "Unnamed sacrificial-platform builder",
+        "kind": "human",
+        "description": "Professional builder of the Suta caste who predicts that a Brahmana will cause the sacrifice to remain incomplete.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_03",
+          "e55_04"
+        ]
+      },
+      {
+        "key": "foretold_brahmana",
+        "name": "Brahmana foretold to obstruct the sacrifice",
+        "kind": "human",
+        "description": "Unidentified individual predicted to be the reason the sacrifice will not be completed.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_04"
+        ]
+      },
+      {
+        "key": "snakes_mother",
+        "name": "Unnamed mother of the cursed snakes",
+        "kind": "unknown",
+        "description": "Mother whose curse afflicts the snakes falling into the sacrificial fire.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly identified as their mother.",
+            "evidenceKeys": [
+              "e55_05"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e55_05"
+        ]
+      },
+      {
+        "key": "suta_parent",
+        "name": "Suta, parent of Sauti",
+        "kind": "unknown",
+        "description": "Parent referenced when Saunaka addresses Sauti as son of Suta.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_07",
+          "e55_08"
+        ]
+      },
+      {
+        "key": "chandabhargava",
+        "name": "Chandabhargava",
+        "kind": "sage",
+        "description": "Brahmana serving as Hotri at the sacrifice, born in the race of Chyavana.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as 'He' immediately after being named.",
+            "evidenceKeys": [
+              "e55_09"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e55_06",
+          "e55_08",
+          "e55_09"
+        ]
+      },
+      {
+        "key": "chyavana_lineage",
+        "name": "Chyavana",
+        "kind": "unknown",
+        "description": "Individual whose name identifies the race in which Chandabhargava was born.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_09"
+        ]
+      },
+      {
+        "key": "kautsa",
+        "name": "Kautsa",
+        "kind": "sage",
+        "description": "Learned old Brahmana serving as Udgatri, the chanter of the Vedic hymns.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_06",
+          "e55_08",
+          "e55_10"
+        ]
+      },
+      {
+        "key": "jaimini",
+        "name": "Jaimini",
+        "kind": "sage",
+        "description": "Ritwik serving in the Brahmana ritual office at the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_06",
+          "e55_08",
+          "e55_11"
+        ]
+      },
+      {
+        "key": "sarngarva",
+        "name": "Sarngarva",
+        "kind": "sage",
+        "description": "Adhvaryu at Janamejaya's snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_06",
+          "e55_08",
+          "e55_11"
+        ]
+      },
+      {
+        "key": "pingala_adhvaryu",
+        "name": "Pingala",
+        "kind": "sage",
+        "description": "Pingala named as an Adhvaryu alongside Sarngarva.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_06",
+          "e55_08",
+          "e55_11"
+        ]
+      },
+      {
+        "key": "vyasa",
+        "name": "Vyasa",
+        "kind": "human",
+        "description": "Named among the Sadasyas together with his son and disciples.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "His son and disciples are introduced with the masculine possessive 'his'.",
+            "evidenceKeys": [
+              "e55_12"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "key": "vyasa_son",
+        "name": "Vyasa's unnamed son",
+        "kind": "human",
+        "description": "Individually identified son accompanying Vyasa in the Sadasya list.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called Vyasa's son.",
+            "evidenceKeys": [
+              "e55_12"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "key": "uddalaka",
+        "name": "Uddalaka",
+        "kind": "human",
+        "description": "Named among the Sadasyas at Janamejaya's snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "key": "pramataka",
+        "name": "Pramataka",
+        "kind": "human",
+        "description": "Named among the Sadasyas at Janamejaya's snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "key": "swetaketu",
+        "name": "Swetaketu",
+        "kind": "human",
+        "description": "Named among the Sadasyas at Janamejaya's snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "key": "pingala_sadasya",
+        "name": "Pingala",
+        "kind": "human",
+        "description": "Pingala named in the Sadasya list after Swetaketu.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "key": "asita",
+        "name": "Asita",
+        "kind": "human",
+        "description": "Named among the Sadasyas at Janamejaya's snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "key": "devala",
+        "name": "Devala",
+        "kind": "human",
+        "description": "Named among the Sadasyas at Janamejaya's snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "key": "narada",
+        "name": "Narada",
+        "kind": "human",
+        "description": "Named among the Sadasyas at Janamejaya's snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "key": "parvata",
+        "name": "Parvata",
+        "kind": "human",
+        "description": "Named among the Sadasyas at Janamejaya's snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "key": "atreya",
+        "name": "Atreya",
+        "kind": "human",
+        "description": "Named among the Sadasyas at Janamejaya's snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "key": "kundajathara",
+        "name": "Kundajathara",
+        "kind": "human",
+        "description": "Named among the Sadasyas at Janamejaya's snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "key": "kalaghata",
+        "name": "Kalaghata",
+        "kind": "human",
+        "description": "Brahmana named among the Sadasyas at the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "key": "vatsya",
+        "name": "Vatsya",
+        "kind": "human",
+        "description": "Named among the Sadasyas at Janamejaya's snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "key": "srutasravas",
+        "name": "Srutasravas",
+        "kind": "human",
+        "description": "Old Sadasya described as continually engaged in japa and study of the Vedas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "key": "kohala_devasarman",
+        "name": "Kohala Devasarman",
+        "kind": "human",
+        "description": "Unpunctuated name span in the Sadasya list; whether it identifies one individual or two is unresolved.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_13"
+        ]
+      },
+      {
+        "key": "maudgalya",
+        "name": "Maudgalya",
+        "kind": "human",
+        "description": "Named as a Sadasya at Janamejaya's snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_13"
+        ]
+      },
+      {
+        "key": "samasaurava",
+        "name": "Samasaurava",
+        "kind": "human",
+        "description": "Named as a Sadasya at Janamejaya's snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_13"
+        ]
+      },
+      {
+        "key": "indra",
+        "name": "Indra",
+        "kind": "unknown",
+        "description": "Figure in whose palace Takshaka seeks protection and who assures Takshaka that he need not fear the sacrifice.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Purandara",
+            "evidenceKeys": [
+              "e55_14"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "e55_14",
+          "e55_15",
+          "e56_01"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromKey": "jaratkaru_rishi",
+        "toKey": "jaratkaru_wife",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e52_01",
+          "e52_03",
+          "e52_08"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "jaratkaru_wife",
+        "toKey": "vasuki",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e52_06",
+          "e52_08",
+          "e52_09"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "jaratkaru_rishi",
+        "toKey": "astika",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e52_03",
+          "e52_06",
+          "e52_08",
+          "e52_12"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "jaratkaru_wife",
+        "toKey": "astika",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e52_01",
+          "e52_02",
+          "e52_09",
+          "e52_10",
+          "e52_12"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "bhrigu",
+        "toKey": "chyavana_teacher",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e52_11"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "parikshit",
+        "toKey": "janamejaya",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e54_09",
+          "e54_10"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "uttara",
+        "toKey": "parikshit",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e53_07"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "abhimanyu",
+        "toKey": "parikshit",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e53_07"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "sringin_father",
+        "toKey": "sringin",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e53_12",
+          "e53_13"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "sringin_cow_parent",
+        "toKey": "sringin",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e53_12"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "suta_parent",
+        "toKey": "sauti",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e55_07",
+          "e55_08"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vyasa",
+        "toKey": "vyasa_son",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e55_12"
+        ],
+        "status": "supported"
+      }
+    ],
+    "evidence": [
+      {
+        "key": "e52_01",
+        "page": 52,
+        "excerpt": "Thus addressed, the Muni of great ascetic merit spake unto his wife Jaratkaru these words that were proper and suitable to the occasion."
+      },
+      {
+        "key": "e52_02",
+        "page": 52,
+        "excerpt": "And he said, 'O fortunate one, the being thou hast conceived, even like unto Agni himself is a Rishi of soul highly virtuous, and a master of the Vedas and their branches.'"
+      },
+      {
+        "key": "e52_03",
+        "page": 52,
+        "excerpt": "Having said so, the great Rishi, Jaratkaru of virtuous soul, went away, his heart firmly fixed on practising again the severest penances."
+      },
+      {
+        "key": "e52_04",
+        "page": 52,
+        "excerpt": "Sauti said, 'O thou of ascetic wealth, soon after her lord had left her, Jaratkaru went to her brother."
+      },
+      {
+        "key": "e52_05",
+        "page": 52,
+        "excerpt": "The Grandsire had said so, of old, in the midst of the gods."
+      },
+      {
+        "key": "e52_06",
+        "page": 52,
+        "excerpt": "Jaratkaru, thus addressed, consoling Vasuki, the king of the snakes, at length replied, saying, 'Asked by me about offspring, the high-souled and mighty ascetic said, 'There is,'--and then he went away."
+      },
+      {
+        "key": "e52_07",
+        "page": 52,
+        "excerpt": "He said, 'Thou shouldst not grieve, O daughter of the snake race, about the intended result of our union. A son shall be born to thee, resplendent as the blazing sun.'"
+      },
+      {
+        "key": "e52_08",
+        "page": 52,
+        "excerpt": "O brother, having said this to me, my husband of ascetic wealth went away--Therefore, let the deep sorrow cherished in thy heart disappear."
+      },
+      {
+        "key": "e52_09",
+        "page": 52,
+        "excerpt": "Thus addressed, Vasuki, the king of the snakes, accepted those words of his sister, and in great joy said, 'Be it so!'"
+      },
+      {
+        "key": "e52_10",
+        "page": 52,
+        "excerpt": "And in due time, the sister of the snakes, O Brahmana, gave birth to a son of the splendour of a celestial child, who became the reliever of the fears of his ancestors and maternal relatives."
+      },
+      {
+        "key": "e52_11",
+        "page": 52,
+        "excerpt": "The child grew up there in the house of the king of the snakes. He studied the Vedas and their branches with the ascetic Chyavana, the son of Bhrigu."
+      },
+      {
+        "key": "e52_12",
+        "page": 52,
+        "excerpt": "And the name by which he was known to the world was Astika. And he was known by the name of Astika (whoever is) because his father had gone to the woods, saying. 'There is', when he was in the womb. Though but a boy, he had great gravity and intelligence."
+      },
+      {
+        "key": "e52_13",
+        "page": 52,
+        "excerpt": "And he was like the illustrious lord of the celestials, Mahadeva of the golden form, the wielder of the trident."
+      },
+      {
+        "key": "e52_14",
+        "page": 52,
+        "excerpt": "Saunaka said, 'Tell me again, in detail,--all that king Janamejaya had asked his ministers about his father's ascension to heaven.'"
+      },
+      {
+        "key": "e52_15",
+        "page": 52,
+        "excerpt": "Sauti said, 'O Brahmana, hear all that the king asked his ministers, and all that they said about the death of Parikshit.'"
+      },
+      {
+        "key": "e53_01",
+        "page": 53,
+        "excerpt": "The minister replied, 'Hear, O monarch, what thou hast asked, viz., an account of thy illustrious father's life, and how also that king of kings left this world."
+      },
+      {
+        "key": "e53_02",
+        "page": 53,
+        "excerpt": "Of incomparable prowess, and blessed with fortune, he protected the goddess Earth."
+      },
+      {
+        "key": "e53_03",
+        "page": 53,
+        "excerpt": "Like unto Prajapati (Brahma) he was equally disposed towards all creatures."
+      },
+      {
+        "key": "e53_04",
+        "page": 53,
+        "excerpt": "Of handsome features, he was unto all creatures like a second Soma."
+      },
+      {
+        "key": "e53_05",
+        "page": 53,
+        "excerpt": "he was the disciple of Saradwat in the science of arms."
+      },
+      {
+        "key": "e53_06",
+        "page": 53,
+        "excerpt": "And, O Janamejaya, thy father was dear unto Govinda."
+      },
+      {
+        "key": "e53_07",
+        "page": 53,
+        "excerpt": "And he was born in the womb of Uttara when the Kuru race was almost extinct. And, therefore, the mighty son of Abhimanyu came to be called Parikshit (born in an extinct line)."
+      },
+      {
+        "key": "e53_08",
+        "page": 53,
+        "excerpt": "became addicted to the sports of the field, even as Pandu of mighty arms, that foremost of all bearers of the bow in battle."
+      },
+      {
+        "key": "e53_09",
+        "page": 53,
+        "excerpt": "One day, going into the forest, he pierced a deer with an arrow. And having pierced it he followed it quickly on foot into the deep woods, armed with sword and quiver."
+      },
+      {
+        "key": "e53_10",
+        "page": 53,
+        "excerpt": "He then saw in the deep woods a high-souled Rishi. The Rishi was then observing the vow of silence. The king asked him about the deer, but, though asked, he made no reply."
+      },
+      {
+        "key": "e53_11",
+        "page": 53,
+        "excerpt": "the king, thy father taking up from the ground with the end of his bow a dead snake placed it on the shoulders of that Muni of pure soul."
+      },
+      {
+        "key": "e53_12",
+        "page": 53,
+        "excerpt": "The Muni had a son, born of a cow, of the name of Sringin."
+      },
+      {
+        "key": "e53_13",
+        "page": 53,
+        "excerpt": "Going (every day) to his preceptor he was in the habit of worshipping him. Commanded by him, Sringin was returning home, when he heard from a friend of his about the insult of his father by thy parent."
+      },
+      {
+        "key": "e53_14",
+        "page": 53,
+        "excerpt": "The son, however, of that Rishi, in wrath, cursed thy father. Though young in years, the powerful one was old in ascetic splendour."
+      },
+      {
+        "key": "e53_15",
+        "page": 53,
+        "excerpt": "Directed by my words, the snake Takshaka of powerful energy and virulent poison, shall, within seven nights hence, burn, with his poison the wretch that hath placed the dead snake upon my un-offending father."
+      },
+      {
+        "key": "e53_16",
+        "page": 53,
+        "excerpt": "The tiger among Rishis thereupon sent to thy father a disciple of his, named Gaurmukha, of amiable manners and possessed of every virtue. And having rested a while (after arrival at court) he told the king everything"
+      },
+      {
+        "key": "e54_01",
+        "page": 54,
+        "excerpt": "And when the seventh day had arrived, a Brahmana Rishi, named Kasyapa, desired to come to the monarch."
+      },
+      {
+        "key": "e54_02",
+        "page": 54,
+        "excerpt": "So saying, Takshaka, then and there, bit a lord of the forest (a banian tree). And the banian, as soon as it was bit by the snake, was converted into ashes. But Kasyapa, O king, revived it."
+      },
+      {
+        "key": "e54_03",
+        "page": 54,
+        "excerpt": "And Kasyapa, that foremost of men, thus addressed by the snake, and receiving from him as much wealth as he desired, wended his way back."
+      },
+      {
+        "key": "e54_04",
+        "page": 54,
+        "excerpt": "And Kasyapa going back, Takshaka, approaching in disguise, blasted, with the fire of his poison, thy virtuous father, the first of kings, then staying in his mansion with all precautions."
+      },
+      {
+        "key": "e54_05",
+        "page": 54,
+        "excerpt": "And hearing all about the discomfiture of thy royal father, and of the insult to the Rishi Utanka, decide thou that which should follow!"
+      },
+      {
+        "key": "e54_06",
+        "page": 54,
+        "excerpt": "A certain person, O monarch, had climbed up that tree containing some dry branches with the object of breaking them for sacrificial fuel."
+      },
+      {
+        "key": "e54_07",
+        "page": 54,
+        "excerpt": "And, O king, that man was reduced to ashes along with the tree itself. And, O king of kings, he was revived with the tree by the power of the Brahmana."
+      },
+      {
+        "key": "e54_08",
+        "page": 54,
+        "excerpt": "That man, a Brahmana's menial, having come to us, represented fully everything as it happened between Takshaka and the Brahmana."
+      },
+      {
+        "key": "e54_09",
+        "page": 54,
+        "excerpt": "Sauti said, 'King Janamejaya having said so, his ministers expressed their approbation. And the monarch then expressed his determination to perform a snake-sacrifice."
+      },
+      {
+        "key": "e54_10",
+        "page": 54,
+        "excerpt": "And that lord of the Earth--that tiger of the Bharata race--the son of Parikshit, then called his priest and Ritwiks."
+      },
+      {
+        "key": "e55_01",
+        "page": 55,
+        "excerpt": "The chief priest answered, 'There is, O king, a great sacrifice for thee devised by the gods themselves."
+      },
+      {
+        "key": "e55_02",
+        "page": 55,
+        "excerpt": "Thus addressed, the king, O excellent one, thought Takshaka to be already burnt and thrown into the blazing mouth of Agni, the eater of the sacrificial butter."
+      },
+      {
+        "key": "e55_03",
+        "page": 55,
+        "excerpt": "a professional builder of great intelligence and well-versed in the knowledge of laying foundations, a Suta by caste, well-acquainted with the Puranas, said,"
+      },
+      {
+        "key": "e55_04",
+        "page": 55,
+        "excerpt": "The soil upon which and the time at which the measurement for the sacrificial platform has been made, indicate that this sacrifice will not be completed, a Brahmana becoming the reason thereof."
+      },
+      {
+        "key": "e55_05",
+        "page": 55,
+        "excerpt": "the snakes, afflicted with their mother's curse, fell into the fire."
+      },
+      {
+        "key": "e55_06",
+        "page": 55,
+        "excerpt": "Saunaka asked, 'What great Rishis became the Ritwiks at the snake-sacrifice of the wise king Janamejaya of the Pandava line?"
+      },
+      {
+        "key": "e55_07",
+        "page": 55,
+        "excerpt": "It behoveth thee to describe all these in detail, so that, O son of Suta, we may know who were acquainted with the rituals of the snake-sacrifice."
+      },
+      {
+        "key": "e55_08",
+        "page": 55,
+        "excerpt": "Sauti replied, 'I will recite the names of those wise ones who became the monarch's Ritwiks and Sadasyas."
+      },
+      {
+        "key": "e55_09",
+        "page": 55,
+        "excerpt": "The Brahmana Chandabhargava became the Hotri in that sacrifice. He was of great reputation, and was born in the race of Chyavana and was the foremost of those acquainted with the Vedas."
+      },
+      {
+        "key": "e55_10",
+        "page": 55,
+        "excerpt": "The learned old Brahmana, Kautsa, became the Udgatri, the chanter of the Vedic hymns."
+      },
+      {
+        "key": "e55_11",
+        "page": 55,
+        "excerpt": "Jaimini became the Brahmana, and Sarngarva and Pingala the Adhvaryus"
+      },
+      {
+        "key": "e55_12",
+        "page": 55,
+        "excerpt": "Vyasa with his son and disciples, and Uddalaka, Pramataka, Swetaketu, Pingala, Asita, Devala, Narada, Parvata, Atreya, Kundajathara, the Brahmana Kalaghata, Vatsya, old Srutasravas ever engaged in japa and the study of the Vedas."
+      },
+      {
+        "key": "e55_13",
+        "page": 55,
+        "excerpt": "Kohala Devasarman, Maudgalya, Samasaurava, and many other Brahmanas who had got through the Vedas became the Sadasyas at that sacrifice of the son of Parikshit."
+      },
+      {
+        "key": "e55_14",
+        "page": 55,
+        "excerpt": "Meanwhile, Takshaka, that prince of snakes, as soon as he heard that king Janamejaya was engaged in the sacrifice, went to the palace of Purandara (Indra)."
+      },
+      {
+        "key": "e55_15",
+        "page": 55,
+        "excerpt": "And that best of snakes, having represented all that had taken place, sought in terror the protection of Indra after having acknowledged his fault. And Indra, gratified, told him, 'O prince of snakes, O Takshaka, here"
+      },
+      {
+        "key": "e55_16",
+        "page": 55,
+        "excerpt": "And the platform was decked with valuable articles and with Brahmanas. And it was full of precious things and paddy. And the Ritwika sat upon it at ease."
+      },
+      {
+        "key": "e56_01",
+        "page": 56,
+        "excerpt": "thou hast no fear from that snake-sacrifice. The Grandsire was pacified by me for thy sake. Therefore, thou hast no fear. Let this fear of thy heart be allayed."
+      }
+    ],
+    "unresolved": [
+      "The Adhvaryu Pingala and the Pingala in the Sadasya list are retained separately; this batch does not explicitly establish their identity.",
+      "Chyavana, Astika's teacher and son of Bhrigu, is retained separately from the Chyavana naming Chandabhargava's lineage; this batch does not explicitly establish their identity.",
+      "The Grandsire is not explicitly identified with Prajapati/Brahma in this batch.",
+      "The source reads 'Kohala Devasarman' without a separating comma. Whether this span names one individual or two remains unresolved; the literal span is retained as a provisional combined entry.",
+      "Chandabhargava's birth in the race of Chyavana establishes lineage without identifying an immediate parent. No direct parent_of relationship is asserted.",
+      "Janamejaya's membership in the Pandava line does not identify additional individual ancestors in this batch.",
+      "The snakes' mother is individually referenced, but the curse passage supplies no individually identifiable child to which a parent_of relationship can be attached.",
+      "The Brahmana predicted to obstruct the sacrifice is not explicitly identified as Astika within this batch.",
+      "The singular seated Ritwika is individually recorded, but the passage does not identify this officiant with the chief priest or any named Ritwik.",
+      "The chief priest is not explicitly identified with any named officiant.",
+      "The Brahmana served by the tree-climbing menial is not explicitly identified with Kasyapa.",
+      "The Suta referenced as Sauti's parent is not identified with the platform builder, who is described as a Suta by caste.",
+      "The batch does not explicitly identify the kinds of Agni, Prajapati/Brahma, Soma, Govinda, or Indra/Purandara; these remain unknown."
+    ]
+  },
+  "reconciliation": {
+    "matches": [
+      {
+        "localKey": "jaratkaru_rishi",
+        "existingId": "mahabharata:b0014:jaratkaru_rishi",
+        "reason": "Same ascetic husband of Jaratkaru and father of Astika; the existing evidence also overlaps the current wife-address passage.",
+        "evidenceKeys": [
+          "e52_01",
+          "e52_03",
+          "e52_12"
+        ]
+      },
+      {
+        "localKey": "jaratkaru_wife",
+        "existingId": "mahabharata:b0014:jaratkaru_sister",
+        "reason": "Both identify Jaratkaru as Vasuki's sister and the ascetic Jaratkaru's wife, with overlapping evidence from this marriage episode.",
+        "evidenceKeys": [
+          "e52_01",
+          "e52_06",
+          "e52_08",
+          "e52_09"
+        ]
+      },
+      {
+        "localKey": "agni",
+        "existingId": "mahabharata:b0015:agni",
+        "reason": "The existing evidence quotes the same comparison of Jaratkaru's conceived child with Agni himself.",
+        "evidenceKeys": [
+          "e52_02"
+        ]
+      },
+      {
+        "localKey": "sauti",
+        "existingId": "mahabharata:seed:ugrasrava-sauti",
+        "reason": "Existing evidence explicitly identifies Ugrasrava as Sauti; current Sauti continues the framing exchange with Saunaka and is addressed as son of Suta.",
+        "evidenceKeys": [
+          "e52_14",
+          "e52_15",
+          "e55_07",
+          "e55_08"
+        ]
+      },
+      {
+        "localKey": "vasuki",
+        "existingId": "mahabharata:b0009:vasuki",
+        "reason": "Same snake king and brother of Jaratkaru in her marriage episode; this candidate includes the overlapping account of her approaching her brother after her husband's departure.",
+        "evidenceKeys": [
+          "e52_04",
+          "e52_06",
+          "e52_09"
+        ]
+      },
+      {
+        "localKey": "grandsire",
+        "existingId": "mahabharata:b0010:brahman",
+        "reason": "The current passage recalls the Grandsire's prediction among the gods concerning Jaratkaru's marriage and its son, matching this candidate's prediction about Vasuki's sister and Astika.",
+        "evidenceKeys": [
+          "e52_05",
+          "e52_06",
+          "e52_07",
+          "e52_12"
+        ]
+      },
+      {
+        "localKey": "astika",
+        "existingId": "mahabharata:b0001:astika",
+        "reason": "Both accounts identify Astika as the son born from the ascetic Jaratkaru's marriage to the snake king's sister.",
+        "evidenceKeys": [
+          "e52_01",
+          "e52_03",
+          "e52_09",
+          "e52_10",
+          "e52_12"
+        ]
+      },
+      {
+        "localKey": "chyavana_teacher",
+        "existingId": "mahabharata:b0005:chyavana",
+        "reason": "Current and existing evidence explicitly identify Chyavana as Bhrigu's son and an ascetic.",
+        "evidenceKeys": [
+          "e52_11"
+        ]
+      },
+      {
+        "localKey": "bhrigu",
+        "existingId": "mahabharata:b0005:bhrigu",
+        "reason": "Both explicitly identify Bhrigu as the parent of Chyavana.",
+        "evidenceKeys": [
+          "e52_11"
+        ]
+      },
+      {
+        "localKey": "saunaka",
+        "existingId": "mahabharata:seed:saunaka",
+        "reason": "Same framing questioner addressing Sauti as son of Suta about Janamejaya's snake-sacrifice, continuing the existing Saunaka–Sauti exchange.",
+        "evidenceKeys": [
+          "e55_06",
+          "e55_07",
+          "e55_08"
+        ]
+      },
+      {
+        "localKey": "janamejaya",
+        "existingId": "mahabharata:seed:janamejaya-son-parikshit",
+        "reason": "Explicitly Parikshit's son and the king undertaking the snake-sacrifice, matching this candidate's parentage and narrative role.",
+        "evidenceKeys": [
+          "e54_09",
+          "e54_10",
+          "e55_06"
+        ]
+      },
+      {
+        "localKey": "parikshit",
+        "existingId": "mahabharata:seed:parikshit-son-abhimanyu",
+        "reason": "Both identify Parikshit through Abhimanyu and Uttara and explain his name through birth in an almost extinct line.",
+        "evidenceKeys": [
+          "e53_07"
+        ]
+      },
+      {
+        "localKey": "brahma",
+        "existingId": "mahabharata:b0001:brahma_pitamaha",
+        "reason": "Current evidence explicitly equates Prajapati with Brahma; this candidate's evidence likewise explicitly designates Pitamaha Brahma as the one only Prajapati.",
+        "evidenceKeys": [
+          "e53_03"
+        ]
+      },
+      {
+        "localKey": "uttara",
+        "existingId": "mahabharata:seed:uttara-daughter-virata",
+        "reason": "Current Uttara bears Parikshit, identified as Abhimanyu's son; the existing family account connects Uttara, Abhimanyu and the child named Parikshit.",
+        "evidenceKeys": [
+          "e53_07"
+        ]
+      },
+      {
+        "localKey": "abhimanyu",
+        "existingId": "mahabharata:seed:abhimanyu",
+        "reason": "Current evidence identifies Abhimanyu through his son Parikshit and Uttara's womb, matching the existing Abhimanyu–Uttara birth account.",
+        "evidenceKeys": [
+          "e53_07"
+        ]
+      },
+      {
+        "localKey": "pandu",
+        "existingId": "mahabharata:seed:pandu",
+        "reason": "The hunting comparison gives Pandu mighty arms and preeminence among bowbearers, matching the existing Parikshit comparison with the same distinctive traits.",
+        "evidenceKeys": [
+          "e53_08"
+        ]
+      },
+      {
+        "localKey": "sringin",
+        "existingId": "mahabharata:b0014:sringin",
+        "reason": "Same young ascetic who curses Parikshit after the dead-snake insult to his father, directing Takshaka to kill the king within seven nights.",
+        "evidenceKeys": [
+          "e53_11",
+          "e53_12",
+          "e53_14",
+          "e53_15"
+        ]
+      },
+      {
+        "localKey": "sringin_preceptor",
+        "existingId": "mahabharata:b0014:sringin_preceptor",
+        "reason": "Same unnamed preceptor worshipped by Sringin, whose command precedes Sringin's return home and encounter with his informing companion.",
+        "evidenceKeys": [
+          "e53_13"
+        ]
+      },
+      {
+        "localKey": "gaurmukha",
+        "existingId": "mahabharata:b0014:gaurmukha",
+        "reason": "Same disciple sent by Sringin's father to communicate the curse to Parikshit, reporting after resting at court.",
+        "evidenceKeys": [
+          "e53_15",
+          "e53_16"
+        ]
+      },
+      {
+        "localKey": "takshaka",
+        "existingId": "mahabharata:b0007:takshaka",
+        "reason": "Same serpent directed to kill Parikshit within seven nights, who encounters Kasyapa and subsequently kills Janamejaya's father with poison.",
+        "evidenceKeys": [
+          "e53_15",
+          "e54_02",
+          "e54_04"
+        ]
+      },
+      {
+        "localKey": "kasyapa",
+        "existingId": "mahabharata:b0008:kasyapa",
+        "reason": "Same healer in Parikshit's death episode who revives Takshaka's burned tree, accepts Takshaka's wealth and turns back.",
+        "evidenceKeys": [
+          "e54_01",
+          "e54_02",
+          "e54_03"
+        ]
+      },
+      {
+        "localKey": "utanka",
+        "existingId": "mahabharata:b0004:utanka",
+        "reason": "Utanka's insult is invoked alongside Takshaka's killing of Janamejaya's father when deciding on retaliation, matching the existing Utanka–Takshaka–Janamejaya episode.",
+        "evidenceKeys": [
+          "e54_04",
+          "e54_05",
+          "e54_09"
+        ]
+      },
+      {
+        "localKey": "vyasa",
+        "existingId": "mahabharata:seed:vyasa",
+        "reason": "Current Vyasa attends Janamejaya's snake-sacrifice with his son and disciples; existing evidence places Vyasa with his disciple at this same sacrifice and separately identifies his son.",
+        "evidenceKeys": [
+          "e55_06",
+          "e55_12",
+          "e55_13"
+        ]
+      },
+      {
+        "localKey": "indra",
+        "existingId": "mahabharata:b0002:indra",
+        "reason": "Current evidence explicitly equates Purandara and Indra, matching this candidate's corroborated Purandara alias.",
+        "evidenceKeys": [
+          "e55_14",
+          "e55_15"
+        ]
+      }
+    ],
+    "unresolved": [
+      "mahadeva: The golden, trident-wielding celestial lord in e52_13 is not explicitly connected to any candidate's hunter, absolution-exception or Tripura episode.",
+      "earth: e53_02 identifies goddess Earth, but supplies no alias or distinctive shared episode connecting her to mahabharata:b0010:earth; the shared name and personification are insufficient.",
+      "soma: e53_04 supplies an appearance comparison without connecting its referent to the churning or eclipse episodes of mahabharata:b0010:soma.",
+      "govinda: Parikshit's being dear to Govinda in e53_06 does not establish identity with the candidate who raises Earth in boar form.",
+      "grandsire and brahma: The current batch does not explicitly equate these entries. Their matches use separate existing IDs and do not establish identity between them.",
+      "chyavana_lineage: e55_09 names Chandabhargava's lineage without identifying its Chyavana as Bhrigu's son or Astika's teacher. Keep separate from chyavana_teacher and do not reuse its matched ID.",
+      "uddalaka: e55_12 does not identify the Sadasya as Aruni or connect him to the earlier forest visitor. Neither mahabharata:b0006:aruni nor mahabharata:b0009:uddalaka can be selected from name equality alone.",
+      "narada and devala: Their occurrence in the Sadasya list supplies no alias, parentage or recurring episode connecting them to the existing reciters, declaration episode or pilgrimage figure.",
+      "pingala_adhvaryu and pingala_sadasya: Neither is connected to the catalogue serpent mahabharata:b0013:snake_pingala, and the batch does not explicitly establish identity between the two officiating entries.",
+      "sringin_father: The silent-Rishi, dead-snake and curse-message context corresponds to Samika in existing evidence, but no Samika character ID is supplied.",
+      "sringin_friend: Existing evidence names Krisa in the companion episode, but no Krisa character ID is supplied; e53_13 leaves the friend unnamed.",
+      "snakes_mother: Existing snake-curse passages name Kadru, but no Kadru character ID is supplied.",
+      "suta_parent: Existing framing evidence names Lomaharshana as Sauti's father, but no Lomaharshana character ID is supplied. This parent must not be matched to Sauti himself or the builder described as Suta by caste.",
+      "vyasa_son: No corresponding candidate ID is supplied, and e55_12 does not name the accompanying son or explicitly identify him as Suka.",
+      "foretold_brahmana: e55_04 does not identify the predicted obstructing Brahmana as Astika; retain the provisional individual separately.",
+      "chief_priest and seated_ritwika: No corresponding candidate IDs are supplied, and the passages do not identify either individual with a named officiant or with each other.",
+      "kohala_devasarman: No corresponding candidate is supplied. e55_13 does not resolve whether the unpunctuated span denotes one individual or two.",
+      "No corresponding candidate IDs are supplied for unnamed_minister, saradwat, wounded_deer, dead_snake, sringin_cow_parent, banian_tree, tree_climber, menial_brahmana or sacrificial_builder.",
+      "No corresponding candidate IDs are supplied for chandabhargava, kautsa, jaimini, sarngarva, pramataka, swetaketu, asita, parvata, atreya, kundajathara, kalaghata, vatsya, srutasravas, maudgalya or samasaurava."
+    ]
+  }
+}

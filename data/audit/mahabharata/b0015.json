@@ -1,0 +1,1013 @@
+{
+  "sourceHash": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+  "batchDigest": "01c5e6e0d8ca18ac5cf5d5e41ce78ac250746aa672fa977a9ade8fcbff6a5b57",
+  "batchId": "b0015",
+  "pages": [
+    48,
+    49,
+    50,
+    51,
+    52
+  ],
+  "reviewedAt": "2026-10-04T09:01:54.711Z",
+  "reviewer": "Codex extraction + omission + identity passes; not human review",
+  "extraction": {
+    "entities": [
+      {
+        "key": "sauti",
+        "name": "Sauti",
+        "kind": "unknown",
+        "description": "Framing narrator who recounts the events to Saunaka.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e50_sauti_saunaka"
+        ]
+      },
+      {
+        "key": "revived_tree",
+        "name": "Unnamed tree revived by Kasyapa",
+        "kind": "other",
+        "description": "Individual tree reduced to ashes by the snake king's poison and revived by Kasyapa.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e48_tree_poison",
+          "e48_tree_revived"
+        ]
+      },
+      {
+        "key": "kasyapa",
+        "name": "Kasyapa",
+        "kind": "sage",
+        "description": "Brahmana and Muni who revives the tree, receives wealth from Takshaka, and turns back.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Kasyapa is referred to as he when receiving wealth.",
+            "evidenceKeys": [
+              "e48_kasyapa_muni"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e48_tree_revived",
+          "e48_kasyapa_muni"
+        ]
+      },
+      {
+        "key": "takshaka",
+        "name": "Takshaka",
+        "kind": "animal",
+        "description": "Snake king who assumes an insect's form and fatally poisons the monarch.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Takshaka coils himself around the monarch's neck.",
+            "evidenceKeys": [
+              "e49_takshaka_insect"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e49_takshaka_insect",
+          "e49_takshaka_bite",
+          "e49_death_priest"
+        ]
+      },
+      {
+        "key": "deceased_kuru_king",
+        "name": "Unnamed deceased king of the Pandava race",
+        "kind": "human",
+        "description": "Monarch killed by Takshaka and succeeded by his minor son Janamejaya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The deceased king is referred to with his.",
+            "evidenceKeys": [
+              "e49_death_priest"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e48_kasyapa_muni",
+          "e49_death_priest",
+          "e49_successor"
+        ]
+      },
+      {
+        "key": "cursing_brahmana",
+        "name": "Unnamed Brahmana whose curse affects the king",
+        "kind": "unknown",
+        "description": "Brahmana whose curse is said to affect the monarch and shorten his life.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e48_curse"
+        ]
+      },
+      {
+        "key": "rishi_king_words",
+        "name": "Unnamed Rishi whose words concern the king",
+        "kind": "sage",
+        "description": "Rishi whose words impel the king to eat the fruits; the king subsequently seeks to render the ascetic's words true by being bitten.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e49_impelled",
+          "e49_ascetic_words"
+        ]
+      },
+      {
+        "key": "sun",
+        "name": "Sun",
+        "kind": "unknown",
+        "description": "Personified Sun described as possessing splendour and entering chambers in the Western mountain.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The Sun is referred to with his.",
+            "evidenceKeys": [
+              "e48_sun",
+              "e51_sun"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e48_sun",
+          "e51_sun"
+        ]
+      },
+      {
+        "key": "fate",
+        "name": "Fate",
+        "kind": "unknown",
+        "description": "Named agency said to impel the king and his councillors; individual personhood is uncertain.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e49_impelled",
+          "e49_councillors_fate"
+        ]
+      },
+      {
+        "key": "saunaka",
+        "name": "Saunaka",
+        "kind": "unknown",
+        "description": "Named listener addressed during Sauti's narration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e50_sauti_saunaka"
+        ]
+      },
+      {
+        "key": "funeral_royal_priest",
+        "name": "Unnamed royal priest performing the king's last rites",
+        "kind": "human",
+        "description": "Holy Brahmana who participates in the deceased king's last rites.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e49_death_priest"
+        ]
+      },
+      {
+        "key": "young_ruler_priest",
+        "name": "Unnamed priest accompanying the young ruler",
+        "kind": "human",
+        "description": "Priest mentioned with the ruling youth's councillors; identity with the funeral priest is unresolved.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e49_succession_ambiguous"
+        ]
+      },
+      {
+        "key": "janamejaya",
+        "name": "Janamejaya",
+        "kind": "human",
+        "description": "Minor son of the deceased monarch, installed as king and married to Vapushtama.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The newly installed king is explicitly the deceased monarch's son.",
+            "evidenceKeys": [
+              "e49_successor"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e49_successor",
+          "e49_succession_ambiguous",
+          "e49_wedding",
+          "e49_vapushtama"
+        ]
+      },
+      {
+        "key": "parikshita",
+        "name": "Parikshita",
+        "kind": "human",
+        "description": "Named in the ambiguous succession sentence as the eldest son; identity with the deceased monarch or Janamejaya is unresolved.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The literal wording calls Parikshita the eldest son.",
+            "evidenceKeys": [
+              "e49_succession_ambiguous"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e49_succession_ambiguous"
+        ]
+      },
+      {
+        "key": "yudhishthira",
+        "name": "Yudhishthira",
+        "kind": "human",
+        "description": "Named as the heroic great-grandfather invoked as a model in the succession passage.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a great-grandfather.",
+            "evidenceKeys": [
+              "e49_succession_ambiguous"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e49_succession_ambiguous"
+        ]
+      },
+      {
+        "key": "suvarnavarman",
+        "name": "Suvarnavarman",
+        "kind": "human",
+        "description": "King of Kasi and parent of Vapushtama.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Suvarnavarman is referred to as him and with his.",
+            "evidenceKeys": [
+              "e49_suvarnavarman"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e49_suvarnavarman"
+        ]
+      },
+      {
+        "key": "vapushtama",
+        "name": "Vapushtama",
+        "kind": "human",
+        "description": "Daughter of Suvarnavarman and bride of Janamejaya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called a daughter and damsel.",
+            "evidenceKeys": [
+              "e49_suvarnavarman",
+              "e49_vapushtama"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e49_suvarnavarman",
+          "e49_wedding",
+          "e49_vapushtama"
+        ]
+      },
+      {
+        "key": "pururavas",
+        "name": "Pururavas",
+        "kind": "unknown",
+        "description": "Figure of old said to have enjoyed pleasure after receiving Urvasi.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e49_pururavas_urvasi"
+        ]
+      },
+      {
+        "key": "urvasi",
+        "name": "Urvasi",
+        "kind": "other",
+        "description": "Celestial damsel received by Pururavas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called a celestial damsel.",
+            "evidenceKeys": [
+              "e49_pururavas_urvasi"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e49_pururavas_urvasi"
+        ]
+      },
+      {
+        "key": "jaratkaru_rishi",
+        "name": "Jaratkaru",
+        "kind": "sage",
+        "description": "Wandering ascetic and Rishi who marries Vasuki's sister of the same name.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Jaratkaru identifies himself as his ancestors' son.",
+            "evidenceKeys": [
+              "e50_ancestors"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e49_jaratkaru",
+          "e50_ancestors",
+          "e51_jaratkaru_wife",
+          "e51_jaratkaru_rishi",
+          "e52_named_wife"
+        ]
+      },
+      {
+        "key": "time",
+        "name": "Time",
+        "kind": "other",
+        "description": "Time, explicitly identified with the large rat gnawing the root supporting Jaratkaru's ancestors.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly referred to as he (Time).",
+            "evidenceKeys": [
+              "e50_time"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e49_rat",
+          "e50_time"
+        ]
+      },
+      {
+        "key": "grandsire_pitris",
+        "name": "Grandsire cited by the Pitris",
+        "kind": "unknown",
+        "description": "Unnamed authority cited for the merit of having a son.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called grandsire and referred to as himself.",
+            "evidenceKeys": [
+              "e50_grandsire"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e50_grandsire"
+        ]
+      },
+      {
+        "key": "vasuki",
+        "name": "Vasuki",
+        "kind": "animal",
+        "description": "King of snakes who reared his sister Jaratkaru and offered her to the Rishi Jaratkaru.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The snake prince is the female Jaratkaru's brother.",
+            "evidenceKeys": [
+              "e51_named_sister",
+              "e52_brother"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e50_vasuki_offer",
+          "e51_vasuki_sister",
+          "e51_named_sister",
+          "e51_reared_sister",
+          "e52_brother"
+        ]
+      },
+      {
+        "key": "jaratkaru_vasuki_sister",
+        "name": "Jaratkaru",
+        "kind": "unknown",
+        "description": "Woman of the Naga race, sister of Vasuki, wife of Rishi Jaratkaru, and mother of a conceived Rishi.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called Vasuki's sister and the Muni's wife.",
+            "evidenceKeys": [
+              "e51_named_sister",
+              "e52_named_wife"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e51_named_sister",
+          "e51_naga_wife",
+          "e51_conception",
+          "e52_named_wife",
+          "e52_conceived_rishi"
+        ]
+      },
+      {
+        "key": "vishnu",
+        "name": "Vishnu",
+        "kind": "unknown",
+        "description": "Named figure whose name is to be uttered during the evening prayer.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e51_vishnu"
+        ]
+      },
+      {
+        "key": "cursing_mother",
+        "name": "Unnamed mother whose curse afflicts the relatives",
+        "kind": "unknown",
+        "description": "Mother whose curse is said to afflict the female Jaratkaru's relatives.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly identified as a mother.",
+            "evidenceKeys": [
+              "e51_cursed_mother"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e51_cursed_mother"
+        ]
+      },
+      {
+        "key": "conceived_rishi",
+        "name": "Unnamed conceived Rishi",
+        "kind": "sage",
+        "description": "Being conceived by Vasuki's sister after approaching her husband, described as a virtuous Rishi and master of the Vedas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e51_conception",
+          "e52_conceived_rishi"
+        ]
+      },
+      {
+        "key": "agni",
+        "name": "Agni",
+        "kind": "unknown",
+        "description": "Named figure used as a comparison for the conceived Rishi.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly referred to as Agni himself.",
+            "evidenceKeys": [
+              "e52_conceived_rishi"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e52_conceived_rishi"
+        ]
+      },
+      {
+        "key": "grandsire_snakes",
+        "name": "Grandsire cited by the snake prince",
+        "kind": "unknown",
+        "description": "Unnamed authority said to have foretold that a son from the union would save the snakes from the snake-sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Identified by the masculine kinship title Grandsire.",
+            "evidenceKeys": [
+              "e52_grandsire_prophecy"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e52_grandsire_prophecy"
+        ]
+      },
+      {
+        "key": "bhrigu",
+        "name": "Bhrigu",
+        "kind": "unknown",
+        "description": "Figure named in the narrator's address to a son of Bhrigu.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e51_bhrigu_address"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromKey": "deceased_kuru_king",
+        "toKey": "janamejaya",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e49_successor"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "suvarnavarman",
+        "toKey": "vapushtama",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e49_suvarnavarman"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "janamejaya",
+        "toKey": "vapushtama",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e49_successor",
+          "e49_succession_ambiguous",
+          "e49_suvarnavarman",
+          "e49_wedding",
+          "e49_vapushtama"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "jaratkaru_vasuki_sister",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e51_named_sister"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "jaratkaru_rishi",
+        "toKey": "jaratkaru_vasuki_sister",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e51_jaratkaru_wife",
+          "e51_jaratkaru_rishi",
+          "e52_named_wife"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "jaratkaru_vasuki_sister",
+        "toKey": "conceived_rishi",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e51_conception",
+          "e52_named_wife",
+          "e52_conceived_rishi"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "jaratkaru_rishi",
+        "toKey": "conceived_rishi",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e51_jaratkaru_wife",
+          "e51_conception",
+          "e52_named_wife",
+          "e52_conceived_rishi",
+          "e52_union_question"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "bhrigu",
+        "toKey": "saunaka",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e50_sauti_saunaka",
+          "e51_bhrigu_address"
+        ],
+        "status": "provisional"
+      }
+    ],
+    "evidence": [
+      {
+        "key": "e48_tree_poison",
+        "page": 48,
+        "excerpt": "The tree was reduced to ashes by the poison of that king of snakes."
+      },
+      {
+        "key": "e48_tree_revived",
+        "page": 48,
+        "excerpt": "And then that best of Brahmanas, the illustrious and learned Kasyapa, revived, by his vidya, that tree which had been reduced to a heap of ashes."
+      },
+      {
+        "key": "e48_kasyapa_muni",
+        "page": 48,
+        "excerpt": "And that foremost of Munis, viz., Kasyapa, of great prowess and gifted with spiritual knowledge, ascertaining that the period of life of that king of the Pandava race had really run out, returned, receiving from Takshaka as much wealth as he desired."
+      },
+      {
+        "key": "e48_curse",
+        "page": 48,
+        "excerpt": "thy success may be doubtful on that king affected by a Brahmana's curse and whose span of life itself hath been shortened."
+      },
+      {
+        "key": "e48_sun",
+        "page": 48,
+        "excerpt": "like the Sun when deprived of his splendour (on the occasion of the eclipse)."
+      },
+      {
+        "key": "e49_takshaka_insect",
+        "page": 49,
+        "excerpt": "And as the king was smiling, Takshaka, who had (in the form of that insect) come out of the fruit that had been offered to the king, coiled himself round the neck of the monarch."
+      },
+      {
+        "key": "e49_takshaka_bite",
+        "page": 49,
+        "excerpt": "And quickly coiling round the king's neck and uttering a tremendous roar, Takshaka, that lord of snakes, bit that protector of the earth."
+      },
+      {
+        "key": "e49_impelled",
+        "page": 49,
+        "excerpt": "Impelled by Fate and the words of the Rishi, the king, with his ministers, felt the desire of eating those fruits."
+      },
+      {
+        "key": "e49_ascetic_words",
+        "page": 49,
+        "excerpt": "Therefore, let this insect become Takshaka and bite me, so that my sinful act may be expiated and the words of the ascetic rendered true."
+      },
+      {
+        "key": "e49_councillors_fate",
+        "page": 49,
+        "excerpt": "And those councillors also, impelled by Fate, approved of that speech."
+      },
+      {
+        "key": "e49_death_priest",
+        "page": 49,
+        "excerpt": "And when the king was laid low by Takshaka's poison, his councilors with the royal priest--a holy Brahmana--performed all his last rites."
+      },
+      {
+        "key": "e49_successor",
+        "page": 49,
+        "excerpt": "All the citizens, assembling together, made the minor son of the deceased monarch their king. And the people called their new king, that slayer of all enemies, that hero of the Kuru race, by the name of Janamejaya."
+      },
+      {
+        "key": "e49_succession_ambiguous",
+        "page": 49,
+        "excerpt": "And that best of monarchs, Janamejaya, though a child, was wise in mind. And with his councillors and priest, the eldest son Parikshita, that bull amongst the Kurus, ruled the kingdom like his heroic great-grand-father (Yudhishthira)."
+      },
+      {
+        "key": "e49_suvarnavarman",
+        "page": 49,
+        "excerpt": "And the ministers of the youthful monarch, beholding that he could now keep his enemies in check, went to Suvarnavarman, the king of Kasi, and asked him his daughter Vapushtama for a bride."
+      },
+      {
+        "key": "e49_wedding",
+        "page": 49,
+        "excerpt": "And the king of Kasi, after due inquiries, bestowed with ordained rites, his daughter Vapushtama on that mighty hero of Kuru race. And the latter, receiving his bride, became exceedingly glad."
+      },
+      {
+        "key": "e49_vapushtama",
+        "page": 49,
+        "excerpt": "Herself fairest of the fair, the damsel Vapushtama too, devoted to her lord and celebrated for her beauty having gained a desirable husband, pleased him by the excess of her affection during the period he spent in the pursuit of pleasure."
+      },
+      {
+        "key": "e49_pururavas_urvasi",
+        "page": 49,
+        "excerpt": "And that first of monarchs passed his time in pleasure as Pururavas of old did, on receiving the celestial damsel Urvasi."
+      },
+      {
+        "key": "e49_jaratkaru",
+        "page": 49,
+        "excerpt": "Meanwhile the great ascetic Jaratkaru wandered over the whole earth making the place where evening fell his home for the night."
+      },
+      {
+        "key": "e49_rat",
+        "page": 49,
+        "excerpt": "And that even single thread was being gradually eaten away by a large rat dwelling in that hole."
+      },
+      {
+        "key": "e50_grandsire",
+        "page": 50,
+        "excerpt": "The grandsire himself hath said that a son is a great merit."
+      },
+      {
+        "key": "e50_time",
+        "page": 50,
+        "excerpt": "The rat that thou beholdest is Time of infinite strength. And he (Time) is gradually weakening the wretch Jaratkaru engaged in ascetic penances tempted by the merits thereof, but wanting in prudence and heart."
+      },
+      {
+        "key": "e50_ancestors",
+        "page": 50,
+        "excerpt": "Ye are even my fathers and grand-fathers gone before. Therefore, tell me what I must do for your welfare. I am that sinful son of yours, Jaratkaru!"
+      },
+      {
+        "key": "e50_sauti_saunaka",
+        "page": 50,
+        "excerpt": "Sauti continued, 'The Muni, having said so unto the Pitris, wandered over the earth again. And, O Saunaka, being old, he obtained no wife."
+      },
+      {
+        "key": "e50_vasuki_offer",
+        "page": 50,
+        "excerpt": "And, O Brahmana, Vasuki, the king of the snakes, having gone there, offered that maiden as alms unto that high-souled Rishi."
+      },
+      {
+        "key": "e51_bhrigu_address",
+        "page": 51,
+        "excerpt": "And then, O son of Bhrigu, he asked Vasuki the maiden's name, and also said unto him, 'I shall not maintain her.'"
+      },
+      {
+        "key": "e51_vasuki_sister",
+        "page": 51,
+        "excerpt": "Then Vasuki spake unto the Rishi Jaratkaru these words, 'O best of Brahmanas, this maiden is of the same name with thee. She is my sister and hath ascetic merit."
+      },
+      {
+        "key": "e51_named_sister",
+        "page": 51,
+        "excerpt": "the sweet-speeched Jaratkaru, the sister of Vasuki"
+      },
+      {
+        "key": "e51_reared_sister",
+        "page": 51,
+        "excerpt": "O thou of ascetic wealth, I shall protect her with all my ability. And, O foremost of the great Munis, she hath been reared by me for thee."
+      },
+      {
+        "key": "e51_jaratkaru_wife",
+        "page": 51,
+        "excerpt": "And Jaratkaru lived there with his wife."
+      },
+      {
+        "key": "e51_jaratkaru_rishi",
+        "page": 51,
+        "excerpt": "The Rishi Jaratkaru, great in ascetic merit, possessed with anger and desirous of forsaking his spouse, thus addressed, spake unto his wife,"
+      },
+      {
+        "key": "e51_naga_wife",
+        "page": 51,
+        "excerpt": "The illustrious Jaratkaru of great ascetic merit, thus addressed, spake unto his wife these words, his upper lip quivering in anger, 'O amiable one of the Naga race, thou hast insulted me."
+      },
+      {
+        "key": "e51_conception",
+        "page": 51,
+        "excerpt": "And one day, after the menstrual period, the sister of Vasuki, having purified herself by a bath according to custom, approached her lord the great Muni; And thereupon she conceived."
+      },
+      {
+        "key": "e51_vishnu",
+        "page": 51,
+        "excerpt": "O thou of rigid vows, O illustrious one, do your evening prayer after purifying yourself with water and uttering the name of Vishnu."
+      },
+      {
+        "key": "e51_cursed_mother",
+        "page": 51,
+        "excerpt": "O excellent one, the offspring desired of by my relatives afflicted by a mother's curse, do not yet appear!"
+      },
+      {
+        "key": "e51_sun",
+        "page": 51,
+        "excerpt": "And as he was sleeping, the sun entered his chambers in the Western mountain and was about to set."
+      },
+      {
+        "key": "e52_named_wife",
+        "page": 52,
+        "excerpt": "Thus addressed, the Muni of great ascetic merit spake unto his wife Jaratkaru these words that were proper and suitable to the occasion."
+      },
+      {
+        "key": "e52_conceived_rishi",
+        "page": 52,
+        "excerpt": "O fortunate one, the being thou hast conceived, even like unto Agni himself is a Rishi of soul highly virtuous, and a master of the Vedas and their branches."
+      },
+      {
+        "key": "e52_brother",
+        "page": 52,
+        "excerpt": "Jaratkaru went to her brother. And she told him everything that had happened. And the prince of snakes, hearing the calamitous news, spake unto his miserable sister, himself more miserable still."
+      },
+      {
+        "key": "e52_grandsire_prophecy",
+        "page": 52,
+        "excerpt": "If, from that union, for the welfare of the snakes, a son be born, then he, possessed of energy, will save us all from the snake-sacrifice. The Grandsire had said so, of old, in the midst of the gods."
+      },
+      {
+        "key": "e52_union_question",
+        "page": 52,
+        "excerpt": "O fortunate one, hast thou conceived from thy union with that best of Rishis?"
+      }
+    ],
+    "unresolved": [
+      "The Brahmana whose curse affects the king may be the Rishi or ascetic whose words the king seeks to fulfil. The batch does not explicitly establish that identity, so the curse-holder and the Rishi reference are retained separately.",
+      "Page 49 reads \"the eldest son Parikshita\" without a connector establishing whose son he is. Parikshita remains separate from the deceased king and Janamejaya; no missing connector has been supplied.",
+      "The royal priest performing the funeral and the priest accompanying the ruling youth may be the same individual; their identity is not explicitly established.",
+      "The Grandsire cited by the Pitris and the Grandsire cited by the snake prince may be the same individual. Neither is named, and their identity is not explicitly established.",
+      "The provisional Bhrigu-to-Saunaka parent claim depends on identifying the listener addressed as \"O son of Bhrigu\" with Saunaka. Immediate parentage versus a lineage address remains uncertain.",
+      "Yudhishthira is called the ruling figure's \"heroic great-grand-father\" in the ambiguous succession sentence. The precise referent is uncertain, and the available relationship types cannot encode great-grandparenthood without inventing intermediate parents.",
+      "Jaratkaru's ancestral Pitris are an undifferentiated group. No individual ancestor or parent record is created from their collective references to fathers and grandfathers.",
+      "The mother whose curse afflicts the female Jaratkaru's relatives is unnamed; the passage does not individually identify her children.",
+      "Pururavas is said to have received Urvasi, but the passage does not explicitly establish marriage.",
+      "The conceived Rishi is unnamed. The conditional reference to \"a son\" does not establish the conceived being's gender.",
+      "Fate is explicitly invoked as an agency, but its status as an individual narrative being remains uncertain.",
+      "Astika appears only in parva headings; those headings do not establish an individual narrative being within this batch."
+    ]
+  },
+  "reconciliation": {
+    "matches": [
+      {
+        "localKey": "sauti",
+        "existingId": "mahabharata:seed:ugrasrava-sauti",
+        "reason": "The existing record explicitly identifies Sauti as Ugrasrava's surname; the current Sauti continues the framing narration to Saunaka.",
+        "evidenceKeys": [
+          "e50_sauti_saunaka"
+        ]
+      },
+      {
+        "localKey": "kasyapa",
+        "existingId": "mahabharata:b0008:kasyapa",
+        "reason": "The same tree-revival passage and Takshaka's payment causing Kasyapa to turn back appear in the existing evidence.",
+        "evidenceKeys": [
+          "e48_tree_revived",
+          "e48_kasyapa_muni"
+        ]
+      },
+      {
+        "localKey": "takshaka",
+        "existingId": "mahabharata:b0007:takshaka",
+        "reason": "Both accounts identify the serpent king who causes Kasyapa to turn back and kills Janamejaya's father.",
+        "evidenceKeys": [
+          "e48_kasyapa_muni",
+          "e49_takshaka_bite",
+          "e49_death_priest",
+          "e49_successor"
+        ]
+      },
+      {
+        "localKey": "sun",
+        "existingId": "mahabharata:b0014:sun",
+        "reason": "The current eclipse comparison is contained in the existing excerpt about the possible disappearance of Kasyapa's fame.",
+        "evidenceKeys": [
+          "e48_sun"
+        ]
+      },
+      {
+        "localKey": "saunaka",
+        "existingId": "mahabharata:seed:saunaka",
+        "reason": "Both records place Saunaka as the listener addressed by Sauti in the continuing framing narration.",
+        "evidenceKeys": [
+          "e50_sauti_saunaka"
+        ]
+      },
+      {
+        "localKey": "janamejaya",
+        "existingId": "mahabharata:seed:janamejaya-son-parikshit",
+        "reason": "His succession after his father's death by Takshaka and marriage to Vapushtama corroborate the existing snake-sacrifice king's identity.",
+        "evidenceKeys": [
+          "e49_death_priest",
+          "e49_successor",
+          "e49_wedding",
+          "e49_vapushtama"
+        ]
+      },
+      {
+        "localKey": "yudhishthira",
+        "existingId": "mahabharata:seed:yudhishthira",
+        "reason": "The heroic ancestral ruler invoked in the Kuru/Pandava succession context corroborates the existing Pandava Yudhishthira, described as king of the Kurus. The ambiguous sentence does not resolve the precise descent.",
+        "evidenceKeys": [
+          "e48_kasyapa_muni",
+          "e49_successor",
+          "e49_succession_ambiguous"
+        ]
+      },
+      {
+        "localKey": "vapushtama",
+        "existingId": "mahabharata:seed:vapushtama",
+        "reason": "Her marriage in the newly installed Janamejaya's narrative corroborates the existing record identifying Vapushtama as his wife.",
+        "evidenceKeys": [
+          "e49_successor",
+          "e49_suvarnavarman",
+          "e49_wedding",
+          "e49_vapushtama"
+        ]
+      },
+      {
+        "localKey": "jaratkaru_rishi",
+        "existingId": "mahabharata:b0014:jaratkaru_rishi",
+        "reason": "The ascetic Rishi's marriage to Vasuki's sister of the same name corroborates the existing prophecy concerning this Rishi and his namesake wife.",
+        "evidenceKeys": [
+          "e49_jaratkaru",
+          "e51_vasuki_sister",
+          "e51_jaratkaru_rishi",
+          "e52_named_wife"
+        ]
+      },
+      {
+        "localKey": "time",
+        "existingId": "mahabharata:b0003:time_personified",
+        "reason": "The explicit identification of the destructive rat as Time of infinite strength corroborates the existing personified Time's destructive role, unconquerability, and association with the strength of the Infinite soul.",
+        "evidenceKeys": [
+          "e49_rat",
+          "e50_time"
+        ]
+      },
+      {
+        "localKey": "vasuki",
+        "existingId": "mahabharata:b0009:vasuki",
+        "reason": "Both accounts identify Vasuki as the snake who offers his sister Jaratkaru to the Rishi Jaratkaru for marriage.",
+        "evidenceKeys": [
+          "e50_vasuki_offer",
+          "e51_vasuki_sister",
+          "e51_named_sister"
+        ]
+      },
+      {
+        "localKey": "jaratkaru_vasuki_sister",
+        "existingId": "mahabharata:b0014:jaratkaru_sister",
+        "reason": "Her explicit identity as Vasuki's sister Jaratkaru, reared by him for the marriage, matches the existing sister's distinctive context.",
+        "evidenceKeys": [
+          "e51_named_sister",
+          "e51_reared_sister",
+          "e52_named_wife"
+        ]
+      },
+      {
+        "localKey": "bhrigu",
+        "existingId": "mahabharata:b0010:bhrigu",
+        "reason": "Both occurrences invoke Bhrigu in Sauti's address to his framing listener as 'son of Bhrigu'; this matches the existing address-specific record.",
+        "evidenceKeys": [
+          "e50_sauti_saunaka",
+          "e51_bhrigu_address"
+        ]
+      }
+    ],
+    "unresolved": [
+      "revived_tree: No existing candidate represents the individual tree revived by Kasyapa.",
+      "deceased_kuru_king: Existing evidence names Parikshit in the corresponding Takshaka episode, but no existing Parikshit character ID is supplied.",
+      "cursing_brahmana: No corresponding existing candidate is supplied; the current excerpt does not explicitly identify this Brahmana with rishi_king_words.",
+      "rishi_king_words: No corresponding existing candidate is supplied; identity with cursing_brahmana remains unestablished.",
+      "fate: The existing Fate occurrence concerns a different snakebite episode. The shared name and general impelling agency do not provide sufficiently distinctive identity evidence.",
+      "funeral_royal_priest: No corresponding existing priest candidate is supplied; identity with young_ruler_priest is not explicit.",
+      "young_ruler_priest: No corresponding existing priest candidate is supplied; identity with funeral_royal_priest is not explicit.",
+      "parikshita: The ambiguous succession wording does not establish identity with Janamejaya or the deceased monarch, and no existing Parikshita/Parikshit candidate ID is supplied.",
+      "suvarnavarman: No existing candidate represents the king of Kasi and father of Vapushtama.",
+      "pururavas: No corresponding existing candidate is supplied.",
+      "urvasi: No corresponding existing candidate is supplied.",
+      "grandsire_pitris: The unnamed authority on the merit of a son lacks context establishing identity with an existing candidate or grandsire_snakes.",
+      "vishnu: The prayer reference supplies no distinctive context selecting among the existing Vishnu records and records bearing Vishnu as an alias.",
+      "cursing_mother: No corresponding existing mother candidate is supplied; the current excerpt leaves her unnamed.",
+      "conceived_rishi: No existing candidate represents this child. Existing prophecy mentions Astika, but no Astika character ID is supplied and the current excerpt does not name the conceived being.",
+      "agni: The comparison to Agni supplies no distinctive identity context selecting among the multiple existing Agni records.",
+      "grandsire_snakes: The prophecy corresponds to Brahma's speech in existing evidence, but no prophecy-linked Brahma/Grandsire candidate is supplied. Identity with the primordial Isana invocation or grandsire_pitris is not established."
+    ]
+  }
+}

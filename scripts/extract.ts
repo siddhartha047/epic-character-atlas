@@ -56,6 +56,14 @@ async function main() {
   }
   let count = 0;
   try {
+    if (dataset.coverage.reviewedBatchIds.length < corpus.batches.length) {
+      dataset.coverage.phase = "extracting";
+      dataset.coverage.message =
+        "Extraction and omission checks are in progress. Characters and families are still being added.";
+      dataset.coverage.updatedAt = new Date().toISOString();
+      await writeJSON(datasetPath(epic), dataset);
+      await writeJSON(join(root, "public/data", epic, "graph.json"), dataset);
+    }
     for (const metadata of corpus.batches) {
       if (dataset.coverage.reviewedBatchIds.includes(metadata.id)) continue;
       if (count >= limit) break;
@@ -87,6 +95,14 @@ async function main() {
       console.log(
         `Saved: ${dataset.characters.length} characters, ${dataset.relationships.length} relationships. ${dataset.coverage.reviewedBatchIds.length}/${corpus.batches.length} batches checked.`,
       );
+    }
+    if (dataset.coverage.reviewedBatchIds.length < corpus.batches.length) {
+      dataset.coverage.phase = "paused";
+      dataset.coverage.message =
+        "Batch run finished. Completed batches are saved; resume from the next pending batch when ready.";
+      dataset.coverage.updatedAt = new Date().toISOString();
+      await writeJSON(datasetPath(epic), dataset);
+      await writeJSON(join(root, "public/data", epic, "graph.json"), dataset);
     }
     console.log(
       `Finished ${count} new batch(es). ${dataset.coverage.reviewedBatchIds.length}/${corpus.batches.length} checked. Resume: npm run corpus:extract -- --epic ${epic} --all`,

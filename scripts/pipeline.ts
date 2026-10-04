@@ -7,6 +7,7 @@ import {
   digest,
   locateExcerpt,
   normalize,
+  normalizeEvidence,
   sectionAt,
   root,
   writeJSON,
@@ -31,6 +32,24 @@ function combineStatus(
   if (a === "provisional" || b === "provisional") return "provisional";
   return "supported";
 }
+export function refreshDerivedClaims(dataset: Dataset) {
+  const relationships = new Map(dataset.relationships.map((r) => [r.id, r]));
+  for (const relation of dataset.relationships.filter((r) => r.derived)) {
+    const parents = relation.supportingRelationshipIds.map((id) =>
+      relationships.get(id),
+    );
+    if (parents.some((parent) => !parent || parent.type !== "parent_of"))
+      throw new Error(
+        "Derived sibling claim is missing a supporting parent claim.",
+      );
+    for (const parent of parents) {
+      relation.evidenceIds = [
+        ...new Set([...relation.evidenceIds, ...parent!.evidenceIds]),
+      ];
+      relation.status = combineStatus(relation.status, parent!.status);
+    }
+  }
+}
 export function validateExtraction(
   result: Extraction,
   corpus: Corpus,
@@ -45,7 +64,7 @@ export function validateExtraction(
     if (!batch.pages.includes(e.page))
       throw new Error(`Evidence page ${e.page} is outside this batch.`);
     locateExcerpt(corpus.pages[e.page - 1].text, e.excerpt);
-    if (!normalize(batch.text).includes(normalize(e.excerpt)))
+    if (!normalizeEvidence(batch.text).includes(normalizeEvidence(e.excerpt)))
       throw new Error(
         "Evidence must occur inside the provided batch, not elsewhere on its page.",
       );
@@ -213,6 +232,7 @@ export function mergeBatch(
         });
     }
   }
+  refreshDerivedClaims(out);
   out.coverage.totalBatches = corpus.batches.length;
   out.coverage.totalWords = corpus.totalWords;
   out.coverage.processedBatchIds = [

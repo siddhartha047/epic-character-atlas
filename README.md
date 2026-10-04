@@ -67,7 +67,7 @@ git commit -m "Expand source-supported character inventory"
 git push
 ```
 
-A full-book run can take a long time. The working machine currently runs it as a detached local process; it continues while the machine is awake and stops cleanly on a usage/authentication failure. Inspect progress without starting a second writer:
+A full-book run can take a long time. On this working machine, extraction can run as a detached local process. It continues while the machine is awake and stops cleanly on a usage/authentication failure. Use `--max-batches 1` to complete one pending batch and stop. Inspect progress without starting a second writer:
 
 ```bash
 tail -f .corpus/mahabharata/runner.log

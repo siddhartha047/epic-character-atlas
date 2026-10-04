@@ -1,0 +1,2835 @@
+{
+  "sourceHash": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+  "batchDigest": "848102240440eb912bc4833a9e549653bc3c3922e4da3fac837c3b1f48970486",
+  "batchId": "b0004",
+  "pages": [
+    10,
+    11,
+    12
+  ],
+  "reviewedAt": "2026-10-04T05:48:37.481Z",
+  "reviewer": "Codex extraction + omission + identity passes; not human review",
+  "extraction": {
+    "entities": [
+      {
+        "key": "rama_lakes",
+        "name": "Rama",
+        "kind": "unknown",
+        "description": "Requests absolution for annihilating the Kshatriyas and sanctity for the lakes he formed.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_rama"
+        ]
+      },
+      {
+        "key": "sauti",
+        "name": "Sauti",
+        "kind": "unknown",
+        "description": "Framing narrator who explains Akshauhini and recites the divisions of the Bharata.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "son of Suta",
+            "evidenceKeys": [
+              "e_suta_address",
+              "e_sauti",
+              "e_suta_recital"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Addressed as a son.",
+            "evidenceKeys": [
+              "e_suta_address"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_suta_address",
+          "e_sauti",
+          "e_suta_recital"
+        ]
+      },
+      {
+        "key": "suta_parent",
+        "name": "Suta",
+        "kind": "unknown",
+        "description": "Parent-designation in the narrator's patronymic; whether it denotes a personal name or a social designation is uncertain.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_suta_address",
+          "e_suta_recital"
+        ]
+      },
+      {
+        "key": "time",
+        "name": "Time",
+        "kind": "other",
+        "description": "Personified agent that assembles and destroys the armies.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_time"
+        ]
+      },
+      {
+        "key": "bhishma",
+        "name": "Bhishma",
+        "kind": "human",
+        "description": "Royal warrior who fights for ten days, renounces royalty, and protects Chitrangada and Vichitravirya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The account uses masculine pronouns for him.",
+            "evidenceKeys": [
+              "e_bhishma_life"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_commanders",
+          "e_bhishma_life",
+          "e_younger_brother"
+        ]
+      },
+      {
+        "key": "drona",
+        "name": "Drona",
+        "kind": "unknown",
+        "description": "Protects the Kaurava forces for five days; his death is listed.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_commanders",
+          "e_drona_death"
+        ]
+      },
+      {
+        "key": "kama",
+        "name": "Kama",
+        "kind": "human",
+        "description": "Desolator of hostile armies and a crowned opponent defeated by Bhima and Arjuna.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_commanders",
+          "e_crowned_opponents"
+        ]
+      },
+      {
+        "key": "salya",
+        "name": "Salya",
+        "kind": "human",
+        "description": "Fights for half a day and appears among the crowned opponents defeated by Bhima and Arjuna.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_commanders",
+          "e_crowned_opponents"
+        ]
+      },
+      {
+        "key": "duryodhana",
+        "name": "Duryodhana",
+        "kind": "unknown",
+        "description": "Fights Bhima with clubs and plots against the Pandavas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_club_fight",
+          "e_collective_sons",
+          "e_duryodhana_plots"
+        ]
+      },
+      {
+        "key": "bhima",
+        "name": "Bhima",
+        "kind": "unknown",
+        "description": "Fights Duryodhana with clubs and slays the male Hidimba and Kirmira.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_club_fight",
+          "e_hidimba_siblings",
+          "e_kirmira"
+        ]
+      },
+      {
+        "key": "aswatthaman",
+        "name": "Aswatthaman",
+        "kind": "unknown",
+        "description": "Joins Kripa in destroying Yudishthira's sleeping army.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_night_attack"
+        ]
+      },
+      {
+        "key": "kripa",
+        "name": "Kripa",
+        "kind": "unknown",
+        "description": "Joins Aswatthaman in destroying Yudishthira's sleeping army.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_night_attack"
+        ]
+      },
+      {
+        "key": "yudishthira",
+        "name": "Yudishthira",
+        "kind": "unknown",
+        "description": "Possessor of the army destroyed in the nocturnal attack.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_night_attack"
+        ]
+      },
+      {
+        "key": "saunaka",
+        "name": "Saunaka",
+        "kind": "unknown",
+        "description": "Addressee at whose sacrifice the Bharata is being repeated.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_sacrifices"
+        ]
+      },
+      {
+        "key": "janamejaya",
+        "name": "Janamejaya",
+        "kind": "human",
+        "description": "King whose sacrifice provides an earlier setting for the narration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called king.",
+            "evidenceKeys": [
+              "e_janamejaya_king"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_sacrifices",
+          "e_janamejaya_king"
+        ]
+      },
+      {
+        "key": "vyasa",
+        "name": "Vyasa",
+        "kind": "unknown",
+        "description": "Composer of the hundred parvas and adviser of the Pandavas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "His advice is described with a masculine possessive.",
+            "evidenceKeys": [
+              "e_ekachakra"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_sacrifices",
+          "e_vyasa_composition",
+          "e_ekachakra"
+        ]
+      },
+      {
+        "key": "vyasa_disciple",
+        "name": "Unnamed disciple of Vyasa",
+        "kind": "unknown",
+        "description": "Intelligent disciple who formerly narrated the Bharata at Janamejaya's sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_sacrifices"
+        ]
+      },
+      {
+        "key": "hidimba_male",
+        "name": "Hidimba",
+        "kind": "unknown",
+        "description": "Brother of the female Hidimba, slain by Bhima.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called her brother.",
+            "evidenceKeys": [
+              "e_hidimba_siblings"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_hidimba_siblings"
+        ]
+      },
+      {
+        "key": "baka",
+        "name": "Baka",
+        "kind": "unknown",
+        "description": "Individual whose slaughter gives a parva its name.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_baka"
+        ]
+      },
+      {
+        "key": "arjuna",
+        "name": "Arjuna",
+        "kind": "human",
+        "description": "Kshatriya who wins Draupadi for wife and undertakes the described journeys and battles.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "His departure and entry into the chamber use masculine pronouns.",
+            "evidenceKeys": [
+              "e_arjuna_departure"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_draupadi_marriage",
+          "e_arjuna_departure",
+          "e_mahadeva"
+        ]
+      },
+      {
+        "key": "draupadi",
+        "name": "Draupadi",
+        "kind": "unknown",
+        "description": "Won by Arjuna for wife, described with five husbands, and identified as the parent of an unnamed son.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Panchali",
+            "evidenceKeys": [
+              "e_draupadi_marriage"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called a wife and referred to with feminine pronouns.",
+            "evidenceKeys": [
+              "e_draupadi_marriage",
+              "e_daughter_in_law"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_draupadi_marriage",
+          "e_drupada",
+          "e_daughter_in_law",
+          "e_children_transport"
+        ]
+      },
+      {
+        "key": "vidura",
+        "name": "Vidura",
+        "kind": "unknown",
+        "description": "Well-wisher and envoy of the Pandavas who advises Yudhishthira.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "His return is described with a masculine possessive.",
+            "evidenceKeys": [
+              "e_vidura_return"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_vidura_advice",
+          "e_vidura_envoy",
+          "e_vidura_return"
+        ]
+      },
+      {
+        "key": "subhadra",
+        "name": "Subhadra",
+        "kind": "unknown",
+        "description": "Krishna's sister, carried away by Arjuna, in whose womb Abhimanyu is conceived.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Referred to as her and described as possessing the womb in which Abhimanyu is conceived.",
+            "evidenceKeys": [
+              "e_subhadra_brother",
+              "e_abhimanyu_conception"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_subhadra_brother",
+          "e_abhimanyu_conception",
+          "e_children_transport"
+        ]
+      },
+      {
+        "key": "maya",
+        "name": "Maya",
+        "kind": "demon",
+        "description": "Asura architect whose meeting and rescue by Arjuna are described.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_maya_architect",
+          "e_maya_rescue"
+        ]
+      },
+      {
+        "key": "jarasandha",
+        "name": "Jarasandha",
+        "kind": "unknown",
+        "description": "Individual whose destruction is included in the Sabha outline.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_jarasandha_vasudeva"
+        ]
+      },
+      {
+        "key": "sisupala",
+        "name": "Sisupala",
+        "kind": "unknown",
+        "description": "Individual killed in a named parva and destroyed during the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_sisupala",
+          "e_sisupala_sacrifice"
+        ]
+      },
+      {
+        "key": "krimira",
+        "name": "Krimira",
+        "kind": "unknown",
+        "description": "Individual whose destruction is named in the parva list.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_krimira"
+        ]
+      },
+      {
+        "key": "mahadeva",
+        "name": "Mahadeva",
+        "kind": "unknown",
+        "description": "Fights Arjuna in the guise of a hunter.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_mahadeva"
+        ]
+      },
+      {
+        "key": "indra",
+        "name": "Indra",
+        "kind": "unknown",
+        "description": "Named possessor of the regions to which a journey is described.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_indra_nala"
+        ]
+      },
+      {
+        "key": "nala",
+        "name": "Nala",
+        "kind": "unknown",
+        "description": "Subject of the Nalopakhyana story.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_indra_nala"
+        ]
+      },
+      {
+        "key": "kuru_pilgrim_prince",
+        "name": "Unnamed wise prince of the Kurus",
+        "kind": "human",
+        "description": "Prince whose pilgrimage is described in Tirtha-yatra.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called prince.",
+            "evidenceKeys": [
+              "e_prince_jatasura"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_prince_jatasura"
+        ]
+      },
+      {
+        "key": "jatasura",
+        "name": "Jatasura",
+        "kind": "unknown",
+        "description": "Individual whose death is included in the forest-book outline.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_prince_jatasura"
+        ]
+      },
+      {
+        "key": "markandeya",
+        "name": "Markandeya",
+        "kind": "unknown",
+        "description": "Individual met in Markandeya-Samasya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_markandeya_satyabhama"
+        ]
+      },
+      {
+        "key": "satyabhama",
+        "name": "Satyabhama",
+        "kind": "unknown",
+        "description": "Meets Draupadi in the listed narrative.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_markandeya_satyabhama"
+        ]
+      },
+      {
+        "key": "brihadaranyaka",
+        "name": "Brihadaranyaka",
+        "kind": "unknown",
+        "description": "Named subject of a story; the excerpt does not establish that the name denotes an individual being.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_brihadaranyaka"
+        ]
+      },
+      {
+        "key": "aindradrumna",
+        "name": "Aindradrumna",
+        "kind": "unknown",
+        "description": "Name following Brihadaranyaka in the story sequence; its individual referent is uncertain.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_brihadaranyaka"
+        ]
+      },
+      {
+        "key": "jayadratha",
+        "name": "Jayadratha",
+        "kind": "unknown",
+        "description": "Released in one episode and later the target of Arjuna's vow to slay him.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_jayadratha_release",
+          "e_jayadratha_ghatotkacha"
+        ]
+      },
+      {
+        "key": "savitri_chastity",
+        "name": "Savitri",
+        "kind": "unknown",
+        "description": "Subject of the story illustrating connubial chastity.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_savitri_rama"
+        ]
+      },
+      {
+        "key": "rama_story",
+        "name": "Rama",
+        "kind": "unknown",
+        "description": "Subject of the story following the connubial-chastity story of Savitri.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_savitri_rama"
+        ]
+      },
+      {
+        "key": "virata",
+        "name": "Virata",
+        "kind": "unknown",
+        "description": "Possessor of the kine targeted by the Kauravas and parent of Abhimanyu's unnamed spouse.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_virata_marriage"
+        ]
+      },
+      {
+        "key": "abhimanyu",
+        "name": "Abhimanyu",
+        "kind": "unknown",
+        "description": "Conceived in Subhadra's womb and married to Virata's daughter.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_virata_marriage",
+          "e_abhimanyu_conception"
+        ]
+      },
+      {
+        "key": "virata_daughter",
+        "name": "Unnamed daughter of Virata",
+        "kind": "unknown",
+        "description": "Daughter of Virata who marries Abhimanyu.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called daughter.",
+            "evidenceKeys": [
+              "e_virata_marriage"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_virata_marriage"
+        ]
+      },
+      {
+        "key": "sanjaya",
+        "name": "Sanjaya",
+        "kind": "unknown",
+        "description": "Individual whose arrival is described in Sanjaya-yana.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_sanjaya_dhritarashtra"
+        ]
+      },
+      {
+        "key": "dhritarashtra",
+        "name": "Dhritarashtra",
+        "kind": "unknown",
+        "description": "Anxious, sleepless figure who delivers Draupadi, described as his daughter-in-law.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "His anxiety and daughter-in-law are described with masculine possessives.",
+            "evidenceKeys": [
+              "e_sanjaya_dhritarashtra",
+              "e_daughter_in_law"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_sanjaya_dhritarashtra",
+          "e_vyasa_birth_blessings",
+          "e_daughter_in_law"
+        ]
+      },
+      {
+        "key": "krishna_brother",
+        "name": "Krishna",
+        "kind": "unknown",
+        "description": "Named participant in the arrivals, brother of Balarama in the potter's-house episode, and brother of Subhadra in the abduction episode.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called Subhadra's brother and included among the brothers Balarama and Krishna.",
+            "evidenceKeys": [
+              "e_subhadra_brother",
+              "e_balarama_brothers"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_krishna_arrival",
+          "e_balarama_brothers",
+          "e_subhadra_brother"
+        ]
+      },
+      {
+        "key": "matali",
+        "name": "Matali",
+        "kind": "unknown",
+        "description": "Subject of a story in the Udyoga outline.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_matali_galava"
+        ]
+      },
+      {
+        "key": "galava",
+        "name": "Galava",
+        "kind": "unknown",
+        "description": "Subject of a story following that of Matali.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_matali_galava"
+        ]
+      },
+      {
+        "key": "savitri_udyoga",
+        "name": "Savitri",
+        "kind": "unknown",
+        "description": "Subject of a story listed with those of Vamadeva and Vainya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_udyoga_stories"
+        ]
+      },
+      {
+        "key": "vamadeva",
+        "name": "Vamadeva",
+        "kind": "unknown",
+        "description": "Subject of a story in the Udyoga outline.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_udyoga_stories"
+        ]
+      },
+      {
+        "key": "vainya",
+        "name": "Vainya",
+        "kind": "unknown",
+        "description": "Subject of a story in the Udyoga outline.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_udyoga_stories"
+        ]
+      },
+      {
+        "key": "jamadagnya",
+        "name": "Jamadagnya",
+        "kind": "unknown",
+        "description": "Named subject in the listed story of Jamadagnya and Shodasarajika.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_jamadagnya"
+        ]
+      },
+      {
+        "key": "shodasarajika",
+        "name": "Shodasarajika",
+        "kind": "unknown",
+        "description": "Named alongside Jamadagnya as a story subject; the excerpt does not establish an individual being.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_jamadagnya"
+        ]
+      },
+      {
+        "key": "sheta",
+        "name": "Sheta",
+        "kind": "unknown",
+        "description": "Subject of a story associated with the muster of troops.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_sheta_karna"
+        ]
+      },
+      {
+        "key": "karna",
+        "name": "Karna",
+        "kind": "unknown",
+        "description": "High-souled figure whose quarrel is listed and who incites Duryodhana against the Pandavas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_sheta_karna",
+          "e_duryodhana_plots"
+        ]
+      },
+      {
+        "key": "uluka",
+        "name": "Uluka",
+        "kind": "unknown",
+        "description": "Messenger whose arrival kindles the Pandavas' wrath.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_uluka_amba"
+        ]
+      },
+      {
+        "key": "amba",
+        "name": "Amba",
+        "kind": "unknown",
+        "description": "Subject of a story following Uluka's arrival.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_uluka_amba"
+        ]
+      },
+      {
+        "key": "ghatotkacha",
+        "name": "Ghatotkacha",
+        "kind": "unknown",
+        "description": "Individual whose birth and death are listed.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_ghatotkacha_birth",
+          "e_jayadratha_ghatotkacha"
+        ]
+      },
+      {
+        "key": "charvaka",
+        "name": "Charvaka",
+        "kind": "demon",
+        "description": "Rakshasa who assumes a Brahmana disguise to deceive Yudhishthira.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_charvaka"
+        ]
+      },
+      {
+        "key": "yudhishthira",
+        "name": "Yudhishthira",
+        "kind": "human",
+        "description": "Wise figure who is crowned, loses at dice, and goes into exile with his brothers.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The account refers to his brothers.",
+            "evidenceKeys": [
+              "e_yudhishthira_brothers"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_yudhishthira_coronation",
+          "e_sakuni",
+          "e_yudhishthira_brothers"
+        ]
+      },
+      {
+        "key": "durvasa",
+        "name": "Durvasa",
+        "kind": "unknown",
+        "description": "Individual whose origin is listed.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_durvasa"
+        ]
+      },
+      {
+        "key": "narada",
+        "name": "Narada",
+        "kind": "unknown",
+        "description": "Arriving figure who prescribes connubial turns and describes the lokapalas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_narada_arrival",
+          "e_connubial_krishna",
+          "e_narada_lokapalas"
+        ]
+      },
+      {
+        "key": "vishnu",
+        "name": "Vishnu",
+        "kind": "unknown",
+        "description": "Individual whose childhood frolics and feats are included in Vishnuparva.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_vishnu_kansa"
+        ]
+      },
+      {
+        "key": "kansa",
+        "name": "Kansa",
+        "kind": "unknown",
+        "description": "Individual whose destruction is included in the final outline.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_vishnu_kansa"
+        ]
+      },
+      {
+        "key": "vaka",
+        "name": "Vaka",
+        "kind": "demon",
+        "description": "Asura whose destruction is included in the Adi synopsis.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_vaka"
+        ]
+      },
+      {
+        "key": "utanka",
+        "name": "Utanka",
+        "kind": "unknown",
+        "description": "Individual whose greatness is treated in Paushya parva.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_utanka_bhrigu"
+        ]
+      },
+      {
+        "key": "bhrigu",
+        "name": "Bhrigu",
+        "kind": "unknown",
+        "description": "Parent of collectively mentioned sons treated in Pauloma.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_utanka_bhrigu"
+        ]
+      },
+      {
+        "key": "garuda",
+        "name": "Garuda",
+        "kind": "unknown",
+        "description": "Individual whose birth is described in Astika.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_garuda"
+        ]
+      },
+      {
+        "key": "uchchaihsrava",
+        "name": "Uchchaihsrava",
+        "kind": "animal",
+        "description": "Celestial steed whose birth is described.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_uchchaihsrava"
+        ]
+      },
+      {
+        "key": "krishna_dwaipayana",
+        "name": "Krishna Dwaipayana",
+        "kind": "sage",
+        "description": "Sage whose birth is narrated in Sambhava.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_krishna_dwaipayana"
+        ]
+      },
+      {
+        "key": "bharata",
+        "name": "Bharata",
+        "kind": "human",
+        "description": "King and progenitor of his namesake line, described as the son born of Sakuntala.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called king and son.",
+            "evidenceKeys": [
+              "e_bharata_family"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_bharata_family"
+        ]
+      },
+      {
+        "key": "sakuntala",
+        "name": "Sakuntala",
+        "kind": "unknown",
+        "description": "Parent of Bharata, who is described as the son born of Sakuntala.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_bharata_family"
+        ]
+      },
+      {
+        "key": "kanwa",
+        "name": "Kanwa",
+        "kind": "sage",
+        "description": "Ascetic whose hermitage is the setting for Bharata's birth.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_bharata_family"
+        ]
+      },
+      {
+        "key": "santanu",
+        "name": "Santanu",
+        "kind": "unknown",
+        "description": "Named possessor of the house in which the Vasus are born.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_santanu_vasus"
+        ]
+      },
+      {
+        "key": "chitrangada",
+        "name": "Chitrangada",
+        "kind": "unknown",
+        "description": "Individual protected by Bhishma before dying.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_bhishma_life",
+          "e_younger_brother"
+        ]
+      },
+      {
+        "key": "vichitravirya",
+        "name": "Vichitravirya",
+        "kind": "human",
+        "description": "Younger brother protected by Bhishma and placed on the throne.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called younger brother.",
+            "evidenceKeys": [
+              "e_younger_brother"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_bhishma_life",
+          "e_younger_brother"
+        ]
+      },
+      {
+        "key": "dharma",
+        "name": "Dharma",
+        "kind": "unknown",
+        "description": "Born among men as a consequence of Animondavya's curse.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_dharma_animondavya"
+        ]
+      },
+      {
+        "key": "animondavya",
+        "name": "Animondavya",
+        "kind": "unknown",
+        "description": "Individual whose curse causes Dharma's birth among men.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_dharma_animondavya"
+        ]
+      },
+      {
+        "key": "pandu",
+        "name": "Pandu",
+        "kind": "unknown",
+        "description": "Individual whose birth and collectively designated sons are mentioned.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_vyasa_birth_blessings",
+          "e_collective_sons",
+          "e_connubial_krishna"
+        ]
+      },
+      {
+        "key": "purochana",
+        "name": "Purochana",
+        "kind": "unknown",
+        "description": "Individual burned in the house of lac.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_fowler_fire"
+        ]
+      },
+      {
+        "key": "fowler_woman",
+        "name": "Unnamed woman of the fowler caste",
+        "kind": "human",
+        "description": "Sleeping woman burned in the house of lac with her five sons.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called woman.",
+            "evidenceKeys": [
+              "e_fowler_fire"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_fowler_fire"
+        ]
+      },
+      {
+        "key": "hidimba_female",
+        "name": "Hidimba",
+        "kind": "unknown",
+        "description": "Individual met in the forest whose brother Hidimba is slain by Bhima.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "The account refers to her brother.",
+            "evidenceKeys": [
+              "e_hidimba_siblings"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_hidimba_siblings"
+        ]
+      },
+      {
+        "key": "ekachakra_brahmana",
+        "name": "Unnamed Brahmana of Ekachakra",
+        "kind": "human",
+        "description": "Owner of the house in which the Pandavas stay in disguise.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_ekachakra"
+        ]
+      },
+      {
+        "key": "krishna_birth_notice",
+        "name": "Krishna",
+        "kind": "unknown",
+        "description": "Individual whose extraordinary birth is mentioned alongside Dhrishtadyumna's; identity with other Krishna references is unresolved.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_krishna_dhrishtadyumna_birth"
+        ]
+      },
+      {
+        "key": "dhrishtadyumna",
+        "name": "Dhrishtadyumna",
+        "kind": "unknown",
+        "description": "Individual whose extraordinary birth is mentioned and who brings Draupadi's son to Panchala.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_krishna_dhrishtadyumna_birth",
+          "e_children_transport"
+        ]
+      },
+      {
+        "key": "swayamvara_brahmana",
+        "name": "Unnamed Brahmana reporting the Swayamvara",
+        "kind": "human",
+        "description": "Brahmana from whom the Pandavas hear news of Draupadi's Swayamvara.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_swayamvara_brahmana"
+        ]
+      },
+      {
+        "key": "angaraparna",
+        "name": "Angaraparna",
+        "kind": "other",
+        "description": "Gandharva defeated by Arjuna who becomes his friend and relates histories.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_angaraparna"
+        ]
+      },
+      {
+        "key": "tapati",
+        "name": "Tapati",
+        "kind": "unknown",
+        "description": "Subject of a history heard from the Gandharva.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_angaraparna"
+        ]
+      },
+      {
+        "key": "vasishtha",
+        "name": "Vasishtha",
+        "kind": "unknown",
+        "description": "Subject of a history heard from the Gandharva.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_angaraparna"
+        ]
+      },
+      {
+        "key": "aurva",
+        "name": "Aurva",
+        "kind": "unknown",
+        "description": "Subject of a history heard from the Gandharva.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_angaraparna"
+        ]
+      },
+      {
+        "key": "balarama",
+        "name": "Balarama",
+        "kind": "unknown",
+        "description": "Recognizes the Pandavas' exploits and arrives with Krishna as one of the brothers.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Balarama and Krishna are explicitly called the brothers.",
+            "evidenceKeys": [
+              "e_balarama_brothers"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_balarama_brothers"
+        ]
+      },
+      {
+        "key": "potter",
+        "name": "Unnamed potter",
+        "kind": "human",
+        "description": "Owner of the house where the Pandavas are staying when Balarama and Krishna arrive.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_balarama_brothers"
+        ]
+      },
+      {
+        "key": "drupada",
+        "name": "Drupada",
+        "kind": "unknown",
+        "description": "Dejected on learning that Draupadi is to have five husbands.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_drupada"
+        ]
+      },
+      {
+        "key": "krishna_connubial",
+        "name": "Krishna",
+        "kind": "unknown",
+        "description": "Named partner in the connubial turns prescribed for the sons of Pandu; identity with Draupadi is unresolved.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_connubial_krishna"
+        ]
+      },
+      {
+        "key": "sunda",
+        "name": "Sunda",
+        "kind": "unknown",
+        "description": "Subject of a history recited with that of Upasunda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_sunda_upasunda"
+        ]
+      },
+      {
+        "key": "upasunda",
+        "name": "Upasunda",
+        "kind": "unknown",
+        "description": "Subject of a history recited with that of Sunda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_sunda_upasunda"
+        ]
+      },
+      {
+        "key": "cattle_brahmana",
+        "name": "Unnamed Brahmana whose kine require rescue",
+        "kind": "human",
+        "description": "Owner of the kine for whose rescue Arjuna enters the chamber to take arms.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_arjuna_departure"
+        ]
+      },
+      {
+        "key": "ulupi",
+        "name": "Ulupi",
+        "kind": "unknown",
+        "description": "Daughter of a Naga whom Arjuna meets on his journey.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called daughter.",
+            "evidenceKeys": [
+              "e_ulupi"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_ulupi"
+        ]
+      },
+      {
+        "key": "ulupi_naga_parent",
+        "name": "Unnamed Naga parent of Ulupi",
+        "kind": "animal",
+        "description": "Naga explicitly glossed as a serpent and identified as Ulupi's parent.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_ulupi"
+        ]
+      },
+      {
+        "key": "vabhruvahana",
+        "name": "Vabhruvahana",
+        "kind": "unknown",
+        "description": "Individual whose birth is listed after Arjuna's visits to sacred spots.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_vabhruvahana"
+        ]
+      },
+      {
+        "key": "damsels_cursing_brahmana",
+        "name": "Unnamed Brahmana who curses the celestial damsels",
+        "kind": "human",
+        "description": "Brahmana whose imprecation turns five celestial damsels into alligators.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_damsels_curse"
+        ]
+      },
+      {
+        "key": "madhava",
+        "name": "Madhava",
+        "kind": "unknown",
+        "description": "Meets Arjuna at Prabhasa and receives Draupadi's lamentations.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_madhava_meeting",
+          "e_dhananjaya_madhava"
+        ]
+      },
+      {
+        "key": "yajnaseni",
+        "name": "Yajnaseni",
+        "kind": "unknown",
+        "description": "Individual described as giving birth to children.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly described as giving birth.",
+            "evidenceKeys": [
+              "e_yajnaseni"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_yajnaseni"
+        ]
+      },
+      {
+        "key": "escaped_serpent",
+        "name": "Unnamed serpent escaping Khandava",
+        "kind": "animal",
+        "description": "Individually referenced serpent that escapes in the Khandava episode.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_serpent_mandapala"
+        ]
+      },
+      {
+        "key": "mandapala",
+        "name": "Mandapala",
+        "kind": "sage",
+        "description": "Rishi who begets a son in the womb of the bird Sarngi.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly described as begetting a son in Sarngi's womb.",
+            "evidenceKeys": [
+              "e_serpent_mandapala"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_serpent_mandapala"
+        ]
+      },
+      {
+        "key": "sarngi",
+        "name": "Sarngi",
+        "kind": "animal",
+        "description": "Bird in whose womb Mandapala begets a son.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly described as possessing the womb in which the son is begotten.",
+            "evidenceKeys": [
+              "e_serpent_mandapala"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_serpent_mandapala"
+        ]
+      },
+      {
+        "key": "mandapala_sarngi_son",
+        "name": "Unnamed son of Mandapala and Sarngi",
+        "kind": "unknown",
+        "description": "Single son begotten by Mandapala in Sarngi's womb.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e_serpent_mandapala"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_serpent_mandapala"
+        ]
+      },
+      {
+        "key": "vasudeva",
+        "name": "Vasudeva",
+        "kind": "unknown",
+        "description": "Delivers the princes confined in the mountain-pass.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_jarasandha_vasudeva"
+        ]
+      },
+      {
+        "key": "bhimasena",
+        "name": "Bhimasena",
+        "kind": "unknown",
+        "description": "Ridicules Duryodhana in the assembly.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_bhimasena"
+        ]
+      },
+      {
+        "key": "sakuni",
+        "name": "Sakuni",
+        "kind": "unknown",
+        "description": "Wily player who defeats Yudhishthira at dice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_sakuni"
+        ]
+      },
+      {
+        "key": "sun",
+        "name": "Sun",
+        "kind": "deity",
+        "description": "God of day whose grace provides food.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "god of day",
+            "evidenceKeys": [
+              "e_sun_dhaumya"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "e_sun_dhaumya"
+        ]
+      },
+      {
+        "key": "dhaumya",
+        "name": "Dhaumya",
+        "kind": "unknown",
+        "description": "Gives the injunctions associated with Yudhishthira's adoration of the god of day.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_sun_dhaumya"
+        ]
+      },
+      {
+        "key": "surabhi",
+        "name": "Surabhi",
+        "kind": "unknown",
+        "description": "Subject of a history in the forest-book synopsis.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_surabhi_maitreya"
+        ]
+      },
+      {
+        "key": "maitreya",
+        "name": "Maitreya",
+        "kind": "unknown",
+        "description": "Arrives, advises Dhritarashtra, and curses Duryodhana.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "His advice and curse are described with masculine possessives.",
+            "evidenceKeys": [
+              "e_surabhi_maitreya"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_surabhi_maitreya"
+        ]
+      },
+      {
+        "key": "kirmira",
+        "name": "Kirmira",
+        "kind": "unknown",
+        "description": "Individual slain by Bhima in battle.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_kirmira"
+        ]
+      },
+      {
+        "key": "dhananjaya",
+        "name": "Dhananjaya",
+        "kind": "unknown",
+        "description": "Allays Krishna's wrath.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_dhananjaya_madhava"
+        ]
+      },
+      {
+        "key": "subhadra_son",
+        "name": "Unnamed son accompanying Subhadra",
+        "kind": "unknown",
+        "description": "Son brought with Subhadra to Dwaraka by Krishna; the passage does not name him.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called her son.",
+            "evidenceKeys": [
+              "e_children_transport"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_children_transport"
+        ]
+      },
+      {
+        "key": "draupadi_son",
+        "name": "Unnamed son of Draupadi",
+        "kind": "unknown",
+        "description": "Son brought to Panchala by Dhrishtadyumna.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called the son of Draupadi.",
+            "evidenceKeys": [
+              "e_children_transport"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_children_transport"
+        ]
+      },
+      {
+        "key": "rishi_sauva_narrator",
+        "name": "Unnamed Rishi describing the fall of Sauva",
+        "kind": "sage",
+        "description": "Rishi credited with describing the fall of Sauva.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_sauva"
+        ]
+      },
+      {
+        "key": "brihadaswa",
+        "name": "Brihadaswa",
+        "kind": "sage",
+        "description": "Worshipful great sage met by Yudhishthira.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_brihadaswa"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromKey": "suta_parent",
+        "toKey": "sauti",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_suta_address",
+          "e_sauti",
+          "e_suta_recital"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "arjuna",
+        "toKey": "draupadi",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_draupadi_marriage"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "virata",
+        "toKey": "virata_daughter",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_virata_marriage"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "abhimanyu",
+        "toKey": "virata_daughter",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_virata_marriage"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "sakuntala",
+        "toKey": "bharata",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_bharata_family"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "bhishma",
+        "toKey": "vichitravirya",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_bhishma_life",
+          "e_younger_brother"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "pandu",
+        "toKey": "arjuna",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_collective_sons",
+          "e_crowned_opponents",
+          "e_balarama_brothers"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "pandu",
+        "toKey": "bhima",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_collective_sons",
+          "e_crowned_opponents",
+          "e_balarama_brothers"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "pandu",
+        "toKey": "yudhishthira",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_collective_sons",
+          "e_yudhishthira_brothers",
+          "e_pandavas_yudhishthira"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "dhritarashtra",
+        "toKey": "duryodhana",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_collective_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "hidimba_female",
+        "toKey": "hidimba_male",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_hidimba_siblings"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "balarama",
+        "toKey": "krishna_brother",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_balarama_brothers"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "krishna_brother",
+        "toKey": "subhadra",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_subhadra_brother"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "ulupi_naga_parent",
+        "toKey": "ulupi",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_ulupi"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "subhadra",
+        "toKey": "abhimanyu",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e_abhimanyu_conception"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "subhadra",
+        "toKey": "subhadra_son",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_children_transport"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "mandapala",
+        "toKey": "mandapala_sarngi_son",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e_serpent_mandapala"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "sarngi",
+        "toKey": "mandapala_sarngi_son",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e_serpent_mandapala"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "draupadi",
+        "toKey": "draupadi_son",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_children_transport"
+        ],
+        "status": "supported"
+      }
+    ],
+    "evidence": [
+      {
+        "key": "e_rama",
+        "page": 10,
+        "excerpt": "Rama said, 'If, O fathers, ye are favourably disposed towards me, the boon I ask is that I may be absolved from the sins born of my having annihilated the Kshatriyas in anger, and that the lakes I have formed may become famous in the world as holy shrines.'"
+      },
+      {
+        "key": "e_suta_address",
+        "page": 10,
+        "excerpt": "The Rishis said, 'We have a desire to know, O son of Suta, what is implied by the term Akshauhini that hath been used by thee."
+      },
+      {
+        "key": "e_sauti",
+        "page": 10,
+        "excerpt": "Sauti said, 'One chariot, one elephant, five foot-soldiers, and three horses form one Patti;"
+      },
+      {
+        "key": "e_time",
+        "page": 10,
+        "excerpt": "Time, whose acts are wonderful assembled them on that spot and having made the Kauravas the cause, destroyed them all."
+      },
+      {
+        "key": "e_commanders",
+        "page": 10,
+        "excerpt": "Bhishma acquainted with choice of weapons, fought for ten days. Drona protected the Kaurava Vahinis for five days. Kama the desolator of hostile armies fought for two days; and Salya for half a day."
+      },
+      {
+        "key": "e_club_fight",
+        "page": 10,
+        "excerpt": "After that lasted for half a day the encounter with clubs between Duryodhana and Bhima."
+      },
+      {
+        "key": "e_night_attack",
+        "page": 10,
+        "excerpt": "At the close of that day, Aswatthaman and Kripa destroyed the army of Yudishthira in the night while sleeping without suspicion of danger."
+      },
+      {
+        "key": "e_sacrifices",
+        "page": 10,
+        "excerpt": "O Saunaka, this best of narrations called Bharata which has begun to be repeated at thy sacrifice, was formerly repeated at the sacrifice of Janamejaya by an intelligent disciple of Vyasa."
+      },
+      {
+        "key": "e_baka",
+        "page": 10,
+        "excerpt": "then comes Baka-badha (slaughter of Baka)"
+      },
+      {
+        "key": "e_draupadi_marriage",
+        "page": 10,
+        "excerpt": "The next is called Swayamvara (selection of husband by Panchali), in which Arjuna by the exercise of Kshatriya virtues, won Draupadi for wife."
+      },
+      {
+        "key": "e_maya_architect",
+        "page": 11,
+        "excerpt": "Maya-darsana (meeting with Maya the Asura architect)"
+      },
+      {
+        "key": "e_sisupala",
+        "page": 11,
+        "excerpt": "Sisupala-badha (the killing of Sisupala)"
+      },
+      {
+        "key": "e_sisupala_sacrifice",
+        "page": 12,
+        "excerpt": "the destruction of Sisupala on the occasion of the sacrifice, in connection with offering of arghya"
+      },
+      {
+        "key": "e_krimira",
+        "page": 11,
+        "excerpt": "Krimira-badha (destruction of Krimira)"
+      },
+      {
+        "key": "e_mahadeva",
+        "page": 11,
+        "excerpt": "In the last hath been described the battle between Arjuna and Mahadeva in the guise of a hunter."
+      },
+      {
+        "key": "e_indra_nala",
+        "page": 11,
+        "excerpt": "After this Indra-lokavigamana (the journey to the regions of Indra); then that mine of religion and virtue, the highly pathetic Nalopakhyana (the story of Nala)."
+      },
+      {
+        "key": "e_prince_jatasura",
+        "page": 11,
+        "excerpt": "After this last, Tirtha-yatra or the pilgrimage of the wise prince of the Kurus, the death of Jatasura, and the battle of the Yakshas."
+      },
+      {
+        "key": "e_markandeya_satyabhama",
+        "page": 11,
+        "excerpt": "Markandeya-Samasya (meeting with Markandeya). Then the meeting of Draupadi and Satyabhama"
+      },
+      {
+        "key": "e_brihadaranyaka",
+        "page": 11,
+        "excerpt": "Then the story of Brihadaranyaka and then Aindradrumna."
+      },
+      {
+        "key": "e_jayadratha_release",
+        "page": 11,
+        "excerpt": "Jayadratha-bimoksana (the release of Jayadratha)."
+      },
+      {
+        "key": "e_savitri_rama",
+        "page": 11,
+        "excerpt": "Then the story of 'Savitri' illustrating the great merit of connubial chastity. After this last, the story of 'Rama'."
+      },
+      {
+        "key": "e_virata_marriage",
+        "page": 11,
+        "excerpt": "then the attempt to take the kine (of Virata by the Kauravas). The next is called the marriage of Abhimanyu with the daughter of Virata."
+      },
+      {
+        "key": "e_sanjaya_dhritarashtra",
+        "page": 11,
+        "excerpt": "Sanjaya-yana' (the arrival of Sanjaya). Then comes 'Prajagara' (the sleeplessness of Dhritarashtra owing to his anxiety)."
+      },
+      {
+        "key": "e_krishna_arrival",
+        "page": 11,
+        "excerpt": "Then 'Yanasaddhi', and then the arrival of Krishna."
+      },
+      {
+        "key": "e_matali_galava",
+        "page": 11,
+        "excerpt": "Then the story of 'Matali' and then of 'Galava'."
+      },
+      {
+        "key": "e_udyoga_stories",
+        "page": 11,
+        "excerpt": "Then the stories of 'Savitri', 'Vamadeva', and 'Vainya'."
+      },
+      {
+        "key": "e_jamadagnya",
+        "page": 11,
+        "excerpt": "Then the story of 'Jamadagnya and Shodasarajika'."
+      },
+      {
+        "key": "e_sheta_karna",
+        "page": 11,
+        "excerpt": "Then the muster of troops and the story of Sheta. Then, must you know, comes the quarrel of the high-souled Karna."
+      },
+      {
+        "key": "e_uluka_amba",
+        "page": 11,
+        "excerpt": "Then comes the arrival of the messenger Uluka which kindled the wrath (of the Pandavas). The next that comes, you must know, is the story of Amba."
+      },
+      {
+        "key": "e_jayadratha_ghatotkacha",
+        "page": 11,
+        "excerpt": "Then the death of Abhimanyu; and then the vow of Arjuna (to slay Jayadratha). Then the death of Jayadratha, and then of Ghatotkacha."
+      },
+      {
+        "key": "e_drona_death",
+        "page": 11,
+        "excerpt": "Then, must you know, comes the story of the death of Drona of surprising interest."
+      },
+      {
+        "key": "e_charvaka",
+        "page": 11,
+        "excerpt": "Then comes the destruction of the Rakshasa Charvaka who had assumed the disguise of a Brahmana (for deceiving Yudhishthira)."
+      },
+      {
+        "key": "e_yudhishthira_coronation",
+        "page": 11,
+        "excerpt": "Then the coronation of the wise Yudhishthira."
+      },
+      {
+        "key": "e_durvasa",
+        "page": 11,
+        "excerpt": "the origin of 'Durvasa', the disputations with Maya."
+      },
+      {
+        "key": "e_narada_arrival",
+        "page": 11,
+        "excerpt": "and the arrival of Narada."
+      },
+      {
+        "key": "e_vishnu_kansa",
+        "page": 11,
+        "excerpt": "In this last are contained 'Vishnuparva', Vishnu's frolics and feats as a child, the destruction of 'Kansa'"
+      },
+      {
+        "key": "e_vyasa_composition",
+        "page": 11,
+        "excerpt": "The high-souled Vyasa composed these hundred parvas of which the above is only an abridgement"
+      },
+      {
+        "key": "e_suta_recital",
+        "page": 11,
+        "excerpt": "the son of Suta recited them consecutively in the forest of Naimisha"
+      },
+      {
+        "key": "e_vaka",
+        "page": 11,
+        "excerpt": "the destruction of the Asura Vaka"
+      },
+      {
+        "key": "e_utanka_bhrigu",
+        "page": 11,
+        "excerpt": "The Paushya parva treats of the greatness of Utanka, and the Pauloma, of the sons of Bhrigu."
+      },
+      {
+        "key": "e_garuda",
+        "page": 11,
+        "excerpt": "The Astika describes the birth of Garuda and of the Nagas (snakes)"
+      },
+      {
+        "key": "e_uchchaihsrava",
+        "page": 11,
+        "excerpt": "the incidents relating to the birth of the celestial steed Uchchaihsrava"
+      },
+      {
+        "key": "e_janamejaya_king",
+        "page": 11,
+        "excerpt": "the dynasty of Bharata, as described in the Snake-sacrifice of king Janamejaya."
+      },
+      {
+        "key": "e_krishna_dwaipayana",
+        "page": 11,
+        "excerpt": "The Sambhava parva narrates the birth of various kings and heroes, and that of the sage, Krishna Dwaipayana"
+      },
+      {
+        "key": "e_bharata_family",
+        "page": 11,
+        "excerpt": "king Bharata--the progenitor of the line that goes by his name--the son born of Sakuntala in the hermitage of the ascetic Kanwa."
+      },
+      {
+        "key": "e_santanu_vasus",
+        "page": 11,
+        "excerpt": "the births of the Vasus in the house of Santanu and their ascension to heaven."
+      },
+      {
+        "key": "e_bhishma_life",
+        "page": 11,
+        "excerpt": "In this parva is also narrated the birth of Bhishma uniting in himself portions of the energies of the other Vasus, his renunciation of royalty and adoption of the Brahmacharya mode of life, his adherence to his vows"
+      },
+      {
+        "key": "e_younger_brother",
+        "page": 11,
+        "excerpt": "his protection of Chitrangada, and after the death of Chitrangada, his protection of his younger brother, Vichitravirya, and his placing the latter on the throne"
+      },
+      {
+        "key": "e_dharma_animondavya",
+        "page": 11,
+        "excerpt": "the birth of Dharma among men in consequence of the curse of Animondavya"
+      },
+      {
+        "key": "e_vyasa_birth_blessings",
+        "page": 11,
+        "excerpt": "the births of Dhritarashtra and Pandu through the potency of Vyasa's blessings (?) and also the birth of the Pandavas"
+      },
+      {
+        "key": "e_collective_sons",
+        "page": 12,
+        "excerpt": "Duryodhana to send the sons of Pandu to Varanavata, and the other dark counsels of the sons of Dhritarashtra in regard to the Pandavas"
+      },
+      {
+        "key": "e_vidura_advice",
+        "page": 12,
+        "excerpt": "then the advice administered to Yudhishthira on his way by that well-wisher of the Pandavas--Vidura--in the mlechchha language"
+      },
+      {
+        "key": "e_fowler_fire",
+        "page": 12,
+        "excerpt": "the burning of Purochana and the sleeping woman of the fowler caste, with her five sons, in the house of lac"
+      },
+      {
+        "key": "e_hidimba_siblings",
+        "page": 12,
+        "excerpt": "the meeting of the Pandavas in the dreadful forest with Hidimba, and the slaying of her brother Hidimba by Bhima of great prowess."
+      },
+      {
+        "key": "e_ghatotkacha_birth",
+        "page": 12,
+        "excerpt": "The birth of Ghatotkacha"
+      },
+      {
+        "key": "e_ekachakra",
+        "page": 12,
+        "excerpt": "the meeting of the Pandavas with Vyasa and in accordance with his advice their stay indisguise in the house of a Brahmana in the city of Ekachakra"
+      },
+      {
+        "key": "e_krishna_dhrishtadyumna_birth",
+        "page": 12,
+        "excerpt": "the extra-ordinary births of Krishna and Dhrishtadyumna"
+      },
+      {
+        "key": "e_swayamvara_brahmana",
+        "page": 12,
+        "excerpt": "moved equally by the desire of winning the hand of Draupadi on learning the tidings of the Swayamvara from the lips of a Brahmana"
+      },
+      {
+        "key": "e_angaraparna",
+        "page": 12,
+        "excerpt": "victory of Arjuna over a Gandharva, called Angaraparna, on the banks of the Bhagirathi, his contraction of friendship with his adversary, and his hearing from the Gandharva the history of Tapati, Vasishtha and Aurva."
+      },
+      {
+        "key": "e_crowned_opponents",
+        "page": 12,
+        "excerpt": "and in the ensuing fight, the defeat of Salya, Kama, and all the other crowned heads at the hands of Bhima and Arjuna of great prowess"
+      },
+      {
+        "key": "e_balarama_brothers",
+        "page": 12,
+        "excerpt": "the ascertainment by Balarama and Krishna, at the sight of these matchless exploits, that the heroes were the Pandavas, and the arrival of the brothers at the house of the potter where the Pandavas were staying"
+      },
+      {
+        "key": "e_drupada",
+        "page": 12,
+        "excerpt": "the dejection of Drupada on learning that Draupadi was to be wedded to five husbands"
+      },
+      {
+        "key": "e_vidura_envoy",
+        "page": 12,
+        "excerpt": "the sending of Vidura by the sons of Dhritarashtra as envoy to the Pandavas"
+      },
+      {
+        "key": "e_vidura_krishna_sight",
+        "page": 12,
+        "excerpt": "the arrival of Vidura and his sight to Krishna"
+      },
+      {
+        "key": "e_connubial_krishna",
+        "page": 12,
+        "excerpt": "the fixing of turns by the sons of Pandu, in obedience to the injunction of Narada, for connubial companionship with Krishna."
+      },
+      {
+        "key": "e_sunda_upasunda",
+        "page": 12,
+        "excerpt": "In like manner hath the history of Sunda and Upasunda been recited in this."
+      },
+      {
+        "key": "e_arjuna_departure",
+        "page": 12,
+        "excerpt": "the departure of Arjuna for the forest according to the vow, he having seen Draupadi and Yudhishthira sitting together as he entered the chamber to take out arms for delivering the kine of a certain Brahmana."
+      },
+      {
+        "key": "e_ulupi",
+        "page": 12,
+        "excerpt": "Arjuna's meeting on the way with Ulupi, the daughter of a Naga (serpent)"
+      },
+      {
+        "key": "e_vabhruvahana",
+        "page": 12,
+        "excerpt": "the birth of Vabhruvahana"
+      },
+      {
+        "key": "e_damsels_curse",
+        "page": 12,
+        "excerpt": "the deliverance by Arjuna of the five celestial damsels who had been turned into alligators by the imprecation of a Brahmana"
+      },
+      {
+        "key": "e_madhava_meeting",
+        "page": 12,
+        "excerpt": "the meeting of Madhava and Arjuna on the holy spot called Prabhasa"
+      },
+      {
+        "key": "e_subhadra_brother",
+        "page": 12,
+        "excerpt": "the carrying away of Subhadra by Arjuna, incited thereto by her brother Krishna"
+      },
+      {
+        "key": "e_abhimanyu_conception",
+        "page": 12,
+        "excerpt": "the conception in the womb of Subhadra of that prodigy of prowess, Abhimanyu"
+      },
+      {
+        "key": "e_yajnaseni",
+        "page": 12,
+        "excerpt": "Yajnaseni's giving birth to children"
+      },
+      {
+        "key": "e_maya_rescue",
+        "page": 12,
+        "excerpt": "the rescue of Maya by Arjuna"
+      },
+      {
+        "key": "e_serpent_mandapala",
+        "page": 12,
+        "excerpt": "the escape of the serpent,--and the begetting of a son by that best of Rishis, Mandapala, in the womb of the bird Sarngi."
+      },
+      {
+        "key": "e_narada_lokapalas",
+        "page": 12,
+        "excerpt": "the description of the lokapalas by Narada well-acquainted with the celestial regions"
+      },
+      {
+        "key": "e_jarasandha_vasudeva",
+        "page": 12,
+        "excerpt": "the destruction of Jarasandha; the deliverance by Vasudeva of the princes confined in the mountain-pass"
+      },
+      {
+        "key": "e_bhimasena",
+        "page": 12,
+        "excerpt": "Bhimasena's ridicule of Duryodhana in the assembly"
+      },
+      {
+        "key": "e_sakuni",
+        "page": 12,
+        "excerpt": "the defeat of Yudhishthira at play by the wily Sakuni"
+      },
+      {
+        "key": "e_daughter_in_law",
+        "page": 12,
+        "excerpt": "the deliverance by Dhritarashtra of his afflicted daughter-in-law Draupadi"
+      },
+      {
+        "key": "e_yudhishthira_brothers",
+        "page": 12,
+        "excerpt": "the exile of the defeated Yudhishthira with his brothers."
+      },
+      {
+        "key": "e_pandavas_yudhishthira",
+        "page": 12,
+        "excerpt": "the wending of the Pandavas to the forest and the citizens, following the wise Yudhishthira"
+      },
+      {
+        "key": "e_sun_dhaumya",
+        "page": 12,
+        "excerpt": "Yudhishthira's adoration of the god of day; according to the injunctions of Dhaumya, to be gifted with the power of maintaining the dependent Brahmanas with food and drink: the creation of food through the grace of the Sun"
+      },
+      {
+        "key": "e_vidura_return",
+        "page": 12,
+        "excerpt": "Vidura's coming to the Pandavas and his return to Dhritarashtra at the solicitation of the latter"
+      },
+      {
+        "key": "e_duryodhana_plots",
+        "page": 12,
+        "excerpt": "the wicked Duryodhana's plottings to destroy the forest-ranging Pandavas, being incited thereto by Karna"
+      },
+      {
+        "key": "e_surabhi_maitreya",
+        "page": 12,
+        "excerpt": "the history of Surabhi; the arrival of Maitreya; his laying down to Dhritarashtra the course of action; and his curse on Duryodhana"
+      },
+      {
+        "key": "e_kirmira",
+        "page": 12,
+        "excerpt": "Bhima's slaying of Kirmira in battle"
+      },
+      {
+        "key": "e_dhananjaya_madhava",
+        "page": 12,
+        "excerpt": "Dhananjaya's allaying the wrath of Krishna; Draupadi's lamentations before Madhava; Krishna's cheering her"
+      },
+      {
+        "key": "e_children_transport",
+        "page": 12,
+        "excerpt": "Krishna's bringing Subhadra with her son to Dwaraka; and Dhrishtadyumna's bringing the son of Draupadi to Panchala"
+      },
+      {
+        "key": "e_sauva",
+        "page": 12,
+        "excerpt": "the fall of Sauva also has been here described by the Rishi"
+      },
+      {
+        "key": "e_brihadaswa",
+        "page": 12,
+        "excerpt": "the wailings and lamentations of Yudhishthira on the occasion of his meeting with the worshipful great sage Brihadaswa."
+      },
+      {
+        "key": "e_sanatsujata_title",
+        "page": 11,
+        "excerpt": "Then Sanatsujata, in which are the mysteries of spiritual philosophy."
+      },
+      {
+        "key": "e_saraswata_title",
+        "page": 11,
+        "excerpt": "Then comes Saraswata, and then the descriptions of holy shrines, and then genealogies."
+      },
+      {
+        "key": "e_suka_title",
+        "page": 11,
+        "excerpt": "'Suka-prasna-abhigamana'"
+      },
+      {
+        "key": "e_bidulaputrasasana_title",
+        "page": 11,
+        "excerpt": "Then the arrival of Krishna at the court, and then Bidulaputrasasana."
+      },
+      {
+        "key": "e_chitraratha_title",
+        "page": 10,
+        "excerpt": "then comes Baka-badha (slaughter of Baka) and then Chitraratha."
+      },
+      {
+        "key": "e_ajagara_title",
+        "page": 11,
+        "excerpt": "Then the battle with the Nivata-kavachas, Ajagara, and Markandeya-Samasya (meeting with Markandeya)."
+      },
+      {
+        "key": "e_bhagirathi",
+        "page": 12,
+        "excerpt": "on the banks of the Bhagirathi"
+      },
+      {
+        "key": "e_narayana_weapon",
+        "page": 11,
+        "excerpt": "the discharge of the weapon called Narayana."
+      },
+      {
+        "key": "e_brahma_knowledge",
+        "page": 10,
+        "excerpt": "the knowledge of Brahma"
+      },
+      {
+        "key": "e_five_indras",
+        "page": 12,
+        "excerpt": "the wonderful story of the five Indras related in consequence"
+      }
+    ],
+    "unresolved": [
+      "Suta in e_suta_address and e_suta_recital may be a parent's designation or a social designation. The separate parent entity and parent claim remain provisional.",
+      "The provisional Pandu parent records depend on contextual identification of the named Pandavas with the collectively designated sons of Pandu. The excerpt does not directly state each named individual's parentage.",
+      "The provisional Dhritarashtra-to-Duryodhana parent record depends on the phrase connecting Duryodhana's plottings with the other dark counsels of the sons of Dhritarashtra.",
+      "The brothers accompanying Yudhishthira in e_yudhishthira_brothers are not individually named there. No named sibling pairs are generated from that collective statement or from shared parent claims.",
+      "The continuing possessives in the Bhishma sentence support the Bhishma-Vichitravirya sibling record. The excerpt does not explicitly call Chitrangada and Vichitravirya brothers, so that candidate relationship is omitted.",
+      "Draupadi is explicitly Dhritarashtra's daughter-in-law. That affinal relationship has no direct representation among the permitted relationship types.",
+      "Draupadi is described as having five husbands, but only Arjuna is individually identified by an explicit marriage claim. No additional husbands are created from the count.",
+      "The five sons of the fowler woman, the sons of Bhrigu, the other collectively mentioned sons of Pandu and Dhritarashtra, and Yajnaseni's children are not individually distinguished and are not expanded into separate entities.",
+      "The five celestial damsels and five Indras are collectively mentioned without individual identification. No separate entities are created from their counts.",
+      "The births of Dhritarashtra and Pandu through Vyasa's blessings, with an explicit question mark, state uncertain birth causation rather than unequivocal parenthood. No Vyasa parent records are asserted.",
+      "Births of the Vasus in Santanu's house do not individually establish Santanu as Bhishma's parent.",
+      "The births of Ghatotkacha and Vabhruvahana do not identify parents. Arjuna's meeting with Ulupi and carrying away of Subhadra do not independently state marriages.",
+      "The unnamed son accompanying Subhadra is not explicitly named Abhimanyu in the transport passage. The two references are kept separate pending an identity statement.",
+      "No identity statement equates Kama with Karna, Baka with Vaka, Krimira with Kirmira, or Yudishthira with Yudhishthira. These spellings remain separate.",
+      "No identity statement equates Vyasa with Krishna Dwaipayana, Arjuna with Dhananjaya, Bhima with Bhimasena, or Krishna with Madhava or Vasudeva.",
+      "The Krishna birth notice and the Krishna of connubial companionship are kept separate from the Krishna identified as a brother. Neither is explicitly equated with Draupadi.",
+      "The Krishna seen by Vidura in e_vidura_krishna_sight cannot be uniquely assigned among the Krishna references. This occurrence does not independently establish an additional individual.",
+      "Yajnaseni is not explicitly equated with Draupadi. Her collectively mentioned children are not merged with Draupadi's individually referenced unnamed son.",
+      "The Rama requesting absolution, the Rama of the embedded story, and Jamadagnya are not explicitly equated. The two Savitri story references occur in different narrative contexts and are not explicitly identified as the same individual.",
+      "The unnamed wise prince of the Kurus is not explicitly named and is not merged with Yudhishthira.",
+      "Brihadaranyaka, Aindradrumna, and Shodasarajika are retained only provisionally as named story subjects. Their status as individual beings is not established, and Shodasarajika is not expanded into reconstructed individuals.",
+      "Sanatsujata, Saraswata, Chitraratha, Ajagara, and Suka occur only as division titles or components of titles without an independently identified being in this batch. No character identity is inferred solely from those titles.",
+      "Paushya, Pauloma, and Astika are explicitly parva names here. Bidulaputrasasana is not decomposed into reconstructed people.",
+      "Bhagirathi is used as a river setting; no personified being is independently described. Sauva is not clearly identified as a being rather than a place.",
+      "The Rishi credited with describing the fall of Sauva is individually referenced but unnamed. The text does not explicitly identify that Rishi with Vyasa, Sauti, or another listed individual.",
+      "Narayana is explicitly a weapon name. Brahma occurs as an object of knowledge and in a division title without an independently described narrative being.",
+      "The Pitris, speaking Rishis, Vasus, lokapalas, Yakshas, Nivata-kavachas, Kichakas, Sansaptakas, and other undifferentiated groups are not separate individual entities. Bhishma and Indra are included on their individual references, without generating additional members of their associated groups.",
+      "The unquoted sentence introducing the son of Suta's recital does not identify a separate narrating being. No additional framing individual is created from that narrative voice."
+    ]
+  },
+  "reconciliation": {
+    "matches": [
+      {
+        "localKey": "rama_lakes",
+        "existingId": "mahabharata:b0003:rama_jamadagni",
+        "reason": "The Kshatriya annihilation, ancestral boon, lakes, and pacification belong to the same continuing episode on PDF page 10.",
+        "evidenceKeys": [
+          "e_rama"
+        ]
+      },
+      {
+        "localKey": "sauti",
+        "existingId": "mahabharata:seed:ugrasrava-sauti",
+        "reason": "Existing evidence explicitly identifies Sauti as Ugrasrava; the framing narrator and identical son-of-Suta address corroborate that alias.",
+        "evidenceKeys": [
+          "e_suta_address",
+          "e_sauti",
+          "e_suta_recital"
+        ]
+      },
+      {
+        "localKey": "time",
+        "existingId": "mahabharata:b0003:time_personified",
+        "reason": "Both passages personify Time as the agency that destroys living beings.",
+        "evidenceKeys": [
+          "e_time"
+        ]
+      },
+      {
+        "localKey": "bhishma",
+        "existingId": "mahabharata:seed:bhishma",
+        "reason": "The Vichitravirya younger-brother relationship and Chitrangada royal-family context corroborate the existing Bhishma.",
+        "evidenceKeys": [
+          "e_bhishma_life",
+          "e_younger_brother"
+        ]
+      },
+      {
+        "localKey": "drona",
+        "existingId": "mahabharata:b0002:drona",
+        "reason": "The Kaurava-war role and subsequent death corroborate the existing Drona slain by Dhristadyumna in that war.",
+        "evidenceKeys": [
+          "e_commanders",
+          "e_drona_death"
+        ]
+      },
+      {
+        "localKey": "kama",
+        "existingId": "mahabharata:b0002:kama",
+        "reason": "The Bhishma-linked war sequence corroborates the existing Kama who refuses to fight while Bhishma fights.",
+        "evidenceKeys": [
+          "e_commanders"
+        ]
+      },
+      {
+        "localKey": "salya",
+        "existingId": "mahabharata:b0003:salya",
+        "reason": "The crowned opponent of Bhima and Arjuna and Kaurava-war commander corroborates the existing opposing king Salya.",
+        "evidenceKeys": [
+          "e_commanders",
+          "e_crowned_opponents"
+        ]
+      },
+      {
+        "localKey": "duryodhana",
+        "existingId": "mahabharata:seed:duryodhana-son-dhritarashtra",
+        "reason": "The Dhritarashtra-party context, hostility toward the Pandavas, and assembly ridicule corroborate the existing Duryodhana.",
+        "evidenceKeys": [
+          "e_collective_sons",
+          "e_duryodhana_plots",
+          "e_bhimasena"
+        ]
+      },
+      {
+        "localKey": "bhima",
+        "existingId": "mahabharata:seed:bhima",
+        "reason": "Slaying the female Hidimba's brother matches the existing Bhima's distinctive Hidimva episode.",
+        "evidenceKeys": [
+          "e_hidimba_siblings"
+        ]
+      },
+      {
+        "localKey": "aswatthaman",
+        "existingId": "mahabharata:b0003:aswatthaman",
+        "reason": "The nocturnal killing corroborates the existing sequence of sleeping Panchalas and Draupadi's sons being killed, followed by Aswatthaman's pursuit.",
+        "evidenceKeys": [
+          "e_night_attack"
+        ]
+      },
+      {
+        "localKey": "saunaka",
+        "existingId": "mahabharata:seed:saunaka",
+        "reason": "Both identify Saunaka as the sacrifice host in Sauti's framing narration.",
+        "evidenceKeys": [
+          "e_sacrifices",
+          "e_suta_recital"
+        ]
+      },
+      {
+        "localKey": "janamejaya",
+        "existingId": "mahabharata:seed:janamejaya-son-parikshit",
+        "reason": "The snake-sacrifice narration identifies this king, distinguishing him from the ancestral and unqualified royal-list Janamejayas.",
+        "evidenceKeys": [
+          "e_sacrifices",
+          "e_janamejaya_king"
+        ]
+      },
+      {
+        "localKey": "vyasa",
+        "existingId": "mahabharata:seed:vyasa",
+        "reason": "The Bharata-composer role and instruction through a disciple at Janamejaya's sacrifice match the existing author's framing context.",
+        "evidenceKeys": [
+          "e_vyasa_composition",
+          "e_sacrifices"
+        ]
+      },
+      {
+        "localKey": "arjuna",
+        "existingId": "mahabharata:seed:arjuna",
+        "reason": "Winning Draupadi, carrying away Subhadra, and fighting the hunter-disguised deity corroborate the same distinctive episodes.",
+        "evidenceKeys": [
+          "e_draupadi_marriage",
+          "e_subhadra_brother",
+          "e_mahadeva"
+        ]
+      },
+      {
+        "localKey": "draupadi",
+        "existingId": "mahabharata:seed:draupadi",
+        "reason": "Marriage to Arjuna and the five-husband context corroborate the existing common wife of the Pandavas.",
+        "evidenceKeys": [
+          "e_draupadi_marriage",
+          "e_drupada"
+        ]
+      },
+      {
+        "localKey": "vidura",
+        "existingId": "mahabharata:seed:vidura",
+        "reason": "His assistance to the Pandavas around the house-of-lac episode and dealings with Dhritarashtra corroborate the existing Vidura.",
+        "evidenceKeys": [
+          "e_vidura_advice",
+          "e_vidura_envoy",
+          "e_vidura_return"
+        ]
+      },
+      {
+        "localKey": "subhadra",
+        "existingId": "mahabharata:seed:subhadra",
+        "reason": "Abhimanyu's conception in her womb and Arjuna's carrying her away match the existing mother and abduction context.",
+        "evidenceKeys": [
+          "e_abhimanyu_conception",
+          "e_subhadra_brother"
+        ]
+      },
+      {
+        "localKey": "maya",
+        "existingId": "mahabharata:b0002:maya",
+        "reason": "Both explicitly identify Maya as the Asura architect.",
+        "evidenceKeys": [
+          "e_maya_architect"
+        ]
+      },
+      {
+        "localKey": "jarasandha",
+        "existingId": "mahabharata:b0002:jarasandha",
+        "reason": "His destruction in the Sabha/Rajasuya sequence involving Vasudeva corroborates the existing Jarasandha-death account.",
+        "evidenceKeys": [
+          "e_jarasandha_vasudeva"
+        ]
+      },
+      {
+        "localKey": "indra",
+        "existingId": "mahabharata:b0002:indra",
+        "reason": "The current source connects Arjuna's journey to Indra's regions with seeking arms, matching the existing celestial-weapons episode.",
+        "evidenceKeys": [
+          "e_indra_nala",
+          "e_mahadeva"
+        ]
+      },
+      {
+        "localKey": "virata",
+        "existingId": "mahabharata:seed:virata",
+        "reason": "His daughter marrying Abhimanyu matches the existing Virata–Uttara marriage context.",
+        "evidenceKeys": [
+          "e_virata_marriage"
+        ]
+      },
+      {
+        "localKey": "abhimanyu",
+        "existingId": "mahabharata:seed:abhimanyu",
+        "reason": "Subhadra's maternity and marriage to Virata's daughter provide distinctive corroboration for this candidate.",
+        "evidenceKeys": [
+          "e_abhimanyu_conception",
+          "e_virata_marriage"
+        ]
+      },
+      {
+        "localKey": "sanjaya",
+        "existingId": "mahabharata:b0001:sanjaya",
+        "reason": "His arrival paired with Dhritarashtra's anxiety corroborates the existing Sanjaya's role in Dhritarashtra's court narrative.",
+        "evidenceKeys": [
+          "e_sanjaya_dhritarashtra"
+        ]
+      },
+      {
+        "localKey": "dhritarashtra",
+        "existingId": "mahabharata:seed:dhritarashtra",
+        "reason": "His birth alongside Pandu linked to Vyasa and the surrounding Kuru-family context corroborate the existing king.",
+        "evidenceKeys": [
+          "e_vyasa_birth_blessings",
+          "e_collective_sons",
+          "e_daughter_in_law"
+        ]
+      },
+      {
+        "localKey": "krishna_brother",
+        "existingId": "mahabharata:seed:krishna",
+        "reason": "The explicit brother relationships with Balarama and Subhadra match both existing family anchors.",
+        "evidenceKeys": [
+          "e_balarama_brothers",
+          "e_subhadra_brother"
+        ]
+      },
+      {
+        "localKey": "karna",
+        "existingId": "mahabharata:b0002:karna",
+        "reason": "Inciting Duryodhana against the forest-ranging Pandavas corroborates the existing adviser of Dhritarashtra's sons during their forest expedition.",
+        "evidenceKeys": [
+          "e_duryodhana_plots",
+          "e_sheta_karna"
+        ]
+      },
+      {
+        "localKey": "yudhishthira",
+        "existingId": "mahabharata:seed:yudhishthira",
+        "reason": "Defeat at dice followed by exile with his brothers matches the existing distinctive narrative.",
+        "evidenceKeys": [
+          "e_sakuni",
+          "e_yudhishthira_brothers",
+          "e_pandavas_yudhishthira"
+        ]
+      },
+      {
+        "localKey": "narada",
+        "existingId": "mahabharata:b0002:narada",
+        "reason": "Describing celestial rulers through knowledge of celestial regions corroborates the existing celestial narrator who reports observations in Brahma's regions.",
+        "evidenceKeys": [
+          "e_narada_lokapalas"
+        ]
+      },
+      {
+        "localKey": "krishna_dwaipayana",
+        "existingId": "mahabharata:seed:vyasa",
+        "reason": "Existing evidence explicitly identifies Krishna-Dwaipayana Vyasa. This resolves an alias record of vyasa, rather than merging distinct people.",
+        "evidenceKeys": [
+          "e_krishna_dwaipayana"
+        ]
+      },
+      {
+        "localKey": "bharata",
+        "existingId": "mahabharata:b0001:bharata",
+        "reason": "The progenitor of the Bharata line corroborates the existing individual identified through that same family lineage.",
+        "evidenceKeys": [
+          "e_bharata_family"
+        ]
+      },
+      {
+        "localKey": "santanu",
+        "existingId": "mahabharata:seed:santanu",
+        "reason": "The Santanu household and adjoining Bhishma–Chitrangada–Vichitravirya genealogy corroborate the existing royal family.",
+        "evidenceKeys": [
+          "e_santanu_vasus",
+          "e_bhishma_life",
+          "e_younger_brother"
+        ]
+      },
+      {
+        "localKey": "chitrangada",
+        "existingId": "mahabharata:seed:chitrangada-son-santanu",
+        "reason": "Bhishma's protection and the paired Vichitravirya succession context corroborate the existing Chitrangada of Santanu's family.",
+        "evidenceKeys": [
+          "e_bhishma_life",
+          "e_younger_brother",
+          "e_santanu_vasus"
+        ]
+      },
+      {
+        "localKey": "vichitravirya",
+        "existingId": "mahabharata:seed:vichitravirya",
+        "reason": "The younger-brother role and Bhishma–Chitrangada royal-family context corroborate the existing Vichitravirya.",
+        "evidenceKeys": [
+          "e_younger_brother",
+          "e_bhishma_life",
+          "e_santanu_vasus"
+        ]
+      },
+      {
+        "localKey": "pandu",
+        "existingId": "mahabharata:seed:pandu",
+        "reason": "The Vyasa-linked birth and sons-of-Pandu/Pandava context specifically corroborate the seed record.",
+        "evidenceKeys": [
+          "e_vyasa_birth_blessings",
+          "e_collective_sons",
+          "e_connubial_krishna"
+        ]
+      },
+      {
+        "localKey": "balarama",
+        "existingId": "mahabharata:seed:balarama",
+        "reason": "The explicit brother relationship with Krishna corroborates the existing family identity.",
+        "evidenceKeys": [
+          "e_balarama_brothers"
+        ]
+      },
+      {
+        "localKey": "vasudeva",
+        "existingId": "mahabharata:b0002:vasudeva",
+        "reason": "His role in the Jarasandha/Sabha sequence corroborates the existing Vasudeva whose counsel enables Jarasandha's defeat before Rajasuya.",
+        "evidenceKeys": [
+          "e_jarasandha_vasudeva"
+        ]
+      },
+      {
+        "localKey": "sakuni",
+        "existingId": "mahabharata:b0002:sakuni",
+        "reason": "The Yudhishthira dice conflict corroborates the existing Sakuni named among the hostile resolutions in Dhritarashtra's account of the gaming dispute.",
+        "evidenceKeys": [
+          "e_sakuni",
+          "e_yudhishthira_brothers"
+        ]
+      }
+    ],
+    "unresolved": [
+      "suta_parent: e_suta_address and e_suta_recital do not establish a personal parent identity. Sanjaya's existing alias Suta does not identify him as Sauti's parent.",
+      "kripa: e_night_attack does not uniquely distinguish mahabharata:b0002:kripa from mahabharata:b0003:kripa; neither supplied record directly corroborates this nocturnal role.",
+      "yudishthira: e_night_attack names an army owner but does not establish identity with yudhishthira or the existing Yudhishthira. The spelling variation remains unresolved.",
+      "vyasa_disciple: e_sacrifices corresponds to the Vaisampayana recital context in existing evidence, but no Vaisampayana entity ID is supplied.",
+      "nala: e_indra_nala supplies no kingdom, parentage, or story details distinguishing mahabharata:b0003:nala_first_list from mahabharata:b0003:nala_nishadas.",
+      "kuru_pilgrim_prince: e_prince_jatasura does not name the pilgrim or establish identity with Yudhishthira.",
+      "rama_story: e_savitri_rama gives only a story subject; it cannot distinguish Rama son of Dasaratha from Rama son of Jamadagni.",
+      "virata_daughter: e_virata_marriage matches Uttara's marriage context in existing evidence, but no Uttara entity ID is supplied.",
+      "jamadagnya: e_jamadagnya provides only a story subject and does not establish an alias identity with Rama son of Jamadagni.",
+      "ghatotkacha: e_ghatotkacha_birth and e_jayadratha_ghatotkacha do not supply parentage or the Sakti episode needed to select uniquely between mahabharata:seed:ghatotkacha and mahabharata:b0003:ghatotkacha.",
+      "vishnu: e_vishnu_kansa does not uniquely connect the childhood figure to mahabharata:b0001:isana_primordial or mahabharata:seed:krishna; existing evidence applies Vishnu to both.",
+      "bhrigu: e_utanka_bhrigu mentions collectively designated sons, whereas the existing Bhrigu is anchored as Rama's ancestor. No distinctive shared lineage detail establishes identity.",
+      "dharma: e_dharma_animondavya describes a curse-caused human birth, without connecting this occurrence to the existing god of justice or Yudhishthira's progenitor.",
+      "krishna_birth_notice: e_krishna_dhrishtadyumna_birth does not identify this Krishna with the brother, maiden, connubial partner, or sage records.",
+      "vasishtha: e_angaraparna names an embedded-history subject without corroborating the existing creation-list Prajapati's role.",
+      "krishna_connubial: e_connubial_krishna suggests a Pandava-wife context but does not uniquely resolve this occurrence between mahabharata:seed:draupadi and mahabharata:b0002:krishna_maiden, or explicitly establish their identity.",
+      "madhava: e_madhava_meeting and e_dhananjaya_madhava do not corroborate the supplied Madhava's specific Sakti–Ghatotkacha role or establish an alias to Krishna.",
+      "yajnaseni: e_yajnaseni states childbirth without establishing an alias identity with Draupadi.",
+      "bhimasena: e_bhimasena supplies assembly ridicule, without uniquely connecting this occurrence to either existing Bhimasena record or explicitly identifying it with Bhima.",
+      "dhananjaya: e_dhananjaya_madhava does not establish an alias to Arjuna or corroborate an existing candidate's corresponding deed.",
+      "subhadra_son: e_children_transport does not name the accompanying son Abhimanyu; shared maternity alone does not establish this individual identity.",
+      "draupadi_son: e_children_transport does not identify which named son of Draupadi is meant, and no corresponding son entity ID is supplied.",
+      "rishi_sauva_narrator: e_sauva does not identify the unnamed Rishi with Vyasa, Sauti, or another existing individual.",
+      "brihadaranyaka, aindradrumna, shodasarajika: e_brihadaranyaka and e_jamadagnya do not establish individual-being referents, and no corresponding existing candidates are supplied.",
+      "No corresponding candidate entity IDs are supplied for these named local records: hidimba_male, hidimba_female, baka, vaka, sisupala, krimira, kirmira, mahadeva, jatasura, markandeya, satyabhama, jayadratha, savitri_chastity, savitri_udyoga, matali, galava, vamadeva, vainya, sheta, uluka, amba, charvaka, durvasa, kansa, utanka, garuda, uchchaihsrava, sakuntala, kanwa, animondavya, purochana, dhrishtadyumna, angaraparna, tapati, aurva, drupada, sunda, upasunda, ulupi, vabhruvahana, mandapala, sarngi, sun, dhaumya, surabhi, maitreya, brihadaswa. They remain separate; spelling similarities do not establish additional identities.",
+      "No corresponding candidate entity IDs are supplied for these identifiable unnamed local records: fowler_woman, ekachakra_brahmana, swayamvara_brahmana, potter, cattle_brahmana, ulupi_naga_parent, damsels_cursing_brahmana, escaped_serpent, mandapala_sarngi_son."
+    ]
+  }
+}

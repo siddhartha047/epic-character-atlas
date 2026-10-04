@@ -107,23 +107,43 @@ export function sectionAt(page: SourcePage, offset: number) {
     ].at(-1)?.[1] ?? page.section
   );
 }
+// PDF layout may put a line break after a compound-word hyphen. Preserve
+// every letter and the hyphen; only fold the intervening whitespace.
+export const normalizeEvidence = (text: string) =>
+  normalize(text).replace(/([A-Za-z])-\s+(?=[a-z])/g, "$1-");
 export function locateExcerpt(text: string, excerpt: string) {
-  const target = normalize(excerpt);
-  const compact = normalize(text);
-  const normalizedStart = compact.indexOf(target);
-  if (normalizedStart < 0)
-    throw new Error(
-      `Evidence excerpt not found in its source page: ${target.slice(0, 100)}`,
-    );
-  const mapping: number[] = [];
-  let previousWhitespace = true;
-  for (let i = 0; i < text.length; i++) {
-    const whitespace = /\s/.test(text[i]);
-    if (!whitespace || !previousWhitespace) mapping.push(i);
-    previousWhitespace = whitespace;
+  // Prefer the original whitespace-only match so existing annotations retain
+  // their exact offsets, including when a page repeats a similar passage.
+  for (const joinHyphenWhitespace of [false, true]) {
+    const canonical = joinHyphenWhitespace ? normalizeEvidence : normalize;
+    const target = canonical(excerpt);
+    const normalizedStart = canonical(text).indexOf(target);
+    if (normalizedStart < 0) continue;
+    const mapping: number[] = [];
+    let previousWhitespace = true;
+    for (let i = 0; i < text.length; i++) {
+      const whitespace = /\s/.test(text[i]);
+      let folded = false;
+      if (
+        joinHyphenWhitespace &&
+        whitespace &&
+        !previousWhitespace &&
+        text[i - 1] === "-" &&
+        /[A-Za-z]/.test(text[i - 2] ?? "")
+      ) {
+        let next = i;
+        while (next < text.length && /\s/.test(text[next])) next++;
+        folded = /[a-z]/.test(text[next] ?? "");
+      }
+      if (!whitespace || (!previousWhitespace && !folded)) mapping.push(i);
+      previousWhitespace = whitespace;
+    }
+    return {
+      start: mapping[normalizedStart],
+      end: mapping[normalizedStart + target.length - 1] + 1,
+    };
   }
-  return {
-    start: mapping[normalizedStart],
-    end: mapping[normalizedStart + target.length - 1] + 1,
-  };
+  throw new Error(
+    `Evidence excerpt not found in its source page: ${normalize(excerpt).slice(0, 100)}`,
+  );
 }

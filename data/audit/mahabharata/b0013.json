@@ -1,0 +1,2384 @@
+{
+  "sourceHash": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+  "batchDigest": "4a6eadd531dee2e1facfaacba4c6238a9c89ac1b6f2e081a3ddd4edfa96f008d",
+  "batchId": "b0013",
+  "pages": [
+    40,
+    41,
+    42,
+    43,
+    44
+  ],
+  "reviewedAt": "2026-10-04T08:23:07.671Z",
+  "reviewer": "Codex extraction + omission + identity passes; not human review",
+  "extraction": {
+    "entities": [
+      {
+        "key": "indra",
+        "name": "Indra",
+        "kind": "deity",
+        "description": "Chief of the gods who strikes Garuda with his thunderbolt and befriends him.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Purandara",
+            "evidenceKeys": [
+              "e41",
+              "e11"
+            ]
+          },
+          {
+            "label": "Sakra",
+            "evidenceKeys": [
+              "e12",
+              "e11"
+            ]
+          },
+          {
+            "label": "Valavit",
+            "evidenceKeys": [
+              "e30"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The lord of heaven is referred to as he.",
+            "evidenceKeys": [
+              "e11",
+              "e15"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9",
+          "e11",
+          "e41"
+        ]
+      },
+      {
+        "key": "vayu",
+        "name": "Vayu",
+        "kind": "deity",
+        "description": "God of wind commanded to disperse the shower of dust.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Maruta",
+            "evidenceKeys": [
+              "e1"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called the god of wind.",
+            "evidenceKeys": [
+              "e1"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e1"
+        ]
+      },
+      {
+        "key": "garuda",
+        "name": "Garuda",
+        "kind": "animal",
+        "description": "Bird and son of Vinata who takes Amrita and becomes Vishnu's carrier.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Suparna",
+            "evidenceKeys": [
+              "e10"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called the son of Vinata.",
+            "evidenceKeys": [
+              "e2"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e2",
+          "e8",
+          "e9",
+          "e10"
+        ]
+      },
+      {
+        "key": "vinata",
+        "name": "Vinata",
+        "kind": "unknown",
+        "description": "Mother of Garuda; Saunaka says that she was cursed by her son.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Referred to with her and identified as a mother.",
+            "evidenceKeys": [
+              "e16",
+              "e28"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e2",
+          "e16",
+          "e28"
+        ]
+      },
+      {
+        "key": "yaksha_aswakranda",
+        "name": "Aswakranda",
+        "kind": "other",
+        "description": "Yaksha of great courage encountered by Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "key": "yaksha_rainuka",
+        "name": "Rainuka",
+        "kind": "other",
+        "description": "Yaksha encountered by Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "key": "yaksha_krathanaka",
+        "name": "Krathanaka",
+        "kind": "other",
+        "description": "Bold Yaksha encountered by Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "key": "yaksha_tapana",
+        "name": "Tapana",
+        "kind": "other",
+        "description": "Yaksha encountered by Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "key": "yaksha_uluka",
+        "name": "Uluka",
+        "kind": "other",
+        "description": "Yaksha encountered by Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "key": "yaksha_swasanaka",
+        "name": "Swasanaka",
+        "kind": "other",
+        "description": "Yaksha encountered by Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "key": "yaksha_nimesha",
+        "name": "Nimesha",
+        "kind": "other",
+        "description": "Yaksha encountered by Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "key": "yaksha_praruja",
+        "name": "Praruja",
+        "kind": "other",
+        "description": "Yaksha encountered by Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "key": "yaksha_pulina",
+        "name": "Pulina",
+        "kind": "other",
+        "description": "Yaksha encountered by Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "key": "siva",
+        "name": "Siva",
+        "kind": "unknown",
+        "description": "Holder of Pinaka invoked as a comparison for Garuda's attack.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with himself.",
+            "evidenceKeys": [
+              "e4"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e4"
+        ]
+      },
+      {
+        "key": "sun",
+        "name": "Sun",
+        "kind": "unknown",
+        "description": "Personified Sun whom the flames seem bent on burning.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with himself.",
+            "evidenceKeys": [
+              "e5"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e5"
+        ]
+      },
+      {
+        "key": "santi",
+        "name": "Santi",
+        "kind": "unknown",
+        "description": "Narrator label at the opening of Section XXXIII.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e6"
+        ]
+      },
+      {
+        "key": "vishnu",
+        "name": "Vishnu",
+        "kind": "deity",
+        "description": "Deity encountered by Garuda who asks the bird to become his carrier.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Narayana",
+            "evidenceKeys": [
+              "e7"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with he and his.",
+            "evidenceKeys": [
+              "e8"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7",
+          "e8"
+        ]
+      },
+      {
+        "key": "dadhichi",
+        "name": "Dadhichi",
+        "kind": "sage",
+        "description": "Rishi whose bone was used to make the Vajra.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e9"
+        ]
+      },
+      {
+        "key": "sauti",
+        "name": "Sauti",
+        "kind": "unknown",
+        "description": "Framing narrator who addresses Saunaka and recites the principal serpents' names.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Saunaka addresses the responding narrator as son of Suta.",
+            "evidenceKeys": [
+              "e16",
+              "e17"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e11",
+          "e16",
+          "e17"
+        ]
+      },
+      {
+        "key": "saunaka",
+        "name": "Saunaka",
+        "kind": "sage",
+        "description": "Interlocutor addressed as one whose wealth is asceticism.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e16",
+          "e17"
+        ]
+      },
+      {
+        "key": "kadru",
+        "name": "Kadru",
+        "kind": "unknown",
+        "description": "Mother of serpent offspring who curses her children.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Identified with the serpents' mother and referred to with her and hers.",
+            "evidenceKeys": [
+              "e38",
+              "e44"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e13",
+          "e34",
+          "e38",
+          "e44"
+        ]
+      },
+      {
+        "key": "aruna",
+        "name": "Aruna",
+        "kind": "unknown",
+        "description": "Named as the source of a curse associated with Garuda's mother's bondage.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e13"
+        ]
+      },
+      {
+        "key": "hari",
+        "name": "Hari",
+        "kind": "deity",
+        "description": "God of gods who sanctions what Garuda has said.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called the god of gods and lord of Yogins.",
+            "evidenceKeys": [
+              "e14"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e14"
+        ]
+      },
+      {
+        "key": "suta",
+        "name": "Suta",
+        "kind": "unknown",
+        "description": "Parent designation in Saunaka's address to Sauti as son of Suta.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e16",
+          "e17"
+        ]
+      },
+      {
+        "key": "unnamed_husband_kadru_vinata",
+        "name": "Unnamed husband of Kadru and Vinata",
+        "kind": "unknown",
+        "description": "Shared husband said to have bestowed boons on Kadru and Vinata.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called their husband.",
+            "evidenceKeys": [
+              "e16"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e16"
+        ]
+      },
+      {
+        "key": "brahma",
+        "name": "Brahma",
+        "kind": "deity",
+        "description": "Divine Grandsire who commands Sesha to support the Earth.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Brahman",
+            "evidenceKeys": [
+              "e26",
+              "e30",
+              "e31"
+            ]
+          },
+          {
+            "label": "Grandsire",
+            "evidenceKeys": [
+              "e26"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called the Grandsire.",
+            "evidenceKeys": [
+              "e26"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e26",
+          "e30",
+          "e31",
+          "e39",
+          "e44"
+        ]
+      },
+      {
+        "key": "kasyapa",
+        "name": "Kasyapa",
+        "kind": "unknown",
+        "description": "Father named by Sesha and Vasuki.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called father.",
+            "evidenceKeys": [
+              "e28",
+              "e36"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e28",
+          "e36"
+        ]
+      },
+      {
+        "key": "earth",
+        "name": "Earth",
+        "kind": "deity",
+        "description": "Goddess whom Sesha supports with his head.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called a goddess and referred to with her.",
+            "evidenceKeys": [
+              "e29"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e29",
+          "e30",
+          "e31"
+        ]
+      },
+      {
+        "key": "agni",
+        "name": "Agni",
+        "kind": "unknown",
+        "description": "Being whom the gods sought to regain after he concealed himself within a cave.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with himself.",
+            "evidenceKeys": [
+              "e33"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e33"
+        ]
+      },
+      {
+        "key": "janamejaya",
+        "name": "Janamejaya",
+        "kind": "human",
+        "description": "King of the Pandava race whose intended snake sacrifice threatens the serpents.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The named king is referred to with he and described as foremost of wise men.",
+            "evidenceKeys": [
+              "e35",
+              "e37"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e33",
+          "e35",
+          "e37"
+        ]
+      },
+      {
+        "key": "immutable_lord",
+        "name": "Immutable Lord",
+        "kind": "unknown",
+        "description": "Lord invoked by Vasuki as present when the serpents' mother uttered her curse.",
+        "status": "provisional",
+        "aliases": [
+          {
+            "label": "Immutable",
+            "evidenceKeys": [
+              "e42"
+            ]
+          },
+          {
+            "label": "Infinite",
+            "evidenceKeys": [
+              "e42"
+            ]
+          },
+          {
+            "label": "True one",
+            "evidenceKeys": [
+              "e42"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "e42"
+        ]
+      },
+      {
+        "key": "prospective_sacrificial_priest",
+        "name": "Unnamed prospective sacrificial priest",
+        "kind": "unknown",
+        "description": "Prospective priest whom the snakes propose to bite to prevent the monarch's snake sacrifice.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The prospective appointee is referred to with he.",
+            "evidenceKeys": [
+              "e43"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e43"
+        ]
+      },
+      {
+        "key": "sesha",
+        "name": "Sesha",
+        "kind": "deity",
+        "description": "Serpent who practises penances and supports the goddess Earth; called the god Dharma.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Ananta",
+            "evidenceKeys": [
+              "e31"
+            ]
+          },
+          {
+            "label": "Dharma",
+            "evidenceKeys": [
+              "e30"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Identified as an elder brother.",
+            "evidenceKeys": [
+              "e29",
+              "e31"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e18",
+          "e25",
+          "e27",
+          "e28",
+          "e29",
+          "e30",
+          "e31"
+        ]
+      },
+      {
+        "key": "vasuki",
+        "name": "Vasuki",
+        "kind": "animal",
+        "description": "Serpent who consults his brothers about their mother's curse.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with he and his.",
+            "evidenceKeys": [
+              "e32"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e18",
+          "e32",
+          "e36",
+          "e37",
+          "e38"
+        ]
+      },
+      {
+        "key": "snake_airavata",
+        "name": "Airavata",
+        "kind": "animal",
+        "description": "Principal serpent explicitly included among Vasuki's brothers.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among Vasuki's brothers.",
+            "evidenceKeys": [
+              "e32"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e18",
+          "e24",
+          "e32"
+        ]
+      },
+      {
+        "key": "snake_takshaka",
+        "name": "Takshaka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e18",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_karkotaka",
+        "name": "Karkotaka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e18",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_dhananjaya",
+        "name": "Dhananjaya",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e18",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_kalakeya",
+        "name": "Kalakeya",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e18",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_mani",
+        "name": "Mani",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e18",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_purana",
+        "name": "Purana",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e18",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_pinjaraka",
+        "name": "Pinjaraka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e18",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_elapatra",
+        "name": "Elapatra",
+        "kind": "animal",
+        "description": "Principal serpent who recounts hearing the gods question the Grandsire about Kadru's curse.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e18",
+          "e24",
+          "e37",
+          "e38",
+          "e44"
+        ]
+      },
+      {
+        "key": "snake_vamana",
+        "name": "Vamana",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e19",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_nila",
+        "name": "Nila",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e19",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_anila",
+        "name": "Anila",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e19",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_kalmasha",
+        "name": "Kalmasha",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e19",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_savala",
+        "name": "Savala",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e19",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_aryaka",
+        "name": "Aryaka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e19",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_ugra",
+        "name": "Ugra",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e19",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_kalasapotaka",
+        "name": "Kalasapotaka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e19",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_suramukha",
+        "name": "Suramukha",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e19",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_dadhimukha",
+        "name": "Dadhimukha",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e19",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_vimalapindaka",
+        "name": "Vimalapindaka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e19",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_apta",
+        "name": "Apta",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e19",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_karotaka",
+        "name": "Karotaka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e20",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_samkha",
+        "name": "Samkha",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e20",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_valisikha",
+        "name": "Valisikha",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e20",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_nisthanaka",
+        "name": "Nisthanaka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e20",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_hemaguha",
+        "name": "Hemaguha",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e20",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_nahusha",
+        "name": "Nahusha",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e20",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_pingala",
+        "name": "Pingala",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e20",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_vahyakarna",
+        "name": "Vahyakarna",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e20",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_hastipada",
+        "name": "Hastipada",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e20",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_mudgarapindaka",
+        "name": "Mudgarapindaka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e20",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_kamvala_aswatara",
+        "name": "Kamvala Aswatara",
+        "kind": "animal",
+        "description": "Undelimited phrase in the principal-serpent catalogue; individual segmentation is uncertain.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e20",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_kaliyaka",
+        "name": "Kaliyaka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e21",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_vritta",
+        "name": "Vritta",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e21",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_samvartaka",
+        "name": "Samvartaka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e21",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_padma",
+        "name": "Padma",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e21",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_mahapadma",
+        "name": "Mahapadma",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e21",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_sankhamukha",
+        "name": "Sankhamukha",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e21",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_kushmandaka",
+        "name": "Kushmandaka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e21",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_kshemaka",
+        "name": "Kshemaka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e21",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_pindaraka",
+        "name": "Pindaraka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e21",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_karavira",
+        "name": "Karavira",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e21",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_pushpadanshtraka",
+        "name": "Pushpadanshtraka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e21",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_vilwaka",
+        "name": "Vilwaka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e21",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_vilwapandara",
+        "name": "Vilwapandara",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e21",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_mushikada",
+        "name": "Mushikada",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_sankhasiras",
+        "name": "Sankhasiras",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_purnabhadra",
+        "name": "Purnabhadra",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_haridraka",
+        "name": "Haridraka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_aparajita",
+        "name": "Aparajita",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_jyotika",
+        "name": "Jyotika",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_srivaha",
+        "name": "Srivaha",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_kauravya",
+        "name": "Kauravya",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_dhritarashtra",
+        "name": "Dhritarashtra",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_sankhapinda",
+        "name": "Sankhapinda",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_virajas",
+        "name": "Virajas",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_suvahu",
+        "name": "Suvahu",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_salipinda",
+        "name": "Salipinda",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e22",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_prabhakara",
+        "name": "Prabhakara",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_hastipinda",
+        "name": "Hastipinda",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_pitharaka",
+        "name": "Pitharaka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_sumuksha",
+        "name": "Sumuksha",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_kaunapashana",
+        "name": "Kaunapashana",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_kuthara",
+        "name": "Kuthara",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_kunjara",
+        "name": "Kunjara",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_kumuda",
+        "name": "Kumuda",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_kumudaksha",
+        "name": "Kumudaksha",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_tittri",
+        "name": "Tittri",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_halika",
+        "name": "Halika",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_kardama",
+        "name": "Kardama",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_vahumulaka",
+        "name": "Vahumulaka",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_karkara",
+        "name": "Karkara",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_akarkara",
+        "name": "Akarkara",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_kundodara",
+        "name": "Kundodara",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      },
+      {
+        "key": "snake_mahodara",
+        "name": "Mahodara",
+        "kind": "animal",
+        "description": "Principal serpent named in Sauti's catalogue.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e23",
+          "e24"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromKey": "vinata",
+        "toKey": "garuda",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e2",
+          "e28"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vinata",
+        "toKey": "aruna",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e13",
+          "e16"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "suta",
+        "toKey": "sauti",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e16",
+          "e17"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "unnamed_husband_kadru_vinata",
+        "toKey": "kadru",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e16"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "unnamed_husband_kadru_vinata",
+        "toKey": "vinata",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e16"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "sesha",
+        "toKey": "garuda",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e2",
+          "e28"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "sesha",
+        "toKey": "vasuki",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e29",
+          "e31",
+          "e37",
+          "e38",
+          "e40"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "snake_airavata",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e32"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kadru",
+        "toKey": "sesha",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e13",
+          "e25",
+          "e27",
+          "e34",
+          "e44"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "kasyapa",
+        "toKey": "sesha",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e28"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kadru",
+        "toKey": "vasuki",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e32",
+          "e34",
+          "e38",
+          "e44"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kasyapa",
+        "toKey": "vasuki",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e36"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kadru",
+        "toKey": "snake_airavata",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e32",
+          "e34"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kasyapa",
+        "toKey": "snake_airavata",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e32",
+          "e36"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kadru",
+        "toKey": "snake_elapatra",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e37",
+          "e38",
+          "e44"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kasyapa",
+        "toKey": "snake_elapatra",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e36",
+          "e37"
+        ],
+        "status": "provisional"
+      }
+    ],
+    "evidence": [
+      {
+        "key": "e1",
+        "page": 40,
+        "excerpt": "Then the god of a thousand eyes commanded Vayu (the god of wind), saying, 'Dispel thou this shower of dust soon. O Maruta, this is indeed, thy task."
+      },
+      {
+        "key": "e2",
+        "page": 40,
+        "excerpt": "And the son of Vinata, of great prowess blazing in the sky, attacked the gods on all sides with his wings and breast. And blood began to flow copiously from the bodies of the gods mangled by the talons and the beak of Garuda."
+      },
+      {
+        "key": "e3",
+        "page": 41,
+        "excerpt": "And Garuda had encounters with the Yakshas, Aswakranda of great courage, Rainuka, the bold Krathanaka, Tapana, Uluka, Swasanaka, Nimesha, Praruja, and Pulina."
+      },
+      {
+        "key": "e4",
+        "page": 41,
+        "excerpt": "And the son of Vinata mangled them with his wings, talons, and beak, like Siva himself, that chastiser of enemies, and the holder of Pinaka in rage at the end of the Yuga."
+      },
+      {
+        "key": "e5",
+        "page": 41,
+        "excerpt": "And moved by violent winds, they seemed bent on burning the Sun himself."
+      },
+      {
+        "key": "e6",
+        "page": 41,
+        "excerpt": "Santi said, 'And that bird, assuming a golden body bright as the rays of the Sun, entered with great force (the region where the Soma was), like a torrent entering the ocean."
+      },
+      {
+        "key": "e7",
+        "page": 41,
+        "excerpt": "And the son of Vinata then met Vishnu on his way along the sky. And Narayana was gratified at that act of self-denial on the part of Garuda. And that deity, knowing no deterioration, said unto the ranger of the skies, 'O, I am inclined to grant thee a boon.'"
+      },
+      {
+        "key": "e8",
+        "page": 41,
+        "excerpt": "Vishnu then asked the mighty Garuda to become his carrier. And he made the bird sit on the flagstaff of his car, saying, 'Even thus thou shalt stay above me.'"
+      },
+      {
+        "key": "e9",
+        "page": 41,
+        "excerpt": "Indra hurled at him his thunderbolt. Then Garuda, the lord of birds, struck with thunderbolt, spake laughingly unto Indra engaged in the encounter, in sweet words, saying, 'I shall respect the Rishi (Dadhichi) of whose bone the Vajra hath been made."
+      },
+      {
+        "key": "e10",
+        "page": 41,
+        "excerpt": "And all creatures became exceedingly glad, beholding that excellent feather of Garuda so cast off. And seeing that the feather was very beautiful, they said, 'Let this bird be called Suparna (having fair feathers)."
+      },
+      {
+        "key": "e11",
+        "page": 42,
+        "excerpt": "Sauti continued, 'O Saunaka, after Garuda of great courage had thus spoken, Indra the chief of the gods, the wearer of the (celestial) crown, ever bent upon the good of the worlds, replied, saying, 'It is as thou sayest. Everything is possible in thee. Accept now my sincere and hearty friendship."
+      },
+      {
+        "key": "e12",
+        "page": 42,
+        "excerpt": "I can bear, on a single feather of mine, O Sakra, this Earth, with her mountains and forests and with the waters of the ocean, and with thee also stationed thereon."
+      },
+      {
+        "key": "e13",
+        "page": 42,
+        "excerpt": "Then Garuda, recollecting the sons of Kadru and remembering also the bondage of his mother caused by an act of deception owing to the well-known reason (viz., the curse of Aruna), said,"
+      },
+      {
+        "key": "e14",
+        "page": 42,
+        "excerpt": "The slayer of the Danavas having said unto him, 'Be it so,' then went to Hari, the god of gods, of great soul, and the lord of Yogins. And the latter sanctioned everything that had been said by Garuda."
+      },
+      {
+        "key": "e15",
+        "page": 42,
+        "excerpt": "And the illustrious lord of heaven again said unto Garuda, 'I shall bring away the Soma when thou placest it down.' And having said so, he bade farewell to Garuda."
+      },
+      {
+        "key": "e16",
+        "page": 42,
+        "excerpt": "Saunaka said, 'O son of Suta, thou hast told us the reason why the snakes were cursed by their mother, and why Vinata also was cursed by her son. Thou hast also told us about the bestowal of boons, by their husband, on Kadru and Vinata."
+      },
+      {
+        "key": "e17",
+        "page": 42,
+        "excerpt": "Sauti said, O thou whose wealth is asceticism, from fear of being lengthy, I shall not mention the names of all the snakes. But I will recite the names of the chief ones."
+      },
+      {
+        "key": "e18",
+        "page": 42,
+        "excerpt": "Sesha was born first, and then Vasuki. (Then were born) Airavata, Takshaka, Karkotaka, Dhananjaya, Kalakeya, the serpent Mani, Purana, Pinjaraka, and Elapatra,"
+      },
+      {
+        "key": "e19",
+        "page": 42,
+        "excerpt": "Vamana, Nila, Anila, Kalmasha, Savala, Aryaka, Ugra, Kalasapotaka, Suramukha, Dadhimukha, Vimalapindaka, Apta,"
+      },
+      {
+        "key": "e20",
+        "page": 42,
+        "excerpt": "Karotaka, Samkha, Valisikha, Nisthanaka, Hemaguha, Nahusha, Pingala, Vahyakarna, Hastipada, Mudgarapindaka, Kamvala Aswatara,"
+      },
+      {
+        "key": "e21",
+        "page": 42,
+        "excerpt": "Kaliyaka, Vritta, Samvartaka, Padma, Mahapadma, Sankhamukha, Kushmandaka, Kshemaka, Pindaraka, Karavira, Pushpadanshtraka, Vilwaka, Vilwapandara,"
+      },
+      {
+        "key": "e22",
+        "page": 42,
+        "excerpt": "Mushikada, Sankhasiras, Purnabhadra, Haridraka, Aparajita, Jyotika, Srivaha, Kauravya, Dhritarashtra, Sankhapinda, Virajas, Suvahu, Salipinda,"
+      },
+      {
+        "key": "e23",
+        "page": 43,
+        "excerpt": "Prabhakara, Hastipinda, Pitharaka, Sumuksha, Kaunapashana, Kuthara, Kunjara, Kumuda, Kumudaksha, Tittri, Halika, Kardama, Vahumulaka, Karkara, Akarkara, Kundodara, and Mahodara."
+      },
+      {
+        "key": "e24",
+        "page": 43,
+        "excerpt": "Thus, O best of regenerate ones, have I said the names of the principal serpents."
+      },
+      {
+        "key": "e25",
+        "page": 43,
+        "excerpt": "The illustrious Sesha amongst them, of great renown, leaving his mother practised hard penances, living upon air and rigidly observing his vows."
+      },
+      {
+        "key": "e26",
+        "page": 43,
+        "excerpt": "And the Grandsire of all, Brahma, saw that ascetic with knotted hair, clad in rags, and his flesh, skin, and sinews dried up owing to the hard penances he was practising."
+      },
+      {
+        "key": "e27",
+        "page": 43,
+        "excerpt": "And Sesha replied, 'My uterine brothers are all of wicked hearts. I do not desire to live amongst them."
+      },
+      {
+        "key": "e28",
+        "page": 43,
+        "excerpt": "They never show any kindness for Vinata and her son. Indeed, Vinata's son capable of ranging through the skies, is another brother of ours. They always envy him. And he, too, is much stronger owing to the bestowal of that boon by our father, the high-souled Kasyapa."
+      },
+      {
+        "key": "e29",
+        "page": 43,
+        "excerpt": "Sauti continued, 'Then the elder brother of the king of the snakes, entering a hole, passed to the other side of the Earth, and holding her, supported with his head that goddess with her belt of seas passing all round.'"
+      },
+      {
+        "key": "e30",
+        "page": 43,
+        "excerpt": "Brahman said, 'O Sesha, O best of snakes, thou art the god Dharma, because alone, with thy huge body, thou supportest the Earth with everything on her, even as I myself, or Valavit (Indra), can.'"
+      },
+      {
+        "key": "e31",
+        "page": 43,
+        "excerpt": "The snake, Sesha, the lord Ananta, of great prowess, lives underneath the Earth, alone supporting the world at the command of Brahman. And the illustrious Grandsire, the best of the immortals, then gave unto Ananta the bird of fair feathers, viz., the son of Vinata, for Ananta's help."
+      },
+      {
+        "key": "e32",
+        "page": 44,
+        "excerpt": "Sauti said, 'That best of snakes, viz., Vasuki, hearing the curse of his mother, reflected how to render it abortive. He held a consultation with all his brothers, Airavata and others, intent upon doing what they deemed best for themselves.'"
+      },
+      {
+        "key": "e33",
+        "page": 44,
+        "excerpt": "We will consult together and find out the means of deliverance as (did) the gods of yore to regain lost Agni who had concealed himself within a cave, so that Janamejaya's sacrifice for the destruction of the snakes may not take place, and so that we may not meet with destruction."
+      },
+      {
+        "key": "e34",
+        "page": 44,
+        "excerpt": "Sauti continued, 'Thus addressed all the offspring of Kadru assembled together, and, wise in counsels, submitted their opinions to one another."
+      },
+      {
+        "key": "e35",
+        "page": 44,
+        "excerpt": "The king, the foremost of wise men, thinking us of sterling worth will certainly ask us about his sacrifice."
+      },
+      {
+        "key": "e36",
+        "page": 44,
+        "excerpt": "And Vasuki also, after reflecting, answered saying, 'Ye snakes, this final determination of you doth not seem worthy of adoption. The advice of you all is not to my liking. What shall I say which would be for your good? I think the grace of the illustrious Kasyapa (our father) can alone do us good."
+      },
+      {
+        "key": "e37",
+        "page": 44,
+        "excerpt": "Sauti said, 'Hearing the respective speeches of all the snakes, and hearing also the words of Vasuki, Elapatra began to address them, saying, 'That sacrifice is not one that can be prevented. Nor is king Janamejaya of the Pandava race from whom this fear proceedeth, such that he can be hindered."
+      },
+      {
+        "key": "e38",
+        "page": 44,
+        "excerpt": "When that curse was uttered, ye best of snakes, in fear I lay crouching on the lap of our mother. Ye best of snakes, and O lord (Vasuki) of great splendour, from that place I heard the words the sorrowing gods spake unto the Grandsire."
+      },
+      {
+        "key": "e39",
+        "page": 44,
+        "excerpt": "Brahman replied, 'The snakes have multiplied. They are cruel, terrible in form and highly poisonous. From desire of the good of my creatures, I did not prevent Kadru then."
+      },
+      {
+        "key": "e40",
+        "page": 44,
+        "excerpt": "The person, O king, who is afflicted by fate hath recourse to fate alone; nothing else can be his refuge."
+      },
+      {
+        "key": "e41",
+        "page": 42,
+        "excerpt": "Garuda then said, 'O Purandara, let there be friendship between thee and me as thou desirest."
+      },
+      {
+        "key": "e42",
+        "page": 44,
+        "excerpt": "Hearing that this curse hath been uttered in the presence of the Immutable, the Infinite, and the True one, my heart trembleth. Surely, our annihilation hath come. Otherwise why should not the Immutable Lord prevent our mother while uttering the curse?"
+      },
+      {
+        "key": "e43",
+        "page": 44,
+        "excerpt": "Or, let one of the snakes, approaching, bite the person who, intending the monarch's good, and well-acquainted with the rites of the snake-sacrifice, may be appointed as the sacrificial priest, so that he will die. The sacrificial priest dying, the sacrifice will not be completed."
+      },
+      {
+        "key": "e44",
+        "page": 44,
+        "excerpt": "The gods said, 'O Grandsire, thou god of gods who else than the cruel Kadru could thus, after getting such dear children, curse them so, even in thy presence? And, O Grandsire, by thee also hath been spoken, with reference to those words of hers, 'Be it so.'"
+      }
+    ],
+    "unresolved": [
+      "The page-41 narrator label Santi may be a variant or error for Sauti, but the supplied batch does not establish their identity; the records remain distinct.",
+      "Kamvala Aswatara has no intervening comma. The printed phrase is retained provisionally without asserting that it represents either one individual or two.",
+      "The grouping of Immutable, Infinite, True one, and Immutable Lord as epithets of one referent is provisional. This batch does not explicitly name that referent as Brahma, so the records remain distinct.",
+      "Hari is not explicitly identified with Vishnu or Narayana in this batch and remains separate.",
+      "Kadru and Vinata's shared husband is unnamed and is not explicitly identified as Kasyapa.",
+      "Aruna is named in connection with the curse associated with Vinata's bondage, while Saunaka identifies her curser only as her son. The Vinata-Aruna parent link is therefore provisional, and Aruna's gender is left empty.",
+      "Sesha's mother is not named in his individual passage. Identifying her as Kadru relies on the surrounding account of the serpents and their mother's curse, so that parent link is provisional.",
+      "Kasyapa's parentage of Elapatra rests on Elapatra's participation in the consultation where Vasuki calls Kasyapa our father; the link is provisional.",
+      "The catalogue does not individually assign parents to every listed serpent. Blanket parentage links based only on catalogue membership have been omitted.",
+      "Sesha names Kasyapa as our father and calls Vinata's flying son a brother, but the passage does not separately state Kasyapa's parentage of Garuda; that parent link is omitted.",
+      "The prospective sacrificial priest is retained provisionally as a singular role in the proposed attack, without asserting that an individual has already been appointed.",
+      "The twin Aswins and the two Soma-guarding snakes are not individually differentiated; no individuals are generated from their counts.",
+      "Unnamed uterine brothers, other serpent brothers, descendants, sacrificial personnel, and generic readers or listeners remain undifferentiated. No pairwise sibling records are inferred from shared parentage.",
+      "The supplied batch ends mid-sentence on physical PDF page 44; no continuation is assumed."
+    ]
+  },
+  "reconciliation": {
+    "matches": [
+      {
+        "localKey": "indra",
+        "existingId": "mahabharata:b0002:indra",
+        "reason": "Both records identify Purandara as chief of the gods in the connected Garuda account.",
+        "evidenceKeys": [
+          "e9",
+          "e11",
+          "e41"
+        ]
+      },
+      {
+        "localKey": "vayu",
+        "existingId": "mahabharata:seed:maruta",
+        "reason": "The identical dust-dispersal passage explicitly identifies Vayu, the wind god, as Maruta.",
+        "evidenceKeys": [
+          "e1"
+        ]
+      },
+      {
+        "localKey": "garuda",
+        "existingId": "mahabharata:b0004:garuda",
+        "reason": "Both identify Garuda as Vinata's flying son and lord of birds within the same account.",
+        "evidenceKeys": [
+          "e2",
+          "e9",
+          "e28"
+        ]
+      },
+      {
+        "localKey": "vinata",
+        "existingId": "mahabharata:b0009:vinata",
+        "reason": "Shared context identifies Garuda's mother, cursed by her son, and the recipient of her husband's boons alongside Kadru.",
+        "evidenceKeys": [
+          "e2",
+          "e13",
+          "e16"
+        ]
+      },
+      {
+        "localKey": "yaksha_aswakranda",
+        "existingId": "mahabharata:b0012:aswakranda",
+        "reason": "Identical Garuda encounter names the courageous Yaksha Aswakranda.",
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "localKey": "yaksha_rainuka",
+        "existingId": "mahabharata:b0012:rainuka",
+        "reason": "Identical passage names Rainuka among the Yakshas encountered by Garuda.",
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "localKey": "yaksha_krathanaka",
+        "existingId": "mahabharata:b0012:krathanaka",
+        "reason": "Identical Garuda encounter names the bold Yaksha Krathanaka.",
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "localKey": "yaksha_tapana",
+        "existingId": "mahabharata:b0012:tapana",
+        "reason": "Identical passage names Tapana among the Yakshas encountered by Garuda.",
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "localKey": "yaksha_uluka",
+        "existingId": "mahabharata:b0012:uluka",
+        "reason": "Identical Garuda encounter identifies this Uluka as a Yaksha, distinguishing him from the messenger.",
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "localKey": "yaksha_swasanaka",
+        "existingId": "mahabharata:b0012:swasanaka",
+        "reason": "Identical passage names Swasanaka among the Yakshas encountered by Garuda.",
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "localKey": "yaksha_nimesha",
+        "existingId": "mahabharata:b0012:nimesha",
+        "reason": "Identical passage names Nimesha among the Yakshas encountered by Garuda.",
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "localKey": "yaksha_praruja",
+        "existingId": "mahabharata:b0012:praruja",
+        "reason": "Identical passage names Praruja among the Yakshas encountered by Garuda.",
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "localKey": "yaksha_pulina",
+        "existingId": "mahabharata:b0012:pulina",
+        "reason": "Identical passage names Pulina among the Yakshas encountered by Garuda.",
+        "evidenceKeys": [
+          "e3"
+        ]
+      },
+      {
+        "localKey": "siva",
+        "existingId": "mahabharata:b0012:siva",
+        "reason": "Identical comparison with Garuda's attack identifies Siva as the holder of Pinaka.",
+        "evidenceKeys": [
+          "e4"
+        ]
+      },
+      {
+        "localKey": "sun",
+        "existingId": "mahabharata:b0012:sun",
+        "reason": "Identical passage describes the Sun threatened by the flames surrounding the Amrita.",
+        "evidenceKeys": [
+          "e5"
+        ]
+      },
+      {
+        "localKey": "vishnu",
+        "existingId": "mahabharata:b0010:narayana",
+        "reason": "Both explicitly identify Vishnu with Narayana as a deity acting in the connected Amrita narrative.",
+        "evidenceKeys": [
+          "e7",
+          "e8"
+        ]
+      },
+      {
+        "localKey": "sauti",
+        "existingId": "mahabharata:seed:ugrasrava-sauti",
+        "reason": "The existing Sauti alias, narrator role, and son-of-Suta address corroborate the framing narrator conversing with Saunaka.",
+        "evidenceKeys": [
+          "e11",
+          "e16",
+          "e17"
+        ]
+      },
+      {
+        "localKey": "saunaka",
+        "existingId": "mahabharata:seed:saunaka",
+        "reason": "Same framing interlocutor questions Sauti about Garuda, Vinata, and the serpents.",
+        "evidenceKeys": [
+          "e11",
+          "e16",
+          "e17"
+        ]
+      },
+      {
+        "localKey": "kadru",
+        "existingId": "mahabharata:b0009:kadru",
+        "reason": "Shared account identifies Kadru as mother of the cursed snakes and a recipient of her husband's boons alongside Vinata.",
+        "evidenceKeys": [
+          "e13",
+          "e16",
+          "e34",
+          "e44"
+        ]
+      },
+      {
+        "localKey": "aruna",
+        "existingId": "mahabharata:b0011:aruna",
+        "reason": "Aruna's curse is tied to the bondage of Garuda's mother Vinata, whom Saunaka says was cursed by her son; the existing account identifies Aruna as Vinata's son and Garuda's brother.",
+        "evidenceKeys": [
+          "e2",
+          "e13",
+          "e16"
+        ]
+      },
+      {
+        "localKey": "suta",
+        "existingId": "mahabharata:seed:lomaharshana",
+        "reason": "Suta designates the parent of the matched narrator Sauti; the existing Lomaharshana record explicitly supports both that parent role and the Suta alias.",
+        "evidenceKeys": [
+          "e16",
+          "e17"
+        ]
+      },
+      {
+        "localKey": "brahma",
+        "existingId": "mahabharata:b0010:brahman",
+        "reason": "Both identify the Grandsire called Brahman, associated with Ananta and present when Kadru curses her snakes.",
+        "evidenceKeys": [
+          "e26",
+          "e31",
+          "e39",
+          "e44"
+        ]
+      },
+      {
+        "localKey": "kasyapa",
+        "existingId": "mahabharata:b0009:kasyapa",
+        "reason": "Current identifies Kasyapa as father within Kadru's serpent family and giver of Garuda's strengthening boon; existing evidence identifies him as father of Kadru's snakes and Garuda.",
+        "evidenceKeys": [
+          "e28",
+          "e34",
+          "e36"
+        ]
+      },
+      {
+        "localKey": "earth",
+        "existingId": "mahabharata:b0010:earth",
+        "reason": "Both personify the terrestrial world with feminine references and her mountains and forests; Current explicitly calls this Earth a goddess.",
+        "evidenceKeys": [
+          "e12",
+          "e29",
+          "e30"
+        ]
+      },
+      {
+        "localKey": "janamejaya",
+        "existingId": "mahabharata:seed:janamejaya-son-parikshit",
+        "reason": "Both identify the Pandava-race king whose snake sacrifice threatens the serpents, distinguishing him from the ancestral Janamejayas.",
+        "evidenceKeys": [
+          "e33",
+          "e37"
+        ]
+      },
+      {
+        "localKey": "sesha",
+        "existingId": "mahabharata:b0010:ananta",
+        "reason": "Current explicitly identifies the snake Sesha as lord Ananta under Brahman's command; existing Ananta is likewise the mighty snake directed by Brahman.",
+        "evidenceKeys": [
+          "e30",
+          "e31"
+        ]
+      },
+      {
+        "localKey": "vasuki",
+        "existingId": "mahabharata:b0010:vasuki",
+        "reason": "Both place the prominent snake Vasuki alongside Ananta in the connected Amrita and serpent account; Current explicitly identifies Sesha as Ananta.",
+        "evidenceKeys": [
+          "e18",
+          "e31",
+          "e32"
+        ]
+      }
+    ],
+    "unresolved": [
+      "santi: e6 supplies this narrator label without identifying it as Sauti or Ugrasrava; a spelling error cannot be assumed.",
+      "dadhichi: e9 identifies the Rishi whose bone supplied the Vajra, but no corresponding existing candidate is supplied.",
+      "hari: e14 identifies a deity who sanctions Garuda's words, but does not connect him to the primordial Isana invocation or explicitly identify him with Current Vishnu/Narayana.",
+      "unnamed_husband_kadru_vinata: e16 closely matches the existing Kasyapa boon episode, but Current does not explicitly equate this unnamed husband with its separately recorded kasyapa. A second assignment to mahabharata:b0009:kasyapa is withheld pending that identity link.",
+      "agni: e33 concerns concealment in a cave. None of the supplied Agni candidates has corroborating evidence for that episode or an explicit identity link beyond the shared name.",
+      "immutable_lord: e42 does not name this referent. The curse context suggests the Grandsire, but does not explicitly establish identity with a supplied Brahma/Brahman record.",
+      "prospective_sacrificial_priest: e43 describes a possible future appointee; no supplied existing individual can be identified with that role.",
+      "snake_airavata: e18 and e32 identify a principal serpent and Vasuki's brother. They do not establish that he is the existing serpent king identified as Dhritarashtra's brother; the elephant Airavata is a distinct candidate.",
+      "snake_takshaka: e18 and e24 provide catalogue membership, without the existing Takshaka's kingship, earrings episode, or killing of Janamejaya's father. Identity remains uncertain.",
+      "snake_dhananjaya: e18 and e24 identify a serpent. The existing Dhananjaya associated with Krishna lacks corroborating serpent context.",
+      "snake_dhritarashtra: e22 and e24 identify a principal serpent without explicitly identifying him as Airavata's brother. He is not matched to the human Kuru king.",
+      "snake_kamvala_aswatara: e20 leaves the phrase undelimited, so its individual segmentation remains uncertain; no corresponding existing candidate is supplied.",
+      "sesha: the Dharma designation in e30 does not establish identity with the existing god of justice or the Dharma record concerning Animondavya's curse. The match to Ananta uses the explicit identity in e31.",
+      "No supplied existing counterparts for snake_karkotaka, snake_kalakeya, snake_mani, snake_purana, snake_pinjaraka, or snake_elapatra; Current evidence is e18 and e24, with e37, e38, and e44 additionally supporting Elapatra.",
+      "No supplied existing counterparts for snake_vamana, snake_nila, snake_anila, snake_kalmasha, snake_savala, snake_aryaka, snake_ugra, snake_kalasapotaka, snake_suramukha, snake_dadhimukha, snake_vimalapindaka, or snake_apta; Current evidence is e19 and e24.",
+      "No supplied existing counterparts for snake_karotaka, snake_samkha, snake_valisikha, snake_nisthanaka, snake_hemaguha, snake_nahusha, snake_pingala, snake_vahyakarna, snake_hastipada, or snake_mudgarapindaka; Current evidence is e20 and e24.",
+      "No supplied existing counterparts for snake_kaliyaka, snake_vritta, snake_samvartaka, snake_padma, snake_mahapadma, snake_sankhamukha, snake_kushmandaka, snake_kshemaka, snake_pindaraka, snake_karavira, snake_pushpadanshtraka, snake_vilwaka, or snake_vilwapandara; Current evidence is e21 and e24.",
+      "No supplied existing counterparts for snake_mushikada, snake_sankhasiras, snake_purnabhadra, snake_haridraka, snake_aparajita, snake_jyotika, snake_srivaha, snake_kauravya, snake_sankhapinda, snake_virajas, snake_suvahu, or snake_salipinda; Current evidence is e22 and e24.",
+      "No supplied existing counterparts for snake_prabhakara, snake_hastipinda, snake_pitharaka, snake_sumuksha, snake_kaunapashana, snake_kuthara, snake_kunjara, snake_kumuda, snake_kumudaksha, snake_tittri, snake_halika, snake_kardama, snake_vahumulaka, snake_karkara, snake_akarkara, snake_kundodara, or snake_mahodara; Current evidence is e23 and e24."
+    ]
+  }
+}

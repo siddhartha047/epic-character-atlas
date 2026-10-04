@@ -1,0 +1,1128 @@
+{
+  "sourceHash": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+  "batchDigest": "79dc56a18ff95ab4486d17f5bffdc43f480eadc97cd0b1a44a819404a32aa2a8",
+  "batchId": "b0011",
+  "pages": [
+    34,
+    35,
+    36,
+    37
+  ],
+  "reviewedAt": "2026-10-04T07:49:16.181Z",
+  "reviewer": "Codex extraction + omission + identity passes; not human review",
+  "extraction": {
+    "entities": [
+      {
+        "key": "garuda",
+        "name": "Garuda",
+        "kind": "animal",
+        "description": "Egg-born bird capable of changing form and travelling at will; son of Kasyapa and Vinata.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "lord of birds",
+            "evidenceKeys": [
+              "e_garuda_title"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called Kasyapa's son.",
+            "evidenceKeys": [
+              "e_garuda_parent"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_garuda_birth",
+          "e_garuda_abilities",
+          "e_garuda_parent",
+          "e_vinata_mother"
+        ]
+      },
+      {
+        "key": "agni",
+        "name": "Agni",
+        "kind": "deity",
+        "description": "Deity of manifold forms explicitly identified as Vibhavasu.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Vibhavasu",
+            "evidenceKeys": [
+              "e_agni_identity"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The deity is referred to with 'his' and 'him'.",
+            "evidenceKeys": [
+              "e_agni_identity"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_agni_identity"
+        ]
+      },
+      {
+        "key": "kasyapa",
+        "name": "Kasyapa",
+        "kind": "sage",
+        "description": "Rishi identified as Garuda's father and Aruna's parent; narrates the lake animals' former-life hostility.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Identified as Garuda's father.",
+            "evidenceKeys": [
+              "e_kasyapa_father"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_kasyapa_father",
+          "e_aruna_parent",
+          "e_lake_brothers"
+        ]
+      },
+      {
+        "key": "vinata",
+        "name": "Vinata",
+        "kind": "unknown",
+        "description": "Garuda's mother, enslaved after losing a wager; calls her enslaver her co-wife.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Called Garuda's mother.",
+            "evidenceKeys": [
+              "e_vinata_mother"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_vinata_mother",
+          "e_vinata_slavery",
+          "e_co_wife"
+        ]
+      },
+      {
+        "key": "hiranyagarbha",
+        "name": "Hiranyagarbha",
+        "kind": "unknown",
+        "description": "Named in the gods' praise of Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_hiranyagarbha_daksha"
+        ]
+      },
+      {
+        "key": "daksha",
+        "name": "Daksha",
+        "kind": "unknown",
+        "description": "Named with the other Prajapatis in the gods' praise of creation's progenitor.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_hiranyagarbha_daksha"
+        ]
+      },
+      {
+        "key": "indra",
+        "name": "Indra",
+        "kind": "deity",
+        "description": "King of the gods, invoked by Kadru for rain; Sachi's consort.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Purandara",
+            "evidenceKeys": [
+              "e_kadru_snakes",
+              "e_purandara"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called king of gods and referred to with 'his'.",
+            "evidenceKeys": [
+              "e_indra_horse"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_indra_hayagriva",
+          "e_kadru_snakes",
+          "e_sachi",
+          "e_purandara",
+          "e_indra_horse"
+        ]
+      },
+      {
+        "key": "hayagriva",
+        "name": "Hayagriva",
+        "kind": "unknown",
+        "description": "Steed-necked incarnation of Vishnu named in the gods' praise.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_indra_hayagriva"
+        ]
+      },
+      {
+        "key": "vishnu",
+        "name": "Vishnu",
+        "kind": "unknown",
+        "description": "Has Hayagriva as an incarnation; became an arrow in Mahadeva's hands at the burning of Tripura.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with 'himself' and 'he'.",
+            "evidenceKeys": [
+              "e_vishnu_mahadeva"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_indra_hayagriva",
+          "e_vishnu_mahadeva"
+        ]
+      },
+      {
+        "key": "mahadeva",
+        "name": "Mahadeva",
+        "kind": "unknown",
+        "description": "Held Vishnu in arrow form at the burning of Tripura.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_vishnu_mahadeva"
+        ]
+      },
+      {
+        "key": "padmaja",
+        "name": "Padmaja",
+        "kind": "unknown",
+        "description": "Four-faced being named in the gods' praise of Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_padmaja_pavana"
+        ]
+      },
+      {
+        "key": "pavana",
+        "name": "Pavana",
+        "kind": "deity",
+        "description": "Named among presiding deities in the gods' praise.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_padmaja_pavana"
+        ]
+      },
+      {
+        "key": "brahma_without_attributes",
+        "name": "Brahma without attributes",
+        "kind": "unknown",
+        "description": "Invoked by this designation in the gods' praise of Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_brahma"
+        ]
+      },
+      {
+        "key": "surya",
+        "name": "Surya",
+        "kind": "deity",
+        "description": "Deity who exposed Rahu with Soma and resolved to burn the worlds; Aruna becomes his charioteer.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Saunaka refers to Surya with 'him' and 'his'.",
+            "evidenceKeys": [
+              "e_saunaka"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_saunaka",
+          "e_rahu_soma",
+          "e_aruna_brother"
+        ]
+      },
+      {
+        "key": "yama",
+        "name": "Yama",
+        "kind": "unknown",
+        "description": "Being whose wrathful splendour is compared with Garuda's.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_yama"
+        ]
+      },
+      {
+        "key": "sauti",
+        "name": "Sauti",
+        "kind": "unknown",
+        "description": "Framing narrator recounting the events involving Garuda and Aruna.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_sauti",
+          "e_sauti_aruna",
+          "e_aruna_brother"
+        ]
+      },
+      {
+        "key": "aruna",
+        "name": "Aruna",
+        "kind": "unknown",
+        "description": "Son of Kasyapa, brother of Garuda, and appointed charioteer of Surya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called a son and Garuda's brother.",
+            "evidenceKeys": [
+              "e_aruna_parent",
+              "e_aruna_brother"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_aruna_parent",
+          "e_aruna_brother",
+          "e_sauti_aruna"
+        ]
+      },
+      {
+        "key": "saunaka",
+        "name": "Saunaka",
+        "kind": "unknown",
+        "description": "Framing questioner who asks why Surya resolved to burn the worlds.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_saunaka"
+        ]
+      },
+      {
+        "key": "rahu",
+        "name": "Rahu",
+        "kind": "unknown",
+        "description": "Drank nectar among the gods, was exposed by Surya and Soma, and sought to devour Surya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with 'he'.",
+            "evidenceKeys": [
+              "e_rahu_soma"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_rahu_soma",
+          "e_rahu_attack"
+        ]
+      },
+      {
+        "key": "soma",
+        "name": "Soma",
+        "kind": "deity",
+        "description": "Deity who, with Surya, pointed out Rahu drinking nectar among the gods.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_rahu_soma"
+        ]
+      },
+      {
+        "key": "grandsire",
+        "name": "Grandsire",
+        "kind": "unknown",
+        "description": "Being consulted by the gods and Rishis who gives Aruna his orders.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with 'him'.",
+            "evidenceKeys": [
+              "e_grandsire_consult"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_grandsire_consult",
+          "e_sauti_aruna"
+        ]
+      },
+      {
+        "key": "kadru",
+        "name": "Kadru",
+        "kind": "unknown",
+        "description": "Mother of the snakes who commands Vinata to carry her and prays to Indra for her sons.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Identified as the mother of the snakes and referred to with 'her'.",
+            "evidenceKeys": [
+              "e_kadru_vinata",
+              "e_kadru_snakes"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_kadru_vinata",
+          "e_kadru_snakes"
+        ]
+      },
+      {
+        "key": "vritra",
+        "name": "Vritra",
+        "kind": "unknown",
+        "description": "Named as slain by Indra in Kadru's prayer.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_kadru_snakes",
+          "e_indra_slayers"
+        ]
+      },
+      {
+        "key": "namuchi",
+        "name": "Namuchi",
+        "kind": "unknown",
+        "description": "Named as slain by Indra in Kadru's prayer.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_kadru_snakes",
+          "e_indra_slayers"
+        ]
+      },
+      {
+        "key": "sachi",
+        "name": "Sachi",
+        "kind": "unknown",
+        "description": "Indra's consort.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_kadru_snakes",
+          "e_sachi"
+        ]
+      },
+      {
+        "key": "vayu",
+        "name": "Vayu",
+        "kind": "unknown",
+        "description": "Named as the air in Kadru's praise of Indra.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_vayu"
+        ]
+      },
+      {
+        "key": "aditya",
+        "name": "Aditya",
+        "kind": "unknown",
+        "description": "Named in Kadru's praise of Indra.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_aditya_vibhavasu"
+        ]
+      },
+      {
+        "key": "vibhavasu_kadru_hymn",
+        "name": "Vibhavasu",
+        "kind": "unknown",
+        "description": "Unresolved Vibhavasu reference in Kadru's praise of Indra.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_aditya_vibhavasu"
+        ]
+      },
+      {
+        "key": "indra_horse",
+        "name": "Indra's unnamed horse",
+        "kind": "animal",
+        "description": "Horse serving as Indra's bearer.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_indra_horse"
+        ]
+      },
+      {
+        "key": "creator_of_universe",
+        "name": "Creator of the Universe",
+        "kind": "unknown",
+        "description": "Being credited with fixing the island as the abode of the makaras.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_creator_island"
+        ]
+      },
+      {
+        "key": "vinata_kadru_shared_spouse",
+        "name": "Unnamed shared spouse of Vinata and Kadru",
+        "kind": "unknown",
+        "description": "Unnamed spouse implied by Vinata's co-wife statement; the identification of that co-wife with Kadru is contextual.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_kadru_vinata",
+          "e_co_wife"
+        ]
+      },
+      {
+        "key": "marut",
+        "name": "Marut",
+        "kind": "deity",
+        "description": "God of the winds invoked to protect Garuda's wings.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_marut"
+        ]
+      },
+      {
+        "key": "swallowed_brahmana",
+        "name": "Unnamed Brahmana swallowed by Garuda",
+        "kind": "human",
+        "description": "Brahmana who enters Garuda's throat with his Nishada wife and leaves with her.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with 'he' after leaving Garuda.",
+            "evidenceKeys": [
+              "e_brahmana_exit"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_brahmana_couple",
+          "e_nishada_wife",
+          "e_brahmana_exit"
+        ]
+      },
+      {
+        "key": "swallowed_nishada_wife",
+        "name": "Unnamed Nishada wife of the swallowed Brahmana",
+        "kind": "human",
+        "description": "Nishada woman who enters Garuda's throat with her Brahmana spouse and leaves with him.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called a woman and wife.",
+            "evidenceKeys": [
+              "e_nishada_wife"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_brahmana_couple",
+          "e_nishada_wife",
+          "e_brahmana_exit"
+        ]
+      },
+      {
+        "key": "vibhavasu_rishi",
+        "name": "Vibhavasu",
+        "kind": "sage",
+        "description": "Wrathful Rishi and elder brother of Supritika; the former-life account identifies him with the tortoise in the lake.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to with 'he' and identified as Supritika's brother.",
+            "evidenceKeys": [
+              "e_rishi_brothers"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_rishi_brothers",
+          "e_lake_brothers",
+          "e_elephant_curse",
+          "e_tortoise_curse"
+        ]
+      },
+      {
+        "key": "supritika",
+        "name": "Supritika",
+        "kind": "animal",
+        "description": "Vibhavasu's younger brother who seeks division of their wealth; the former-life account identifies him with the elephant in the lake.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called Vibhavasu's younger brother.",
+            "evidenceKeys": [
+              "e_rishi_brothers"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_rishi_brothers",
+          "e_supritika_partition",
+          "e_lake_brothers",
+          "e_elephant_curse",
+          "e_tortoise_curse"
+        ]
+      },
+      {
+        "key": "rishi_accompanying_gods",
+        "name": "Unidentified Rishi accompanying the gods",
+        "kind": "sage",
+        "description": "A singular Rishi apparently accompanies the gods toward Garuda in a grammatically disrupted passage; identity is unresolved.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_rishi_companion"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromKey": "kasyapa",
+        "toKey": "garuda",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_garuda_parent",
+          "e_kasyapa_father"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vinata",
+        "toKey": "garuda",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_vinata_mother"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kasyapa",
+        "toKey": "aruna",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_aruna_parent"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "aruna",
+        "toKey": "garuda",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_aruna_brother"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "indra",
+        "toKey": "sachi",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_kadru_snakes",
+          "e_sachi"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vinata_kadru_shared_spouse",
+        "toKey": "vinata",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_co_wife"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "vinata_kadru_shared_spouse",
+        "toKey": "kadru",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_kadru_vinata",
+          "e_co_wife"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "swallowed_brahmana",
+        "toKey": "swallowed_nishada_wife",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_brahmana_couple",
+          "e_nishada_wife",
+          "e_brahmana_exit"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vibhavasu_rishi",
+        "toKey": "supritika",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_rishi_brothers",
+          "e_lake_brothers"
+        ],
+        "status": "supported"
+      }
+    ],
+    "evidence": [
+      {
+        "key": "e_garuda_birth",
+        "page": 34,
+        "excerpt": "In the meantime, when his time came, burst forth from the egg without (the help of his) mother, Garuda of great splendour"
+      },
+      {
+        "key": "e_garuda_abilities",
+        "page": 34,
+        "excerpt": "that mighty being endued with strength, that bird capable of assuming at will any form, of going at will everywhere, and of calling to his aid at will any measure of energy."
+      },
+      {
+        "key": "e_agni_identity",
+        "page": 34,
+        "excerpt": "And all the deities seeing him, sought the protection of Vibhavasu (Agni). And they bowed down to that deity of manifold forms seated on his seat and spake unto him these words"
+      },
+      {
+        "key": "e_garuda_parent",
+        "page": 34,
+        "excerpt": "He is the mighty son of Kasyapa, the destroyer of the Nagas, engaged in the well-being of the gods, and the foe of the Daityas and the Rakshasas."
+      },
+      {
+        "key": "e_hiranyagarbha_daksha",
+        "page": 34,
+        "excerpt": "thou art the very Hiranyagarbha; thou art the progenitor of creation in the form of Daksha and the other Prajapatis"
+      },
+      {
+        "key": "e_indra_hayagriva",
+        "page": 34,
+        "excerpt": "thou art Indra (the king of the gods), thou art Hayagriva the steed necked incarnation of Vishnu"
+      },
+      {
+        "key": "e_vishnu_mahadeva",
+        "page": 34,
+        "excerpt": "thou art the arrow (Vishnu himself, as he became such in the hands of Mahadeva at the burning of Tripura)"
+      },
+      {
+        "key": "e_padmaja_pavana",
+        "page": 34,
+        "excerpt": "thou art the four-faced Padmaja; thou art the Brahmana (i.e., wise), thou art Agni, Pavana, etc. (i.e., the presiding deity of every object in the universe)."
+      },
+      {
+        "key": "e_brahma",
+        "page": 34,
+        "excerpt": "thou art Brahma without attributes"
+      },
+      {
+        "key": "e_yama",
+        "page": 34,
+        "excerpt": "At the sight of the splendour resembling that of Yama when in wrath, our hearts lose all equanimity and quake."
+      },
+      {
+        "key": "e_sauti",
+        "page": 34,
+        "excerpt": "Sauti said, 'Then hearing of and beholding his own body, that bird of beautiful feathers diminished its size.'"
+      },
+      {
+        "key": "e_rishi_companion",
+        "page": 34,
+        "excerpt": "the controller along with the Rishi wended their way towards Garuda and adored him of birds"
+      },
+      {
+        "key": "e_saunaka",
+        "page": 35,
+        "excerpt": "Saunaka said, 'When did the revered Surya resolve at the time to burn the worlds? What wrong was done to him by the gods that provoked his ire?'"
+      },
+      {
+        "key": "e_rahu_soma",
+        "page": 35,
+        "excerpt": "when Rahu was drinking nectar among the gods at the time of the churning of the ocean he was pointed out to the gods by Surya and Soma, and from that time he conceived an enmity towards those deities."
+      },
+      {
+        "key": "e_rahu_attack",
+        "page": 35,
+        "excerpt": "Rahu sought to devour his afflictor (Surya)"
+      },
+      {
+        "key": "e_grandsire_consult",
+        "page": 35,
+        "excerpt": "Then the gods, accompanied by the Rishis, wended to the Grandsire, and said unto him"
+      },
+      {
+        "key": "e_aruna_parent",
+        "page": 35,
+        "excerpt": "The intelligent son of Kasyapa is known to all by the name of Aruna."
+      },
+      {
+        "key": "e_aruna_brother",
+        "page": 35,
+        "excerpt": "I have told thee now why Surya was in wrath, and how Aruna, the brother of Garuda, was appointed as his charioteer."
+      },
+      {
+        "key": "e_sauti_aruna",
+        "page": 35,
+        "excerpt": "Sauti continued, 'Aruna, at the behest of the Grandsire, did all that he was ordered to do."
+      },
+      {
+        "key": "e_vinata_slavery",
+        "page": 35,
+        "excerpt": "Thither lived Vinata in affliction, defeated in wager and put into a state of slavery."
+      },
+      {
+        "key": "e_kadru_vinata",
+        "page": 35,
+        "excerpt": "Once Kadru calling Vinata who had prostrated herself before the former, addressed her these words in the presence of her son, 'O gentle Vinata, there is in the midst of the ocean, in a remote quarter, a delightful and fair region inhabited by the Nagas. Bear me thither!' At this that mother of the bird of fair feathers bore (on her shoulders) the mother of the snakes."
+      },
+      {
+        "key": "e_kadru_snakes",
+        "page": 35,
+        "excerpt": "And thereupon the snakes, scorched by the rays of the Sun, swooned away. And Kadru seeing her sons in that state prayed to Indra, saying"
+      },
+      {
+        "key": "e_indra_slayers",
+        "page": 35,
+        "excerpt": "I bow to thee, thou slayer of Vritra! I bow to thee, thou slayer of Namuchi!"
+      },
+      {
+        "key": "e_sachi",
+        "page": 35,
+        "excerpt": "O thou of a thousand eyes, consort of Sachi!"
+      },
+      {
+        "key": "e_purandara",
+        "page": 35,
+        "excerpt": "O Purandara, thou art able to grant rain in torrents."
+      },
+      {
+        "key": "e_vayu",
+        "page": 35,
+        "excerpt": "Thou art Vayu (the air), the clouds, fire, and the lightning of the skies."
+      },
+      {
+        "key": "e_aditya_vibhavasu",
+        "page": 35,
+        "excerpt": "Thou art the light of all creatures, Aditya, Vibhavasu, and the wonderful elements."
+      },
+      {
+        "key": "e_indra_horse",
+        "page": 36,
+        "excerpt": "And then Indra, the king of gods, having the best of horses for his bearer, thus adored by Kadru, covered the entire firmament with masses of blue clouds."
+      },
+      {
+        "key": "e_creator_island",
+        "page": 36,
+        "excerpt": "That island had been fixed by the Creator of the Universe as the abode of the makaras."
+      },
+      {
+        "key": "e_garuda_title",
+        "page": 36,
+        "excerpt": "And they commanded the lord of birds, viz., Garuda, of great energy"
+      },
+      {
+        "key": "e_vinata_mother",
+        "page": 36,
+        "excerpt": "Garuda, alter reflecting for a few moments, asked his mother Vinata, saying, 'Why, mother, have I to do the bidding of the snakes?'"
+      },
+      {
+        "key": "e_co_wife",
+        "page": 36,
+        "excerpt": "Vinata said, 'O thou best of birds, I have become, from misfortune, the slave of my co-wife."
+      },
+      {
+        "key": "e_marut",
+        "page": 37,
+        "excerpt": "Let Marut (the god of the winds) protect thy wings"
+      },
+      {
+        "key": "e_brahmana_couple",
+        "page": 37,
+        "excerpt": "A certain Brahmana with his wife had entered the throat of that ranger of the skies."
+      },
+      {
+        "key": "e_nishada_wife",
+        "page": 37,
+        "excerpt": "Unto Garuda who had thus addressed him that Brahmana said, 'O, let this woman of the Nishada caste, who is my wife, also come out with me.'"
+      },
+      {
+        "key": "e_brahmana_exit",
+        "page": 37,
+        "excerpt": "And then that Brahmana, accompanied by his wife of the Nishada caste, came out, and praising Garuda wended whatever way he liked."
+      },
+      {
+        "key": "e_kasyapa_father",
+        "page": 37,
+        "excerpt": "He then saw his father, and, hailed by him, Garuda, of incomparable prowess made proper answers. And the great Rishi (Kasyapa) then asked him"
+      },
+      {
+        "key": "e_lake_brothers",
+        "page": 37,
+        "excerpt": "Kasyapa replied, 'This lake thou seest is sacred. It hath been heard, of even in the heavens. There is an elephant, with face downwards, who continually draggeth a tortoise, his elder brother. I shall speak to you in detail of their hostility in former life. Just listen as I tell you why they are here."
+      },
+      {
+        "key": "e_rishi_brothers",
+        "page": 37,
+        "excerpt": "There was of old a great Rishi of the name of Vibhavasu. He was exceedingly wrathful. He had a younger brother of the name of Supritika."
+      },
+      {
+        "key": "e_supritika_partition",
+        "page": 37,
+        "excerpt": "The latter was averse to keeping his wealth jointly with his brother's. And Supritika would always speak of partition."
+      },
+      {
+        "key": "e_elephant_curse",
+        "page": 37,
+        "excerpt": "But as thou, Supritika, without regarding my advice impelled by desire of separation, always wishest to make an arrangement about your property, thou shall become an elephant."
+      },
+      {
+        "key": "e_tortoise_curse",
+        "page": 37,
+        "excerpt": "Supritika, thus cursed, then spake unto Vibhavasu, 'Thou also shall become a tortoise moving in the midst of the waters.'"
+      }
+    ],
+    "unresolved": [
+      "The Vibhavasu reference in Kadru's hymn on physical page 35 is retained provisionally. This passage does not securely identify it with Agni/Vibhavasu or the Rishi Vibhavasu.",
+      "This batch does not establish identity among Hiranyagarbha, Padmaja, Brahma without attributes, the Grandsire, and the Creator of the Universe. The hymns' statements equating Garuda or Indra with numerous beings do not establish interchangeable personal identities.",
+      "This batch does not explicitly establish identity among Pavana, Vayu, and Marut, or between Aditya and Surya.",
+      "The shared spouse implied by Vinata's co-wife statement is unnamed. Its connection to Kadru is contextual, and this batch does not identify that spouse with Kasyapa.",
+      "The possessive in 'in the presence of her son' on physical page 35 is ambiguous; it does not securely establish an additional individual distinct from Garuda or support a parent_of claim for Kadru.",
+      "Kadru's snake sons remain an undifferentiated group in this batch; no individual children are identified for parent_of records.",
+      "The singular Rishi accompanying the gods is retained provisionally because the physical page 34 sentence is grammatically disrupted. The passage does not securely establish that Rishi's identity.",
+      "Vibhavasu is explicitly a Rishi in the former-life account and is subsequently identified with the lake's tortoise; Supritika is identified with its elephant. These animal forms are recorded in descriptions rather than treated as additional individuals or personal-name aliases."
+    ]
+  },
+  "reconciliation": {
+    "matches": [
+      {
+        "localKey": "garuda",
+        "existingId": "mahabharata:b0004:garuda",
+        "reason": "Corroborated by parentage from Kasyapa and Vinata, the title lord of birds, and overlapping page 34 descriptions of his abilities.",
+        "evidenceKeys": [
+          "e_garuda_parent",
+          "e_vinata_mother",
+          "e_garuda_title",
+          "e_garuda_abilities"
+        ]
+      },
+      {
+        "localKey": "agni",
+        "existingId": "mahabharata:b0009:agni",
+        "reason": "Both records cite the same page 34 passage explicitly identifying Vibhavasu as Agni, whom the frightened deities approach.",
+        "evidenceKeys": [
+          "e_agni_identity"
+        ]
+      },
+      {
+        "localKey": "kasyapa",
+        "existingId": "mahabharata:b0009:kasyapa",
+        "reason": "Both records identify him as Garuda's parent through the same page 34 statement; the current account additionally calls him Garuda's father.",
+        "evidenceKeys": [
+          "e_garuda_parent",
+          "e_kasyapa_father"
+        ]
+      },
+      {
+        "localKey": "vinata",
+        "existingId": "mahabharata:b0009:vinata",
+        "reason": "Corroborated by motherhood of Garuda and the continuing story of her enslavement after the wager with Kadru.",
+        "evidenceKeys": [
+          "e_vinata_mother",
+          "e_vinata_slavery",
+          "e_kadru_vinata",
+          "e_co_wife"
+        ]
+      },
+      {
+        "localKey": "daksha",
+        "existingId": "mahabharata:b0001:daksha",
+        "reason": "Both passages specifically place Daksha among the Prajapatis in the context of creation.",
+        "evidenceKeys": [
+          "e_hiranyagarbha_daksha"
+        ]
+      },
+      {
+        "localKey": "indra",
+        "existingId": "mahabharata:b0002:indra",
+        "reason": "Corroborated by the explicit title king of the gods, control of downpours, and the Purandara invocation naming his victories over Vritra and Namuchi.",
+        "evidenceKeys": [
+          "e_indra_horse",
+          "e_kadru_snakes",
+          "e_purandara",
+          "e_indra_slayers"
+        ]
+      },
+      {
+        "localKey": "surya",
+        "existingId": "mahabharata:b0009:surya",
+        "reason": "Both records associate Surya with Vinata's offspring as his charioteer and with Soma's exposure of Rahu during the nectar episode.",
+        "evidenceKeys": [
+          "e_aruna_brother",
+          "e_rahu_soma",
+          "e_rahu_attack"
+        ]
+      },
+      {
+        "localKey": "sauti",
+        "existingId": "mahabharata:seed:ugrasrava-sauti",
+        "reason": "The existing record explicitly identifies Ugrasrava as Sauti; the current Sauti continues the same framing narration to Saunaka concerning the nectar episode and Garuda.",
+        "evidenceKeys": [
+          "e_sauti",
+          "e_sauti_aruna",
+          "e_saunaka",
+          "e_aruna_brother"
+        ]
+      },
+      {
+        "localKey": "saunaka",
+        "existingId": "mahabharata:seed:saunaka",
+        "reason": "Corroborated by his framing role as Sauti's questioner in the continuing discussion of the ocean-churning narrative and its consequences for Surya.",
+        "evidenceKeys": [
+          "e_saunaka",
+          "e_sauti_aruna",
+          "e_aruna_brother",
+          "e_rahu_soma"
+        ]
+      },
+      {
+        "localKey": "rahu",
+        "existingId": "mahabharata:b0010:rahu",
+        "reason": "Both accounts describe Rahu drinking nectar among the gods, being exposed by Surya and Soma, and subsequently seeking to swallow Surya.",
+        "evidenceKeys": [
+          "e_rahu_soma",
+          "e_rahu_attack"
+        ]
+      },
+      {
+        "localKey": "soma",
+        "existingId": "mahabharata:b0010:soma",
+        "reason": "Both records identify Soma as Surya's companion in exposing Rahu while he drinks nectar among the gods.",
+        "evidenceKeys": [
+          "e_rahu_soma"
+        ]
+      },
+      {
+        "localKey": "kadru",
+        "existingId": "mahabharata:b0009:kadru",
+        "reason": "Corroborated by her motherhood of the snakes and the continuing wager-and-slavery story involving Vinata.",
+        "evidenceKeys": [
+          "e_kadru_vinata",
+          "e_kadru_snakes",
+          "e_vinata_slavery",
+          "e_co_wife"
+        ]
+      },
+      {
+        "localKey": "vritra",
+        "existingId": "mahabharata:b0005:vritra",
+        "reason": "Both records identify Vritra as the opponent slain by the figure addressed as Indra or Purandara.",
+        "evidenceKeys": [
+          "e_kadru_snakes",
+          "e_indra_slayers",
+          "e_purandara"
+        ]
+      },
+      {
+        "localKey": "namuchi",
+        "existingId": "mahabharata:b0007:namuchi",
+        "reason": "Both records name Namuchi as slain by the figure addressed as Purandara, alongside Vritra.",
+        "evidenceKeys": [
+          "e_kadru_snakes",
+          "e_indra_slayers",
+          "e_purandara"
+        ]
+      }
+    ],
+    "unresolved": [
+      "hiranyagarbha: The existing Brahma visitor is explicitly called Hiranyagarbha, but e_hiranyagarbha_daksha supplies only a hymn reference to that name, without corroborating visitor context or a current identification with Brahma.",
+      "hayagriva: No corresponding existing candidate is supplied. His designation as an incarnation of Vishnu in e_indra_hayagriva does not establish interchangeable individual identity with a Vishnu candidate.",
+      "vishnu: e_indra_hayagriva and e_vishnu_mahadeva describe Hayagriva's incarnation and the Tripura arrow episode. Neither context distinguishes among the existing Vishnu, Narayana/Vishnu, and Isana/Vishnu records.",
+      "mahadeva: The Tripura episode in e_vishnu_mahadeva does not corroborate either the existing hunter episode or the Somasrava absolution reference.",
+      "padmaja: e_padmaja_pavana identifies a four-faced being but does not explicitly identify him with any existing Brahma-related candidate.",
+      "pavana: e_padmaja_pavana names a presiding deity without the Hanuman-parent context of the existing Pavana.",
+      "brahma_without_attributes: e_brahma supplies no explicit identity or distinctive context linking this designation to Isana or the Brahma visitor.",
+      "yama: The wrathful-splendour comparison in e_yama does not provide the distinctive context of the existing record concerning Yudhishthira's brothers.",
+      "aruna: No corresponding existing individual is supplied. Existing descriptions mention Vinata's child who becomes Surya's charioteer, but no candidate ID represents that child separately.",
+      "grandsire: e_grandsire_consult and e_sauti_aruna do not name this being or explicitly identify him with an existing Brahma-related candidate.",
+      "sachi: No corresponding existing candidate is supplied for Indra's consort.",
+      "vayu: e_vayu identifies Vayu as the air, but supplies no corroborating parentage or story context connecting him to the existing god admitted to the mothers' embraces.",
+      "aditya: e_aditya_vibhavasu does not explicitly identify Aditya with Surya or another existing candidate.",
+      "vibhavasu_kadru_hymn: e_aditya_vibhavasu does not securely distinguish Agni/Vibhavasu from another referent; it cannot be assigned to an existing Agni record on the name alone.",
+      "indra_horse: e_indra_horse does not establish that this bearer is the Agni horse encountered by Utanka or any other individually identified existing being.",
+      "creator_of_universe: e_creator_island does not establish a unique identity with Isana, the Brahma visitor, or another existing candidate.",
+      "vinata_kadru_shared_spouse: The existing Kasyapa is explicitly married to both women, but the current co-wife reference does not name this provisional individual or equate it with the separately recorded kasyapa. A second local assignment to that ID would collapse an unresolved identity.",
+      "marut: e_marut identifies a wind deity but does not establish identity with Vayu, Pavana, or any supplied existing candidate.",
+      "swallowed_brahmana: No existing candidate is corroborated by the distinctive story of entering Garuda's throat with a Nishada wife and leaving with her.",
+      "swallowed_nishada_wife: No existing candidate is corroborated by her marriage to the swallowed Brahmana and their escape from Garuda.",
+      "vibhavasu_rishi: e_rishi_brothers identifies Supritika's elder brother, subsequently cursed to become a tortoise. No corresponding sage candidate is supplied, and the existing Agni/Vibhavasu alias does not establish identity with him.",
+      "supritika: The current brother of Vibhavasu, cursed into elephant form, is not linked to the existing elephant accompanying Bhagadatta. Their shared name and animal form do not establish identity.",
+      "rishi_accompanying_gods: e_rishi_companion is grammatically disrupted and supplies no secure identity or distinctive link to an existing sage."
+    ]
+  }
+}

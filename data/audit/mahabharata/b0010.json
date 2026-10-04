@@ -1,0 +1,1429 @@
+{
+  "sourceHash": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+  "batchDigest": "0ac65259f52f7e05619111d1523e5907a3bfcb9ad62eee1665fe6a1048cbb081",
+  "batchId": "b0010",
+  "pages": [
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "reviewedAt": "2026-10-04T07:36:59.893Z",
+  "reviewer": "Codex extraction + omission + identity passes; not human review",
+  "extraction": {
+    "entities": [
+      {
+        "key": "sauti",
+        "name": "Sauti",
+        "kind": "unknown",
+        "description": "Framing narrator who recounts Vinata's offspring and the Ocean-churning story.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e01",
+          "e33"
+        ]
+      },
+      {
+        "key": "saunaka",
+        "name": "Saunaka",
+        "kind": "sage",
+        "description": "Framing questioner who asks why the gods churned the Ocean; Sauti addresses his listener as an ascetic.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e08",
+          "e09"
+        ]
+      },
+      {
+        "key": "kadru",
+        "name": "Kadru",
+        "kind": "unknown",
+        "description": "Daughter of Daksha, sister and co-wife of Vinata, and mother of the thousand snake sons. She enslaves Vinata after winning their wager.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Identified as a daughter, sister, co-wife and mother, with feminine pronouns.",
+            "evidenceKeys": [
+              "e35",
+              "e47"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e01",
+          "e35",
+          "e47",
+          "e48"
+        ]
+      },
+      {
+        "key": "vinata",
+        "name": "Vinata",
+        "kind": "unknown",
+        "description": "Daughter of Daksha, sister and co-wife of Kadru, and mother of two egg-born twins, including Garuda. She becomes Kadru's slave after losing their wager.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Identified as a mother, daughter, sister and co-wife.",
+            "evidenceKeys": [
+              "e03",
+              "e06",
+              "e47"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e01",
+          "e02",
+          "e03",
+          "e06",
+          "e47",
+          "e48"
+        ]
+      },
+      {
+        "key": "vinata_first_child",
+        "name": "Unnamed child in Vinata's prematurely broken egg",
+        "kind": "unknown",
+        "description": "Child whose upper part is developed and lower part undeveloped when Vinata breaks his egg. He curses his mother, rises into the sky and is identified as Surya's charioteer.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the charioteer of Surya",
+            "evidenceKeys": [
+              "e04"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The child is referred to as he and with masculine possessive pronouns.",
+            "evidenceKeys": [
+              "e03",
+              "e04"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e02",
+          "e03",
+          "e04"
+        ]
+      },
+      {
+        "key": "garuda",
+        "name": "Garuda",
+        "kind": "animal",
+        "description": "Bird born from Vinata's other egg, explicitly called a son of Vinata and Kasyapa. He can assume any form and is described as a destroyer of the Nagas.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the serpent-eater",
+            "evidenceKeys": [
+              "e05"
+            ]
+          },
+          {
+            "label": "the lord of birds",
+            "evidenceKeys": [
+              "e07"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son of Vinata and Kasyapa.",
+            "evidenceKeys": [
+              "e06",
+              "e52"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e05",
+          "e06",
+          "e07",
+          "e49",
+          "e51",
+          "e52"
+        ]
+      },
+      {
+        "key": "bhrigu",
+        "name": "Bhrigu",
+        "kind": "unknown",
+        "description": "Named figure whose race and son are invoked in Sauti's addresses to his listener.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e06",
+          "e12"
+        ]
+      },
+      {
+        "key": "surya",
+        "name": "Surya",
+        "kind": "unknown",
+        "description": "Being served by Vinata's unnamed charioteer. Surya and Soma expose Rahu and are subsequently swallowed by Rahu's head during eclipses.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e04",
+          "e24",
+          "e27"
+        ]
+      },
+      {
+        "key": "great_ordainer",
+        "name": "Great Ordainer of all",
+        "kind": "unknown",
+        "description": "Unidentified being who assigns Garuda's food.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e07"
+        ]
+      },
+      {
+        "key": "uchchaihsravas",
+        "name": "Uchchaihsravas",
+        "kind": "animal",
+        "description": "Horse obtained during the Ocean-churning, worshipped by the gods and made the subject of Kadru and Vinata's wager.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Uchchaishravas",
+            "evidenceKeys": [
+              "e34"
+            ]
+          },
+          {
+            "label": "the White Steed",
+            "evidenceKeys": [
+              "e08",
+              "e17",
+              "e33"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Vinata calls the horse a prince of steeds.",
+            "evidenceKeys": [
+              "e34"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e08",
+          "e17",
+          "e33",
+          "e34"
+        ]
+      },
+      {
+        "key": "narayana",
+        "name": "Narayana",
+        "kind": "deity",
+        "description": "Deity also called Vishnu. He directs Ananta's work, assumes an enticing female form during the nectar episode, beheads Rahu and receives the nectar for safekeeping.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Nara-yana",
+            "evidenceKeys": [
+              "e10",
+              "e13"
+            ]
+          },
+          {
+            "label": "Vishnu",
+            "evidenceKeys": [
+              "e13",
+              "e21",
+              "e22",
+              "e28",
+              "e44"
+            ]
+          },
+          {
+            "label": "the lotus-eyed one",
+            "evidenceKeys": [
+              "e13"
+            ]
+          },
+          {
+            "label": "the lotus-naveled Vishnu",
+            "evidenceKeys": [
+              "e44"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Masculine possessive pronouns are used before the assumption of the female form.",
+            "evidenceKeys": [
+              "e21"
+            ]
+          },
+          {
+            "label": "female",
+            "context": "Explicitly assumed female form during the nectar episode.",
+            "evidenceKeys": [
+              "e21",
+              "e22",
+              "e28"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e10",
+          "e12",
+          "e13",
+          "e21",
+          "e22",
+          "e25",
+          "e28",
+          "e32",
+          "e44"
+        ]
+      },
+      {
+        "key": "brahman",
+        "name": "Brahman",
+        "kind": "deity",
+        "description": "The Grandsire and divine Creator of the Universe. He participates in directing Ananta and comforts Kasyapa concerning the curse upon the snakes.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the Grandsire",
+            "evidenceKeys": [
+              "e37"
+            ]
+          },
+          {
+            "label": "the divine Creator of the Universe",
+            "evidenceKeys": [
+              "e38",
+              "e39"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called the Grandsire and referred to as himself.",
+            "evidenceKeys": [
+              "e37"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e10",
+          "e12",
+          "e13",
+          "e37",
+          "e38",
+          "e39"
+        ]
+      },
+      {
+        "key": "mandara",
+        "name": "Mandara",
+        "kind": "other",
+        "description": "Personified mountain used as the churning staff, subsequently honored and restored to his base.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The mountain is referred to as him and with his own base.",
+            "evidenceKeys": [
+              "e31"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e11",
+          "e16",
+          "e31"
+        ]
+      },
+      {
+        "key": "ananta",
+        "name": "Ananta",
+        "kind": "animal",
+        "description": "Mighty prince of snakes who uproots Mandara at Brahman and Narayana's direction and assists with Vasuki during the churning.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the prince of snakes",
+            "evidenceKeys": [
+              "e13"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a prince.",
+            "evidenceKeys": [
+              "e13"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e13",
+          "e16"
+        ]
+      },
+      {
+        "key": "ocean",
+        "name": "Ocean",
+        "kind": "other",
+        "description": "Speaking personification of the Ocean who consents to the churning on condition of receiving a share.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e14"
+        ]
+      },
+      {
+        "key": "tortoise_king",
+        "name": "Unnamed Tortoise-king",
+        "kind": "animal",
+        "description": "King of tortoises who agrees to bear Mandara on his back.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the king of tortoises",
+            "evidenceKeys": [
+              "e15"
+            ]
+          },
+          {
+            "label": "Tortoise-king",
+            "evidenceKeys": [
+              "e15"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a king and referred to as him.",
+            "evidenceKeys": [
+              "e15"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e15"
+        ]
+      },
+      {
+        "key": "indra",
+        "name": "Indra",
+        "kind": "deity",
+        "description": "Deity who places Mandara on the Tortoise-king's back, takes Airavata and participates in entrusting the nectar to Narayana.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the wielder of the thunderbolt",
+            "evidenceKeys": [
+              "e19"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "e15",
+          "e19",
+          "e32"
+        ]
+      },
+      {
+        "key": "vasuki",
+        "name": "Vasuki",
+        "kind": "animal",
+        "description": "Snake used as the churning cord, held by the Asuras at the hood and by the gods at the tail.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as him while the gods hold his tail.",
+            "evidenceKeys": [
+              "e16"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e16"
+        ]
+      },
+      {
+        "key": "varuna",
+        "name": "Varuna",
+        "kind": "deity",
+        "description": "Water-god whose home is the Ocean.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the water-God",
+            "evidenceKeys": [
+              "e40"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "e40"
+        ]
+      },
+      {
+        "key": "moon",
+        "name": "Moon",
+        "kind": "other",
+        "description": "Mild celestial Moon of a thousand rays that emerges from the Ocean.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e17"
+        ]
+      },
+      {
+        "key": "lakshmi",
+        "name": "Lakshmi",
+        "kind": "unknown",
+        "description": "Named being who emerges during the churning dressed in white.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e17"
+        ]
+      },
+      {
+        "key": "soma",
+        "name": "Soma",
+        "kind": "unknown",
+        "description": "Named being who emerges during the churning, exposes Rahu with Surya and is subsequently swallowed by Rahu's head during eclipses.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e17",
+          "e24",
+          "e27"
+        ]
+      },
+      {
+        "key": "dhanwantari",
+        "name": "Dhanwantari",
+        "kind": "deity",
+        "description": "Divine being who emerges holding the white vessel of nectar.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as himself and with his hand.",
+            "evidenceKeys": [
+              "e18"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e18"
+        ]
+      },
+      {
+        "key": "airavata",
+        "name": "Airavata",
+        "kind": "animal",
+        "description": "Huge elephant with two pairs of white tusks who emerges during the churning and is taken by Indra.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The elephant is referred to as him.",
+            "evidenceKeys": [
+              "e19"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e19"
+        ]
+      },
+      {
+        "key": "siva",
+        "name": "Siva",
+        "kind": "deity",
+        "description": "Divine being who swallows the poison and holds it in his throat, thereafter being called Nilakantha.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Maheswara",
+            "evidenceKeys": [
+              "e20"
+            ]
+          },
+          {
+            "label": "Nilakantha",
+            "evidenceKeys": [
+              "e20"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as he and with his throat.",
+            "evidenceKeys": [
+              "e20"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e20"
+        ]
+      },
+      {
+        "key": "nara",
+        "name": "Nara",
+        "kind": "deity",
+        "description": "Divine companion of Vishnu during the nectar episode who pulverizes the hurled mountains with arrows.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as he and with his arrows.",
+            "evidenceKeys": [
+              "e30"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e22",
+          "e30"
+        ]
+      },
+      {
+        "key": "rahu",
+        "name": "Rahu",
+        "kind": "demon",
+        "description": "Danava who drinks nectar disguised as a god. Narayana beheads him, and his surviving head thereafter swallows Surya and Soma during eclipses.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as him when Surya and Soma recognize him.",
+            "evidenceKeys": [
+              "e24"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e23",
+          "e24",
+          "e25",
+          "e27"
+        ]
+      },
+      {
+        "key": "earth",
+        "name": "Earth",
+        "kind": "other",
+        "description": "Personified Earth that trembles when Rahu's trunk falls and is described as raised from submersion by Govinda.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "The Earth is referred to with her mountains, forests and islands.",
+            "evidenceKeys": [
+              "e26"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e26",
+          "e42"
+        ]
+      },
+      {
+        "key": "sun",
+        "name": "Sun",
+        "kind": "other",
+        "description": "Personified Sun described as rising in his splendour during the battle.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The Sun is referred to with his splendour.",
+            "evidenceKeys": [
+              "e29"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e29"
+        ]
+      },
+      {
+        "key": "agni",
+        "name": "Agni",
+        "kind": "deity",
+        "description": "Deity also called Vibhavasu, from whom the gods seek protection. Kadru's curse names him as the consumer of the snakes in Janamejaya's sacrifice.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Vibhavasu",
+            "evidenceKeys": [
+              "e50"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The deity is referred to with his seat and as him.",
+            "evidenceKeys": [
+              "e50"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e35",
+          "e36",
+          "e50"
+        ]
+      },
+      {
+        "key": "rudra",
+        "name": "Rudra",
+        "kind": "unknown",
+        "description": "Named being whose followers are the Ganas fighting the Asuras.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e30"
+        ]
+      },
+      {
+        "key": "janamejaya",
+        "name": "Janamejaya",
+        "kind": "unknown",
+        "description": "Wise king of the Pandava race whose snake-sacrifice is named in Kadru's curse.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a king.",
+            "evidenceKeys": [
+              "e36"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e35",
+          "e36"
+        ]
+      },
+      {
+        "key": "kasyapa",
+        "name": "Kasyapa",
+        "kind": "unknown",
+        "description": "Named progenitor of the cursed snakes and explicit parent of Garuda. Brahman comforts him and teaches him to neutralize poison.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as him and addressed as son.",
+            "evidenceKeys": [
+              "e38"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e38",
+          "e39",
+          "e52"
+        ]
+      },
+      {
+        "key": "vasudeva",
+        "name": "Vasudeva",
+        "kind": "unknown",
+        "description": "Named possessor of the great conch Panchajanya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e41"
+        ]
+      },
+      {
+        "key": "govinda",
+        "name": "Govinda",
+        "kind": "unknown",
+        "description": "Lord who assumes a wild-boar form to raise the submerged Earth, thereby disturbing the Ocean.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Lord Govinda",
+            "evidenceKeys": [
+              "e42"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as he when assuming the wild-boar form.",
+            "evidenceKeys": [
+              "e42"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e42"
+        ]
+      },
+      {
+        "key": "atri",
+        "name": "Atri",
+        "kind": "sage",
+        "description": "Vow-observing regenerate Rishi who fails to fathom the Ocean's bottom after a hundred years.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e43"
+        ]
+      },
+      {
+        "key": "mainaka",
+        "name": "Mainaka",
+        "kind": "unknown",
+        "description": "Named individual who fears falling thunder and finds refuge in the Ocean.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e45"
+        ]
+      },
+      {
+        "key": "varava",
+        "name": "Varava",
+        "kind": "animal",
+        "description": "Ocean-mare from whose mouth blazing fire issues.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the Ocean-mare",
+            "evidenceKeys": [
+              "e46"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly identified as a mare.",
+            "evidenceKeys": [
+              "e46"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e46"
+        ]
+      },
+      {
+        "key": "daksha",
+        "name": "Daksha",
+        "kind": "unknown",
+        "description": "Explicit parent of the sisters Kadru and Vinata.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e47"
+        ]
+      },
+      {
+        "key": "kadru_vinata_shared_spouse",
+        "name": "Unnamed shared spouse of Kadru and Vinata",
+        "kind": "unknown",
+        "description": "Unnamed individual identifiable through Kadru and Vinata being explicitly called co-wives.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e47"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromKey": "vinata",
+        "toKey": "vinata_first_child",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e01",
+          "e02",
+          "e03"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vinata",
+        "toKey": "garuda",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e06"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kasyapa",
+        "toKey": "garuda",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e52"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vinata_first_child",
+        "toKey": "garuda",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e02",
+          "e04",
+          "e05"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kadru",
+        "toKey": "vinata",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e47"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "daksha",
+        "toKey": "kadru",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e47"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "daksha",
+        "toKey": "vinata",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e47"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kadru_vinata_shared_spouse",
+        "toKey": "kadru",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e47"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kadru_vinata_shared_spouse",
+        "toKey": "vinata",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e47"
+        ],
+        "status": "supported"
+      }
+    ],
+    "evidence": [
+      {
+        "key": "e01",
+        "page": 30,
+        "excerpt": "Sauti continued, 'O best of regenerate ones, after a long time, Kadru brought forth a thousand eggs, and Vinata two."
+      },
+      {
+        "key": "e02",
+        "page": 30,
+        "excerpt": "But the twins of Vinata did not appear. Vinata was jealous, and therefore she broke one of the eggs and found in it an embryo with the upper part developed but the lower one undeveloped."
+      },
+      {
+        "key": "e03",
+        "page": 30,
+        "excerpt": "At this, the child in the egg became angry and cursed his mother, saying."
+      },
+      {
+        "key": "e04",
+        "page": 30,
+        "excerpt": "Thus cursing his mother, the child rose to the sky. O Brahmana, even he is the charioteer of Surya, always seen in the hour of morning!"
+      },
+      {
+        "key": "e05",
+        "page": 30,
+        "excerpt": "Then at the expiration of the five hundred years, bursting open the other egg, out came Garuda, the serpent-eater."
+      },
+      {
+        "key": "e06",
+        "page": 30,
+        "excerpt": "O tiger of Bhrigu's race, immediately on seeing the light, that son of Vinata left his mother."
+      },
+      {
+        "key": "e07",
+        "page": 30,
+        "excerpt": "And the lord of birds, feeling hungry, took wing in quest of the food assigned to him by the Great Ordainer of all."
+      },
+      {
+        "key": "e08",
+        "page": 30,
+        "excerpt": "Sauti said, 'O ascetic, about this time the two sisters saw approaching near, that steed of complacent appearance named Uchchaihsravas who was worshipped by the gods, that gem of steeds, who arose at the churning of the Ocean for nectar."
+      },
+      {
+        "key": "e09",
+        "page": 30,
+        "excerpt": "Saunaka asked, 'Why did the gods churn the Ocean for nectar, and under what circumstances and when as you say, did that best of steeds so powerful and resplendent spring?'"
+      },
+      {
+        "key": "e10",
+        "page": 30,
+        "excerpt": "Seeing the celestial assembly in anxious mood Nara-yana said to Brahman, 'Do thou churn the Ocean with the gods and the Asuras."
+      },
+      {
+        "key": "e11",
+        "page": 30,
+        "excerpt": "There is a mountain called Mandara adorned with cloud-like peaks. It is the best of mountains, and is covered all over with intertwining herbs."
+      },
+      {
+        "key": "e12",
+        "page": 30,
+        "excerpt": "Sauti continued, 'O son of Bhrigu! Vishnu with Brahman assented to it."
+      },
+      {
+        "key": "e13",
+        "page": 30,
+        "excerpt": "And the lotus-eyed one (Vishnu) laid the hard task on the mighty Ananta, the prince of snakes. The powerful Ananta, directed thereto both by Brahman and Narayana, O Brahmana, tore up the mountain with the woods thereon and with the denizens of those woods."
+      },
+      {
+        "key": "e14",
+        "page": 30,
+        "excerpt": "And the Ocean replied, 'Be it so, as I shall not go without a share of it. I am able to bear the prodigious agitation of my waters set up by the mountain.'"
+      },
+      {
+        "key": "e15",
+        "page": 30,
+        "excerpt": "The gods then went to the king of tortoises and said to him, 'O Tortoise-king, thou wilt have to hold the mountain on thy back!' The Tortoise-king agreed, and Indra contrived to place the mountain on the former's back."
+      },
+      {
+        "key": "e16",
+        "page": 30,
+        "excerpt": "And the gods and the Asuras made of Mandara a churning staff and Vasuki the cord, and set about churning the deep for amrita. The Asuras held Vasuki by the hood and the gods held him by the tail. And Ananta, who was on the side of the gods, at intervals raised the snake's hood and suddenly lowered it."
+      },
+      {
+        "key": "e17",
+        "page": 31,
+        "excerpt": "After a while, the mild Moon of a thousand rays emerged from the Ocean. Thereafter sprung forth Lakshmi dressed in white, then Soma, then the White Steed, and then the celestial gem Kaustubha which graces the breast of Narayana."
+      },
+      {
+        "key": "e18",
+        "page": 31,
+        "excerpt": "Then arose the divine Dhanwantari himself with the white vessel of nectar in his hand."
+      },
+      {
+        "key": "e19",
+        "page": 31,
+        "excerpt": "And at length rose the great elephant, Airavata, of huge body and with two pair of white tusks. And him took Indra the wielder of the thunderbolt."
+      },
+      {
+        "key": "e20",
+        "page": 31,
+        "excerpt": "And then Siva, being solicited by Brahman, swallowed that poison for the safety of the creation. The divine Maheswara held it in his throat, and it is said that from that time he is called Nilakantha (blue-throated)."
+      },
+      {
+        "key": "e21",
+        "page": 31,
+        "excerpt": "Thereupon Narayana called his bewitching Maya (illusive power) to his aid, and assuming the form of an enticing female, coquetted with the Danavas."
+      },
+      {
+        "key": "e22",
+        "page": 31,
+        "excerpt": "In the meantime the valiant Lord Vishnu in the form of an enchantress accompanied by Nara deceived the mighty Danavas and took away the Amrita from their hands."
+      },
+      {
+        "key": "e23",
+        "page": 31,
+        "excerpt": "a Danava named Rahu was also drinking it among them in the guise of a god."
+      },
+      {
+        "key": "e24",
+        "page": 31,
+        "excerpt": "And when the Amrita had reached Rahu's throat only, Surya and Soma (recognised him and) intimated the fact to the gods."
+      },
+      {
+        "key": "e25",
+        "page": 31,
+        "excerpt": "And Narayana instantly cut off with his discus the well-adorned head of the Danava who was drinking the Amrita without permission."
+      },
+      {
+        "key": "e26",
+        "page": 31,
+        "excerpt": "And the Danava's headless trunk, falling upon the ground and rolling thereon, made the Earth tremble with her mountains, forests and islands."
+      },
+      {
+        "key": "e27",
+        "page": 31,
+        "excerpt": "And from that time there is a long-standing quarrel between Rahu's head and Surya and Soma. And to this day it swalloweth Surya and Soma (during solar and lunar eclipses)."
+      },
+      {
+        "key": "e28",
+        "page": 31,
+        "excerpt": "Then Narayana quitting his enchanting female form and hurling many terrible weapons at the Danavas, made them tremble."
+      },
+      {
+        "key": "e29",
+        "page": 32,
+        "excerpt": "And when the Sun rose in his splendour, thousands of warriors struck one another with weapons."
+      },
+      {
+        "key": "e30",
+        "page": 32,
+        "excerpt": "Then the divine Nara appeared at the scene of the dreadful conflict between the Asuras and the Ganas (the followers of Rudra), and reducing to dust those rocks by means of his gold-headed arrows, he covered the heavens with dust."
+      },
+      {
+        "key": "e31",
+        "page": 32,
+        "excerpt": "And having gained the victory, the gods offered due respect to Mandara and placed him again on his own base."
+      },
+      {
+        "key": "e32",
+        "page": 32,
+        "excerpt": "Indra and the other deities made over to Narayana the vessel of Amrita for careful keeping."
+      },
+      {
+        "key": "e33",
+        "page": 32,
+        "excerpt": "Sauti said, 'Thus have I recited to you the whole story of how Amrita was churned out of the Ocean, and the occasion on which the horse Uchchaihsravas of great beauty and incomparable prowess was obtained."
+      },
+      {
+        "key": "e34",
+        "page": 32,
+        "excerpt": "It was this horse about which Kadru asked Vinata, saying, 'Tell me, amiable sister, without taking much time, of what colour Uchchaishravas is.' And Vinata answered, 'That prince of steeds is certainly white."
+      },
+      {
+        "key": "e35",
+        "page": 32,
+        "excerpt": "And Kadru, bent upon practising a deception, ordered her thousand sons to transform themselves into black hair and speedily cover the horse's tail in order that she might not become a slave. But her sons, the snakes, refusing to do her bidding, she cursed them, saying,"
+      },
+      {
+        "key": "e36",
+        "page": 32,
+        "excerpt": "During the snake-sacrifice of the wise king Janamejaya of the Pandava race, Agni shall consume you all."
+      },
+      {
+        "key": "e37",
+        "page": 32,
+        "excerpt": "And the Grandsire (Brahman) himself heard this exceedingly cruel curse pronounced by Kadru, impelled by the fates."
+      },
+      {
+        "key": "e38",
+        "page": 32,
+        "excerpt": "And Brahman, calling Kasyapa to him, spake unto him these words, 'O thou pure one who overcomest all enemies, these snakes begotten by you, who are of virulent poison and huge bodies, and ever intent on biting other creatures, have been cursed by their mother. O son, do not grieve for it in the least."
+      },
+      {
+        "key": "e39",
+        "page": 32,
+        "excerpt": "Saying this, the divine Creator of the Universe comforted Kasyapa and imparted to that illustrious one the knowledge of neutralising poison."
+      },
+      {
+        "key": "e40",
+        "page": 33,
+        "excerpt": "the home of Varuna (the water-God)"
+      },
+      {
+        "key": "e41",
+        "page": 33,
+        "excerpt": "the parent of Vasudeva's great conch called Panchajanya"
+      },
+      {
+        "key": "e42",
+        "page": 33,
+        "excerpt": "its waters were formerly disturbed in consequence of the agitation caused within them by the Lord Govinda of immeasurable prowess when he had assumed the form of a wild boar for raising the (submerged) Earth."
+      },
+      {
+        "key": "e43",
+        "page": 33,
+        "excerpt": "Its bottom, lower than the nether regions, the vow observing regenerate Rishi Atri could not fathom after (toiling for) a hundred years."
+      },
+      {
+        "key": "e44",
+        "page": 33,
+        "excerpt": "It becomes the bed of the lotus-naveled Vishnu when at the termination of every Yuga that deity of immeasurable power enjoys yoga-nidra, the deep sleep under the spell of spiritual meditation."
+      },
+      {
+        "key": "e45",
+        "page": 33,
+        "excerpt": "It is the refuge of Mainaka fearful of falling thunder"
+      },
+      {
+        "key": "e46",
+        "page": 33,
+        "excerpt": "It offers water as sacrificial butter to the blazing fire issuing from the mouth of Varava (the Ocean-mare)."
+      },
+      {
+        "key": "e47",
+        "page": 33,
+        "excerpt": "Now the two co-wives had laid the wager. And having laid the wager, O best of Brahmanas, the two sisters Kadru and Vinata, the daughters of Daksha, proceeded in great delight along the sky to see the other side of the Ocean."
+      },
+      {
+        "key": "e48",
+        "page": 34,
+        "excerpt": "And observing many black hairs in the tail, Kadru put Vinata, who was deeply dejected, into slavery."
+      },
+      {
+        "key": "e49",
+        "page": 34,
+        "excerpt": "Garuda of great splendour, enkindling all the points of the universe, that mighty being endued with strength, that bird capable of assuming at will any form, of going at will everywhere, and of calling to his aid at will any measure of energy."
+      },
+      {
+        "key": "e50",
+        "page": 34,
+        "excerpt": "And all the deities seeing him, sought the protection of Vibhavasu (Agni). And they bowed down to that deity of manifold forms seated on his seat and spake unto him these words"
+      },
+      {
+        "key": "e51",
+        "page": 34,
+        "excerpt": "This is Garuda of great strength and equal to me in splendour, endued with great energy, and born to promote the joy of Vinata."
+      },
+      {
+        "key": "e52",
+        "page": 34,
+        "excerpt": "He is the mighty son of Kasyapa, the destroyer of the Nagas, engaged in the well-being of the gods, and the foe of the Daityas and the Rakshasas."
+      }
+    ],
+    "unresolved": [
+      "Vinata's first-egg child is not named in this batch; no outside name has been supplied.",
+      "The Bhrigu-to-Saunaka parent relationship is omitted. The addresses 'O son of Bhrigu' and 'O tiger of Bhrigu's race' do not securely establish immediate parentage of the named Saunaka rather than broader descent or a lineage address.",
+      "The Brahman-to-Kasyapa parent relationship is omitted. Brahman's address 'O son' does not clearly assert that Kasyapa is his child.",
+      "Kadru and Vinata are explicitly co-wives, but their shared spouse is not named. This individual has not been equated with Kasyapa.",
+      "The maid-servants, Kadru's thousand snake sons, and the other unnamed collectives are undifferentiated groups. No individuals have been invented from their counts. Ananta and Vasuki are not explicitly identified as Kadru's or Kasyapa's offspring in this batch.",
+      "Moon and Soma remain separate because the emergence list names them separately without explicitly establishing identity. Sun and Surya likewise lack an explicit identity statement.",
+      "Rudra has not been equated with Siva; Vasudeva and Govinda have not been equated with each other or Narayana; the Great Ordainer has not been equated with Brahman.",
+      "Moon, Sun and Earth are retained provisionally as personified celestial or terrestrial figures; independent deity identities are not explicitly established.",
+      "Meru is presented as a mountain location. Kaustubha, Kalakuta, Sudarsana, Panchajanya, Amrita and Maya are presented as a gem, poison, weapon, conch, nectar and power respectively, without clearly established independent characterhood. Sudarsana's movement and blood-drinking simile do not clearly establish a separate narrative being.",
+      "Fate occurs in a general maxim, while 'the fates' is an undifferentiated plural; neither securely identifies a distinct individual.",
+      "The Ocean-description phrase 'the parent of Vasudeva's great conch called Panchajanya' has ambiguous punctuation. No character-to-character parent relationship is encoded because Panchajanya is described as a conch.",
+      "Emergence from the Ocean during churning has not been converted into familial parenthood.",
+      "Astika occurs only in parva labels in this batch and is not introduced as a narrative individual."
+    ]
+  },
+  "reconciliation": {
+    "matches": [
+      {
+        "localKey": "sauti",
+        "existingId": "mahabharata:seed:ugrasrava-sauti",
+        "reason": "Existing evidence explicitly surnames Ugrasrava Sauti and identifies him as the framing narrator; CURRENT preserves that narrator and his exchange with Saunaka.",
+        "evidenceKeys": [
+          "e01",
+          "e08",
+          "e09",
+          "e33"
+        ]
+      },
+      {
+        "localKey": "saunaka",
+        "existingId": "mahabharata:seed:saunaka",
+        "reason": "CURRENT repeats the existing page-30 question by Saunaka about the Ocean-churning and the steed's origin.",
+        "evidenceKeys": [
+          "e09"
+        ]
+      },
+      {
+        "localKey": "kadru",
+        "existingId": "mahabharata:b0009:kadru",
+        "reason": "Both occurrences identify Vinata's sister who produces a thousand eggs and snake offspring, including the same page-30 event.",
+        "evidenceKeys": [
+          "e01",
+          "e35",
+          "e47"
+        ]
+      },
+      {
+        "localKey": "vinata",
+        "existingId": "mahabharata:b0009:vinata",
+        "reason": "Both occurrences identify Kadru's sister, Garuda's mother, and the mother who prematurely breaks the egg containing Surya's future charioteer.",
+        "evidenceKeys": [
+          "e02",
+          "e04",
+          "e06",
+          "e47"
+        ]
+      },
+      {
+        "localKey": "garuda",
+        "existingId": "mahabharata:b0004:garuda",
+        "reason": "Existing evidence repeats this egg-birth passage, identifies him as Vinata's son, and supplies the same serpent-eater and lord-of-birds descriptions.",
+        "evidenceKeys": [
+          "e05",
+          "e06",
+          "e07"
+        ]
+      },
+      {
+        "localKey": "surya",
+        "existingId": "mahabharata:b0009:surya",
+        "reason": "Both occurrences identify Surya through the same charioteer: Vinata's prematurely hatched child.",
+        "evidenceKeys": [
+          "e02",
+          "e04"
+        ]
+      },
+      {
+        "localKey": "great_ordainer",
+        "existingId": "mahabharata:b0009:great_ordainer",
+        "reason": "Existing evidence repeats the passage identifying this being as the assigner of Garuda's food.",
+        "evidenceKeys": [
+          "e07"
+        ]
+      },
+      {
+        "localKey": "uchchaihsravas",
+        "existingId": "mahabharata:b0009:uchchaihsravas",
+        "reason": "Both occurrences identify the god-worshipped steed obtained through churning the Ocean for nectar; the existing page-30 passage is repeated in CURRENT.",
+        "evidenceKeys": [
+          "e08",
+          "e33"
+        ]
+      },
+      {
+        "localKey": "indra",
+        "existingId": "mahabharata:b0007:indra",
+        "reason": "CURRENT associates Indra with Airavata and the thunderbolt. This existing record specifically identifies Airavata's rider as Indra and describes him sending his thunderbolt.",
+        "evidenceKeys": [
+          "e19"
+        ]
+      },
+      {
+        "localKey": "airavata",
+        "existingId": "mahabharata:b0008:airavata",
+        "reason": "Both occurrences identify an elephant associated with Indra. The existing serpent-king Airavata has a different species and family context.",
+        "evidenceKeys": [
+          "e19"
+        ]
+      },
+      {
+        "localKey": "agni",
+        "existingId": "mahabharata:b0009:agni",
+        "reason": "Both occurrences identify Agni as the being foretold in the snakes' mother's curse to consume them in Janamejaya's sacrifice.",
+        "evidenceKeys": [
+          "e35",
+          "e36"
+        ]
+      },
+      {
+        "localKey": "janamejaya",
+        "existingId": "mahabharata:seed:janamejaya-son-parikshit",
+        "reason": "The snake-sacrifice king supplies the distinguishing story context shared with this existing Janamejaya, rather than the ancestor born to Puru and Kausalya.",
+        "evidenceKeys": [
+          "e36"
+        ]
+      },
+      {
+        "localKey": "kasyapa",
+        "existingId": "mahabharata:b0009:kasyapa",
+        "reason": "CURRENT identifies him as progenitor of Kadru's cursed snakes and father of Vinata's Garuda, corroborating the existing Kasyapa in the same Kadru–Vinata offspring narrative.",
+        "evidenceKeys": [
+          "e35",
+          "e38",
+          "e51",
+          "e52"
+        ]
+      },
+      {
+        "localKey": "kadru_vinata_shared_spouse",
+        "existingId": "mahabharata:b0009:kasyapa",
+        "reason": "Existing page-29 evidence explicitly names Kasyapa as husband of Kadru and Vinata. CURRENT identifies this unnamed role through those same two named co-wives, resolving it to the same person as local kasyapa.",
+        "evidenceKeys": [
+          "e47"
+        ]
+      }
+    ],
+    "unresolved": [
+      "vinata_first_child: Existing Vinata and Surya evidence describes this child, but no supplied existing character ID represents him individually. His name remains unstated.",
+      "bhrigu: CURRENT supplies lineage addresses without a named descendant linking them uniquely to the existing Rama-ancestor, Pauloma-parent, or Chyavana-parent records.",
+      "narayana: Several existing invocation and identification records concern Narayana or Vishnu. None uniquely anchors this Ocean-churning participant; the overlapping theological identities do not resolve which existing ID to use.",
+      "brahman: The Creator and Grandsire descriptions do not securely resolve this narrative participant to primordial Isana, whose invocation also identifies him as Vishnu. CURRENT treats Brahman and Narayana as separate interlocutors.",
+      "mandara: No supplied existing character ID identifies the personified mountain used as the churning staff.",
+      "ananta: No supplied existing character ID identifies this snake prince who uproots Mandara.",
+      "ocean: No supplied existing character ID represents the speaking Ocean.",
+      "tortoise_king: No supplied existing character ID identifies this tortoise who bears Mandara.",
+      "vasuki: The existing Vasuki is identified through his sister Jaratkaru. CURRENT supplies the churning-cord episode without that family context or an explicit identity link; name and snake kind alone are insufficient.",
+      "varuna: CURRENT identifies the water-God. Existing candidates concern Vandi's parent and the sacrifice producing Bhrigu, without corroborating those distinctive contexts here.",
+      "moon: No supplied existing character ID represents this emergence figure. Its identity with Soma is not established.",
+      "lakshmi: No supplied existing character ID identifies this emergence figure.",
+      "soma: No supplied existing character ID identifies this emergence figure and recognizer of Rahu.",
+      "dhanwantari: No supplied existing character ID identifies the divine bearer of the nectar vessel.",
+      "siva: No supplied existing character ID names Siva, Maheswara, or Nilakantha. CURRENT does not explicitly identify him with the existing Rudra.",
+      "nara: Existing candidates concern the opening invocation and the collective Krishna–Arjuna identification. CURRENT provides neither an explicit connection to those occurrences nor a way to select uniquely between their IDs.",
+      "rahu: No supplied existing character ID identifies the nectar-drinking Danava beheaded by Narayana.",
+      "earth: No supplied existing character ID represents this personified Earth.",
+      "sun: The existing Sun is identified through providing food to Yudhishthira; CURRENT supplies a rising luminary without that story context or an explicit identity link. Identity with Surya also remains unstated.",
+      "rudra: CURRENT identifies him through the Ganas. The existing Rudra is distinguished by three eyes and the burning of three cities; those contexts are not corroborated here.",
+      "vasudeva: CURRENT only identifies the possessor of Panchajanya. It does not distinguish Krishna's supported Vasudeva alias, the divine Vasudeva record, and Arjuna's maternal uncle Vasudeva.",
+      "govinda: No supplied existing record explicitly identifies Govinda or corroborates the wild-boar episode. CURRENT does not establish his identity with Narayana, Vishnu, Krishna, or Vasudeva.",
+      "atri: No supplied existing character ID identifies this Rishi.",
+      "mainaka: No supplied existing character ID identifies this individual seeking refuge from thunder.",
+      "varava: No supplied existing character ID identifies the Ocean-mare.",
+      "daksha: CURRENT identifies him through daughters Kadru and Vinata. The existing Daksha entry lists seven unspecified sons; no shared named offspring or explicit identity statement links those occurrences."
+    ]
+  }
+}

@@ -1,0 +1,4293 @@
+{
+  "sourceHash": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+  "batchDigest": "a931ad71dda740e8e7a29500383d01dc52c5297d7536f905e35a411f7161faa4",
+  "batchId": "b0003",
+  "pages": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "reviewedAt": "2026-10-04T05:19:06.053Z",
+  "reviewer": "Codex extraction + omission + identity passes; not human review",
+  "extraction": {
+    "entities": [
+      {
+        "key": "dhritarashtra",
+        "name": "Dhritarashtra",
+        "kind": "human",
+        "description": "Royal speaker who laments the war and receives consolation from Sanjaya.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Bharata",
+            "evidenceKeys": [
+              "e9_bharata_address",
+              "e9_dhritarashtra"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The narrator refers to his sons.",
+            "evidenceKeys": [
+              "e9_dhritarashtra"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_dhritarashtra",
+          "e9_dhritarashtra",
+          "e9_bharata_address"
+        ]
+      },
+      {
+        "key": "sanjaya",
+        "name": "Sanjaya",
+        "kind": "unknown",
+        "description": "Wise son of Gavalgana who consoles Dhritarashtra.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Suta",
+            "evidenceKeys": [
+              "e8_suta_address",
+              "e8_dhritarashtra"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e8_sanjaya"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_sanjaya",
+          "e8_dhritarashtra",
+          "e8_suta_address"
+        ]
+      },
+      {
+        "key": "yudhishthira",
+        "name": "Yudhishthira",
+        "kind": "unknown",
+        "description": "Assembles an army after exile and defeats opponents in battle.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the Just",
+            "evidenceKeys": [
+              "e8_yudhishthira"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The passage refers to his connections.",
+            "evidenceKeys": [
+              "e7_yudhishthira"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_yudhishthira",
+          "e8_yudhishthira"
+        ]
+      },
+      {
+        "key": "arjuna",
+        "name": "Arjuna",
+        "kind": "unknown",
+        "description": "Combatant who obtains celestial weapons and accepts Uttara for his unnamed son.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The passage refers to his son.",
+            "evidenceKeys": [
+              "e7_uttara"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_tryambaka",
+          "e7_indra",
+          "e7_uttara"
+        ]
+      },
+      {
+        "key": "tryambaka",
+        "name": "Tryambaka",
+        "kind": "deity",
+        "description": "God of gods whom Arjuna pleases in combat while Tryambaka is disguised as a hunter.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the three-eyed",
+            "evidenceKeys": [
+              "e7_tryambaka"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_tryambaka"
+        ]
+      },
+      {
+        "key": "indra",
+        "name": "Indra",
+        "kind": "unknown",
+        "description": "Gives Arjuna celestial weapons and supplies Karna's Sakti.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as himself.",
+            "evidenceKeys": [
+              "e7_indra"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_indra",
+          "e8_madhava_ghatotkacha"
+        ]
+      },
+      {
+        "key": "bhima",
+        "name": "Bhima",
+        "kind": "unknown",
+        "description": "Son of Pritha who is allowed to escape by Karna.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among Pritha's sons.",
+            "evidenceKeys": [
+              "e7_pritha_bhima"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_pritha_bhima",
+          "e8_karna_bhima"
+        ]
+      },
+      {
+        "key": "pritha",
+        "name": "Pritha",
+        "kind": "unknown",
+        "description": "Named parent of Bhima who receives consolation from Krishna.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Kunti",
+            "evidenceKeys": [
+              "e7_pritha_bhima",
+              "e7_pritha_consolation"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_pritha_bhima",
+          "e7_pritha_consolation"
+        ]
+      },
+      {
+        "key": "vaisravana",
+        "name": "Vaisravana",
+        "kind": "unknown",
+        "description": "Accompanies Bhima and the other sons of Pritha.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_pritha_bhima"
+        ]
+      },
+      {
+        "key": "karna",
+        "name": "Karna",
+        "kind": "unknown",
+        "description": "Counsellor and combatant who spares Bhima and fights Ghatotkacha.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as he.",
+            "evidenceKeys": [
+              "e8_karna_bhima"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_karna",
+          "e8_karna_bhima",
+          "e8_karna_ghatotkacha"
+        ]
+      },
+      {
+        "key": "dharma",
+        "name": "Dharma",
+        "kind": "deity",
+        "description": "God of justice who questions Yudhishthira in a Yaksha's form.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the god of justice",
+            "evidenceKeys": [
+              "e7_dharma"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_dharma"
+        ]
+      },
+      {
+        "key": "draupadi",
+        "name": "Draupadi",
+        "kind": "unknown",
+        "description": "Resides with the disguised Pandavas and has sons slain in their sleep.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_draupadi_virata",
+          "e8_draupadi_sons"
+        ]
+      },
+      {
+        "key": "virata",
+        "name": "Virata",
+        "kind": "human",
+        "description": "Ruler whose dominions shelter the disguised Pandavas; parent of Uttara.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "king of Matsya",
+            "evidenceKeys": [
+              "e7_uttara",
+              "e8_embryo_uttara",
+              "e8_virata_daughter"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The passages identify Uttara's parent with the king of Matsya.",
+            "evidenceKeys": [
+              "e7_uttara",
+              "e8_embryo_uttara",
+              "e8_virata_daughter"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_draupadi_virata",
+          "e7_uttara",
+          "e8_embryo_uttara",
+          "e8_virata_daughter"
+        ]
+      },
+      {
+        "key": "vasudeva",
+        "name": "Vasudeva",
+        "kind": "deity",
+        "description": "Supporter of the Pandavas who guides Arjuna's horses and is described as eternal Brahma and the supreme soul.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "eternal Brahma",
+            "evidenceKeys": [
+              "e9_vasudeva"
+            ]
+          },
+          {
+            "label": "supreme soul",
+            "evidenceKeys": [
+              "e9_vasudeva"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as He.",
+            "evidenceKeys": [
+              "e9_vasudeva"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_vasudeva",
+          "e7_family",
+          "e7_vasudeva_horses",
+          "e8_vasudeva_horses",
+          "e9_vasudeva"
+        ]
+      },
+      {
+        "key": "uttara",
+        "name": "Uttara",
+        "kind": "human",
+        "description": "Royal daughter offered for Arjuna's son; an embryo in her womb is wounded.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called a daughter.",
+            "evidenceKeys": [
+              "e7_uttara",
+              "e8_virata_daughter"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_uttara",
+          "e8_embryo_uttara",
+          "e8_virata_daughter"
+        ]
+      },
+      {
+        "key": "arjuna_unnamed_son",
+        "name": "Unnamed son of Arjuna",
+        "kind": "unknown",
+        "description": "Son for whom Arjuna accepts Uttara.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called Arjuna's son.",
+            "evidenceKeys": [
+              "e7_uttara"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_uttara"
+        ]
+      },
+      {
+        "key": "narada",
+        "name": "Narada",
+        "kind": "sage",
+        "description": "Celestial Rishi who declares identities for Krishna and Arjuna and addresses a bereaved Saivya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly referred to as he.",
+            "evidenceKeys": [
+              "e7_nara_narayana"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_nara_narayana",
+          "e8_narada_saivya"
+        ]
+      },
+      {
+        "key": "krishna",
+        "name": "Krishna",
+        "kind": "unknown",
+        "description": "Attempts to secure peace, shows Arjuna worlds within his body, and pronounces curses on Aswatthaman.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The passage refers to his body.",
+            "evidenceKeys": [
+              "e7_krishna_worlds"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_krishna_peace",
+          "e7_krishna_worlds",
+          "e8_virata_daughter"
+        ]
+      },
+      {
+        "key": "nara",
+        "name": "Nara",
+        "kind": "unknown",
+        "description": "One of the two identities collectively attributed to Krishna and Arjuna by Narada.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_nara_narayana"
+        ]
+      },
+      {
+        "key": "narayana",
+        "name": "Narayana",
+        "kind": "unknown",
+        "description": "One of the two identities collectively attributed to Krishna and Arjuna by Narada.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_nara_narayana"
+        ]
+      },
+      {
+        "key": "brahma_regions",
+        "name": "Brahma",
+        "kind": "unknown",
+        "description": "Named possessor of the regions where Narada saw the pair.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_nara_narayana"
+        ]
+      },
+      {
+        "key": "kama",
+        "name": "Kama",
+        "kind": "unknown",
+        "description": "Conspirator against Krishna who refuses to fight while Bhishma fights.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_kama_conspiracy",
+          "e7_kama_bhishma"
+        ]
+      },
+      {
+        "key": "duryodhana",
+        "name": "Duryodhana",
+        "kind": "unknown",
+        "description": "Conspirator against Krishna who takes refuge in a lake and is subsequently addressed as Dhritarashtra's son.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as himself and contextually identified as the speaker's son.",
+            "evidenceKeys": [
+              "e8_duryodhana",
+              "e8_my_son",
+              "e8_dhritarashtra"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_kama_conspiracy",
+          "e8_duryodhana",
+          "e8_my_son",
+          "e8_dhritarashtra"
+        ]
+      },
+      {
+        "key": "bhishma",
+        "name": "Bhishma",
+        "kind": "unknown",
+        "description": "Son of Santanu and Ganga; counsellor and combatant wounded by Arjuna.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e7_family",
+              "e7_ganga"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_family",
+          "e7_ganga",
+          "e7_sikhandin"
+        ]
+      },
+      {
+        "key": "santanu",
+        "name": "Santanu",
+        "kind": "unknown",
+        "description": "Named parent of Bhishma.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_family"
+        ]
+      },
+      {
+        "key": "drona",
+        "name": "Drona",
+        "kind": "unknown",
+        "description": "Son of Bharadwaja, slain by Dhristadyumna, and parent of an unnamed son.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e7_family"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_family",
+          "e8_dhristadyumna",
+          "e8_drona_son"
+        ]
+      },
+      {
+        "key": "bharadwaja_parent",
+        "name": "Bharadwaja",
+        "kind": "unknown",
+        "description": "Named parent of Drona.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_family"
+        ]
+      },
+      {
+        "key": "ganga",
+        "name": "Ganga",
+        "kind": "unknown",
+        "description": "Named parent of Bhishma.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_ganga"
+        ]
+      },
+      {
+        "key": "sikhandin",
+        "name": "Sikhandin",
+        "kind": "unknown",
+        "description": "Placed before Arjuna in the chariot when Arjuna wounds Bhishma.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_sikhandin"
+        ]
+      },
+      {
+        "key": "bayu",
+        "name": "Bayu",
+        "kind": "unknown",
+        "description": "Joins Indra and Suryya as an ally for the success of Kunti's sons.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_bayu_suryya"
+        ]
+      },
+      {
+        "key": "suryya",
+        "name": "Suryya",
+        "kind": "unknown",
+        "description": "Joins Bayu and Indra as an ally for the success of Kunti's sons.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_bayu_suryya"
+        ]
+      },
+      {
+        "key": "bharadwaja_defender",
+        "name": "Bharadwaja",
+        "kind": "unknown",
+        "description": "Well-armed defender of the formation entered by Subhadra's son.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as himself.",
+            "evidenceKeys": [
+              "e7_subhadra_defender"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_subhadra_defender"
+        ]
+      },
+      {
+        "key": "subhadra",
+        "name": "Subhadra",
+        "kind": "unknown",
+        "description": "Named parent of the brave combatant who enters the defended formation.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_subhadra_defender"
+        ]
+      },
+      {
+        "key": "subhadra_unnamed_son",
+        "name": "Unnamed son of Subhadra",
+        "kind": "unknown",
+        "description": "Brave son who singly enters the defended formation.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e7_subhadra_defender"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_subhadra_defender"
+        ]
+      },
+      {
+        "key": "abhimanyu",
+        "name": "Abhimanyu",
+        "kind": "human",
+        "description": "Boy surrounded and slain by the opposing Maharathas.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a boy.",
+            "evidenceKeys": [
+              "e7_abhimanyu"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e7_abhimanyu"
+        ]
+      },
+      {
+        "key": "saindhava",
+        "name": "Saindhava",
+        "kind": "unknown",
+        "description": "Target of Arjuna's fulfilled vow of death.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e7_saindhava",
+          "e8_warrior_list"
+        ]
+      },
+      {
+        "key": "yuyudhana",
+        "name": "Yuyudhana",
+        "kind": "unknown",
+        "description": "Combatant of the race of Vrishni who disrupts Drona's army.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_yuyudhana"
+        ]
+      },
+      {
+        "key": "kritavarma",
+        "name": "Kritavarma",
+        "kind": "unknown",
+        "description": "Named among those who suffer Saindhava to be slain.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_warrior_list"
+        ]
+      },
+      {
+        "key": "kripa",
+        "name": "Kripa",
+        "kind": "unknown",
+        "description": "Named among those who suffer Saindhava to be slain.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_warrior_list"
+        ]
+      },
+      {
+        "key": "drona_unnamed_son",
+        "name": "Unnamed son of Drona",
+        "kind": "unknown",
+        "description": "Fights Nakula, misuses the Narayana weapon, and participates in the nocturnal killings.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called Drona's son.",
+            "evidenceKeys": [
+              "e8_nakula",
+              "e8_drona_son"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_nakula",
+          "e8_drona_son",
+          "e8_draupadi_sons"
+        ]
+      },
+      {
+        "key": "salya",
+        "name": "Salya",
+        "kind": "human",
+        "description": "Valiant king of Madra, subsequently slain by Yudhishthira.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "king of Madra",
+            "evidenceKeys": [
+              "e8_warrior_list",
+              "e8_salya_death"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a king.",
+            "evidenceKeys": [
+              "e8_warrior_list"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_warrior_list",
+          "e8_salya_death"
+        ]
+      },
+      {
+        "key": "madhava",
+        "name": "Madhava",
+        "kind": "unknown",
+        "description": "Agent whose machinations cause Karna's Sakti to be hurled upon Ghatotkacha.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_madhava_ghatotkacha"
+        ]
+      },
+      {
+        "key": "ghatotkacha",
+        "name": "Ghatotkacha",
+        "kind": "demon",
+        "description": "Rakshasa of frightful countenance struck by Karna's Sakti.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_madhava_ghatotkacha",
+          "e8_karna_ghatotkacha"
+        ]
+      },
+      {
+        "key": "dhristadyumna",
+        "name": "Dhristadyumna",
+        "kind": "unknown",
+        "description": "Slays Drona while transgressing the laws of battle.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_dhristadyumna"
+        ]
+      },
+      {
+        "key": "nakula",
+        "name": "Nakula",
+        "kind": "unknown",
+        "description": "Son of Madri who engages Drona's son in single combat.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e8_nakula"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_nakula"
+        ]
+      },
+      {
+        "key": "madri",
+        "name": "Madri",
+        "kind": "unknown",
+        "description": "Named parent of Nakula.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_nakula"
+        ]
+      },
+      {
+        "key": "bhimasena",
+        "name": "Bhimasena",
+        "kind": "unknown",
+        "description": "Combatant described as Duhsasana's brother who later pursues Aswatthaman.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The passage refers to his brother.",
+            "evidenceKeys": [
+              "e8_brother"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_brother",
+          "e8_embryo_uttara"
+        ]
+      },
+      {
+        "key": "duhsasana",
+        "name": "Duhsasana",
+        "kind": "unknown",
+        "description": "Described as Bhimasena's brother and named among Yudhishthira's defeated opponents.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a brother.",
+            "evidenceKeys": [
+              "e8_brother"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_brother",
+          "e8_yudhishthira"
+        ]
+      },
+      {
+        "key": "kritavarman",
+        "name": "Kritavarman",
+        "kind": "unknown",
+        "description": "Fierce combatant overcome by Yudhishthira.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_yudhishthira"
+        ]
+      },
+      {
+        "key": "suvala",
+        "name": "Suvala",
+        "kind": "unknown",
+        "description": "Figure of magic power blamed for the gaming and feud, slain by Sahadeva.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_suvala_sahadeva"
+        ]
+      },
+      {
+        "key": "sahadeva",
+        "name": "Sahadeva",
+        "kind": "unknown",
+        "description": "Son of Pandu who slays Suvala.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e8_suvala_sahadeva"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_suvala_sahadeva"
+        ]
+      },
+      {
+        "key": "pandu",
+        "name": "Pandu",
+        "kind": "unknown",
+        "description": "Named parent of Sahadeva.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_suvala_sahadeva"
+        ]
+      },
+      {
+        "key": "aswatthaman",
+        "name": "Aswatthaman",
+        "kind": "unknown",
+        "description": "Wounds Uttara's embryo, gives up a head excrescence, and receives curses.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The passage refers to his head and curses pronounced on him.",
+            "evidenceKeys": [
+              "e8_aswatthaman_head",
+              "e8_virata_daughter"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_embryo_uttara",
+          "e8_aswatthaman_head",
+          "e8_virata_daughter"
+        ]
+      },
+      {
+        "key": "uttara_embryo",
+        "name": "Unnamed embryo in Uttara's womb",
+        "kind": "unknown",
+        "description": "Individually identified embryo wounded by Aswatthaman's weapon.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_embryo_uttara",
+          "e8_virata_daughter"
+        ]
+      },
+      {
+        "key": "dwaipayana",
+        "name": "Dwaipayana",
+        "kind": "unknown",
+        "description": "Pronounces curses on Aswatthaman and composes a holy Upanishad.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The composition takes these facts for his subject.",
+            "evidenceKeys": [
+              "e9_dwaipayana"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_virata_daughter",
+          "e9_dwaipayana"
+        ]
+      },
+      {
+        "key": "gandhari",
+        "name": "Gandhari",
+        "kind": "unknown",
+        "description": "Bereaved individual described as destitute of children, grandchildren, parents, brothers, and kindred.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_gandhari"
+        ]
+      },
+      {
+        "key": "sauti",
+        "name": "Sauti",
+        "kind": "unknown",
+        "description": "Framing narrator addressed by the Rishis as the son of Suta.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Addressed as the son of Suta.",
+            "evidenceKeys": [
+              "e10_son_suta",
+              "e10_sauti"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_dhritarashtra",
+          "e10_son_suta",
+          "e10_sauti"
+        ]
+      },
+      {
+        "key": "gavalgana",
+        "name": "Gavalgana",
+        "kind": "unknown",
+        "description": "Named parent of Sanjaya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_sanjaya"
+        ]
+      },
+      {
+        "key": "vyasa",
+        "name": "Vyasa",
+        "kind": "unknown",
+        "description": "Source of accounts of former royal men and the Veda attributed to him.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e9_vyasa"
+        ]
+      },
+      {
+        "key": "saivya",
+        "name": "Saivya",
+        "kind": "human",
+        "description": "Former ruler named in Sanjaya's enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_1"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_1"
+        ]
+      },
+      {
+        "key": "unnamed_valiant_maharatha",
+        "name": "Unnamed valiant Maharatha",
+        "kind": "unknown",
+        "description": "Possible unnamed entry between Saivya and Srinjaya in the royal enumeration.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_kings_1"
+        ]
+      },
+      {
+        "key": "saivya_narada_recipient",
+        "name": "Saivya addressed by Narada",
+        "kind": "unknown",
+        "description": "Person addressed by Narada while afflicted by the loss of children.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The passage refers to his children.",
+            "evidenceKeys": [
+              "e8_narada_saivya"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_narada_saivya"
+        ]
+      },
+      {
+        "key": "srinjaya",
+        "name": "Srinjaya",
+        "kind": "human",
+        "description": "Former ruler described as great among conquerors.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_1"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_1"
+        ]
+      },
+      {
+        "key": "suhotra",
+        "name": "Suhotra",
+        "kind": "human",
+        "description": "Former ruler named in Sanjaya's enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_2"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_2"
+        ]
+      },
+      {
+        "key": "rantideva",
+        "name": "Rantideva",
+        "kind": "human",
+        "description": "Former ruler named in Sanjaya's enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_2"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_2"
+        ]
+      },
+      {
+        "key": "kakshivanta",
+        "name": "Kakshivanta",
+        "kind": "human",
+        "description": "Former ruler described as great in glory.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_2"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_2"
+        ]
+      },
+      {
+        "key": "valhika",
+        "name": "Valhika",
+        "kind": "human",
+        "description": "Former ruler named in Sanjaya's enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_3"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_3"
+        ]
+      },
+      {
+        "key": "damana",
+        "name": "Damana",
+        "kind": "human",
+        "description": "Former ruler named in Sanjaya's enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_3"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_3"
+        ]
+      },
+      {
+        "key": "saryati",
+        "name": "Saryati",
+        "kind": "human",
+        "description": "Former ruler named in Sanjaya's enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_3"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_3"
+        ]
+      },
+      {
+        "key": "ajita",
+        "name": "Ajita",
+        "kind": "human",
+        "description": "Former ruler named in Sanjaya's enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_3"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_3"
+        ]
+      },
+      {
+        "key": "nala_first_list",
+        "name": "Nala in the first royal list",
+        "kind": "human",
+        "description": "Former ruler listed without a qualifying kingdom.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Nala",
+            "evidenceKeys": [
+              "e8_kings_3"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_3"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_3"
+        ]
+      },
+      {
+        "key": "viswamitra",
+        "name": "Viswamitra",
+        "kind": "human",
+        "description": "Former ruler described as the destroyer of foes.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_4"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_4"
+        ]
+      },
+      {
+        "key": "amvarisha",
+        "name": "Amvarisha",
+        "kind": "human",
+        "description": "Former ruler described as great in strength.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_4"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_4"
+        ]
+      },
+      {
+        "key": "marutta",
+        "name": "Marutta",
+        "kind": "human",
+        "description": "Former ruler named in Sanjaya's enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_5"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_5"
+        ]
+      },
+      {
+        "key": "manu",
+        "name": "Manu",
+        "kind": "human",
+        "description": "Former ruler named in Sanjaya's enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_5"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_5"
+        ]
+      },
+      {
+        "key": "ikshaku",
+        "name": "Ikshaku",
+        "kind": "human",
+        "description": "Former ruler named in Sanjaya's enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_5"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_5"
+        ]
+      },
+      {
+        "key": "gaya",
+        "name": "Gaya",
+        "kind": "human",
+        "description": "Former ruler named in Sanjaya's enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_5"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_5"
+        ]
+      },
+      {
+        "key": "bharata_king",
+        "name": "Bharata",
+        "kind": "human",
+        "description": "Former ruler named in Sanjaya's enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_5"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_5"
+        ]
+      },
+      {
+        "key": "rama_dasaratha",
+        "name": "Rama, son of Dasaratha",
+        "kind": "human",
+        "description": "Son of Dasaratha listed among former royal men.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Rama",
+            "evidenceKeys": [
+              "e8_kings_6"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son and included among royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_6"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_6"
+        ]
+      },
+      {
+        "key": "dasaratha",
+        "name": "Dasaratha",
+        "kind": "unknown",
+        "description": "Named parent of Rama in the royal enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e8_kings_6"
+        ]
+      },
+      {
+        "key": "sasavindu",
+        "name": "Sasavindu",
+        "kind": "human",
+        "description": "Former ruler named in Sanjaya's enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_6"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_6"
+        ]
+      },
+      {
+        "key": "bhagiratha",
+        "name": "Bhagiratha",
+        "kind": "human",
+        "description": "Former ruler named in Sanjaya's enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_6"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_6"
+        ]
+      },
+      {
+        "key": "kritavirya",
+        "name": "Kritavirya",
+        "kind": "human",
+        "description": "Former ruler described as greatly fortunate.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_7"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_7"
+        ]
+      },
+      {
+        "key": "janamejaya",
+        "name": "Janamejaya",
+        "kind": "human",
+        "description": "Former ruler named in Sanjaya's enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_7"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_7"
+        ]
+      },
+      {
+        "key": "yayati",
+        "name": "Yayati",
+        "kind": "human",
+        "description": "Former ruler whose sacrifices were assisted by celestials.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the royal men.",
+            "evidenceKeys": [
+              "e8_royal_context",
+              "e8_kings_8"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e8_royal_context",
+          "e8_kings_8"
+        ]
+      },
+      {
+        "key": "puru",
+        "name": "Puru",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_1",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_1",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "kuru",
+        "name": "Kuru",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_1",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_1",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "yadu",
+        "name": "Yadu",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_1",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_1",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "sura",
+        "name": "Sura",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_1",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_1",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "viswasrawa",
+        "name": "Viswasrawa",
+        "kind": "human",
+        "description": "Former ruler described as of great glory.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_1",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_1",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "anuha",
+        "name": "Anuha",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_2",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_2",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "yuvanaswu",
+        "name": "Yuvanaswu",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_2",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_2",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "kakutstha",
+        "name": "Kakutstha",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_2",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_2",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "vikrami",
+        "name": "Vikrami",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_2",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_2",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "raghu",
+        "name": "Raghu",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_2",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_2",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "vijava",
+        "name": "Vijava",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_3",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_3",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "virihorta",
+        "name": "Virihorta",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_3",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_3",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "anga",
+        "name": "Anga",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_3",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_3",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "bhava",
+        "name": "Bhava",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_3",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_3",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "sweta",
+        "name": "Sweta",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_3",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_3",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "vripadguru",
+        "name": "Vripadguru",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_3",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_3",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "usinara",
+        "name": "Usinara",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_4",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_4",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "sata_ratha",
+        "name": "Sata-ratha",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_4",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_4",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "kanka",
+        "name": "Kanka",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_4",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_4",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "duliduha",
+        "name": "Duliduha",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_4",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_4",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "druma",
+        "name": "Druma",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_4",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_4",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "dambhodbhava",
+        "name": "Dambhodbhava",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_5",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_5",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "para",
+        "name": "Para",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_5",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_5",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "vena",
+        "name": "Vena",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_5",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_5",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "sagara",
+        "name": "Sagara",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_5",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_5",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "sankriti",
+        "name": "Sankriti",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_5",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_5",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "nimi",
+        "name": "Nimi",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_5",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_5",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "ajeya",
+        "name": "Ajeya",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_6",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_6",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "parasu",
+        "name": "Parasu",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_6",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_6",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "pundra",
+        "name": "Pundra",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_6",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_6",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "sambhu",
+        "name": "Sambhu",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_6",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_6",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "deva_vridha",
+        "name": "Deva-Vridha",
+        "kind": "human",
+        "description": "Former ruler described as holy.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_6",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_6",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "devahuya",
+        "name": "Devahuya",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_7",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_7",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "supratika",
+        "name": "Supratika",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_7",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_7",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "vrihad_ratha",
+        "name": "Vrihad-ratha",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_7",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_7",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "mahatsaha",
+        "name": "Mahatsaha",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_8",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_8",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "vinitatma",
+        "name": "Vinitatma",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_8",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_8",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "sukratu",
+        "name": "Sukratu",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_8",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_8",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "nala_nishadas",
+        "name": "Nala, king of the Nishadas",
+        "kind": "human",
+        "description": "King of the Nishadas named in the second enumeration.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Nala",
+            "evidenceKeys": [
+              "e9_kings_8"
+            ]
+          },
+          {
+            "label": "king of the Nishadas",
+            "evidenceKeys": [
+              "e9_kings_8"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a king.",
+            "evidenceKeys": [
+              "e9_kings_8"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_8",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "satyavrata",
+        "name": "Satyavrata",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_9",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_9",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "santabhaya",
+        "name": "Santabhaya",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_9",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_9",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "sumitra",
+        "name": "Sumitra",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_9",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_9",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "subala_chief",
+        "name": "Subala",
+        "kind": "human",
+        "description": "Chief named among the former rulers.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_9",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_9",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "janujangha",
+        "name": "Janujangha",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_10",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_10",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "anaranya",
+        "name": "Anaranya",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_10",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_10",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "arka",
+        "name": "Arka",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_10",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_10",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "priyabhritya",
+        "name": "Priyabhritya",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_10",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_10",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "chuchi_vrata",
+        "name": "Chuchi-vrata",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_10",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_10",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "balabandhu",
+        "name": "Balabandhu",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_11",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_11",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "nirmardda",
+        "name": "Nirmardda",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_11",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_11",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "ketusringa",
+        "name": "Ketusringa",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_11",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_11",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "brhidbala",
+        "name": "Brhidbala",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_11",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_11",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "dhrishtaketu",
+        "name": "Dhrishtaketu",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_12",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_12",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "brihatketu",
+        "name": "Brihatketu",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_12",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_12",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "driptaketu",
+        "name": "Driptaketu",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_12",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_12",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "niramaya",
+        "name": "Niramaya",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_12",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_12",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "abikshit",
+        "name": "Abikshit",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_13",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_13",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "chapala",
+        "name": "Chapala",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_13",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_13",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "dhurta",
+        "name": "Dhurta",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_13",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_13",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "kritbandhu",
+        "name": "Kritbandhu",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_13",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_13",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "dridhe_shudhi",
+        "name": "Dridhe-shudhi",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_13",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_13",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "mahapurana_sambhavya",
+        "name": "Mahapurana-sambhavya",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_14",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_14",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "pratyanga",
+        "name": "Pratyanga",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_14",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_14",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "paraha",
+        "name": "Paraha",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_14",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_14",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "sruti",
+        "name": "Sruti",
+        "kind": "human",
+        "description": "Former ruler named in the second enumeration.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the enumerated princes.",
+            "evidenceKeys": [
+              "e9_kings_14",
+              "e9_royal_context"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e9_kings_14",
+          "e9_royal_context"
+        ]
+      },
+      {
+        "key": "time_personified",
+        "name": "Time",
+        "kind": "other",
+        "description": "Personified cosmic agency that creates and destroys creatures and remains awake.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e9_time_creation",
+          "e9_time_awake"
+        ]
+      },
+      {
+        "key": "providence_personified",
+        "name": "Providence",
+        "kind": "other",
+        "description": "Potentially personified agency that marks the way individuals must follow.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e9_providence"
+        ]
+      },
+      {
+        "key": "adhyatma",
+        "name": "Adhyatma",
+        "kind": "other",
+        "description": "Superintending spirit of nature that partakes of the attributes of the five elements.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the superintending spirit of nature",
+            "evidenceKeys": [
+              "e9_adhyatma"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "e9_adhyatma"
+        ]
+      },
+      {
+        "key": "purusha",
+        "name": "purusha",
+        "kind": "other",
+        "description": "Being described as above such epithets as undisplayed.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e9_purusha"
+        ]
+      },
+      {
+        "key": "veda_personified",
+        "name": "Veda",
+        "kind": "other",
+        "description": "Veda personified as afraid of someone with little information.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e9_veda_personified"
+        ]
+      },
+      {
+        "key": "rama_jamadagni",
+        "name": "Rama, son of Jamadagni",
+        "kind": "unknown",
+        "description": "Armed figure who repeatedly smites the Kshatriyas and receives a boon from ancestral spirits.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Rama",
+            "evidenceKeys": [
+              "e10_rama"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "e10_rama"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e10_rama",
+          "e10_richika",
+          "e10_bhrigu",
+          "e10_rama_boon"
+        ]
+      },
+      {
+        "key": "jamadagni",
+        "name": "Jamadagni",
+        "kind": "unknown",
+        "description": "Named parent of the Rama associated with Samanta-panchaka.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e10_rama"
+        ]
+      },
+      {
+        "key": "richika",
+        "name": "Richika",
+        "kind": "other",
+        "description": "One of Rama's arriving ancestral spirits.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among Rama's forefathers.",
+            "evidenceKeys": [
+              "e10_richika"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e10_rama",
+          "e10_richika",
+          "e10_rama_boon"
+        ]
+      },
+      {
+        "key": "bhrigu",
+        "name": "Bhrigu",
+        "kind": "unknown",
+        "description": "Named ancestor in the address calling Rama an offspring of Bhrigu.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e10_bhrigu"
+        ]
+      },
+      {
+        "key": "sauti_parent_suta",
+        "name": "Unnamed Suta parent of Sauti",
+        "kind": "unknown",
+        "description": "Parent designated in the Rishis' address to Sauti as son of Suta.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e10_son_suta",
+          "e10_sauti"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromKey": "pritha",
+        "toKey": "bhima",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e7_pritha_bhima"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "virata",
+        "toKey": "uttara",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e7_uttara",
+          "e8_embryo_uttara",
+          "e8_virata_daughter"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "arjuna",
+        "toKey": "arjuna_unnamed_son",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e7_uttara"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "arjuna_unnamed_son",
+        "toKey": "uttara",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e7_uttara"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "santanu",
+        "toKey": "bhishma",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e7_family"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "bharadwaja_parent",
+        "toKey": "drona",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e7_family"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "ganga",
+        "toKey": "bhishma",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e7_ganga"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "subhadra",
+        "toKey": "subhadra_unnamed_son",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e7_subhadra_defender"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "drona",
+        "toKey": "drona_unnamed_son",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e8_nakula",
+          "e8_drona_son"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "madri",
+        "toKey": "nakula",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e8_nakula"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "bhimasena",
+        "toKey": "duhsasana",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e8_brother"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "pandu",
+        "toKey": "sahadeva",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e8_suvala_sahadeva"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "dhritarashtra",
+        "toKey": "duryodhana",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e8_duryodhana",
+          "e8_my_son",
+          "e8_dhritarashtra"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "uttara",
+        "toKey": "uttara_embryo",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e8_embryo_uttara"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "gavalgana",
+        "toKey": "sanjaya",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e8_sanjaya"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "dasaratha",
+        "toKey": "rama_dasaratha",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e8_kings_6"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "jamadagni",
+        "toKey": "rama_jamadagni",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e10_rama"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "sauti_parent_suta",
+        "toKey": "sauti",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e10_son_suta",
+          "e10_sauti"
+        ],
+        "status": "supported"
+      }
+    ],
+    "evidence": [
+      {
+        "key": "e7_yudhishthira",
+        "page": 7,
+        "excerpt": "Yudhishthira, beaten at dice, deprived of wealth, exiled and separated from his connections, had assembled yet an army of seven Akshauhinis"
+      },
+      {
+        "key": "e7_tryambaka",
+        "page": 7,
+        "excerpt": "Arjuna, having, in combat, pleased the god of gods, Tryambaka (the three-eyed) in the disguise of a hunter"
+      },
+      {
+        "key": "e7_indra",
+        "page": 7,
+        "excerpt": "Arjuna after having been to the celestial regions, had there obtained celestial weapons from Indra himself"
+      },
+      {
+        "key": "e7_pritha_bhima",
+        "page": 7,
+        "excerpt": "Bhima and the other sons of Pritha (Kunti) accompanied by Vaisravana"
+      },
+      {
+        "key": "e7_karna",
+        "page": 7,
+        "excerpt": "my sons, guided by the counsels of Karna"
+      },
+      {
+        "key": "e7_dharma",
+        "page": 7,
+        "excerpt": "Dharma (the god of justice) having come under the form of a Yaksha had proposed certain questions to Yudhishthira"
+      },
+      {
+        "key": "e7_draupadi_virata",
+        "page": 7,
+        "excerpt": "the Pandavas under their disguise while residing with Draupadi in the dominions of Virata"
+      },
+      {
+        "key": "e7_vasudeva",
+        "page": 7,
+        "excerpt": "Vasudeva of the race of Madhu, who covered this whole earth by one foot, was heartily interested in the welfare of the Pandavas"
+      },
+      {
+        "key": "e7_uttara",
+        "page": 7,
+        "excerpt": "the king of Matsya, had offered his virtuous daughter Uttara to Arjuna and that Arjuna had accepted her for his son"
+      },
+      {
+        "key": "e7_nara_narayana",
+        "page": 7,
+        "excerpt": "Narada, declare that Krishna and Arjuna were Nara and Narayana and he (Narada) had seen them together in the regions of Brahma"
+      },
+      {
+        "key": "e7_krishna_peace",
+        "page": 7,
+        "excerpt": "Krishna, anxious to bring about peace, for the welfare of mankind had repaired to the Kurus"
+      },
+      {
+        "key": "e7_kama_conspiracy",
+        "page": 7,
+        "excerpt": "Kama and Duryodhana resolved upon imprisoning Krishna"
+      },
+      {
+        "key": "e7_pritha_consolation",
+        "page": 7,
+        "excerpt": "Pritha (Kunti) standing, full of sorrow, near his chariot received consolation from Krishna"
+      },
+      {
+        "key": "e7_family",
+        "page": 7,
+        "excerpt": "Vasudeva and Bhishma the son of Santanu were the counsellors of the Pandavas and Drona the son of Bharadwaja pronounced blessings on them"
+      },
+      {
+        "key": "e7_kama_bhishma",
+        "page": 7,
+        "excerpt": "When Kama said unto Bhishma—I will not fight when thou art fighting--and, quitting the army, went away"
+      },
+      {
+        "key": "e7_krishna_worlds",
+        "page": 7,
+        "excerpt": "Krishna showed him all the worlds within his body"
+      },
+      {
+        "key": "e7_ganga",
+        "page": 7,
+        "excerpt": "Bhishma, the righteous son of Ganga, had himself indicated the means of his defeat in the field of battle"
+      },
+      {
+        "key": "e7_sikhandin",
+        "page": 7,
+        "excerpt": "Arjuna, having placed Sikhandin before himself in his chariot, had wounded Bhishma"
+      },
+      {
+        "key": "e7_bayu_suryya",
+        "page": 7,
+        "excerpt": "Bayu together with Indra and Suryya united as allies for the success of the sons of Kunti"
+      },
+      {
+        "key": "e7_subhadra_defender",
+        "page": 7,
+        "excerpt": "our disposition of forces, impenetrable by others, and defended by Bharadwaja himself well-armed, had been singly forced and entered by the brave son of Subhadra"
+      },
+      {
+        "key": "e7_abhimanyu",
+        "page": 7,
+        "excerpt": "our Maharathas, unable to overcome Arjuna, with jubilant faces after having jointly surrounded and slain the boy Abhimanyu"
+      },
+      {
+        "key": "e7_saindhava",
+        "page": 7,
+        "excerpt": "Arjuna had vowed the death of Saindhava and fulfilled his vow in the presence of his enemies"
+      },
+      {
+        "key": "e7_vasudeva_horses",
+        "page": 7,
+        "excerpt": "When I heard that upon the horses of Arjuna being fatigued, Vasudeva"
+      },
+      {
+        "key": "e8_vasudeva_horses",
+        "page": 8,
+        "excerpt": "releasing them made them drink water and bringing them back and reharnessing them continued to guide them as before"
+      },
+      {
+        "key": "e8_yuyudhana",
+        "page": 8,
+        "excerpt": "Yuyudhana of the race of Vrishni, after having thrown into confusion the army of Drona"
+      },
+      {
+        "key": "e8_karna_bhima",
+        "page": 8,
+        "excerpt": "Karna even though he had got Bhima within his power allowed him to escape"
+      },
+      {
+        "key": "e8_warrior_list",
+        "page": 8,
+        "excerpt": "Drona, Kritavarma, Kripa, Karna, the son of Drona, and the valiant king of Madra (Salya) suffered Saindhava to be slain"
+      },
+      {
+        "key": "e8_madhava_ghatotkacha",
+        "page": 8,
+        "excerpt": "the celestial Sakti given by Indra (to Karna) was by Madhava's machinations caused to be hurled upon Rakshasa Ghatotkacha of frightful countenance"
+      },
+      {
+        "key": "e8_karna_ghatotkacha",
+        "page": 8,
+        "excerpt": "in the encounter between Karna and Ghatotkacha, that Sakti was hurled against Ghatotkacha by Karna"
+      },
+      {
+        "key": "e8_dhristadyumna",
+        "page": 8,
+        "excerpt": "Dhristadyumna, transgressing the laws of battle, slew Drona"
+      },
+      {
+        "key": "e8_nakula",
+        "page": 8,
+        "excerpt": "Nakula. the son of Madri, having in the presence of the whole army engaged in single combat with the son of Drona"
+      },
+      {
+        "key": "e8_drona_son",
+        "page": 8,
+        "excerpt": "When upon the death of Drona, his son misused the weapon called Narayana but failed to achieve the destruction of the Pandavas"
+      },
+      {
+        "key": "e8_brother",
+        "page": 8,
+        "excerpt": "Bhimasena drank the blood of his brother Duhsasana in the field of battle"
+      },
+      {
+        "key": "e8_yudhishthira",
+        "page": 8,
+        "excerpt": "Yudhishthira, the Just, overcame the heroic son of Drona, Duhsasana, and the fierce Kritavarman"
+      },
+      {
+        "key": "e8_salya_death",
+        "page": 8,
+        "excerpt": "the brave king of Madra who ever dared Krishna in battle was slain by Yudhishthira"
+      },
+      {
+        "key": "e8_suvala_sahadeva",
+        "page": 8,
+        "excerpt": "the wicked Suvala of magic power, the root of the gaming and the feud, was slain in battle by Sahadeva, the son of Pandu"
+      },
+      {
+        "key": "e8_duryodhana",
+        "page": 8,
+        "excerpt": "Duryodhana, spent with fatigue, having gone to a lake and made a refuge for himself within its waters, was lying there alone, his strength gone and without a chariot"
+      },
+      {
+        "key": "e8_my_son",
+        "page": 8,
+        "excerpt": "the Pandavas having gone to that lake accompanied by Vasudeva and standing on its beach began to address contemptuously my son"
+      },
+      {
+        "key": "e8_draupadi_sons",
+        "page": 8,
+        "excerpt": "the son of Drona and others by slaying the Panchalas and the sons of Draupadi in their sleep, perpetrated a horrible and infamous deed"
+      },
+      {
+        "key": "e8_embryo_uttara",
+        "page": 8,
+        "excerpt": "Aswatthaman while being pursued by Bhimasena had discharged the first of weapons called Aishika, by which the embryo in the womb (of Uttara) was wounded"
+      },
+      {
+        "key": "e8_aswatthaman_head",
+        "page": 8,
+        "excerpt": "Aswatthaman had to give up the jewel-like excrescence on his head"
+      },
+      {
+        "key": "e8_virata_daughter",
+        "page": 8,
+        "excerpt": "upon the embryo in the womb of Virata's daughter being wounded by Aswatthaman with a mighty weapon, Dwaipayana and Krishna pronounced curses on him"
+      },
+      {
+        "key": "e8_gandhari",
+        "page": 8,
+        "excerpt": "Gandhari, destitute of children, grand-children, parents, brothers, and kindred, is to be pitied."
+      },
+      {
+        "key": "e8_suta_address",
+        "page": 8,
+        "excerpt": "All around me is utter darkness, and a fit of swoon assaileth me: consciousness leaves me, O Suta, and my mind is distracted."
+      },
+      {
+        "key": "e8_dhritarashtra",
+        "page": 8,
+        "excerpt": "Sauti said, 'Dhritarashtra, bewailing his fate in these words, was overcome with extreme anguish and for a time deprived of sense; but being revived, he addressed Sanjaya in the following words."
+      },
+      {
+        "key": "e8_sanjaya",
+        "page": 8,
+        "excerpt": "The wise son of Gavalgana (Sanjaya) then addressed the distressed lord of Earth"
+      },
+      {
+        "key": "e8_royal_context",
+        "page": 8,
+        "excerpt": "Thou hast heard, O Raja, of the greatly powerful men of vast exertions, spoken of by Vyasa and the wise Narada; men born of great royal families"
+      },
+      {
+        "key": "e8_kings_1",
+        "page": 8,
+        "excerpt": "Such were Saivya; the valiant Maharatha; Srinjaya, great amongst conquerors."
+      },
+      {
+        "key": "e8_kings_2",
+        "page": 8,
+        "excerpt": "Suhotra; Rantideva, and Kakshivanta, great in glory;"
+      },
+      {
+        "key": "e8_kings_3",
+        "page": 8,
+        "excerpt": "Valhika, Damana, Saryati, Ajita, and Nala;"
+      },
+      {
+        "key": "e8_kings_4",
+        "page": 8,
+        "excerpt": "Viswamitra the destroyer of foes; Amvarisha, great in strength;"
+      },
+      {
+        "key": "e8_kings_5",
+        "page": 8,
+        "excerpt": "Marutta, Manu, Ikshaku, Gaya, and Bharata;"
+      },
+      {
+        "key": "e8_kings_6",
+        "page": 8,
+        "excerpt": "Rama the son of Dasaratha; Sasavindu, and Bhagiratha;"
+      },
+      {
+        "key": "e8_kings_7",
+        "page": 8,
+        "excerpt": "Kritavirya, the greatly fortunate, and Janamejaya too;"
+      },
+      {
+        "key": "e8_kings_8",
+        "page": 8,
+        "excerpt": "Yayati of good deeds who performed sacrifices, being assisted therein by the celestials themselves"
+      },
+      {
+        "key": "e8_narada_saivya",
+        "page": 8,
+        "excerpt": "These twenty-four Rajas were formerly spoken of by the celestial Rishi Narada unto Saivya when much afflicted for the loss of his children."
+      },
+      {
+        "key": "e9_kings_1",
+        "page": 9,
+        "excerpt": "These were Puru, Kuru, Yadu, Sura and Viswasrawa of great glory;"
+      },
+      {
+        "key": "e9_kings_2",
+        "page": 9,
+        "excerpt": "Anuha, Yuvanaswu, Kakutstha, Vikrami, and Raghu;"
+      },
+      {
+        "key": "e9_kings_3",
+        "page": 9,
+        "excerpt": "Vijava, Virihorta, Anga, Bhava, Sweta, and Vripadguru;"
+      },
+      {
+        "key": "e9_kings_4",
+        "page": 9,
+        "excerpt": "Usinara, Sata-ratha, Kanka, Duliduha, and Druma;"
+      },
+      {
+        "key": "e9_kings_5",
+        "page": 9,
+        "excerpt": "Dambhodbhava, Para, Vena, Sagara, Sankriti, and Nimi;"
+      },
+      {
+        "key": "e9_kings_6",
+        "page": 9,
+        "excerpt": "Ajeya, Parasu, Pundra, Sambhu, and holy Deva-Vridha;"
+      },
+      {
+        "key": "e9_kings_7",
+        "page": 9,
+        "excerpt": "Devahuya, Supratika, and Vrihad-ratha;"
+      },
+      {
+        "key": "e9_kings_8",
+        "page": 9,
+        "excerpt": "Mahatsaha, Vinitatma, Sukratu, and Nala, the king of the Nishadas;"
+      },
+      {
+        "key": "e9_kings_9",
+        "page": 9,
+        "excerpt": "Satyavrata, Santabhaya, Sumitra, and the chief Subala;"
+      },
+      {
+        "key": "e9_kings_10",
+        "page": 9,
+        "excerpt": "Janujangha, Anaranya, Arka, Priyabhritya, Chuchi-vrata,"
+      },
+      {
+        "key": "e9_kings_11",
+        "page": 9,
+        "excerpt": "Balabandhu, Nirmardda, Ketusringa, and Brhidbala;"
+      },
+      {
+        "key": "e9_kings_12",
+        "page": 9,
+        "excerpt": "Dhrishtaketu, Brihatketu, Driptaketu, and Niramaya;"
+      },
+      {
+        "key": "e9_kings_13",
+        "page": 9,
+        "excerpt": "Abikshit, Chapala, Dhurta, Kritbandhu, and Dridhe-shudhi;"
+      },
+      {
+        "key": "e9_kings_14",
+        "page": 9,
+        "excerpt": "Mahapurana-sambhavya, Pratyanga, Paraha and Sruti."
+      },
+      {
+        "key": "e9_royal_context",
+        "page": 9,
+        "excerpt": "These, O chief, and other Rajas, we hear enumerated by hundreds and by thousands, and still others by millions, princes of great power and wisdom, quitting very abundant enjoyments met death as thy sons have done!"
+      },
+      {
+        "key": "e9_bharata_address",
+        "page": 9,
+        "excerpt": "Thou art versed in the Sastras, O Bharata, and art intelligent and wise;"
+      },
+      {
+        "key": "e9_time_creation",
+        "page": 9,
+        "excerpt": "Time createth all things and Time destroyeth all creatures."
+      },
+      {
+        "key": "e9_time_awake",
+        "page": 9,
+        "excerpt": "Time alone is awake when all things are asleep: indeed, Time is incapable of being overcome."
+      },
+      {
+        "key": "e9_providence",
+        "page": 9,
+        "excerpt": "No one can leave the way marked out for him by Providence."
+      },
+      {
+        "key": "e9_dhritarashtra",
+        "page": 9,
+        "excerpt": "The son of Gavalgana having in this manner administered comfort to the royal Dhritarashtra overwhelmed with grief for his sons, then restored his mind to peace."
+      },
+      {
+        "key": "e9_dwaipayana",
+        "page": 9,
+        "excerpt": "Taking these facts for his subject, Dwaipayana composed a holy Upanishad"
+      },
+      {
+        "key": "e9_vasudeva",
+        "page": 9,
+        "excerpt": "the eternal Vasudeva possessing the six attributes. He is the true and just, the pure and holy, the eternal Brahma, the supreme soul, the true constant light"
+      },
+      {
+        "key": "e9_adhyatma",
+        "page": 9,
+        "excerpt": "That also hath been treated of which is called Adhyatma (the superintending spirit of nature) that partaketh of the attributes of the five elements."
+      },
+      {
+        "key": "e9_purusha",
+        "page": 9,
+        "excerpt": "That also hath been described who is purusha being above such epithets as 'undisplayed' and the like"
+      },
+      {
+        "key": "e9_vyasa",
+        "page": 9,
+        "excerpt": "The learned man who recites to other this Veda of Vyasa reapeth advantage."
+      },
+      {
+        "key": "e9_veda_personified",
+        "page": 9,
+        "excerpt": "the Veda is afraid of one of little information lest he should it."
+      },
+      {
+        "key": "e10_son_suta",
+        "page": 10,
+        "excerpt": "The Rishis said, 'We have a desire to know, O son of Suta, what is implied by the term Akshauhini that hath been used by thee."
+      },
+      {
+        "key": "e10_sauti",
+        "page": 10,
+        "excerpt": "Sauti said, 'Listen, O ye Brahmanas"
+      },
+      {
+        "key": "e10_rama",
+        "page": 10,
+        "excerpt": "Rama (the son of Jamadagni) great among all who have borne arms, urged by impatience of wrongs, repeatedly smote the noble race of Kshatriyas."
+      },
+      {
+        "key": "e10_richika",
+        "page": 10,
+        "excerpt": "his forefathers of whom Richika was the first having arrived there addressed him thus"
+      },
+      {
+        "key": "e10_bhrigu",
+        "page": 10,
+        "excerpt": "O Rama, O blessed Rama, O offspring of Bhrigu"
+      },
+      {
+        "key": "e10_rama_boon",
+        "page": 10,
+        "excerpt": "The Pitris then said, 'So shall it be. But be thou pacified.' And Rama was pacified accordingly."
+      }
+    ],
+    "unresolved": [
+      "The declaration that Krishna and Arjuna were Nara and Narayana does not unambiguously assign either identity to either individual.",
+      "Vasudeva, Krishna, and Madhava are not explicitly equated in this batch; their records remain separate.",
+      "The batch does not directly classify Indra or Krishna as a god; their kinds remain unknown rather than relying on identification from outside the excerpt.",
+      "Kama and Karna, Bhima and Bhimasena, and Kritavarma and Kritavarman may be name variants, but the batch does not establish their identities.",
+      "Vyasa and Dwaipayana are not explicitly equated in this batch.",
+      "The two occurrences of Nala belong to separately introduced royal enumerations and remain distinct.",
+      "Saivya in the royal list and Saivya addressed by Narada remain separate because the passage does not establish their identity.",
+      "The semicolon-separated phrase 'the valiant Maharatha' may designate an unnamed list entry or qualify Saivya. Its separate record is provisional and rests on that singular phrase, not on the stated count of twenty-four Rajas.",
+      "Suvala in the war account and Subala in the royal enumeration remain distinct.",
+      "Bharadwaja as Drona's parent and Bharadwaja as the armed defender remain distinct; the passage does not establish their identity or identify the defender as Drona.",
+      "The unnamed sons of Arjuna and Subhadra are not explicitly identified as Abhimanyu, and Drona's unnamed son is not explicitly identified as Aswatthaman.",
+      "The sequence 'Karna, the son of Drona' in the warrior list permits an appositional reading or a separate list entry. Other passages independently establish Drona's unnamed son; no parent claim from Drona to Karna is added.",
+      "Accepting Uttara for Arjuna's son supports an intended marital alliance. An accomplished marriage is not explicitly stated, so the spouse claim is provisional.",
+      "Richika is called a forefather and Rama an offspring of Bhrigu; these establish ancestry without specifying direct parent-child relationships.",
+      "The phrase 'war of brothers' does not explicitly identify Karna and Arjuna as a sibling pair.",
+      "The explicit sibling claim between Bhimasena and Duhsasana is retained as written in the supplied source.",
+      "Gandhari's relatives, Saivya's children, Draupadi's sons, Rama's remaining forefathers, and other plural relatives are not individually distinguished and have not been expanded into individuals.",
+      "Madhu, Vrishni, and shomaka occur as race labels without separately established individual beings.",
+      "Time, Providence, and the afraid Veda are retained provisionally as personifications; their status as independent narrative beings remains uncertain.",
+      "Adhyatma, purusha, and the Brahma whose regions are mentioned are not explicitly equated with one another or with Vasudeva.",
+      "Suta in the address to Sauti designates an unnamed parent rather than an established personal name. That parent is not equated with Sanjaya, who is separately addressed as Suta.",
+      "The batch identifies no individual animal: Arjuna's horses, elephants, beasts of prey, and army animals remain undifferentiated groups; the serpent and cow references are simile or generic examples.",
+      "Gandiva and the named weapons are presented as equipment rather than individually established narrative beings. Generic readers, the person of little information, and the generic embryo in the discussion of sin are not identifiable narrative individuals."
+    ]
+  },
+  "reconciliation": {
+    "matches": [
+      {
+        "localKey": "dhritarashtra",
+        "existingId": "mahabharata:seed:dhritarashtra",
+        "reason": "Both are the royal speaker addressing Sanjaya about the Pandavas' success and grieving for his sons.",
+        "evidenceKeys": [
+          "e8_dhritarashtra",
+          "e9_dhritarashtra"
+        ]
+      },
+      {
+        "localKey": "sanjaya",
+        "existingId": "mahabharata:b0001:sanjaya",
+        "reason": "The existing evidence identifies Sanjaya as Dhritarashtra's interlocutor in the same continuing war lament.",
+        "evidenceKeys": [
+          "e8_dhritarashtra",
+          "e8_sanjaya"
+        ]
+      },
+      {
+        "localKey": "yudhishthira",
+        "existingId": "mahabharata:seed:yudhishthira",
+        "reason": "Both records describe Yudhishthira's defeat at dice and resulting deprivation within the Pandava narrative.",
+        "evidenceKeys": [
+          "e7_yudhishthira"
+        ]
+      },
+      {
+        "localKey": "arjuna",
+        "existingId": "mahabharata:seed:arjuna",
+        "reason": "The existing record cites the same episode of Arjuna accepting Uttara for his son.",
+        "evidenceKeys": [
+          "e7_uttara"
+        ]
+      },
+      {
+        "localKey": "tryambaka",
+        "existingId": "mahabharata:b0002:tryambaka",
+        "reason": "The three-eyed alias and encounter with Arjuna while disguised as a hunter match explicitly.",
+        "evidenceKeys": [
+          "e7_tryambaka"
+        ]
+      },
+      {
+        "localKey": "indra",
+        "existingId": "mahabharata:b0002:indra",
+        "reason": "Both passages identify Indra alongside Bayu and Suryya as an ally for the success of Kunti's sons.",
+        "evidenceKeys": [
+          "e7_bayu_suryya"
+        ]
+      },
+      {
+        "localKey": "bhima",
+        "existingId": "mahabharata:seed:bhima",
+        "reason": "The same passage identifies Bhima among Pritha's sons accompanying Vaisravana.",
+        "evidenceKeys": [
+          "e7_pritha_bhima"
+        ]
+      },
+      {
+        "localKey": "pritha",
+        "existingId": "mahabharata:seed:kunti",
+        "reason": "CURRENT explicitly equates Pritha with Kunti, matching the existing supported alias.",
+        "evidenceKeys": [
+          "e7_pritha_bhima",
+          "e7_pritha_consolation"
+        ]
+      },
+      {
+        "localKey": "vaisravana",
+        "existingId": "mahabharata:b0002:vaisravana",
+        "reason": "Both identify Vaisravana as the companion of Bhima and the other sons of Pritha.",
+        "evidenceKeys": [
+          "e7_pritha_bhima"
+        ]
+      },
+      {
+        "localKey": "karna",
+        "existingId": "mahabharata:b0002:karna",
+        "reason": "The existing evidence contains the same episode of Karna counselling Dhritarashtra's sons.",
+        "evidenceKeys": [
+          "e7_karna"
+        ]
+      },
+      {
+        "localKey": "dharma",
+        "existingId": "mahabharata:seed:dharma",
+        "reason": "The god-of-justice designation and questioning of Yudhishthira in a Yaksha's form match the existing excerpt.",
+        "evidenceKeys": [
+          "e7_dharma"
+        ]
+      },
+      {
+        "localKey": "draupadi",
+        "existingId": "mahabharata:seed:draupadi",
+        "reason": "The existing evidence cites the same residence with the disguised Pandavas in Virata's dominions.",
+        "evidenceKeys": [
+          "e7_draupadi_virata"
+        ]
+      },
+      {
+        "localKey": "virata",
+        "existingId": "mahabharata:seed:virata",
+        "reason": "Uttara's royal parentage and her offer for Arjuna's son corroborate the existing Virata record.",
+        "evidenceKeys": [
+          "e7_uttara",
+          "e8_embryo_uttara",
+          "e8_virata_daughter"
+        ]
+      },
+      {
+        "localKey": "vasudeva",
+        "existingId": "mahabharata:b0002:vasudeva",
+        "reason": "Both describe Vasudeva covering the earth with one foot and counselling the Pandavas.",
+        "evidenceKeys": [
+          "e7_vasudeva",
+          "e7_family"
+        ]
+      },
+      {
+        "localKey": "uttara",
+        "existingId": "mahabharata:seed:uttara-daughter-virata",
+        "reason": "Her identification as Virata's daughter and the alliance with Arjuna's son match the existing evidence.",
+        "evidenceKeys": [
+          "e7_uttara",
+          "e8_embryo_uttara",
+          "e8_virata_daughter"
+        ]
+      },
+      {
+        "localKey": "arjuna_unnamed_son",
+        "existingId": "mahabharata:seed:abhimanyu",
+        "reason": "Existing evidence names Abhimanyu as Arjuna's son and Uttara's husband, corroborating the distinctive father-and-bride episode.",
+        "evidenceKeys": [
+          "e7_uttara"
+        ]
+      },
+      {
+        "localKey": "narada",
+        "existingId": "mahabharata:b0002:narada",
+        "reason": "Both contain Narada's declaration identifying Krishna and Arjuna collectively as Nara and Narayana.",
+        "evidenceKeys": [
+          "e7_nara_narayana"
+        ]
+      },
+      {
+        "localKey": "krishna",
+        "existingId": "mahabharata:seed:krishna",
+        "reason": "The existing evidence contains the same conspiracy against Krishna and his revelation of worlds to Arjuna.",
+        "evidenceKeys": [
+          "e7_kama_conspiracy",
+          "e7_krishna_worlds"
+        ]
+      },
+      {
+        "localKey": "nara",
+        "existingId": "mahabharata:b0002:nara",
+        "reason": "The same collective identification by Narada supplies distinctive corroborating context.",
+        "evidenceKeys": [
+          "e7_nara_narayana"
+        ]
+      },
+      {
+        "localKey": "narayana",
+        "existingId": "mahabharata:b0002:narayana",
+        "reason": "The same collective identification by Narada supplies distinctive corroborating context.",
+        "evidenceKeys": [
+          "e7_nara_narayana"
+        ]
+      },
+      {
+        "localKey": "kama",
+        "existingId": "mahabharata:b0002:kama",
+        "reason": "Both describe Kama conspiring with Duryodhana and refusing to fight while Bhishma fights.",
+        "evidenceKeys": [
+          "e7_kama_conspiracy",
+          "e7_kama_bhishma"
+        ]
+      },
+      {
+        "localKey": "duryodhana",
+        "existingId": "mahabharata:seed:duryodhana-son-dhritarashtra",
+        "reason": "CURRENT contextually identifies Duryodhana as Dhritarashtra's son, corroborating the existing parentage.",
+        "evidenceKeys": [
+          "e8_duryodhana",
+          "e8_my_son",
+          "e8_dhritarashtra"
+        ]
+      },
+      {
+        "localKey": "bhishma",
+        "existingId": "mahabharata:seed:bhishma",
+        "reason": "The explicitly named parents Santanu and Ganga corroborate the existing identity.",
+        "evidenceKeys": [
+          "e7_family",
+          "e7_ganga"
+        ]
+      },
+      {
+        "localKey": "santanu",
+        "existingId": "mahabharata:seed:santanu",
+        "reason": "Both identify Santanu as Bhishma's parent.",
+        "evidenceKeys": [
+          "e7_family"
+        ]
+      },
+      {
+        "localKey": "drona",
+        "existingId": "mahabharata:b0002:drona",
+        "reason": "Both explicitly identify Drona as Bharadwaja's son who blesses the Pandavas.",
+        "evidenceKeys": [
+          "e7_family"
+        ]
+      },
+      {
+        "localKey": "bharadwaja_parent",
+        "existingId": "mahabharata:b0002:bharadwaja_parent",
+        "reason": "The same explicit parentage of Drona establishes the match.",
+        "evidenceKeys": [
+          "e7_family"
+        ]
+      },
+      {
+        "localKey": "ganga",
+        "existingId": "mahabharata:seed:ganga",
+        "reason": "Both identify Ganga as Bhishma's parent.",
+        "evidenceKeys": [
+          "e7_ganga"
+        ]
+      },
+      {
+        "localKey": "sikhandin",
+        "existingId": "mahabharata:b0002:sikhandin",
+        "reason": "Both describe Sikhandin placed before Arjuna in the chariot when Bhishma is wounded.",
+        "evidenceKeys": [
+          "e7_sikhandin"
+        ]
+      },
+      {
+        "localKey": "bayu",
+        "existingId": "mahabharata:b0002:bayu",
+        "reason": "The same alliance with Indra and Suryya for Kunti's sons establishes the match.",
+        "evidenceKeys": [
+          "e7_bayu_suryya"
+        ]
+      },
+      {
+        "localKey": "suryya",
+        "existingId": "mahabharata:b0002:suryya",
+        "reason": "The same alliance with Bayu and Indra for Kunti's sons establishes the match.",
+        "evidenceKeys": [
+          "e7_bayu_suryya"
+        ]
+      },
+      {
+        "localKey": "bharadwaja_defender",
+        "existingId": "mahabharata:b0002:bharadwaja_commander",
+        "reason": "Both identify the well-armed Bharadwaja defending the formation entered by Subhadra's son.",
+        "evidenceKeys": [
+          "e7_subhadra_defender"
+        ]
+      },
+      {
+        "localKey": "subhadra",
+        "existingId": "mahabharata:seed:subhadra",
+        "reason": "The existing record includes the same formation-entry episode involving her brave son.",
+        "evidenceKeys": [
+          "e7_subhadra_defender"
+        ]
+      },
+      {
+        "localKey": "subhadra_unnamed_son",
+        "existingId": "mahabharata:b0002:subhadra_son",
+        "reason": "The parent designation and solitary entry into Bharadwaja's defended formation match exactly.",
+        "evidenceKeys": [
+          "e7_subhadra_defender"
+        ]
+      },
+      {
+        "localKey": "abhimanyu",
+        "existingId": "mahabharata:b0002:abhimanyu",
+        "reason": "Both identify the boy Abhimanyu jointly surrounded and slain by the Maharathas.",
+        "evidenceKeys": [
+          "e7_abhimanyu"
+        ]
+      },
+      {
+        "localKey": "saindhava",
+        "existingId": "mahabharata:b0002:saindhava",
+        "reason": "Both describe Saindhava as the target of Arjuna's fulfilled vow of death.",
+        "evidenceKeys": [
+          "e7_saindhava"
+        ]
+      },
+      {
+        "localKey": "nakula",
+        "existingId": "mahabharata:seed:nakula",
+        "reason": "CURRENT explicitly identifies Nakula as Madri's son, corroborating the existing parentage.",
+        "evidenceKeys": [
+          "e8_nakula"
+        ]
+      },
+      {
+        "localKey": "madri",
+        "existingId": "mahabharata:seed:madri",
+        "reason": "Both identify Madri as Nakula's parent.",
+        "evidenceKeys": [
+          "e8_nakula"
+        ]
+      },
+      {
+        "localKey": "sahadeva",
+        "existingId": "mahabharata:seed:sahadeva",
+        "reason": "CURRENT calls Sahadeva Pandu's son, corroborating his placement among Pandu's five sons in the supplied genealogy.",
+        "evidenceKeys": [
+          "e8_suvala_sahadeva"
+        ]
+      },
+      {
+        "localKey": "pandu",
+        "existingId": "mahabharata:seed:pandu",
+        "reason": "The named child Sahadeva corroborates the existing genealogy identifying Pandu as parent of the five Pandavas.",
+        "evidenceKeys": [
+          "e8_suvala_sahadeva"
+        ]
+      },
+      {
+        "localKey": "dwaipayana",
+        "existingId": "mahabharata:seed:vyasa",
+        "reason": "Existing evidence explicitly names the sacred-history composer Dwaipayana Vyasa, establishing the alias for CURRENT's composer.",
+        "evidenceKeys": [
+          "e9_dwaipayana"
+        ]
+      },
+      {
+        "localKey": "gandhari",
+        "existingId": "mahabharata:seed:gandhari",
+        "reason": "Her bereavement appears within Dhritarashtra's lament for his sons, corroborating the existing mother of his Kaurava sons.",
+        "evidenceKeys": [
+          "e8_gandhari",
+          "e8_dhritarashtra",
+          "e9_dhritarashtra"
+        ]
+      },
+      {
+        "localKey": "sauti",
+        "existingId": "mahabharata:seed:ugrasrava-sauti",
+        "reason": "Existing evidence explicitly establishes Sauti as Ugrasrava's surname and identifies the same narrator answering the Rishis.",
+        "evidenceKeys": [
+          "e10_sauti",
+          "e10_son_suta"
+        ]
+      },
+      {
+        "localKey": "vyasa",
+        "existingId": "mahabharata:seed:vyasa",
+        "reason": "His association with the Veda and sacred historical accounts corroborates the existing compiler; existing evidence explicitly equates Vyasa and Dwaipayana.",
+        "evidenceKeys": [
+          "e9_vyasa",
+          "e8_royal_context"
+        ]
+      }
+    ],
+    "unresolved": [
+      "brahma_regions: Mention of Brahma's regions does not distinguish the primordial, true-light, Pitamaha, or visiting-Brahma candidates.",
+      "kripa: The Saindhava-death list supplies neither Saradwan parentage nor a matching distinctive episode for the existing Kripa; the shared name and general war setting are insufficient.",
+      "ghatotkacha: The CURRENT Rakshasa-and-Sakti episode supplies no parentage or distinctive bridge to the existing son of Bhima and Hidimva.",
+      "bhimasena: The blood-drinking and Aswatthaman-pursuit episodes do not establish identity with the existing Jarasandha-associated Bhimasena. CURRENT also does not equate Bhimasena with Bhima.",
+      "duhsasana: CURRENT's explicit Bhimasena-brother claim and Yudhishthira battle episode do not establish identity with either the Dhritarashtra-son seed or the garment-stripping record.",
+      "suhotra: The former ruler in Narada's enumeration is not identified as Sahadeva and Vijaya's son.",
+      "manu: The royal-list entry is not identified with the creation-list Prajapati.",
+      "bharata_king: The former ruler is not linked to the existing descent-account Bharata; Dhritarashtra's Bharata address does not establish that identity.",
+      "janamejaya: No parentage or distinctive story selects between the sons of Puru and Parikshit.",
+      "yayati: The sacrificial ruler is not linked by genealogy or another distinctive detail to the existing family-founder mention.",
+      "puru: The royal enumeration supplies no link to Kausalya or the existing Paurava genealogy.",
+      "kuru: The former ruler is not explicitly linked to the existing individual whose children fought the battle.",
+      "arka: The royal-list entry is not identified as Div's son.",
+      "richika: Rama's ancestral spirit is not identified as Div's son.",
+      "madhava: No supplied candidate explicitly bears this alias, and CURRENT does not equate Madhava with Krishna or Vasudeva.",
+      "kritavarma, kritavarman: No corresponding existing candidate is supplied; CURRENT does not establish that these spellings identify one individual.",
+      "suvala, subala_chief: No corresponding existing candidate is supplied; the war conspirator and former royal chief remain separate.",
+      "saivya, saivya_narada_recipient: No corresponding existing candidate is supplied; CURRENT does not equate the listed ruler with Narada's bereaved addressee.",
+      "unnamed_valiant_maharatha: No supplied candidate identifies this potentially separate royal-list entry; whether the phrase instead qualifies Saivya remains uncertain.",
+      "nala_first_list, nala_nishadas: No corresponding existing candidate is supplied; the unqualified ruler and king of the Nishadas remain separate.",
+      "yuyudhana, drona_unnamed_son, salya, dhristadyumna, aswatthaman, uttara_embryo, gavalgana: No corresponding existing candidate is supplied. Drona's unnamed son is not explicitly equated with Aswatthaman.",
+      "rama_dasaratha, dasaratha, rama_jamadagni, jamadagni, bhrigu: No corresponding existing candidate is supplied; the two Ramas remain distinguished by their named parents.",
+      "sauti_parent_suta: No corresponding existing parent candidate is supplied. The Suta designation does not establish identity with Sanjaya or a named parent.",
+      "time_personified, providence_personified, adhyatma, purusha, veda_personified: No corresponding existing candidate has corroborating identity evidence; none is explicitly equated with a supplied Brahma or Vasudeva record.",
+      "No corresponding existing candidate is supplied for these royal-list entries: srinjaya, rantideva, kakshivanta, valhika, damana, saryati, ajita, viswamitra, amvarisha, marutta, ikshaku, gaya, sasavindu, bhagiratha, kritavirya, yadu, sura, viswasrawa, anuha, yuvanaswu, kakutstha, vikrami, raghu, vijava, virihorta, anga, bhava, sweta, vripadguru, usinara, sata_ratha, kanka, duliduha, druma, dambhodbhava, para, vena, sagara, sankriti, nimi, ajeya, parasu, pundra, sambhu, deva_vridha, devahuya, supratika, vrihad_ratha, mahatsaha, vinitatma, sukratu, satyavrata, santabhaya, sumitra, janujangha, anaranya, priyabhritya, chuchi_vrata, balabandhu, nirmardda, ketusringa, brhidbala, dhrishtaketu, brihatketu, driptaketu, niramaya, abikshit, chapala, dhurta, kritbandhu, dridhe_shudhi, mahapurana_sambhavya, pratyanga, paraha, sruti.",
+      "nara, narayana: Their matches identify the existing collective-declaration records; the passage still does not individually assign these identities to Krishna and Arjuna.",
+      "bharadwaja_parent, bharadwaja_defender: Their respective parentage and formation-defense contexts support separate existing records; no identity between them is established.",
+      "subhadra_unnamed_son: The exact existing unnamed-son record matches, but the formation-entry passage does not explicitly identify him as Abhimanyu."
+    ]
+  }
+}

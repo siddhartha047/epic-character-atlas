@@ -1,0 +1,1264 @@
+{
+  "sourceHash": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+  "batchDigest": "cbb563542105af98b4bd68ead3db7d830b409a2f8d5354159201a617346a14e6",
+  "batchId": "b0014",
+  "pages": [
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "reviewedAt": "2026-10-04T08:46:59.844Z",
+  "reviewer": "Codex extraction + omission + identity passes; not human review",
+  "extraction": {
+    "entities": [
+      {
+        "key": "sauti",
+        "name": "Sauti",
+        "kind": "unknown",
+        "description": "Framing narrator addressed as the son of Suta and as Ugrasravas.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Ugrasravas",
+            "evidenceKeys": [
+              "ev_saunaka_ugrasravas",
+              "ev_saunaka_astika",
+              "ev_sauti_response"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Addressed as the son of Suta.",
+            "evidenceKeys": [
+              "ev_saunaka_suta"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_frame",
+          "ev_saunaka_suta",
+          "ev_saunaka_ugrasravas",
+          "ev_saunaka_astika",
+          "ev_sauti_response"
+        ]
+      },
+      {
+        "key": "saunaka",
+        "name": "Saunaka",
+        "kind": "unknown",
+        "description": "Framing interlocutor who asks about Jaratkaru's name and Astika's birth.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as he.",
+            "evidenceKeys": [
+              "ev_saunaka_ugrasravas"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_saunaka_suta",
+          "ev_saunaka_ugrasravas",
+          "ev_saunaka_astika"
+        ]
+      },
+      {
+        "key": "suta_parent",
+        "name": "Suta",
+        "kind": "unknown",
+        "description": "Parent indicated by Saunaka's address calling Sauti the son of Suta; no personal name beyond this designation is established.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev_saunaka_suta"
+        ]
+      },
+      {
+        "key": "janamejaya",
+        "name": "Janamejaya",
+        "kind": "unknown",
+        "description": "King of the Pandava race from whom the snakes' fear proceeds.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as he.",
+            "evidenceKeys": [
+              "ev_janamejaya"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_janamejaya"
+        ]
+      },
+      {
+        "key": "vasuki",
+        "name": "Vasuki",
+        "kind": "animal",
+        "description": "King of the snakes, brother of the maiden Jaratkaru, and churning-cord during the churning of Varuna's abode.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as he while rearing his sister.",
+            "evidenceKeys": [
+              "ev_sister_reared"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_vasuki_sister_astika",
+          "ev_sister_reared",
+          "ev_varuna_churning",
+          "ev_vasuki_mother"
+        ]
+      },
+      {
+        "key": "elapatra",
+        "name": "Elapatra",
+        "kind": "animal",
+        "description": "Snake who recounts hearing the gods and Brahman while crouching on the mother's lap during the curse.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev_frame",
+          "ev_elapatra_mother",
+          "ev_kadru_grandsire",
+          "ev_brahman_reply",
+          "ev_elapatra_snake"
+        ]
+      },
+      {
+        "key": "kadru",
+        "name": "Kadru",
+        "kind": "unknown",
+        "description": "Mother who cursed her snake children.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "The mother associated with the curse is referred to as her.",
+            "evidenceKeys": [
+              "ev_elapatra_mother",
+              "ev_kadru_grandsire",
+              "ev_brahman_reply"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_elapatra_mother",
+          "ev_kadru_grandsire",
+          "ev_brahman_reply",
+          "ev_vasuki_mother"
+        ]
+      },
+      {
+        "key": "brahman",
+        "name": "Brahman",
+        "kind": "deity",
+        "description": "God addressed as Grandsire who foretells Astika's parentage and the snakes' deliverance.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Brahma",
+            "evidenceKeys": [
+              "ev_jaratkaru_wife_prophecy",
+              "ev_grandsire_brahman"
+            ]
+          },
+          {
+            "label": "Grandsire",
+            "evidenceKeys": [
+              "ev_kadru_grandsire",
+              "ev_brahman_reply",
+              "ev_grandsire_brahman"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Addressed as Grandsire.",
+            "evidenceKeys": [
+              "ev_kadru_grandsire",
+              "ev_grandsire_brahman"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_kadru_grandsire",
+          "ev_brahman_reply",
+          "ev_astika_prophecy",
+          "ev_jaratkaru_wife_prophecy",
+          "ev_vasuki_sister_astika",
+          "ev_grandsire_brahman"
+        ]
+      },
+      {
+        "key": "jaratkaru_rishi",
+        "name": "Jaratkaru",
+        "kind": "sage",
+        "description": "Rishi of the Yayavara race who practices severe asceticism and is foretold to have a son named Astika.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The account of his reduced body refers to him as he.",
+            "evidenceKeys": [
+              "ev_jaratkaru_body"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_astika_prophecy",
+          "ev_jaratkaru_wife_prophecy",
+          "ev_rishi_born",
+          "ev_saunaka_suta",
+          "ev_jaratkaru_body"
+        ]
+      },
+      {
+        "key": "jaratkaru_sister",
+        "name": "Jaratkaru",
+        "kind": "unknown",
+        "description": "Vasuki's sister, reared by him and foretold to bear the son who will liberate the snakes.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called Vasuki's sister and a maiden.",
+            "evidenceKeys": [
+              "ev_vasuki_sister_astika",
+              "ev_sister_reared"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_jaratkaru_wife_prophecy",
+          "ev_vasuki_sister_astika",
+          "ev_sister_reared"
+        ]
+      },
+      {
+        "key": "astika",
+        "name": "Astika",
+        "kind": "unknown",
+        "description": "Foretold son of the Rishi Jaratkaru and Vasuki's sister Jaratkaru, destined to stop the sacrifice.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "ev_astika_prophecy",
+              "ev_vasuki_sister_astika"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_astika_prophecy",
+          "ev_jaratkaru_wife_prophecy",
+          "ev_vasuki_sister_astika",
+          "ev_saunaka_astika"
+        ]
+      },
+      {
+        "key": "varuna",
+        "name": "Varuna",
+        "kind": "unknown",
+        "description": "Named possessor of the abode churned by the gods and Asuras.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev_varuna_churning"
+        ]
+      },
+      {
+        "key": "parikshit",
+        "name": "Parikshit",
+        "kind": "human",
+        "description": "King of the Kaurava race, son of Abhimanyu and great-grandson of Pandu, who hunts a stag and places a dead snake on Samika.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son and a king of men.",
+            "evidenceKeys": [
+              "ev_stag_abhimanyu",
+              "ev_parikshit_men"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_parikshit_pandu",
+          "ev_parikshit_men",
+          "ev_stag_abhimanyu",
+          "ev_dead_snake",
+          "ev_samika_named",
+          "ev_samika_forgiveness"
+        ]
+      },
+      {
+        "key": "pandu",
+        "name": "Pandu",
+        "kind": "unknown",
+        "description": "Parikshit's great-grandfather, invoked as a comparison for the king.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a great-grandfather.",
+            "evidenceKeys": [
+              "ev_parikshit_pandu"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_parikshit_pandu"
+        ]
+      },
+      {
+        "key": "abhimanyu",
+        "name": "Abhimanyu",
+        "kind": "unknown",
+        "description": "Named parent of king Parikshit.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev_stag_abhimanyu"
+        ]
+      },
+      {
+        "key": "rudra",
+        "name": "Rudra",
+        "kind": "unknown",
+        "description": "Figure who pursued in the heavens the deer into which Sacrifice had transformed.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as himself.",
+            "evidenceKeys": [
+              "ev_rudra_sacrifice"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_rudra_sacrifice"
+        ]
+      },
+      {
+        "key": "sacrifice",
+        "name": "Sacrifice",
+        "kind": "other",
+        "description": "Personified Sacrifice transformed into a deer pursued by Rudra.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev_rudra_sacrifice"
+        ]
+      },
+      {
+        "key": "parikshit_hunted_stag",
+        "name": "The stag wounded by Parikshit",
+        "kind": "animal",
+        "description": "Individual stag wounded by Parikshit and pursued into the wilderness.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a stag.",
+            "evidenceKeys": [
+              "ev_stag_abhimanyu"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_stag_abhimanyu",
+          "ev_parikshit_men"
+        ]
+      },
+      {
+        "key": "dead_snake",
+        "name": "The dead snake placed on Samika",
+        "kind": "animal",
+        "description": "Individual dead snake placed on the silent Rishi's shoulder with Parikshit's bow.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev_dead_snake",
+          "ev_samika_named",
+          "ev_samika_forgiveness"
+        ]
+      },
+      {
+        "key": "samika",
+        "name": "Samika",
+        "kind": "sage",
+        "description": "Rishi and father of Sringin who observes silence and forgives Parikshit's insult.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Identified as Sringin's father.",
+            "evidenceKeys": [
+              "ev_sringin_father",
+              "ev_samika_counsel",
+              "ev_samika_son"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_sringin_father",
+          "ev_samika_counsel",
+          "ev_samika_son",
+          "ev_samika_named",
+          "ev_samika_forgiveness"
+        ]
+      },
+      {
+        "key": "sringin",
+        "name": "Sringin",
+        "kind": "sage",
+        "description": "Young ascetic son of Samika who angrily curses Parikshit.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a son.",
+            "evidenceKeys": [
+              "ev_sringin_son",
+              "ev_samika_son"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_sringin_son",
+          "ev_sringin_rishi",
+          "ev_sringin_father",
+          "ev_samika_counsel",
+          "ev_samika_son"
+        ]
+      },
+      {
+        "key": "sringin_preceptor",
+        "name": "Sringin's unnamed preceptor",
+        "kind": "unknown",
+        "description": "Preceptor whom Sringin worships and whose command precedes Sringin's journey home.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Described as seated on his seat.",
+            "evidenceKeys": [
+              "ev_preceptor"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_preceptor",
+          "ev_krisa_parent"
+        ]
+      },
+      {
+        "key": "krisa",
+        "name": "Krisa",
+        "kind": "sage",
+        "description": "Sringin's companion and the son of an unnamed Rishi; describes himself among those deep in ascetic penances and reports Parikshit's insult.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called a Rishi's son.",
+            "evidenceKeys": [
+              "ev_krisa_parent"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_krisa_parent",
+          "ev_krisa_ascetic",
+          "ev_krisa_report"
+        ]
+      },
+      {
+        "key": "krisa_rishi_parent",
+        "name": "Krisa's unnamed Rishi parent",
+        "kind": "sage",
+        "description": "Unnamed Rishi identified as Krisa's parent.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev_krisa_parent"
+        ]
+      },
+      {
+        "key": "bharata",
+        "name": "Bharata",
+        "kind": "unknown",
+        "description": "Named lineage figure whose race includes Parikshit.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev_bharata"
+        ]
+      },
+      {
+        "key": "yama",
+        "name": "Yama",
+        "kind": "unknown",
+        "description": "Being glossed as Death, whose regions Parikshit is foretold to enter.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Death",
+            "evidenceKeys": [
+              "ev_yama_takshaka"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "ev_yama_takshaka"
+        ]
+      },
+      {
+        "key": "takshaka",
+        "name": "Takshaka",
+        "kind": "animal",
+        "description": "King of serpents foretold to kill Parikshit; assumes an old Brahmana's form and pays Kasyapa to return.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "His poison is explicitly mentioned.",
+            "evidenceKeys": [
+              "ev_takshaka_poison"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_yama_takshaka",
+          "ev_takshaka_form",
+          "ev_takshaka_poison",
+          "ev_kasyapa_payment"
+        ]
+      },
+      {
+        "key": "manu",
+        "name": "Manu",
+        "kind": "unknown",
+        "description": "Named authority cited on a ruler's dignity relative to Veda-studying priests.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev_manu"
+        ]
+      },
+      {
+        "key": "gaurmukha",
+        "name": "Gaurmukha",
+        "kind": "sage",
+        "description": "Ascetic disciple sent by Samika to communicate the curse to Parikshit.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as he when entering the king's palace.",
+            "evidenceKeys": [
+              "ev_gaurmukha",
+              "ev_gate_servant"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_gaurmukha",
+          "ev_gate_servant",
+          "ev_gaurmukha_message"
+        ]
+      },
+      {
+        "key": "palace_gate_servant",
+        "name": "The servant at Parikshit's palace gate",
+        "kind": "unknown",
+        "description": "Individual gate servant through whom Gaurmukha announces his arrival.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev_gate_servant"
+        ]
+      },
+      {
+        "key": "kasyapa_healer",
+        "name": "Kasyapa",
+        "kind": "sage",
+        "description": "Learned Muni who travels to treat Parikshit, revives a poisoned banian tree, and accepts wealth from Takshaka before returning.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as he in the account of his journey.",
+            "evidenceKeys": [
+              "ev_kasyapa_travel"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_kasyapa_travel",
+          "ev_kasyapa_muni",
+          "ev_banian_revived",
+          "ev_kasyapa_payment"
+        ]
+      },
+      {
+        "key": "agni",
+        "name": "Agni",
+        "kind": "unknown",
+        "description": "Named figure invoked as a comparison for Takshaka's energy.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as himself.",
+            "evidenceKeys": [
+              "ev_agni"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_agni"
+        ]
+      },
+      {
+        "key": "banian_tree",
+        "name": "The banian tree bitten by Takshaka",
+        "kind": "other",
+        "description": "Individual tree burned by Takshaka's poison and revived from ashes by Kasyapa.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "ev_banian_bitten",
+          "ev_banian_revived"
+        ]
+      },
+      {
+        "key": "sun",
+        "name": "Sun",
+        "kind": "other",
+        "description": "Personified Sun invoked in an eclipse comparison concerning the possible disappearance of Kasyapa's fame.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The comparison uses the possessive his.",
+            "evidenceKeys": [
+              "ev_sun"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "ev_sun"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromKey": "suta_parent",
+        "toKey": "sauti",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev_saunaka_suta"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kadru",
+        "toKey": "elapatra",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev_frame",
+          "ev_elapatra_mother",
+          "ev_kadru_grandsire",
+          "ev_brahman_reply"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kadru",
+        "toKey": "vasuki",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev_elapatra_mother",
+          "ev_kadru_grandsire",
+          "ev_vasuki_mother"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vasuki",
+        "toKey": "jaratkaru_sister",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "ev_vasuki_sister_astika",
+          "ev_sister_reared"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "jaratkaru_rishi",
+        "toKey": "jaratkaru_sister",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "ev_jaratkaru_wife_prophecy",
+          "ev_vasuki_sister_astika"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "jaratkaru_rishi",
+        "toKey": "astika",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev_astika_prophecy",
+          "ev_jaratkaru_wife_prophecy"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "jaratkaru_sister",
+        "toKey": "astika",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev_astika_prophecy",
+          "ev_jaratkaru_wife_prophecy",
+          "ev_vasuki_sister_astika"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "abhimanyu",
+        "toKey": "parikshit",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev_stag_abhimanyu"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "samika",
+        "toKey": "sringin",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev_sringin_father",
+          "ev_samika_counsel",
+          "ev_samika_son"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "krisa_rishi_parent",
+        "toKey": "krisa",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "ev_krisa_parent"
+        ],
+        "status": "supported"
+      }
+    ],
+    "evidence": [
+      {
+        "key": "ev_frame",
+        "page": 44,
+        "excerpt": "Sauti said, 'Hearing the respective speeches of all the snakes, and hearing also the words of Vasuki, Elapatra began to address them"
+      },
+      {
+        "key": "ev_janamejaya",
+        "page": 44,
+        "excerpt": "Nor is king Janamejaya of the Pandava race from whom this fear proceedeth, such that he can be hindered."
+      },
+      {
+        "key": "ev_elapatra_mother",
+        "page": 44,
+        "excerpt": "When that curse was uttered, ye best of snakes, in fear I lay crouching on the lap of our mother."
+      },
+      {
+        "key": "ev_kadru_grandsire",
+        "page": 44,
+        "excerpt": "O Grandsire, thou god of gods who else than the cruel Kadru could thus, after getting such dear children, curse them so, even in thy presence?"
+      },
+      {
+        "key": "ev_brahman_reply",
+        "page": 44,
+        "excerpt": "We wish to know the reason why thou didst not prevent her.' Brahman replied, 'The snakes have multiplied."
+      },
+      {
+        "key": "ev_astika_prophecy",
+        "page": 45,
+        "excerpt": "There shall be born in the race of the Yayavaras a great Rishi known by the name of Jaratkaru, intelligent, with passions under complete control. That Jaratkaru shall have a son of the name of Astika. He shall put a stop to that sacrifice."
+      },
+      {
+        "key": "ev_jaratkaru_wife_prophecy",
+        "page": 45,
+        "excerpt": "The gods said, 'O thou truth-knowing one, on whom will Jaratkaru, that foremost Muni, gifted with great energy and asceticism, beget that illustrious son?' Brahma answered, 'Gifted with great energy, that best Brahmana shall beget a son possessed of great energy on a wife of the same name as his."
+      },
+      {
+        "key": "ev_vasuki_sister_astika",
+        "page": 45,
+        "excerpt": "Vasuki, the king of the snakes, hath a sister of the name of Jaratkaru; the son, of whom I speak, shall be born of her, and he shall liberate the snakes."
+      },
+      {
+        "key": "ev_grandsire_brahman",
+        "page": 45,
+        "excerpt": "The gods then said unto the Grandsire, 'Be it so.' And the lord Brahman, having said so unto the gods, went to heaven."
+      },
+      {
+        "key": "ev_sister_reared",
+        "page": 45,
+        "excerpt": "And from that time Vasuki set about carefully bringing up that maiden, viz., his sister Jaratkaru. And he took great delight in rearing her."
+      },
+      {
+        "key": "ev_varuna_churning",
+        "page": 45,
+        "excerpt": "the gods and the Asuras, assembling together, churned the abode of Varuna. And Vasuki, the foremost of all gifted with strength, became the churning-cord."
+      },
+      {
+        "key": "ev_vasuki_mother",
+        "page": 45,
+        "excerpt": "Then the king of the snakes, Vasuki, afflicted with the curse of his mother, hearing these words of the Grandsire"
+      },
+      {
+        "key": "ev_elapatra_snake",
+        "page": 45,
+        "excerpt": "what hath been spoken by the snake Elapatra for the weal of the snakes is true and not otherwise."
+      },
+      {
+        "key": "ev_saunaka_suta",
+        "page": 45,
+        "excerpt": "Saunaka said, 'O son of Suta, I desire to know the reason why the illustrious Rishi whom thou hast named Jaratkaru came to be so called on earth."
+      },
+      {
+        "key": "ev_saunaka_ugrasravas",
+        "page": 45,
+        "excerpt": "The virtuous Saunaka, when he heard this, smiled and addressing Ugrasravas said, 'It is even so.'"
+      },
+      {
+        "key": "ev_saunaka_astika",
+        "page": 45,
+        "excerpt": "Saunaka then said, 'I have heard all that thou hast before recited. I desire to know how Astika was born.'"
+      },
+      {
+        "key": "ev_sauti_response",
+        "page": 45,
+        "excerpt": "Sauti, on hearing these words, began to relate according to what was written in the Sastras."
+      },
+      {
+        "key": "ev_rishi_born",
+        "page": 45,
+        "excerpt": "Jaratkaru hath been born, and that Brahmana is engaged in hard ascetic penances."
+      },
+      {
+        "key": "ev_jaratkaru_body",
+        "page": 45,
+        "excerpt": "This Rishi's body had been huge, and he gradually reduced it by severe ascetic penances. For the same reason, O Brahmanas, the sister of Vasuki was called Jaratkaru."
+      },
+      {
+        "key": "ev_parikshit_pandu",
+        "page": 46,
+        "excerpt": "there was a king, O Brahmana, of the name of Parikshit, born in the race of the Kauravas. And, like his great-grandfather Pandu of old, he was of mighty arms, the first of all bearers of bows in battle, and fond of hunting."
+      },
+      {
+        "key": "ev_parikshit_men",
+        "page": 46,
+        "excerpt": "And the deer that Parikshit--that king of men--had pierced was lost to his gaze and drew the monarch far away into the forest."
+      },
+      {
+        "key": "ev_rudra_sacrifice",
+        "page": 46,
+        "excerpt": "like the illustrious Rudra himself of old pursuing in the heavens, bow in hand, the deer which was Sacrifice, itself turned into that shape, after the piercing."
+      },
+      {
+        "key": "ev_stag_abhimanyu",
+        "page": 46,
+        "excerpt": "King Parikshit, the son of Abhimanyu, while hunting, had wounded a fleet stag with an arrow and chased it alone."
+      },
+      {
+        "key": "ev_dead_snake",
+        "page": 46,
+        "excerpt": "But that Muni observing then the vow of silence, spoke not unto him a word. And the king in anger thereupon placed upon his shoulder a dead snake, taking it up with the end of his bow."
+      },
+      {
+        "key": "ev_sringin_son",
+        "page": 46,
+        "excerpt": "That Rishi had a son by name Sringin, of tender years, gifted with great energy, deep in ascetic penances, severe in his vows, very wrathful, and difficult to be appeased."
+      },
+      {
+        "key": "ev_preceptor",
+        "page": 46,
+        "excerpt": "At times, he worshipped with great attention and respect his preceptor seated with ease on his seat and ever engaged in the good of creatures."
+      },
+      {
+        "key": "ev_krisa_parent",
+        "page": 46,
+        "excerpt": "And commanded by his preceptor, he was coming home when, O best of Brahmanas, a companion of his, a Rishi's son named Krisa in a playful mood laughingly spoke unto him."
+      },
+      {
+        "key": "ev_krisa_ascetic",
+        "page": 46,
+        "excerpt": "Henceforth speak not a word to sons of Rishis like ourselves who have knowledge of the truth, are deep in ascetic penances, and have attained success."
+      },
+      {
+        "key": "ev_krisa_report",
+        "page": 46,
+        "excerpt": "And Krisa replied, 'Even as king Parikshit was roving, for purpose of hunting, O dear one, he placed the dead snake on the shoulder of thy sire.'"
+      },
+      {
+        "key": "ev_bharata",
+        "page": 46,
+        "excerpt": "That tiger amongst monarchs, that foremost one of Bharata's race, also did not know that the person whom he had so insulted was a virtuous Rishi."
+      },
+      {
+        "key": "ev_sringin_rishi",
+        "page": 46,
+        "excerpt": "And possessed by anger, the puissant Rishi then cursed the king, touching water and overcome with wrath."
+      },
+      {
+        "key": "ev_yama_takshaka",
+        "page": 46,
+        "excerpt": "shall be taken within seven nights hence to the regions of Yama (Death) by the snake Takshaka, the powerful king of serpents, stimulated thereto by the strength of my words!"
+      },
+      {
+        "key": "ev_capital_elephant",
+        "page": 46,
+        "excerpt": "And the king also hath gone to his capital which is named after the elephant!"
+      },
+      {
+        "key": "ev_dharma",
+        "page": 47,
+        "excerpt": "If thou destroy Dharma, verily Dharma will destroy thee."
+      },
+      {
+        "key": "ev_manu",
+        "page": 47,
+        "excerpt": "Manu sayeth, a ruler of the destinies of men is equal (in dignity) to ten Veda-studying priests."
+      },
+      {
+        "key": "ev_sringin_father",
+        "page": 47,
+        "excerpt": "And Sringin then replied to his father, saying"
+      },
+      {
+        "key": "ev_samika_counsel",
+        "page": 47,
+        "excerpt": "And Samika said, 'Dear child, I know that thou art of great prowess, and truthful in speech."
+      },
+      {
+        "key": "ev_samika_son",
+        "page": 47,
+        "excerpt": "seeing that thou art my son and a minor too, and beholding also thy rashness, I see that I must counsel thee."
+      },
+      {
+        "key": "ev_gaurmukha",
+        "page": 47,
+        "excerpt": "And he sent his disciple Gaurmukha of good manners and engaged also in ascetic penances, instructing him to first enquire about the welfare of the king and then to communicate the real message."
+      },
+      {
+        "key": "ev_gate_servant",
+        "page": 47,
+        "excerpt": "And he entered the king's palace having first sent notice of his arrival through the servant in attendance at the gate."
+      },
+      {
+        "key": "ev_gaurmukha_message",
+        "page": 47,
+        "excerpt": "And after resting for a while, he detailed fully to the king, in the presence of his ministers, the words of Samika, of cruel import, exactly as he had been instructed."
+      },
+      {
+        "key": "ev_samika_named",
+        "page": 47,
+        "excerpt": "there is a Rishi, Samika, by name, of virtuous soul, his passions under control, peaceful, and given up to hard ascetic devotions, living in thy dominions!"
+      },
+      {
+        "key": "ev_samika_forgiveness",
+        "page": 47,
+        "excerpt": "By thee, O tiger among men, was placed on the shoulders of that Rishi observing at present the vow of silence, a dead snake, with the end of thy bow! He himself forgave thee that act. But his son could not."
+      },
+      {
+        "key": "ev_kasyapa_travel",
+        "page": 48,
+        "excerpt": "And when the seventh day had arrived, that best of Brahmanas, the learned Kasyapa was coming (towards the king's residence), desirous of treating the king (after the snake-bite). He had heard all that had taken place"
+      },
+      {
+        "key": "ev_takshaka_form",
+        "page": 48,
+        "excerpt": "But that prince of snakes, Takshaka, in the form of an old Brahmana, saw Kasyapa approaching on his way, his heart set upon curing the king."
+      },
+      {
+        "key": "ev_takshaka_poison",
+        "page": 48,
+        "excerpt": "Takshaka, by his poison, will today burn king Parikshit of the Kuru race"
+      },
+      {
+        "key": "ev_agni",
+        "page": 48,
+        "excerpt": "after he is bit by the same Takshaka like to Agni himself in energy."
+      },
+      {
+        "key": "ev_banian_bitten",
+        "page": 48,
+        "excerpt": "That king of snakes, thus addressed by the illustrious Kasyapa, bit then that banian tree. And that tree, bit by the illustrious snake, and penetrated by the poison of the serpent, blazed up all around."
+      },
+      {
+        "key": "ev_banian_revived",
+        "page": 48,
+        "excerpt": "And then that best of Brahmanas, the illustrious and learned Kasyapa, revived, by his vidya, that tree which had been reduced to a heap of ashes."
+      },
+      {
+        "key": "ev_sun",
+        "page": 48,
+        "excerpt": "this blazing fame of thine that hath overspread the three worlds will disappear like the Sun when deprived of his splendour (on the occasion of the eclipse)."
+      },
+      {
+        "key": "ev_kasyapa_muni",
+        "page": 48,
+        "excerpt": "that foremost of Munis, viz., Kasyapa, of great prowess and gifted with spiritual knowledge"
+      },
+      {
+        "key": "ev_kasyapa_payment",
+        "page": 48,
+        "excerpt": "returned, receiving from Takshaka as much wealth as he desired."
+      }
+    ],
+    "unresolved": [
+      "Page 46 explicitly identifies Pandu as Parikshit's great-grandfather (ev_parikshit_pandu). The permitted relationship types cannot represent this ancestry, and the intervening individuals are not identified.",
+      "Astika's parentage and the marriage of the two distinct Jaratkarus are foretold on page 45 (ev_astika_prophecy, ev_jaratkaru_wife_prophecy, ev_vasuki_sister_astika). Their completion is not narrated in this batch, so those relationship records are provisional.",
+      "The warning involving Dharma on page 47 (ev_dharma) does not establish whether Dharma denotes an individual being or an abstract principle; no character entity is asserted for it.",
+      "The capital-name reference on page 46 (ev_capital_elephant) does not unambiguously distinguish a particular elephant from a generic elephant reference; no separate individual elephant is asserted.",
+      "The batch does not establish whether Sringin's unnamed preceptor is identical to another inventoried character; no identity is asserted."
+    ]
+  },
+  "reconciliation": {
+    "matches": [
+      {
+        "localKey": "sauti",
+        "existingId": "mahabharata:seed:ugrasrava-sauti",
+        "reason": "The framing narrator is called Sauti, Ugrasravas, and son of Suta, corroborating the existing narrator and aliases.",
+        "evidenceKeys": [
+          "ev_frame",
+          "ev_saunaka_suta",
+          "ev_saunaka_ugrasravas",
+          "ev_sauti_response"
+        ]
+      },
+      {
+        "localKey": "saunaka",
+        "existingId": "mahabharata:seed:saunaka",
+        "reason": "Both records identify Saunaka as the framing interlocutor questioning Sauti about the Astika narrative.",
+        "evidenceKeys": [
+          "ev_saunaka_suta",
+          "ev_saunaka_ugrasravas",
+          "ev_saunaka_astika"
+        ]
+      },
+      {
+        "localKey": "suta_parent",
+        "existingId": "mahabharata:seed:lomaharshana",
+        "reason": "Suta designates the parent of the framing narrator Sauti/Ugrasravas. The existing record identifies that narrator's father as Lomaharshana and lists Suta as an alias.",
+        "evidenceKeys": [
+          "ev_saunaka_suta",
+          "ev_saunaka_ugrasravas",
+          "ev_sauti_response"
+        ]
+      },
+      {
+        "localKey": "janamejaya",
+        "existingId": "mahabharata:seed:janamejaya-son-parikshit",
+        "reason": "Existing evidence contains this same passage identifying the Pandava king feared by the snakes during their sacrifice consultation, distinguishing him from the ancestral Janamejaya.",
+        "evidenceKeys": [
+          "ev_frame",
+          "ev_janamejaya"
+        ]
+      },
+      {
+        "localKey": "vasuki",
+        "existingId": "mahabharata:b0010:vasuki",
+        "reason": "Both records identify Vasuki as the churning cord and the snake consulting about his mother's curse; existing evidence also contains the current Elapatra framing passage.",
+        "evidenceKeys": [
+          "ev_frame",
+          "ev_varuna_churning",
+          "ev_vasuki_mother"
+        ]
+      },
+      {
+        "localKey": "elapatra",
+        "existingId": "mahabharata:b0013:snake_elapatra",
+        "reason": "Both records contain Elapatra's account of crouching on his mother's lap and hearing the gods question the Grandsire about Kadru's curse.",
+        "evidenceKeys": [
+          "ev_frame",
+          "ev_elapatra_mother",
+          "ev_kadru_grandsire"
+        ]
+      },
+      {
+        "localKey": "kadru",
+        "existingId": "mahabharata:b0009:kadru",
+        "reason": "The snake mother who pronounced the curse is identified as Kadru in the same passage included among the existing evidence.",
+        "evidenceKeys": [
+          "ev_elapatra_mother",
+          "ev_kadru_grandsire",
+          "ev_brahman_reply",
+          "ev_vasuki_mother"
+        ]
+      },
+      {
+        "localKey": "brahman",
+        "existingId": "mahabharata:b0010:brahman",
+        "reason": "Both records identify Brahman as the Grandsire responding to the gods about Kadru's curse; existing evidence contains this same response.",
+        "evidenceKeys": [
+          "ev_kadru_grandsire",
+          "ev_brahman_reply",
+          "ev_grandsire_brahman"
+        ]
+      },
+      {
+        "localKey": "astika",
+        "existingId": "mahabharata:b0001:astika",
+        "reason": "The shared context identifies Astika as Jaratkaru's son by the snake chief's sister and the deliverer of the snakes from the sacrifice.",
+        "evidenceKeys": [
+          "ev_astika_prophecy",
+          "ev_jaratkaru_wife_prophecy",
+          "ev_vasuki_sister_astika"
+        ]
+      },
+      {
+        "localKey": "varuna",
+        "existingId": "mahabharata:b0010:varuna",
+        "reason": "Varuna's abode is the realm churned by the gods and Asuras with Vasuki as cord, corroborating the existing identification of Varuna's home as the Ocean in this narrative.",
+        "evidenceKeys": [
+          "ev_varuna_churning"
+        ]
+      },
+      {
+        "localKey": "parikshit",
+        "existingId": "mahabharata:seed:parikshit-son-abhimanyu",
+        "reason": "The explicit parent Abhimanyu corroborates the existing Parikshit genealogy.",
+        "evidenceKeys": [
+          "ev_stag_abhimanyu",
+          "ev_parikshit_pandu"
+        ]
+      },
+      {
+        "localKey": "pandu",
+        "existingId": "mahabharata:seed:pandu",
+        "reason": "Current evidence identifies Pandu as Parikshit's great-grandfather. The supplied existing genealogy connects Pandu, Arjuna, Abhimanyu, and Parikshit in that order.",
+        "evidenceKeys": [
+          "ev_parikshit_pandu",
+          "ev_stag_abhimanyu"
+        ]
+      },
+      {
+        "localKey": "abhimanyu",
+        "existingId": "mahabharata:seed:abhimanyu",
+        "reason": "Abhimanyu's explicit parentage of Parikshit corroborates the existing account of his child by Uttara being named Parikshit.",
+        "evidenceKeys": [
+          "ev_stag_abhimanyu"
+        ]
+      },
+      {
+        "localKey": "bharata",
+        "existingId": "mahabharata:b0001:bharata",
+        "reason": "Bharata is the eponymous lineage figure for Parikshit's race, matching the existing explicit progenitor of the line bearing Bharata's name.",
+        "evidenceKeys": [
+          "ev_bharata",
+          "ev_parikshit_pandu"
+        ]
+      },
+      {
+        "localKey": "takshaka",
+        "existingId": "mahabharata:b0007:takshaka",
+        "reason": "The serpent king's role in Parikshit's death and Kasyapa's aborted rescue corroborates the existing report concerning Janamejaya's father.",
+        "evidenceKeys": [
+          "ev_yama_takshaka",
+          "ev_takshaka_form",
+          "ev_takshaka_poison",
+          "ev_kasyapa_payment"
+        ]
+      },
+      {
+        "localKey": "kasyapa_healer",
+        "existingId": "mahabharata:b0008:kasyapa",
+        "reason": "Both records identify the healer approaching to save Janamejaya's father who turns back because of Takshaka. This distinguishes him from the candidate identified as Kadru and Vinata's husband.",
+        "evidenceKeys": [
+          "ev_kasyapa_travel",
+          "ev_takshaka_form",
+          "ev_kasyapa_payment"
+        ]
+      }
+    ],
+    "unresolved": [
+      "jaratkaru_rishi: No supplied candidate entity represents this Rishi. Existing evidence mentioning Astika's father corroborates his role but supplies no corresponding Jaratkaru ID.",
+      "jaratkaru_sister: No supplied candidate entity represents Vasuki's sister Jaratkaru; she remains distinct from the Rishi of the same name.",
+      "rudra: The pursuit of Sacrifice transformed into a deer is not linked by the supplied evidence to either existing Rudra record's distinctive episode.",
+      "sacrifice: No supplied candidate represents the being transformed into the deer pursued by Rudra.",
+      "parikshit_hunted_stag: No supplied candidate represents this particular wounded stag.",
+      "dead_snake: No supplied candidate represents the particular dead snake placed on Samika.",
+      "samika: No supplied candidate represents the named silent Rishi and father of Sringin.",
+      "sringin: No supplied candidate represents Samika's son who curses Parikshit.",
+      "sringin_preceptor: The unnamed preceptor has no supplied counterpart or explicit identity with another inventoried individual.",
+      "krisa: No supplied candidate represents Sringin's companion Krisa.",
+      "krisa_rishi_parent: No supplied candidate represents Krisa's unnamed Rishi parent.",
+      "yama: The current Yama is explicitly glossed as Death, but the supplied candidates lack a distinctive shared episode or explicit alias link establishing which Yama/Death ID applies.",
+      "manu: The quoted authority on a ruler's dignity is not identified with either the creation-list Manu or the royal-list Manu by corroborating context.",
+      "gaurmukha: No supplied candidate represents Samika's messenger disciple.",
+      "palace_gate_servant: No supplied candidate represents this particular unnamed gate servant.",
+      "agni: The comparison with Takshaka's energy provides no distinctive corroboration selecting among the existing Agni records.",
+      "banian_tree: No supplied candidate represents the tree poisoned by Takshaka and revived by Kasyapa.",
+      "sun: The eclipse comparison does not establish identity with a particular existing Sun record through a shared distinctive episode or explicit alias."
+    ]
+  }
+}

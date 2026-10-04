@@ -4,7 +4,11 @@ import { DatasetSchema } from "../src/data/schema";
 import { validateDataset } from "../scripts/validate";
 import { locateExcerpt, digest, type Corpus, type Batch } from "../scripts/io";
 import { createBatches } from "../scripts/prepare";
-import { validateExtraction, mergeBatch } from "../scripts/pipeline";
+import {
+  validateExtraction,
+  mergeBatch,
+  refreshDerivedClaims,
+} from "../scripts/pipeline";
 import type { Extraction } from "../scripts/extraction-schema";
 const text = "  A king\n named A had a son B.\n\nB married C.\n";
 const page = { page: 1, text, book: 1, parva: "Test", section: "I" };
@@ -209,4 +213,36 @@ it("never downgrades a disputed identity or relationship when another batch supp
   });
   expect(again.characters[0].status).toBe("disputed");
   expect(again.relationships[0].status).toBe("disputed");
+});
+
+it("accepts PDF whitespace after a hyphen while retaining exact source offsets", () => {
+  const text = "A sweet-\n  speeched sister.\nLater evidence here.";
+  const joined = locateExcerpt(text, "sweet-speeched sister.");
+  expect(text.slice(joined.start, joined.end)).toBe(
+    "sweet-\n  speeched sister.",
+  );
+  expect(locateExcerpt(text, "sweet- speeched sister.")).toEqual(joined);
+  expect(locateExcerpt(text, "Later evidence here.").start).toBe(
+    text.indexOf("Later"),
+  );
+  expect(() => locateExcerpt(text, "sweet-spe eched sister.")).toThrow(
+    "not found",
+  );
+  expect(() => locateExcerpt(text, "sweetspoken sister.")).toThrow("not found");
+});
+
+it("updates derived siblings when supporting parent citations or review statuses change", () => {
+  const data = structuredClone(base);
+  const sibling = data.relationships.find((r) => r.derived)!;
+  const parent = data.relationships.find(
+    (r) => r.id === sibling.supportingRelationshipIds[0],
+  )!;
+  const citation = parent.evidenceIds[0];
+  sibling.evidenceIds = sibling.evidenceIds.filter((id) => id !== citation);
+  parent.status = "provisional";
+  expect(() => validateDataset(data)).toThrow();
+  refreshDerivedClaims(data);
+  expect(sibling.evidenceIds).toContain(citation);
+  expect(sibling.status).toBe("provisional");
+  expect(() => validateDataset(data)).not.toThrow();
 });

@@ -1,0 +1,964 @@
+{
+  "sourceHash": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+  "batchDigest": "01526c738bd1c5c1127c3e22fd53de3df90c8718813bf18b6884efcfb7262ba8",
+  "batchId": "b0007",
+  "pages": [
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "reviewedAt": "2026-10-04T06:50:45.755Z",
+  "reviewer": "Codex extraction + omission + identity passes; not human review",
+  "extraction": {
+    "entities": [
+      {
+        "key": "upamanyu",
+        "name": "Upamanyu",
+        "kind": "human",
+        "description": "Pupil who becomes blind after eating Arka leaves, falls into a well, and recovers his sight after invoking the Aswins.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Upamanyu is referred to with 'his'.",
+            "evidenceKeys": [
+              "e_upamanyu_well"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_upamanyu_well",
+          "e_upamanyu_blind",
+          "e_upamanyu_recovery"
+        ]
+      },
+      {
+        "key": "upamanyu_preceptor",
+        "name": "Upamanyu's unnamed preceptor",
+        "kind": "human",
+        "description": "Preceptor who searches for Upamanyu in the forest.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The preceptor is referred to as 'he'.",
+            "evidenceKeys": [
+              "e_upamanyu_preceptor_search"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_upamanyu_preceptor_search",
+          "e_upamanyu_well",
+          "e_preceptor_master"
+        ]
+      },
+      {
+        "key": "ayoda_dhaumya",
+        "name": "Ayoda-Dhaumya",
+        "kind": "human",
+        "description": "Veda's preceptor.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Veda's preceptor is the referent of 'serving him'.",
+            "evidenceKeys": [
+              "e_veda_preceptor"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_veda_preceptor"
+        ]
+      },
+      {
+        "key": "upamanyu_preceptor_master",
+        "name": "Master of Upamanyu's preceptor",
+        "kind": "unknown",
+        "description": "Unnamed master to whom Upamanyu's preceptor did not offer the Aswins' cake.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_preceptor_master"
+        ]
+      },
+      {
+        "key": "veda",
+        "name": "Veda",
+        "kind": "human",
+        "description": "Brahman, disciple of Ayoda-Dhaumya, spiritual guide of Janamejaya and Paushya, and Utanka's preceptor.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Veda is referred to with 'his' and 'him'.",
+            "evidenceKeys": [
+              "e_veda_preceptor"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_veda_preceptor",
+          "e_spiritual_guides",
+          "e_utanka_household"
+        ]
+      },
+      {
+        "key": "janamejaya",
+        "name": "Janamejaya",
+        "kind": "human",
+        "description": "Kshatriya who appoints Veda as spiritual guide together with Paushya.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_spiritual_guides"
+        ]
+      },
+      {
+        "key": "paushya",
+        "name": "Paushya",
+        "kind": "human",
+        "description": "Kshatriya king who appoints Veda as spiritual guide and receives Utanka.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "King Paushya",
+            "evidenceKeys": [
+              "e_preceptress_request"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Paushya is described as seated on 'his throne'.",
+            "evidenceKeys": [
+              "e_paushya_throne"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_spiritual_guides",
+          "e_paushya_throne",
+          "e_preceptress_request"
+        ]
+      },
+      {
+        "key": "utanka",
+        "name": "Utanka",
+        "kind": "sage",
+        "description": "Brahmana Rishi and Veda's disciple, entrusted with his household and sent to obtain Paushya's queen's earrings.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Utanka is referred to with 'his'.",
+            "evidenceKeys": [
+              "e_utanka_residence"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_utanka_household",
+          "e_utanka_residence",
+          "e_utanka_rishi",
+          "e_preceptress_request"
+        ]
+      },
+      {
+        "key": "utanka_preceptress",
+        "name": "Utanka's preceptress",
+        "kind": "human",
+        "description": "Unnamed mistress of Utanka's preceptor's household who requests Paushya's queen's earrings.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Utanka's mistress",
+            "evidenceKeys": [
+              "e_mistress_connubial",
+              "e_mistress_preceptress"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "female",
+            "context": "The preceptress is referred to with 'her' and 'she'.",
+            "evidenceKeys": [
+              "e_preceptress_return"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_mistress_connubial",
+          "e_mistress_preceptress",
+          "e_preceptress_request",
+          "e_preceptress_return"
+        ]
+      },
+      {
+        "key": "paushya_queen",
+        "name": "Paushya's queen",
+        "kind": "human",
+        "description": "Paushya's unnamed chaste wife, whose earrings Utanka requests.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "The queen is referred to as 'she'.",
+            "evidenceKeys": [
+              "e_queen_greeting"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_preceptress_request",
+          "e_queen_wife",
+          "e_queen_greeting"
+        ]
+      },
+      {
+        "key": "roadside_bull",
+        "name": "Extraordinarily large roadside bull",
+        "kind": "animal",
+        "description": "Bull ridden by a man of uncommon stature encountered by Utanka.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The animal is explicitly called a bull.",
+            "evidenceKeys": [
+              "e_roadside_bull_rider"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_roadside_bull_rider"
+        ]
+      },
+      {
+        "key": "roadside_bull_rider",
+        "name": "Man riding the roadside bull",
+        "kind": "human",
+        "description": "Unnamed man of uncommon stature who tells Utanka to eat the bull's dung.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The rider is explicitly called a man.",
+            "evidenceKeys": [
+              "e_roadside_bull_rider"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_roadside_bull_rider"
+        ]
+      },
+      {
+        "key": "paushya_food_preparer",
+        "name": "Woman who prepared Utanka's meal",
+        "kind": "human",
+        "description": "Unnamed woman with unbraided hair who prepared the unclean food served to Utanka.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "The preparer is explicitly called a woman.",
+            "evidenceKeys": [
+              "e_food_preparer"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_food_preparer"
+        ]
+      },
+      {
+        "key": "takshaka",
+        "name": "Takshaka",
+        "kind": "animal",
+        "description": "Serpent king who steals the earrings in a beggar's form and retreats to the region of the serpents.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "King of the serpents",
+            "evidenceKeys": [
+              "e_takshaka_king"
+            ]
+          },
+          {
+            "label": "Chief of the serpents",
+            "evidenceKeys": [
+              "e_takshaka_chief"
+            ]
+          },
+          {
+            "label": "beggar",
+            "evidenceKeys": [
+              "e_takshaka_beggar_identity"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The individual revealed as Takshaka is referred to with 'his'.",
+            "evidenceKeys": [
+              "e_takshaka_beggar_identity"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_takshaka_king",
+          "e_takshaka_chief",
+          "e_takshaka_theft",
+          "e_takshaka_beggar_identity"
+        ]
+      },
+      {
+        "key": "indra",
+        "name": "Indra",
+        "kind": "unknown",
+        "description": "Being who sends his thunder-bolt, Vajra, to assist Utanka.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Indra is described sending 'his thunder-bolt'.",
+            "evidenceKeys": [
+              "e_indra_assistance"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_indra_assistance"
+        ]
+      },
+      {
+        "key": "airavata_serpent_king",
+        "name": "Airavata",
+        "kind": "animal",
+        "description": "King praised in Utanka's address to the serpents and identified as Dhritarashtra's brother.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "King Airavata",
+            "evidenceKeys": [
+              "e_airavata_subjects_children"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Airavata is explicitly called an elder brother.",
+            "evidenceKeys": [
+              "e_airavata_elder_brother"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_airavata_subjects_children",
+          "e_airavata_dhritarashtra",
+          "e_airavata_elder_brother",
+          "e_utanka_rishi"
+        ]
+      },
+      {
+        "key": "dhritarashtra_airavata_brother",
+        "name": "Dhritarashtra",
+        "kind": "animal",
+        "description": "Airavata's brother, praised among the serpents and followed by serpent attendants.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Dhritarashtra is explicitly called Airavata's brother.",
+            "evidenceKeys": [
+              "e_airavata_dhritarashtra"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_airavata_dhritarashtra",
+          "e_utanka_rishi"
+        ]
+      },
+      {
+        "key": "aswasena",
+        "name": "Aswasena",
+        "kind": "animal",
+        "description": "Serpent praised as Takshaka's constant companion in Kurukshetra.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_takshaka_aswasena",
+          "e_utanka_rishi"
+        ]
+      },
+      {
+        "key": "srutasena",
+        "name": "Srutasena",
+        "kind": "animal",
+        "description": "Takshaka's younger brother, residing at Mahadyumna to obtain chiefship of the serpents.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Srutasena is explicitly called a younger brother.",
+            "evidenceKeys": [
+              "e_srutasena_brother"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_srutasena_brother",
+          "e_utanka_rishi"
+        ]
+      },
+      {
+        "key": "purandara",
+        "name": "Purandara",
+        "kind": "deity",
+        "description": "Figure with the horse whom Utanka addresses as supreme Lord of the three worlds and slayer of Vritra and Namuchi.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Lord of the three worlds",
+            "evidenceKeys": [
+              "e_purandara_address"
+            ]
+          },
+          {
+            "label": "man with the horse",
+            "evidenceKeys": [
+              "e_loom_wheel_horse",
+              "e_purandara_address",
+              "e_horse_man_response"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The recipient of Utanka's adoration is identified as the man with the horse.",
+            "evidenceKeys": [
+              "e_horse_man_response"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_loom_wheel_horse",
+          "e_vritra_namuchi",
+          "e_purandara_address",
+          "e_horse_man_response"
+        ]
+      },
+      {
+        "key": "agni",
+        "name": "Agni",
+        "kind": "deity",
+        "description": "God of fire whose form is the horse encountered by Utanka in the serpent region.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "horse",
+            "evidenceKeys": [
+              "e_horse_agni"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Agni's horse form is referred to with 'his body'.",
+            "evidenceKeys": [
+              "e_horse_agni",
+              "e_horse_flames"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_horse_agni",
+          "e_horse_flames"
+        ]
+      },
+      {
+        "key": "vritra",
+        "name": "Vritra",
+        "kind": "unknown",
+        "description": "Being named as slain by the figure addressed as Purandara.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_vritra_namuchi",
+          "e_purandara_address"
+        ]
+      },
+      {
+        "key": "namuchi",
+        "name": "Namuchi",
+        "kind": "unknown",
+        "description": "Being named as slain by the figure addressed as Purandara.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_vritra_namuchi",
+          "e_purandara_address"
+        ]
+      },
+      {
+        "key": "bird_of_life",
+        "name": "Bird of Life",
+        "kind": "other",
+        "description": "Allegorical bird seized by Time and freed by the Aswins.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "The bird is referred to as 'her'.",
+            "evidenceKeys": [
+              "e_bird_life_time"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_bird_life_time"
+        ]
+      },
+      {
+        "key": "time_personification",
+        "name": "Time",
+        "kind": "other",
+        "description": "Personified agent that seizes the allegorical bird of Life.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_bird_life_time"
+        ]
+      },
+      {
+        "key": "year_calf",
+        "name": "Calf representing the year",
+        "kind": "other",
+        "description": "Allegorical calf produced by cows representing days and called the creator and destroyer of all.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the year",
+            "evidenceKeys": [
+              "e_year_calf"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "e_year_calf"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromKey": "veda",
+        "toKey": "utanka_preceptress",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_spiritual_guides",
+          "e_utanka_household",
+          "e_mistress_connubial",
+          "e_mistress_preceptress"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "paushya",
+        "toKey": "paushya_queen",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_preceptress_request",
+          "e_queen_wife"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "airavata_serpent_king",
+        "toKey": "dhritarashtra_airavata_brother",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_airavata_dhritarashtra"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "takshaka",
+        "toKey": "srutasena",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_srutasena_brother"
+        ],
+        "status": "supported"
+      }
+    ],
+    "evidence": [
+      {
+        "key": "e_upamanyu_well",
+        "page": 18,
+        "excerpt": "And Upamanyu hearing his preceptor's voice answered in a loud tone, 'Here I am at the bottom of a well.'"
+      },
+      {
+        "key": "e_upamanyu_blind",
+        "page": 18,
+        "excerpt": "And Upamanyu replied, 'Having eaten of the leaves of the Arka plant I became blind, and so have I fallen into this well.'"
+      },
+      {
+        "key": "e_upamanyu_preceptor_search",
+        "page": 18,
+        "excerpt": "The preceptor then said, 'Upamanyu being restrained by me from the use of everything, is, of course, and therefore, doth not come home until it be late. Let us then go in search of him.' And having said this, he went with his disciples into the forest and began to shout, saying, 'Ho Upamanyu, where art thou?'"
+      },
+      {
+        "key": "e_upamanyu_recovery",
+        "page": 19,
+        "excerpt": "Thus spoken to by the Aswins he recovered his sight, and having gone to his preceptor's presence he saluted him and told him all."
+      },
+      {
+        "key": "e_veda_preceptor",
+        "page": 19,
+        "excerpt": "Then Veda the other disciple of Ayoda-Dhaumya was called. His preceptor once addressed him, saying, 'Veda, my child, tarry some time in my house and serve thy preceptor. It shall be to thy profit.' And Veda having signified his assent tarried long in the family of his preceptor mindful of serving him."
+      },
+      {
+        "key": "e_preceptor_master",
+        "page": 19,
+        "excerpt": "Formerly, thy preceptor had invoked us. We thereupon gave him a cake like this; and he took it without offering it to his master."
+      },
+      {
+        "key": "e_spiritual_guides",
+        "page": 20,
+        "excerpt": "After a certain time, Janamejaya and Paushya, both of the order of Kshatriyas, arriving at his residence appointed the Brahman. Veda, as their spiritual guide (Upadhyaya)."
+      },
+      {
+        "key": "e_utanka_household",
+        "page": 20,
+        "excerpt": "And one day while about to depart upon some business related to a sacrifice, he employed one of his disciples, Utanka, to take charge of his household."
+      },
+      {
+        "key": "e_utanka_residence",
+        "page": 20,
+        "excerpt": "So Utanka always mindful of the injunction of his preceptor took up his abode in the latter's house."
+      },
+      {
+        "key": "e_mistress_connubial",
+        "page": 20,
+        "excerpt": "And while Utanka was residing there, the females of his preceptor's house having assembled addressed him and said, 'O Utanka, thy mistress is in that season when connubial connection might be fruitful. The preceptor is absent; then stand thou in his place and do the needful.'"
+      },
+      {
+        "key": "e_mistress_preceptress",
+        "page": 20,
+        "excerpt": "Go then in and ask thy mistress what thou art to bring. And bring thou that which she directs.' And thus directed by his preceptor Utanka addressed his preceptress"
+      },
+      {
+        "key": "e_preceptress_request",
+        "page": 20,
+        "excerpt": "Thus addressed, his preceptress replied, 'Go unto King Paushya and beg of him the pair of ear-rings worn by his Queen, and bring them hither."
+      },
+      {
+        "key": "e_queen_wife",
+        "page": 20,
+        "excerpt": "My Queen is a chaste wife and cannot be seen by any one who is impure owing to contact with the leavings of a repast."
+      },
+      {
+        "key": "e_queen_greeting",
+        "page": 20,
+        "excerpt": "And as the Queen perceived him, she saluted him respectfully and said, 'Welcome, Sir, command me what I have to do.'"
+      },
+      {
+        "key": "e_paushya_throne",
+        "page": 20,
+        "excerpt": "On arriving at the palace, Utanka saw Paushya seated (on his throne)."
+      },
+      {
+        "key": "e_roadside_bull_rider",
+        "page": 20,
+        "excerpt": "And as he was passing along the road he saw a bull of extraordinary size and a man of uncommon stature mounted thereon. And that man addressed Utanka and said, 'Eat thou of the dung of this bull.'"
+      },
+      {
+        "key": "e_food_preparer",
+        "page": 21,
+        "excerpt": "And Paushya having ascertained that the food was truly unclean, being cold and mixed with hair, prepared as it was by a woman with unbraided hair, began to pacify the Rishi Utanka"
+      },
+      {
+        "key": "e_takshaka_king",
+        "page": 21,
+        "excerpt": "These ear-rings are very much sought after by Takshaka, the King of the serpents."
+      },
+      {
+        "key": "e_takshaka_chief",
+        "page": 21,
+        "excerpt": "Takshaka, Chief of the serpents, is not able to overtake me."
+      },
+      {
+        "key": "e_takshaka_theft",
+        "page": 21,
+        "excerpt": "And Utanka put the ear-rings on the ground and went for water. In the meantime the beggar came quickly to the spot and taking up the ear-rings ran away."
+      },
+      {
+        "key": "e_takshaka_beggar_identity",
+        "page": 21,
+        "excerpt": "But at that instant the person seized, quitting the form of a beggar and assuming his real form, viz., that of Takshaka, speedily entered a large hole open in the ground. And having got in, Takshaka proceeded to his own abode, the region of the serpents."
+      },
+      {
+        "key": "e_indra_assistance",
+        "page": 21,
+        "excerpt": "And Indra beholding his distress sent his thunder-bolt (Vajra) to his assistance."
+      },
+      {
+        "key": "e_vajra_action",
+        "page": 21,
+        "excerpt": "Then the thunder-bolt entering that stick enlarged that hole. And Utanka began to enter the hole after the thunder-bolt."
+      },
+      {
+        "key": "e_airavata_subjects_children",
+        "page": 21,
+        "excerpt": "Ye Serpents, subjects of King Airavata, splendid in battle and showering weapons in the field like lightning-charged clouds driven by the winds! Handsome and of various forms and decked with many coloured ear-rings, ye children of Airavata, ye shine like the Sun in the firmament!"
+      },
+      {
+        "key": "e_airavata_dhritarashtra",
+        "page": 21,
+        "excerpt": "When Dhritarashtra (Airavata's brother) goes out, twenty-eight thousand and eight serpents follow him as his attendants."
+      },
+      {
+        "key": "e_airavata_elder_brother",
+        "page": 21,
+        "excerpt": "Ye who move near him and ye who stay at a distance from him, I adore all of you that have Airavata for your elder brother."
+      },
+      {
+        "key": "e_takshaka_aswasena",
+        "page": 21,
+        "excerpt": "Takshaka and Aswasena, ye are constant companions who dwell in Kurukshetra on the banks of the Ikshumati!"
+      },
+      {
+        "key": "e_srutasena_brother",
+        "page": 21,
+        "excerpt": "I also adore the illustrious Srutasena, the younger brother of Takshaka, who resided at the holy place called Mahadyumna with a view to obtaining the chiefship of the serpents."
+      },
+      {
+        "key": "e_utanka_rishi",
+        "page": 21,
+        "excerpt": "The Brahmana Rishi Utanka having saluted the chief serpents in this manner, obtained not, however, the ear-rings."
+      },
+      {
+        "key": "e_loom_wheel_horse",
+        "page": 21,
+        "excerpt": "he then looked about him and beheld two women at a loom weaving a piece of cloth with a fine shuttle; and in the loom were black and white threads. And he likewise saw a wheel, with twelve spokes, turned by six boys. And he also saw a man with a handsome horse."
+      },
+      {
+        "key": "e_loom_wheel_symbols",
+        "page": 21,
+        "excerpt": "It is set in continual motion by six boys (the seasons)! These damsels representing universal nature are weaving without intermission a cloth with threads black and white"
+      },
+      {
+        "key": "e_vritra_namuchi",
+        "page": 21,
+        "excerpt": "Thou wielder of the thunder, the protector of the universe, the slayer of Vritra and Namuchi,"
+      },
+      {
+        "key": "e_horse_agni",
+        "page": 22,
+        "excerpt": "thou who ownest for thy carrier the horse which was received from the depths of the ocean, and which is but another form of Agni (the god of fire)"
+      },
+      {
+        "key": "e_purandara_address",
+        "page": 22,
+        "excerpt": "I bow to thee, thou supreme Lord, thou Lord of the three worlds, O Purandara!"
+      },
+      {
+        "key": "e_horse_man_response",
+        "page": 22,
+        "excerpt": "Then the man with the horse said unto Utanka, 'I am gratified by this thy adoration. What good shall I do to thee?'"
+      },
+      {
+        "key": "e_horse_flames",
+        "page": 22,
+        "excerpt": "And from the horse thus blown into, there issued, from every aperture of his body, flames of fire with smoke by which the region of the Nagas was about to be consumed."
+      },
+      {
+        "key": "e_preceptress_return",
+        "page": 22,
+        "excerpt": "And his preceptress that morning after having bathed was dressing her hair sitting, thinking of uttering a curse on Utanka if he should not return within time."
+      },
+      {
+        "key": "e_aswins_twins",
+        "page": 19,
+        "excerpt": "Glorify the twin Aswins, the joint physicians of the gods, and they will restore thee thy sight."
+      },
+      {
+        "key": "e_aswins_universal_parents",
+        "page": 19,
+        "excerpt": "Ye are the parents of all!"
+      },
+      {
+        "key": "e_generic_infant_mother",
+        "page": 19,
+        "excerpt": "The new-born infant sucks the teat of its mother. Indeed it is ye that take the shape of the infant!"
+      },
+      {
+        "key": "e_bird_life_time",
+        "page": 19,
+        "excerpt": "The bird of Life seized by Time which represents the strength of the Infinite soul, ye set free for delivering her unto great happiness!"
+      },
+      {
+        "key": "e_year_calf",
+        "page": 19,
+        "excerpt": "Three hundred and sixty cows represented by three hundred and sixty days produce one calf between them which is the year. That calf is the creator and destroyer of all."
+      },
+      {
+        "key": "e_year_calf_creators",
+        "page": 19,
+        "excerpt": "Ye Aswins, ye are the creators of that calf!"
+      },
+      {
+        "key": "e_sun_sky",
+        "page": 19,
+        "excerpt": "Then have ye placed the Sun and the Sky above!"
+      },
+      {
+        "key": "e_sky_adoration",
+        "page": 19,
+        "excerpt": "I also adore the Sky which is your handiwork!"
+      },
+      {
+        "key": "e_aswins_brahma",
+        "page": 19,
+        "excerpt": "And though ye are the Supreme Brahma, yet ye move over the Earth in forms enjoying the delights that the senses afford."
+      }
+    ],
+    "unresolved": [
+      "Upamanyu's unnamed preceptor is retained separately from Ayoda-Dhaumya. The transition calling Veda 'the other disciple of Ayoda-Dhaumya' suggests continuity, but does not directly name the preceptor in Upamanyu's episode.",
+      "The twin Aswins are an undifferentiated named pair in this batch. Neither member is individually distinguished; no individual entities or sibling endpoints are fabricated from their number.",
+      "The two weaving women are not individually distinguished. Black and white threads are mentioned, but neither woman is assigned a particular thread or separate identity.",
+      "The six boys are collectively identified with the seasons, without individual names or distinguishing assignments. No individual boys or season characters are fabricated.",
+      "Airavata's children, the serpents who have him for their elder brother, and Dhritarashtra's attendants remain undifferentiated groups. Their counts and collective family descriptions supply no additional individual endpoints.",
+      "The Aswins' universal parenthood claim supplies no individually specified children. The infant and its mother are a generic illustration, not identifiable participants in an episode.",
+      "The cows producing the year-calf are an undifferentiated symbolic group. The Aswins are collectively called its creators; neither passage supplies individually identifiable parent endpoints.",
+      "Veda's spouse relationship with Utanka's preceptress is provisional. The request that Utanka replace the absent preceptor in connubial connection implies a conjugal relationship, but the passage does not explicitly call her Veda's wife.",
+      "Indra, Purandara, and the roadside bull rider are not explicitly identified with one another in this batch. The roadside bull is not explicitly identified with Airavata.",
+      "Aswasena is explicitly Takshaka's companion. No parentage or siblinghood between them is stated.",
+      "The preceptors' addresses 'my child' occur in teacher-pupil contexts and do not establish parenthood.",
+      "Vajra is identified as a thunder-bolt. Its movement and enlargement of the hole do not clearly establish a separate narrative being.",
+      "The Sun and Sky are named celestial features, and the Sky is adored, but this batch does not clearly individuate either as a narrative being. Supreme Brahma is predicated of the Aswins; the Infinite soul is not established as a separate character.",
+      "No framing narrator is individually identified in the supplied batch."
+    ]
+  },
+  "reconciliation": {
+    "matches": [
+      {
+        "localKey": "upamanyu",
+        "existingId": "mahabharata:b0006:upamanyu",
+        "reason": "Both records describe the same distinctive episode: Upamanyu becomes blind after eating Arka leaves, falls into a well, and invokes the Aswins.",
+        "evidenceKeys": [
+          "e_upamanyu_blind",
+          "e_upamanyu_well",
+          "e_upamanyu_recovery"
+        ]
+      },
+      {
+        "localKey": "upamanyu_preceptor",
+        "existingId": "mahabharata:b0006:ayoda_dhaumya",
+        "reason": "Existing evidence explicitly names Dhaumya as Upamanyu's preceptor in the same Arka-blindness and well episode. This resolves the unnamed preceptor as the same individual represented by local ayoda_dhaumya.",
+        "evidenceKeys": [
+          "e_upamanyu_preceptor_search",
+          "e_upamanyu_well",
+          "e_upamanyu_blind"
+        ]
+      },
+      {
+        "localKey": "ayoda_dhaumya",
+        "existingId": "mahabharata:b0006:ayoda_dhaumya",
+        "reason": "The name and specific role as Veda's preceptor agree with existing evidence naming Veda among Ayoda-Dhaumya's disciples.",
+        "evidenceKeys": [
+          "e_veda_preceptor"
+        ]
+      },
+      {
+        "localKey": "veda",
+        "existingId": "mahabharata:b0006:veda",
+        "reason": "Both records specifically identify Veda as Ayoda-Dhaumya's disciple. The current human pupil is distinct from the existing personified Veda.",
+        "evidenceKeys": [
+          "e_veda_preceptor"
+        ]
+      },
+      {
+        "localKey": "utanka",
+        "existingId": "mahabharata:b0004:utanka",
+        "reason": "The existing record identifies Utanka through the Paushya narrative; the current Utanka is the Rishi sent to King Paushya for his queen's earrings.",
+        "evidenceKeys": [
+          "e_preceptress_request",
+          "e_paushya_throne",
+          "e_utanka_rishi"
+        ]
+      },
+      {
+        "localKey": "purandara",
+        "existingId": "mahabharata:b0002:indra",
+        "reason": "The shared specific Vritra conquest corroborates identity: current Purandara is explicitly Vritra's slayer, and existing Indra is explicitly victorious over Vritra.",
+        "evidenceKeys": [
+          "e_vritra_namuchi",
+          "e_purandara_address"
+        ]
+      },
+      {
+        "localKey": "vritra",
+        "existingId": "mahabharata:b0005:vritra",
+        "reason": "Both records identify Vritra through the same specific defeat: slain by current Purandara, reconciled above with the existing Indra whose victory over Vritra is recounted.",
+        "evidenceKeys": [
+          "e_vritra_namuchi",
+          "e_purandara_address"
+        ]
+      },
+      {
+        "localKey": "time_personification",
+        "existingId": "mahabharata:b0003:time_personified",
+        "reason": "Both passages personify cosmic Time as an agency acting upon life: the current passage has Time seize Life, while existing passages describe Time destroying creatures.",
+        "evidenceKeys": [
+          "e_bird_life_time"
+        ]
+      }
+    ],
+    "unresolved": [
+      "janamejaya: The current appointment of Veda supplies no parentage or snake-sacrifice identification. Narrative proximity does not sufficiently distinguish the son of Parikshit, the son of Puru, and the ruler in Sanjaya's enumeration.",
+      "indra: The current Vajra assistance to Utanka has no corresponding episode or weapon identification in the existing Indra evidence. The Purandara match through Vritra does not independently establish that current indra and purandara are one individual.",
+      "agni: Neither existing Agni record corroborates the current fire-god's horse manifestation. The supplied evidence also does not establish identity between the two existing Agni records.",
+      "dhritarashtra_airavata_brother: The current serpent and brother of Airavata lacks corroboration with the existing human Kuru king, son of Vyasa. Keep them distinct.",
+      "srutasena: The current serpent is explicitly Takshaka's younger brother; the existing Srutasena is Janamejaya's brother. Keep these homonyms distinct.",
+      "upamanyu_preceptor_master: No possible existing character is identified as the master in the Aswins' cake account.",
+      "roadside_bull_rider: No supplied evidence identifies this man with an existing character or with Purandara or Indra.",
+      "No corroborated existing candidate is supplied for paushya, utanka_preceptress, paushya_queen, roadside_bull, paushya_food_preparer, takshaka, airavata_serpent_king, aswasena, namuchi, bird_of_life, or year_calf."
+    ]
+  }
+}

@@ -1,0 +1,1116 @@
+{
+  "sourceHash": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+  "batchDigest": "cb6483f3f705cf10c84901f21bb9b015fa222ff5558cf9c4886f9ef3a3132b67",
+  "batchId": "b0012",
+  "pages": [
+    37,
+    38,
+    39,
+    40,
+    41
+  ],
+  "reviewedAt": "2026-10-04T08:01:32.637Z",
+  "reviewer": "Codex extraction + omission + identity passes; not human review",
+  "extraction": {
+    "entities": [
+      {
+        "key": "kasyapa",
+        "name": "Kasyapa",
+        "kind": "sage",
+        "description": "Prajapati and foremost Muni who sacrifices for offspring; explicitly Garuda's father.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Prajapati",
+            "evidenceKeys": [
+              "e40_kasyapa_muni"
+            ]
+          },
+          {
+            "label": "lord of creation",
+            "evidenceKeys": [
+              "e39_kasyapa_offspring"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly identified as Garuda's father.",
+            "evidenceKeys": [
+              "e38_kasyapa_father"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e38_kasyapa_father",
+          "e39_kasyapa_offspring",
+          "e40_kasyapa_muni"
+        ]
+      },
+      {
+        "key": "vibhavasu",
+        "name": "Vibhavasu",
+        "kind": "animal",
+        "description": "Wrathful Rishi and Supritika's elder brother, subsequently transformed into a tortoise.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called 'He' and explicitly identified as Supritika's brother.",
+            "evidenceKeys": [
+              "e37_brothers",
+              "e37_vibhavasu_brother"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e37_brothers",
+          "e37_vibhavasu_brother",
+          "e37_transformation"
+        ]
+      },
+      {
+        "key": "supritika",
+        "name": "Supritika",
+        "kind": "animal",
+        "description": "Vibhavasu's younger brother, subsequently transformed into an elephant.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly identified as a younger brother.",
+            "evidenceKeys": [
+              "e37_brothers"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e37_brothers",
+          "e37_transformation"
+        ]
+      },
+      {
+        "key": "sauti",
+        "name": "Sauti",
+        "kind": "unknown",
+        "description": "Framing narrator who answers Saunaka and recounts Garuda's deeds.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "son of Suta",
+            "evidenceKeys": [
+              "e39_question",
+              "e39_sauti_reply"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Saunaka addresses the responding narrator as 'son of Suta'.",
+            "evidenceKeys": [
+              "e39_question",
+              "e39_sauti_reply"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e38_narrator",
+          "e39_question",
+          "e39_sauti_reply"
+        ]
+      },
+      {
+        "key": "garuda",
+        "name": "Garuda",
+        "kind": "animal",
+        "description": "Bird and son of Kasyapa and Vinata, named after carrying a heavy burden and vested with lordship over birds.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "king of birds",
+            "evidenceKeys": [
+              "e40_garuda_king"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly one of Vinata's two sons.",
+            "evidenceKeys": [
+              "e40_birth"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e38_garuda_name",
+          "e38_kasyapa_father",
+          "e40_birth",
+          "e40_garuda_king"
+        ]
+      },
+      {
+        "key": "speaking_banian",
+        "name": "Speaking banian tree",
+        "kind": "other",
+        "description": "Gigantic banian tree that invites Garuda to sit on its branch and eat the elephant and tortoise.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e38_banian"
+        ]
+      },
+      {
+        "key": "agni",
+        "name": "Agni",
+        "kind": "unknown",
+        "description": "Named being whose splendour is compared with Garuda's.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as 'Agni himself'.",
+            "evidenceKeys": [
+              "e38_agni"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e38_agni"
+        ]
+      },
+      {
+        "key": "yama",
+        "name": "Yama",
+        "kind": "unknown",
+        "description": "Named being whose appearance is compared with Garuda's.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as 'Yama himself'.",
+            "evidenceKeys": [
+              "e38_yama"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e38_yama"
+        ]
+      },
+      {
+        "key": "vinata",
+        "name": "Vinata",
+        "kind": "unknown",
+        "description": "Daksha's daughter and Kasyapa's spouse, who gives birth to Aruna and Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called Daksha's daughter and referred to as 'she'.",
+            "evidenceKeys": [
+              "e40_vinata",
+              "e40_birth"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e40_vinata",
+          "e40_birth"
+        ]
+      },
+      {
+        "key": "indra",
+        "name": "Indra",
+        "kind": "deity",
+        "description": "Chief of the gods, warned by Vrihaspati about the approaching son of Kasyapa and Vinata.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Purandara",
+            "evidenceKeys": [
+              "e39_indra_fuel",
+              "e39_purandara"
+            ]
+          },
+          {
+            "label": "He of a thousand sacrifices",
+            "evidenceKeys": [
+              "e39_indra_title"
+            ]
+          },
+          {
+            "label": "Indra of a hundred sacrifices",
+            "evidenceKeys": [
+              "e40_brothers"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly designated 'He of a thousand sacrifices (Indra)'.",
+            "evidenceKeys": [
+              "e39_indra_title"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e39_indra_title",
+          "e39_vrihaspati",
+          "e39_indra_fuel",
+          "e39_purandara",
+          "e40_brothers"
+        ]
+      },
+      {
+        "key": "unnamed_god_of_gods",
+        "name": "Unidentified god of gods",
+        "kind": "deity",
+        "description": "Deity who sheds showers of blood during the ominous disturbances.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly referred to as 'he'.",
+            "evidenceKeys": [
+              "e39_god_of_gods"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e39_god_of_gods"
+        ]
+      },
+      {
+        "key": "vrihaspati",
+        "name": "Vrihaspati",
+        "kind": "unknown",
+        "description": "Speaker who warns Indra that the powerful son of Kasyapa and Vinata is approaching to take the Soma.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39_indra_title",
+          "e39_vrihaspati"
+        ]
+      },
+      {
+        "key": "saunaka",
+        "name": "Saunaka",
+        "kind": "unknown",
+        "description": "Framing listener who questions Sauti about Indra's fault and Garuda's birth.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39_question",
+          "e39_sauti_reply"
+        ]
+      },
+      {
+        "key": "suta_parent",
+        "name": "Parent designated Suta",
+        "kind": "unknown",
+        "description": "Possible parental referent in Saunaka's address to Sauti as 'son of Suta'; Suta is not established as a personal name.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e39_question",
+          "e39_sauti_reply"
+        ]
+      },
+      {
+        "key": "cow_road_indentation",
+        "name": "Cow whose hoof made the road indentation",
+        "kind": "animal",
+        "description": "Unnamed cow whose hoof produced the indentation where the Valakhilyas encountered collected water.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "The animal is explicitly called a cow.",
+            "evidenceKeys": [
+              "e39_cow"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e39_cow"
+        ]
+      },
+      {
+        "key": "brahman",
+        "name": "Brahman",
+        "kind": "unknown",
+        "description": "Referent whose word is said to have made Indra Lord of the three worlds; its status as an individual being is uncertain.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40_brahman"
+        ]
+      },
+      {
+        "key": "daksha",
+        "name": "Daksha",
+        "kind": "unknown",
+        "description": "Named parent of Vinata.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40_vinata"
+        ]
+      },
+      {
+        "key": "brahma",
+        "name": "Brahma",
+        "kind": "unknown",
+        "description": "Referent named in Kasyapa's warning against slighting those who utter the name of Brahma.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40_brahma"
+        ]
+      },
+      {
+        "key": "aruna",
+        "name": "Aruna",
+        "kind": "unknown",
+        "description": "Vinata's son, born with an undeveloped body, who becomes the fore-runner of the Sun.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly one of Vinata's two sons.",
+            "evidenceKeys": [
+              "e40_birth"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e40_birth"
+        ]
+      },
+      {
+        "key": "sun",
+        "name": "Sun",
+        "kind": "unknown",
+        "description": "Personified Sun, preceded by Aruna and described as threatened by the flames surrounding the amrita.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as 'the Sun himself'.",
+            "evidenceKeys": [
+              "e41_sun"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e40_birth",
+          "e41_sun"
+        ]
+      },
+      {
+        "key": "bhrigu",
+        "name": "Bhrigu",
+        "kind": "unknown",
+        "description": "Figure whose race is invoked in Sauti's address to his listener.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e40_bhrigu"
+        ]
+      },
+      {
+        "key": "brahmana_architect",
+        "name": "Brahmana",
+        "kind": "deity",
+        "description": "Celestial architect among Soma's guards, left lying as dead after an encounter with Garuda.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the celestial architect",
+            "evidenceKeys": [
+              "e40_architect"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as 'he' after the encounter.",
+            "evidenceKeys": [
+              "e40_architect"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e40_architect",
+          "e40_immortal_guards"
+        ]
+      },
+      {
+        "key": "unnamed_god_thousand_eyes",
+        "name": "Unidentified god of a thousand eyes",
+        "kind": "deity",
+        "description": "Deity who commands Vayu to dispel the dust raised by Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Designated by the masculine title 'god'.",
+            "evidenceKeys": [
+              "e40_vayu"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e40_vayu"
+        ]
+      },
+      {
+        "key": "vayu",
+        "name": "Vayu",
+        "kind": "deity",
+        "description": "God of wind, addressed as Maruta, who drives away the dust.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Maruta",
+            "evidenceKeys": [
+              "e40_vayu"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly designated 'the god of wind'.",
+            "evidenceKeys": [
+              "e40_vayu"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e40_vayu"
+        ]
+      },
+      {
+        "key": "aswakranda",
+        "name": "Aswakranda",
+        "kind": "other",
+        "description": "Yaksha of great courage who encounters Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e41_yakshas"
+        ]
+      },
+      {
+        "key": "rainuka",
+        "name": "Rainuka",
+        "kind": "other",
+        "description": "Yaksha who encounters Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e41_yakshas"
+        ]
+      },
+      {
+        "key": "krathanaka",
+        "name": "Krathanaka",
+        "kind": "other",
+        "description": "Bold Yaksha who encounters Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e41_yakshas"
+        ]
+      },
+      {
+        "key": "tapana",
+        "name": "Tapana",
+        "kind": "other",
+        "description": "Yaksha who encounters Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e41_yakshas"
+        ]
+      },
+      {
+        "key": "uluka",
+        "name": "Uluka",
+        "kind": "other",
+        "description": "Yaksha who encounters Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e41_yakshas"
+        ]
+      },
+      {
+        "key": "swasanaka",
+        "name": "Swasanaka",
+        "kind": "other",
+        "description": "Yaksha who encounters Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e41_yakshas"
+        ]
+      },
+      {
+        "key": "nimesha",
+        "name": "Nimesha",
+        "kind": "other",
+        "description": "Yaksha who encounters Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e41_yakshas"
+        ]
+      },
+      {
+        "key": "praruja",
+        "name": "Praruja",
+        "kind": "other",
+        "description": "Yaksha who encounters Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e41_yakshas"
+        ]
+      },
+      {
+        "key": "pulina",
+        "name": "Pulina",
+        "kind": "other",
+        "description": "Yaksha who encounters Garuda.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e41_yakshas"
+        ]
+      },
+      {
+        "key": "siva",
+        "name": "Siva",
+        "kind": "unknown",
+        "description": "Named being compared with Garuda attacking the Yakshas; called the chastiser of enemies and holder of Pinaka.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "the holder of Pinaka",
+            "evidenceKeys": [
+              "e41_siva"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as 'Siva himself'.",
+            "evidenceKeys": [
+              "e41_siva"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e41_siva"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromKey": "vibhavasu",
+        "toKey": "supritika",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e37_brothers",
+          "e37_vibhavasu_brother"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kasyapa",
+        "toKey": "garuda",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e38_garuda_father",
+          "e38_kasyapa_father"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vinata",
+        "toKey": "garuda",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e40_birth"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "vinata",
+        "toKey": "aruna",
+        "type": "parent_of",
+        "parenthood": "biological",
+        "evidenceKeys": [
+          "e40_birth"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kasyapa",
+        "toKey": "aruna",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39_kasyapa_offspring",
+          "e40_son_for_kasyapa",
+          "e40_vinata",
+          "e40_two_sons",
+          "e40_seeds",
+          "e40_birth"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "daksha",
+        "toKey": "vinata",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e40_vinata"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "kasyapa",
+        "toKey": "vinata",
+        "type": "spouse_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e40_vinata"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "suta_parent",
+        "toKey": "sauti",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e39_question",
+          "e39_sauti_reply"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "indra",
+        "toKey": "aruna",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e40_two_sons",
+          "e40_brothers",
+          "e40_birth"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "indra",
+        "toKey": "garuda",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e40_two_sons",
+          "e40_brothers",
+          "e40_birth"
+        ],
+        "status": "supported"
+      }
+    ],
+    "evidence": [
+      {
+        "key": "e37_brothers",
+        "page": 37,
+        "excerpt": "There was of old a great Rishi of the name of Vibhavasu. He was exceedingly wrathful. He had a younger brother of the name of Supritika."
+      },
+      {
+        "key": "e37_vibhavasu_brother",
+        "page": 37,
+        "excerpt": "And Supritika would always speak of partition. After some time his brother Vibhavasu told Supritika,"
+      },
+      {
+        "key": "e37_transformation",
+        "page": 37,
+        "excerpt": "And thus on account of wealth those two fools, Supritika and Vibhavasu, from each other's curse, have become an elephant and a tortoise respectively. Owing to their wrath, they have both become inferior animals."
+      },
+      {
+        "key": "e38_narrator",
+        "page": 38,
+        "excerpt": "Sauti continued, 'Having said so unto Garuda, he (Kasyapa) blessed him, saying,"
+      },
+      {
+        "key": "e38_garuda_father",
+        "page": 38,
+        "excerpt": "Garuda, thus addressed by his father, wended to the side of that lake."
+      },
+      {
+        "key": "e38_banian",
+        "page": 38,
+        "excerpt": "And there was a large banian among them, which had grown into gigantic proportions, that spoke unto that lord of bird coursing towards it with the fleetness of the mind, 'Sit thou on this large branch of mine extending a hundred yojanas and eat the elephant and the tortoise.'"
+      },
+      {
+        "key": "e38_garuda_name",
+        "page": 38,
+        "excerpt": "And they said, 'As this ranger of the skies rises on its wings bearing a heavy burden, let this foremost of birds having snakes for his food be called Garuda (bearer of heavy weight).'"
+      },
+      {
+        "key": "e38_kasyapa_father",
+        "page": 38,
+        "excerpt": "There he saw his father Kasyapa engaged in ascetic devotions. Kasyapa also saw his son, that ranger of the skies, of divine form,"
+      },
+      {
+        "key": "e38_agni",
+        "page": 38,
+        "excerpt": "terrible, of the splendour of Agni himself, and incapable of being overcome by the deities"
+      },
+      {
+        "key": "e38_yama",
+        "page": 38,
+        "excerpt": "fierce, and looking like Yama himself."
+      },
+      {
+        "key": "e39_god_of_gods",
+        "page": 39,
+        "excerpt": "And even he who was the god of gods shed showers of blood."
+      },
+      {
+        "key": "e39_indra_title",
+        "page": 39,
+        "excerpt": "And He of a thousand sacrifices (Indra), with the other gods, perplexed with fear at the sight of those dark forebodings spoke unto Vrihaspati thus,"
+      },
+      {
+        "key": "e39_vrihaspati",
+        "page": 39,
+        "excerpt": "Vrihaspati answered, 'O chief of the gods, O thou of a thousand sacrifices, it is from thy fault and carelessness, and owing also to the ascetic penance of the high-souled great Rishis, the Valakhilyas, that the son of Kasyapa and Vinata, a ranger of the skies endued with great strength and possessing the capacity of assuming at will any form, is approaching to take away the Soma."
+      },
+      {
+        "key": "e39_question",
+        "page": 39,
+        "excerpt": "Saunaka said, 'O son of Suta, what was Indra's fault, what his act of carelessness? How was Garuda born in consequence of the ascetic penances of the Valakhilyas? Why also Kasyapa--a Brahman--had the king of birds for a son?"
+      },
+      {
+        "key": "e39_sauti_reply",
+        "page": 39,
+        "excerpt": "Sauti said, 'What thou askest me is, indeed, the subject of the Purana. O twice-born one, listen as I briefly recite it all."
+      },
+      {
+        "key": "e39_kasyapa_offspring",
+        "page": 39,
+        "excerpt": "Once upon a time, when the lord of creation, Kasyapa, was engaged in a sacrifice from desire of offspring, the Rishis, the gods, and the Gandharvas, all gave him help."
+      },
+      {
+        "key": "e39_indra_fuel",
+        "page": 39,
+        "excerpt": "And the lord Indra, taking up according to his own strength, a weight that was mountain-like, brought it without any fatigue. And he saw on the way some Rishis, of bodies of the measure of the thumb, all together carrying one single stalk of a Palasa (Butea frondosa) leaf."
+      },
+      {
+        "key": "e39_purandara",
+        "page": 39,
+        "excerpt": "And Purandara, proud of his strength, beheld them with"
+      },
+      {
+        "key": "e39_cow",
+        "page": 39,
+        "excerpt": "And they were so weak that they were much afflicted when sunk in the water that collected in an indentation on the road produced by the hoof of a cow."
+      },
+      {
+        "key": "e40_brahman",
+        "page": 40,
+        "excerpt": "By the word of Brahman, this one (Indra) hath been made the Lord of the three worlds."
+      },
+      {
+        "key": "e40_kasyapa_muni",
+        "page": 40,
+        "excerpt": "that first of the Munis, viz., the Prajapati Kasyapa"
+      },
+      {
+        "key": "e40_son_for_kasyapa",
+        "page": 40,
+        "excerpt": "The Valakhilyas said, 'O Prajapati, this sacrifice of us all is for an Indra! Indeed this hath also been meant for a son being born unto thee!"
+      },
+      {
+        "key": "e40_vinata",
+        "page": 40,
+        "excerpt": "Meanwhile, moved by the desire of offspring, the good daughter of Daksha, the vow-observing, amiable, and fortunate Vinata, her ascetic penances over, having purified herself with a bath in that season when connubial companionship might prove fruitful, approached her lord. And Kasyapa spake unto her,"
+      },
+      {
+        "key": "e40_two_sons",
+        "page": 40,
+        "excerpt": "Two heroic sons, shall be born unto thee, who shall be the lords of the three worlds. By the penances of the Valakhilyas and by virtue of the desire with which I commenced my sacrifice, those sons shall be of exceedingly good fortune and worshipped in the three worlds!"
+      },
+      {
+        "key": "e40_seeds",
+        "page": 40,
+        "excerpt": "And the illustrious Kasyapa spake unto her again, 'Bear thou these auspicious seeds with great care. These two will be the lords of all winged creatures."
+      },
+      {
+        "key": "e40_brothers",
+        "page": 40,
+        "excerpt": "And the Prajapati, gratified with all that took place, then addressed Indra of a hundred sacrifices, saying, 'Thou shalt have two brothers of great energy and prowess, who shall be to thee even as the helpmates. From them no injury shall result unto thee."
+      },
+      {
+        "key": "e40_brahma",
+        "page": 40,
+        "excerpt": "Let not, however, the utterers of the name of Brahma be ever again slighted by thee."
+      },
+      {
+        "key": "e40_birth",
+        "page": 40,
+        "excerpt": "And Vinata also, her purpose fulfilled, was exceedingly glad. And she gave birth to two sons, Aruna and Garuda. And Aruna, of undeveloped body, became the fore-runner of the Sun. And Garuda was vested with the lordship over the birds."
+      },
+      {
+        "key": "e40_bhrigu",
+        "page": 40,
+        "excerpt": "O thou of Bhrigu's race, hearken now to the mighty achievement of Garuda."
+      },
+      {
+        "key": "e40_garuda_king",
+        "page": 40,
+        "excerpt": "Sauti said, 'O foremost of Brahmanas, the gods having prepared for battle in that way, Garuda, the king of birds, soon came upon those wise ones."
+      },
+      {
+        "key": "e40_architect",
+        "page": 40,
+        "excerpt": "And the gods beholding him of excessive strength began to quake with fear, and strike one another with all their weapons. And amongst those that guarded the Soma was Brahmana (the celestial architect), of measureless might, effulgent as the electric fire and of great energy. And after a terrific encounter lasting only a moment, managed by the lord of birds with his talons, beak, and wings, he lay as dead on the fields."
+      },
+      {
+        "key": "e40_immortal_guards",
+        "page": 40,
+        "excerpt": "And the immortals who guarded the amrita, blinded by that dust, could no longer see Garuda."
+      },
+      {
+        "key": "e40_vayu",
+        "page": 40,
+        "excerpt": "Then the god of a thousand eyes commanded Vayu (the god of wind), saying, 'Dispel thou this shower of dust soon. O Maruta, this is indeed, thy task. Then the mighty Vayu soon drove away that dust."
+      },
+      {
+        "key": "e41_yakshas",
+        "page": 41,
+        "excerpt": "And Garuda had encounters with the Yakshas, Aswakranda of great courage, Rainuka, the bold Krathanaka, Tapana, Uluka, Swasanaka, Nimesha, Praruja, and Pulina."
+      },
+      {
+        "key": "e41_siva",
+        "page": 41,
+        "excerpt": "And the son of Vinata mangled them with his wings, talons, and beak, like Siva himself, that chastiser of enemies, and the holder of Pinaka in rage at the end of the Yuga."
+      },
+      {
+        "key": "e41_sun",
+        "page": 41,
+        "excerpt": "And moved by violent winds, they seemed bent on burning the Sun himself."
+      }
+    ],
+    "unresolved": [
+      "Suta in 'son of Suta' may be a parental designation or a social designation. The possible parent record and its relationship to Sauti remain provisional; no personal name is established.",
+      "Kasyapa's parenthood of Aruna is suggested by the offspring-sacrifice, marital context, and two-son narrative, but Aruna is not directly called Kasyapa's son in this batch.",
+      "The 'god of gods' and 'god of a thousand eyes' are explicitly narrated individuals, but their identities are unresolved. Their separate records do not establish that they are distinct from Indra or from each other.",
+      "Brahman and Brahma are not explicitly equated. Whether either expression denotes an individual being rather than an impersonal referent remains uncertain. Neither is equated with Brahmana, the celestial architect.",
+      "The twin Aswins are mentioned collectively without individual names or distinguishing descriptions. No individuals are manufactured from this pair or from other undifferentiated groups.",
+      "Aruna and Garuda are explicitly Vinata's two sons, but their siblinghood with each other is not separately stated. No sibling relationship between them is inferred from their shared parent.",
+      "Bhrigu's race supplies a lineage reference without identifying an immediate parent-child relationship."
+    ]
+  },
+  "reconciliation": {
+    "matches": [
+      {
+        "localKey": "kasyapa",
+        "existingId": "mahabharata:b0009:kasyapa",
+        "reason": "Both identify Kasyapa as Garuda's father and Vinata's husband, distinguishing him from the physician candidate.",
+        "evidenceKeys": [
+          "e38_kasyapa_father",
+          "e40_vinata"
+        ]
+      },
+      {
+        "localKey": "vibhavasu",
+        "existingId": "mahabharata:b0011:vibhavasu_rishi",
+        "reason": "The same wrathful Rishi, elder brother of Supritika, becomes the tortoise through their reciprocal curses.",
+        "evidenceKeys": [
+          "e37_brothers",
+          "e37_vibhavasu_brother",
+          "e37_transformation"
+        ]
+      },
+      {
+        "localKey": "supritika",
+        "existingId": "mahabharata:b0011:supritika",
+        "reason": "Both identify Vibhavasu's younger brother who seeks partition and becomes the elephant; no connection to Bhagadatta's elephant is established.",
+        "evidenceKeys": [
+          "e37_brothers",
+          "e37_vibhavasu_brother",
+          "e37_transformation"
+        ]
+      },
+      {
+        "localKey": "sauti",
+        "existingId": "mahabharata:seed:ugrasrava-sauti",
+        "reason": "The existing narrator explicitly has the aliases Sauti and son of Suta; the current framing dialogue uses both designations for the responding narrator.",
+        "evidenceKeys": [
+          "e38_narrator",
+          "e39_question",
+          "e39_sauti_reply"
+        ]
+      },
+      {
+        "localKey": "garuda",
+        "existingId": "mahabharata:b0004:garuda",
+        "reason": "Both identify the lord of birds as the son of Kasyapa and Vinata within the Garuda birth narrative.",
+        "evidenceKeys": [
+          "e38_garuda_name",
+          "e38_kasyapa_father",
+          "e40_birth",
+          "e40_garuda_king"
+        ]
+      },
+      {
+        "localKey": "agni",
+        "existingId": "mahabharata:b0009:agni",
+        "reason": "The current Garuda splendour comparison corroborates the existing Agni reference in Garuda's birth and splendour episode, rather than relying on the name alone.",
+        "evidenceKeys": [
+          "e38_narrator",
+          "e38_agni"
+        ]
+      },
+      {
+        "localKey": "yama",
+        "existingId": "mahabharata:b0011:yama",
+        "reason": "Both invoke Yama specifically as the frightening comparator for Garuda in this narrative.",
+        "evidenceKeys": [
+          "e38_yama"
+        ]
+      },
+      {
+        "localKey": "vinata",
+        "existingId": "mahabharata:b0009:vinata",
+        "reason": "Both identify Kasyapa's wife and Garuda's mother, with another undeveloped son connected to the Sun.",
+        "evidenceKeys": [
+          "e40_vinata",
+          "e40_birth"
+        ]
+      },
+      {
+        "localKey": "indra",
+        "existingId": "mahabharata:b0002:indra",
+        "reason": "The Purandara designation and chief-of-the-gods role agree with the existing Indra's explicit alias and divine kingship.",
+        "evidenceKeys": [
+          "e39_indra_title",
+          "e39_vrihaspati",
+          "e39_indra_fuel",
+          "e39_purandara"
+        ]
+      },
+      {
+        "localKey": "saunaka",
+        "existingId": "mahabharata:seed:saunaka",
+        "reason": "Both place Saunaka as the framing listener questioning Sauti about the embedded divine narratives.",
+        "evidenceKeys": [
+          "e39_question",
+          "e39_sauti_reply"
+        ]
+      },
+      {
+        "localKey": "daksha",
+        "existingId": "mahabharata:b0010:daksha",
+        "reason": "Both explicitly identify Daksha as Vinata's parent.",
+        "evidenceKeys": [
+          "e40_vinata"
+        ]
+      },
+      {
+        "localKey": "aruna",
+        "existingId": "mahabharata:b0011:aruna",
+        "reason": "The Garuda family context and Aruna's solar role corroborate the existing Aruna, Garuda's brother and Surya's charioteer.",
+        "evidenceKeys": [
+          "e40_birth"
+        ]
+      },
+      {
+        "localKey": "bhrigu",
+        "existingId": "mahabharata:b0010:bhrigu",
+        "reason": "Both invoke Bhrigu's lineage in Sauti's address to his listener during the Garuda narrative.",
+        "evidenceKeys": [
+          "e39_sauti_reply",
+          "e40_bhrigu"
+        ]
+      },
+      {
+        "localKey": "unnamed_god_thousand_eyes",
+        "existingId": "mahabharata:b0002:indra",
+        "reason": "The existing Indra is explicitly addressed as 'thou of a thousand eyes'. That distinctive title and the Garuda/amrita-defense context identify this commander with the matched Indra.",
+        "evidenceKeys": [
+          "e40_vayu",
+          "e39_vrihaspati",
+          "e40_garuda_king"
+        ]
+      },
+      {
+        "localKey": "vayu",
+        "existingId": "mahabharata:seed:maruta",
+        "reason": "The current passage explicitly identifies Vayu as the god of wind and addresses him as Maruta, matching the existing Maruta's wind-god identity and Vayu evidence.",
+        "evidenceKeys": [
+          "e40_vayu"
+        ]
+      }
+    ],
+    "unresolved": [
+      "speaking_banian: No supplied existing candidate describes this individually speaking banian tree.",
+      "unnamed_god_of_gods: The blood-showering deity has no explicit identity or sufficiently distinctive correspondence to a supplied candidate.",
+      "vrihaspati: No corresponding existing candidate is supplied.",
+      "suta_parent: Suta remains ambiguous as a parental or social designation. No corresponding parent candidate is supplied; the Sauti record identifies the narrator rather than his parent.",
+      "cow_road_indentation: No supplied existing candidate identifies this cow.",
+      "brahman: The decree making Indra lord of the three worlds does not establish identity with any supplied Brahman or Brahma candidate, or settle whether the referent is an individual.",
+      "brahma: Mention of uttering Brahma's name supplies no distinctive context selecting among the existing Brahma candidates or equating this referent with Brahman.",
+      "sun: Neither supplied Sun candidate shares the distinctive Aruna connection or threatened-by-amrita-flames context. Solar personification and name equality alone do not select an identity.",
+      "brahmana_architect: No supplied candidate identifies the celestial architect. The text does not equate Brahmana with Brahman or Brahma.",
+      "aswakranda, rainuka, krathanaka, tapana, swasanaka, nimesha, praruja, pulina: No corresponding existing candidates are supplied.",
+      "uluka: The current Yaksha fighting Garuda has no established identity with the existing Uluka, Duryodhana's messenger to the Pandavas.",
+      "siva: The current Pinaka-holder comparison does not explicitly connect this referent with the existing poison-swallowing Siva or his supported aliases."
+    ]
+  }
+}

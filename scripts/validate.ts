@@ -10,7 +10,7 @@ import {
   exists,
   corpusPath,
   locateExcerpt,
-  normalize,
+  normalizeEvidence,
   type Corpus,
 } from "./io";
 import { hasParentCycle } from "../src/data/graph";
@@ -134,7 +134,8 @@ export async function validateAll() {
         if (
           location.start !== e.start ||
           location.end !== e.end ||
-          normalize(page.text.slice(e.start, e.end)) !== normalize(e.excerpt)
+          normalizeEvidence(page.text.slice(e.start, e.end)) !==
+            normalizeEvidence(e.excerpt)
         )
           throw new Error(`Evidence location mismatch ${e.id}`);
       }
