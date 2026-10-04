@@ -1,0 +1,5930 @@
+{
+  "schemaVersion": 1,
+  "epicId": "mahabharata",
+  "title": "Mahabharata",
+  "sources": [
+    {
+      "id": "mahabharata:ganguli",
+      "title": "The Complete Mahabharata in English",
+      "translator": "Kisari Mohan Ganguli",
+      "sha256": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+      "totalPages": 2328
+    }
+  ],
+  "characters": [
+    {
+      "id": "mahabharata:seed:santanu",
+      "name": "Santanu",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:60f33d0bd47c2f08158e",
+            "mahabharata:e:15246d12401b2297f8bb"
+          ]
+        }
+      ],
+      "description": "King; father of Bhishma, Chitrangada, and Vichitravirya.",
+      "evidenceIds": [
+        "mahabharata:e:60f33d0bd47c2f08158e",
+        "mahabharata:e:15246d12401b2297f8bb"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:ganga",
+      "name": "Ganga",
+      "aliases": [],
+      "kind": "deity",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:60f33d0bd47c2f08158e",
+            "mahabharata:e:a8d08c57a8e830df110c"
+          ]
+        }
+      ],
+      "description": "Queen of rivers; mother of Bhishma.",
+      "evidenceIds": [
+        "mahabharata:e:60f33d0bd47c2f08158e",
+        "mahabharata:e:a8d08c57a8e830df110c"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:bhishma",
+      "name": "Bhishma",
+      "aliases": [
+        {
+          "label": "Devavrata",
+          "evidenceIds": [
+            "mahabharata:e:60f33d0bd47c2f08158e"
+          ]
+        }
+      ],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:60f33d0bd47c2f08158e"
+          ]
+        }
+      ],
+      "description": "Son of Santanu and Ganga.",
+      "evidenceIds": [
+        "mahabharata:e:60f33d0bd47c2f08158e",
+        "mahabharata:e:15246d12401b2297f8bb"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:satyavati",
+      "name": "Satyavati",
+      "aliases": [
+        {
+          "label": "Gandhakali",
+          "evidenceIds": [
+            "mahabharata:e:15246d12401b2297f8bb"
+          ]
+        }
+      ],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:15246d12401b2297f8bb"
+          ]
+        }
+      ],
+      "description": "Mother of Vyasa, Chitrangada, and Vichitravirya.",
+      "evidenceIds": [
+        "mahabharata:e:15246d12401b2297f8bb",
+        "mahabharata:e:25bfabc6f0c63dd5bf46"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:parasara",
+      "name": "Parasara",
+      "aliases": [],
+      "kind": "sage",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:15246d12401b2297f8bb",
+            "mahabharata:e:d783060af67b9703cd55"
+          ]
+        }
+      ],
+      "description": "Rishi; father of Vyasa.",
+      "evidenceIds": [
+        "mahabharata:e:15246d12401b2297f8bb",
+        "mahabharata:e:d783060af67b9703cd55",
+        "mahabharata:e:25bfabc6f0c63dd5bf46"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:vyasa",
+      "name": "Vyasa",
+      "aliases": [
+        {
+          "label": "Dwaipayana",
+          "evidenceIds": [
+            "mahabharata:e:d783060af67b9703cd55",
+            "mahabharata:e:05514bd142058cf93f6c",
+            "mahabharata:e:25bfabc6f0c63dd5bf46"
+          ]
+        },
+        {
+          "label": "Krishna-Dwaipayana Vyasa",
+          "evidenceIds": [
+            "mahabharata:e:b9c27edb57cd97d107fc"
+          ]
+        },
+        {
+          "label": "Krishna-Dwaipayana",
+          "evidenceIds": [
+            "mahabharata:e:b9c27edb57cd97d107fc",
+            "mahabharata:e:c8ede4dd7317ab0ca09f",
+            "mahabharata:e:25bfabc6f0c63dd5bf46"
+          ]
+        },
+        {
+          "label": "Dwaipayana Vyasa",
+          "evidenceIds": [
+            "mahabharata:e:25bfabc6f0c63dd5bf46"
+          ]
+        }
+      ],
+      "kind": "sage",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:15246d12401b2297f8bb",
+            "mahabharata:e:d783060af67b9703cd55"
+          ]
+        },
+        {
+          "label": "male",
+          "context": "Called the son of Satyavati.",
+          "evidenceIds": [
+            "mahabharata:e:25bfabc6f0c63dd5bf46"
+          ]
+        }
+      ],
+      "description": "Brahmarshi also called Dwaipayana.",
+      "evidenceIds": [
+        "mahabharata:e:15246d12401b2297f8bb",
+        "mahabharata:e:d783060af67b9703cd55",
+        "mahabharata:e:b9c27edb57cd97d107fc",
+        "mahabharata:e:c8ede4dd7317ab0ca09f",
+        "mahabharata:e:05514bd142058cf93f6c",
+        "mahabharata:e:25bfabc6f0c63dd5bf46",
+        "mahabharata:e:2db44fd6e4d80613c4c3"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:chitrangada-son-santanu",
+      "name": "Chitrangada",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:15246d12401b2297f8bb"
+          ]
+        }
+      ],
+      "description": "Son of Santanu and Satyavati.",
+      "evidenceIds": [
+        "mahabharata:e:15246d12401b2297f8bb",
+        "mahabharata:e:60f33d0bd47c2f08158e"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:vichitravirya",
+      "name": "Vichitravirya",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:15246d12401b2297f8bb"
+          ]
+        }
+      ],
+      "description": "Son of Santanu and Satyavati.",
+      "evidenceIds": [
+        "mahabharata:e:15246d12401b2297f8bb",
+        "mahabharata:e:22838a53e25ddd4bbf29",
+        "mahabharata:e:60f33d0bd47c2f08158e"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:ambika",
+      "name": "Ambika",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:22838a53e25ddd4bbf29"
+          ]
+        }
+      ],
+      "description": "Daughter of the ruler of Kasi; wife of Vichitravirya.",
+      "evidenceIds": [
+        "mahabharata:e:22838a53e25ddd4bbf29",
+        "mahabharata:e:22dd87338359be588471"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:ambalika",
+      "name": "Ambalika",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:22838a53e25ddd4bbf29"
+          ]
+        }
+      ],
+      "description": "Daughter of the ruler of Kasi; wife of Vichitravirya.",
+      "evidenceIds": [
+        "mahabharata:e:22838a53e25ddd4bbf29",
+        "mahabharata:e:14f0adfd67d3f4ccdc87"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:dhritarashtra",
+      "name": "Dhritarashtra",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:2db44fd6e4d80613c4c3"
+          ]
+        }
+      ],
+      "description": "Kuru king; one of the three children begotten by Vyasa.",
+      "evidenceIds": [
+        "mahabharata:e:2db44fd6e4d80613c4c3",
+        "mahabharata:e:7095b37fbed0d6413662",
+        "mahabharata:e:22dd87338359be588471"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:pandu",
+      "name": "Pandu",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:2db44fd6e4d80613c4c3"
+          ]
+        }
+      ],
+      "description": "Kuru king; father of the five Pandavas in the dynasty.",
+      "evidenceIds": [
+        "mahabharata:e:2db44fd6e4d80613c4c3",
+        "mahabharata:e:14f0adfd67d3f4ccdc87",
+        "mahabharata:e:14ae35a84f03b2d1bcd2",
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:vidura",
+      "name": "Vidura",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:2db44fd6e4d80613c4c3"
+          ]
+        }
+      ],
+      "description": "Brother of Dhritarashtra and Pandu.",
+      "evidenceIds": [
+        "mahabharata:e:2db44fd6e4d80613c4c3",
+        "mahabharata:e:c5510119cb28e7e329b7",
+        "mahabharata:e:97dc4563adab2cdd1297"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:vidura-mother-unnamed",
+      "name": "Vidura\u2019s mother (unnamed maid)",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:c5510119cb28e7e329b7",
+            "mahabharata:e:97dc4563adab2cdd1297"
+          ]
+        }
+      ],
+      "description": "The maid sent to Vyasa; mother of Vidura.",
+      "evidenceIds": [
+        "mahabharata:e:c5510119cb28e7e329b7",
+        "mahabharata:e:97dc4563adab2cdd1297"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:gandhari",
+      "name": "Gandhari",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:7095b37fbed0d6413662"
+          ]
+        }
+      ],
+      "description": "Wife of Dhritarashtra; mother of the Kaurava sons.",
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:duryodhana-son-dhritarashtra",
+      "name": "Duryodhana",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:7095b37fbed0d6413662"
+          ]
+        }
+      ],
+      "description": "Son of Dhritarashtra and Gandhari.",
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:duhsasana-son-dhritarashtra",
+      "name": "Duhsasana",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:7095b37fbed0d6413662"
+          ]
+        }
+      ],
+      "description": "Son of Dhritarashtra and Gandhari.",
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:vikarna-son-dhritarashtra",
+      "name": "Vikarna",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:7095b37fbed0d6413662"
+          ]
+        }
+      ],
+      "description": "Son of Dhritarashtra and Gandhari.",
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:chitrasena-son-dhritarashtra",
+      "name": "Chitrasena",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:7095b37fbed0d6413662"
+          ]
+        }
+      ],
+      "description": "Son of Dhritarashtra and Gandhari.",
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:kunti",
+      "name": "Kunti",
+      "aliases": [
+        {
+          "label": "Pritha",
+          "evidenceIds": [
+            "mahabharata:e:14ae35a84f03b2d1bcd2"
+          ]
+        }
+      ],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:14ae35a84f03b2d1bcd2"
+          ]
+        }
+      ],
+      "description": "Wife of Pandu; also called Pritha.",
+      "evidenceIds": [
+        "mahabharata:e:14ae35a84f03b2d1bcd2",
+        "mahabharata:e:a5abb310425d023d02ec"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:madri",
+      "name": "Madri",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:14ae35a84f03b2d1bcd2"
+          ]
+        }
+      ],
+      "description": "Wife of Pandu; mother of Nakula and Sahadeva.",
+      "evidenceIds": [
+        "mahabharata:e:14ae35a84f03b2d1bcd2",
+        "mahabharata:e:484d434cb864fb2c2062"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:yudhishthira",
+      "name": "Yudhishthira",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:a5abb310425d023d02ec",
+            "mahabharata:e:8b4d1c1ff21cee523bfa"
+          ]
+        }
+      ],
+      "description": "Son of Kunti and Dharma; eldest Pandava.",
+      "evidenceIds": [
+        "mahabharata:e:a5abb310425d023d02ec",
+        "mahabharata:e:8b4d1c1ff21cee523bfa",
+        "mahabharata:e:f448f49039cadbd9480d",
+        "mahabharata:e:3f2918e7abc04fd0703c",
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:36d51349efbc2e8e0b5d"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:bhima",
+      "name": "Bhima",
+      "aliases": [
+        {
+          "label": "Vrikodara",
+          "evidenceIds": [
+            "mahabharata:e:e5c3d772bc25c6b1158c"
+          ]
+        }
+      ],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:a5abb310425d023d02ec",
+            "mahabharata:e:8b4d1c1ff21cee523bfa"
+          ]
+        }
+      ],
+      "description": "Son of Kunti and the wind god; a Pandava.",
+      "evidenceIds": [
+        "mahabharata:e:a5abb310425d023d02ec",
+        "mahabharata:e:8b4d1c1ff21cee523bfa",
+        "mahabharata:e:3f2918e7abc04fd0703c",
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:1fcbd4d708fb07587f5a",
+        "mahabharata:e:5e7f33c49d2cd3dc4afb",
+        "mahabharata:e:bb7975fe289bc34a0e84"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:arjuna",
+      "name": "Arjuna",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:a5abb310425d023d02ec",
+            "mahabharata:e:8b4d1c1ff21cee523bfa"
+          ]
+        }
+      ],
+      "description": "Son of Kunti and Sakra; a Pandava.",
+      "evidenceIds": [
+        "mahabharata:e:a5abb310425d023d02ec",
+        "mahabharata:e:8b4d1c1ff21cee523bfa",
+        "mahabharata:e:3f2918e7abc04fd0703c",
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:4e73aab55bcb4b6f1dca",
+        "mahabharata:e:d6392979ce9927f2dca2"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:nakula",
+      "name": "Nakula",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:484d434cb864fb2c2062",
+            "mahabharata:e:8b4d1c1ff21cee523bfa"
+          ]
+        }
+      ],
+      "description": "Son of Madri; twin brother of Sahadeva.",
+      "evidenceIds": [
+        "mahabharata:e:484d434cb864fb2c2062",
+        "mahabharata:e:8b4d1c1ff21cee523bfa",
+        "mahabharata:e:3f2918e7abc04fd0703c",
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:0089ec9332700cb98903"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:sahadeva",
+      "name": "Sahadeva",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:484d434cb864fb2c2062",
+            "mahabharata:e:8b4d1c1ff21cee523bfa"
+          ]
+        }
+      ],
+      "description": "Son of Madri; twin brother of Nakula.",
+      "evidenceIds": [
+        "mahabharata:e:484d434cb864fb2c2062",
+        "mahabharata:e:8b4d1c1ff21cee523bfa",
+        "mahabharata:e:3f2918e7abc04fd0703c",
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:b55e0c3e70f1952cddfb"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:dharma",
+      "name": "Dharma",
+      "aliases": [],
+      "kind": "deity",
+      "gender": [],
+      "description": "Celestial progenitor of Yudhishthira.",
+      "evidenceIds": [
+        "mahabharata:e:a5abb310425d023d02ec",
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:maruta",
+      "name": "Maruta",
+      "aliases": [],
+      "kind": "deity",
+      "gender": [],
+      "description": "The wind god; progenitor of Bhima.",
+      "evidenceIds": [
+        "mahabharata:e:a5abb310425d023d02ec",
+        "mahabharata:e:16e94fe281f27c09bb20"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:sakra",
+      "name": "Sakra",
+      "aliases": [],
+      "kind": "deity",
+      "gender": [],
+      "description": "King of the gods; progenitor of Arjuna.",
+      "evidenceIds": [
+        "mahabharata:e:a5abb310425d023d02ec",
+        "mahabharata:e:0bc2fe27de9fde214bae"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:draupadi",
+      "name": "Draupadi",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:a85a7c8af5e5419960a6"
+          ]
+        }
+      ],
+      "description": "Common wife of the five Pandavas.",
+      "evidenceIds": [
+        "mahabharata:e:a85a7c8af5e5419960a6",
+        "mahabharata:e:3f2918e7abc04fd0703c",
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:prativindhya-son-yudhishthira",
+      "name": "Prativindhya",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:c1184c69efaf499d45e3"
+          ]
+        }
+      ],
+      "description": "Son of Yudhishthira.",
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:36d51349efbc2e8e0b5d"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:sutasoma-son-bhima",
+      "name": "Sutasoma",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:c1184c69efaf499d45e3"
+          ]
+        }
+      ],
+      "description": "Son of Bhima.",
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:1fcbd4d708fb07587f5a",
+        "mahabharata:e:bb7975fe289bc34a0e84"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:srutakriti-son-arjuna",
+      "name": "Srutakriti",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:c1184c69efaf499d45e3"
+          ]
+        }
+      ],
+      "description": "Son of Arjuna.",
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:d6392979ce9927f2dca2"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:satanika-son-nakula",
+      "name": "Satanika",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:c1184c69efaf499d45e3"
+          ]
+        }
+      ],
+      "description": "Son of Nakula.",
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:0089ec9332700cb98903"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:srutakarman-son-sahadeva",
+      "name": "Srutakarman",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:c1184c69efaf499d45e3"
+          ]
+        }
+      ],
+      "description": "Son of Sahadeva.",
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:b55e0c3e70f1952cddfb"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:devika",
+      "name": "Devika",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:36d51349efbc2e8e0b5d"
+          ]
+        }
+      ],
+      "description": "Daughter of Govasana; wife of Yudhishthira.",
+      "evidenceIds": [
+        "mahabharata:e:36d51349efbc2e8e0b5d"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:govasana",
+      "name": "Govasana",
+      "aliases": [],
+      "kind": "human",
+      "gender": [],
+      "description": "Father of Devika; of the Saivya tribe.",
+      "evidenceIds": [
+        "mahabharata:e:36d51349efbc2e8e0b5d"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:yaudheya",
+      "name": "Yaudheya",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:36d51349efbc2e8e0b5d"
+          ]
+        }
+      ],
+      "description": "Son of Yudhishthira and Devika.",
+      "evidenceIds": [
+        "mahabharata:e:36d51349efbc2e8e0b5d",
+        "mahabharata:e:c1184c69efaf499d45e3"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:valandhara",
+      "name": "Valandhara",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:1fcbd4d708fb07587f5a"
+          ]
+        }
+      ],
+      "description": "Daughter of a king of Kasi; wife of Bhima.",
+      "evidenceIds": [
+        "mahabharata:e:1fcbd4d708fb07587f5a"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:sarvaga",
+      "name": "Sarvaga",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:1fcbd4d708fb07587f5a"
+          ]
+        }
+      ],
+      "description": "Son of Bhima and Valandhara.",
+      "evidenceIds": [
+        "mahabharata:e:1fcbd4d708fb07587f5a",
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:bb7975fe289bc34a0e84"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:subhadra",
+      "name": "Subhadra",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:d6392979ce9927f2dca2"
+          ]
+        }
+      ],
+      "description": "Mother of Abhimanyu; wife of Arjuna.",
+      "evidenceIds": [
+        "mahabharata:e:d6392979ce9927f2dca2",
+        "mahabharata:e:4e73aab55bcb4b6f1dca",
+        "mahabharata:e:c67205d124b4ac453b88"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:abhimanyu",
+      "name": "Abhimanyu",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:d6392979ce9927f2dca2"
+          ]
+        }
+      ],
+      "description": "Son of Arjuna and Subhadra.",
+      "evidenceIds": [
+        "mahabharata:e:d6392979ce9927f2dca2",
+        "mahabharata:e:018346805cd7ebaf1222",
+        "mahabharata:e:ec2d2c0e00fedb7d8775",
+        "mahabharata:e:c1184c69efaf499d45e3"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:krishna",
+      "name": "Krishna",
+      "aliases": [],
+      "kind": "deity",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:c67205d124b4ac453b88"
+          ]
+        }
+      ],
+      "description": "Brother of Subhadra and Balarama.",
+      "evidenceIds": [
+        "mahabharata:e:c67205d124b4ac453b88",
+        "mahabharata:e:7d9a6c29ee3a679165fe"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:balarama",
+      "name": "Balarama",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:c67205d124b4ac453b88"
+          ]
+        }
+      ],
+      "description": "Brother of Krishna and Subhadra.",
+      "evidenceIds": [
+        "mahabharata:e:c67205d124b4ac453b88"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:karenumati",
+      "name": "Karenumati",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:0089ec9332700cb98903"
+          ]
+        }
+      ],
+      "description": "Princess of Chedi; wife of Nakula.",
+      "evidenceIds": [
+        "mahabharata:e:0089ec9332700cb98903"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:niramitra",
+      "name": "Niramitra",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:0089ec9332700cb98903"
+          ]
+        }
+      ],
+      "description": "Son of Nakula and Karenumati.",
+      "evidenceIds": [
+        "mahabharata:e:0089ec9332700cb98903",
+        "mahabharata:e:c1184c69efaf499d45e3"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:vijaya-wife-sahadeva",
+      "name": "Vijaya",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:b55e0c3e70f1952cddfb"
+          ]
+        }
+      ],
+      "description": "Daughter of Dyutimat; wife of Sahadeva.",
+      "evidenceIds": [
+        "mahabharata:e:b55e0c3e70f1952cddfb"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:dyutimat",
+      "name": "Dyutimat",
+      "aliases": [],
+      "kind": "human",
+      "gender": [],
+      "description": "King of Madra; father of Vijaya.",
+      "evidenceIds": [
+        "mahabharata:e:b55e0c3e70f1952cddfb"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:suhotra-son-sahadeva",
+      "name": "Suhotra",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:b55e0c3e70f1952cddfb"
+          ]
+        }
+      ],
+      "description": "Son of Sahadeva and Vijaya.",
+      "evidenceIds": [
+        "mahabharata:e:b55e0c3e70f1952cddfb",
+        "mahabharata:e:c1184c69efaf499d45e3"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:hidimva-wife-bhima",
+      "name": "Hidimva",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:5e7f33c49d2cd3dc4afb"
+          ]
+        }
+      ],
+      "description": "Wife of Bhima; sister of the Rakshasa he slew.",
+      "evidenceIds": [
+        "mahabharata:e:5e7f33c49d2cd3dc4afb"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:ghatotkacha",
+      "name": "Ghatotkacha",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:5e7f33c49d2cd3dc4afb",
+            "mahabharata:e:bb7975fe289bc34a0e84"
+          ]
+        }
+      ],
+      "description": "Son of Bhima and Hidimva.",
+      "evidenceIds": [
+        "mahabharata:e:5e7f33c49d2cd3dc4afb",
+        "mahabharata:e:bb7975fe289bc34a0e84",
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:1fcbd4d708fb07587f5a"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:uttara-daughter-virata",
+      "name": "Uttara",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:018346805cd7ebaf1222"
+          ]
+        }
+      ],
+      "description": "Daughter of Virata; wife of Abhimanyu.",
+      "evidenceIds": [
+        "mahabharata:e:018346805cd7ebaf1222",
+        "mahabharata:e:ec2d2c0e00fedb7d8775"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:virata",
+      "name": "Virata",
+      "aliases": [],
+      "kind": "human",
+      "gender": [],
+      "description": "Father of Uttara.",
+      "evidenceIds": [
+        "mahabharata:e:018346805cd7ebaf1222"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:parikshit-son-abhimanyu",
+      "name": "Parikshit",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:018346805cd7ebaf1222",
+            "mahabharata:e:ec2d2c0e00fedb7d8775"
+          ]
+        }
+      ],
+      "description": "Child of Abhimanyu and Uttara, born dead in the cited account.",
+      "evidenceIds": [
+        "mahabharata:e:018346805cd7ebaf1222",
+        "mahabharata:e:ec2d2c0e00fedb7d8775",
+        "mahabharata:e:6b17ccfb4d2243ceb446",
+        "mahabharata:e:69caebda16f0bd62301a"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:madravati",
+      "name": "Madravati",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:69caebda16f0bd62301a"
+          ]
+        }
+      ],
+      "description": "Wife of Parikshit; mother of Janamejaya.",
+      "evidenceIds": [
+        "mahabharata:e:69caebda16f0bd62301a"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:janamejaya-son-parikshit",
+      "name": "Janamejaya",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:69caebda16f0bd62301a",
+            "mahabharata:e:b2990c9293e9fad6291e"
+          ]
+        },
+        {
+          "label": "male",
+          "context": "Referred to as the son of Parikshit.",
+          "evidenceIds": [
+            "mahabharata:e:6b17ccfb4d2243ceb446"
+          ]
+        }
+      ],
+      "description": "Son of Parikshit and Madravati; listener at the snake sacrifice.",
+      "evidenceIds": [
+        "mahabharata:e:69caebda16f0bd62301a",
+        "mahabharata:e:b2990c9293e9fad6291e",
+        "mahabharata:e:6b17ccfb4d2243ceb446",
+        "mahabharata:e:39cea72965e96ac4d8f3",
+        "mahabharata:e:84bbba4d3411b5b2a056"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:vapushtama",
+      "name": "Vapushtama",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:84bbba4d3411b5b2a056"
+          ]
+        }
+      ],
+      "description": "Wife of Janamejaya; mother of Satanika and Sankukarna.",
+      "evidenceIds": [
+        "mahabharata:e:84bbba4d3411b5b2a056",
+        "mahabharata:e:69caebda16f0bd62301a"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:satanika-son-janamejaya",
+      "name": "Satanika",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:84bbba4d3411b5b2a056"
+          ]
+        }
+      ],
+      "description": "Son of Janamejaya and Vapushtama.",
+      "evidenceIds": [
+        "mahabharata:e:84bbba4d3411b5b2a056",
+        "mahabharata:e:69caebda16f0bd62301a"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:sankukarna-son-janamejaya",
+      "name": "Sankukarna",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:84bbba4d3411b5b2a056"
+          ]
+        }
+      ],
+      "description": "Son of Janamejaya and Vapushtama.",
+      "evidenceIds": [
+        "mahabharata:e:84bbba4d3411b5b2a056",
+        "mahabharata:e:69caebda16f0bd62301a"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:puru",
+      "name": "Puru",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:82923d539e0808801621"
+          ]
+        }
+      ],
+      "description": "Ancestor in the Paurava genealogy; husband of Kausalya.",
+      "evidenceIds": [
+        "mahabharata:e:82923d539e0808801621"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:kausalya-wife-puru",
+      "name": "Kausalya",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:82923d539e0808801621"
+          ]
+        }
+      ],
+      "description": "Wife of Puru; mother of an earlier Janamejaya.",
+      "evidenceIds": [
+        "mahabharata:e:82923d539e0808801621"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:janamejaya-son-puru",
+      "name": "Janamejaya",
+      "aliases": [],
+      "kind": "human",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:82923d539e0808801621"
+          ]
+        }
+      ],
+      "description": "Son of Puru and Kausalya; an ancestor, distinct from the snake-sacrifice king.",
+      "evidenceIds": [
+        "mahabharata:e:82923d539e0808801621"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:ugrasrava-sauti",
+      "name": "Ugrasrava",
+      "aliases": [
+        {
+          "label": "Sauti",
+          "evidenceIds": [
+            "mahabharata:e:82242dec3266022c80a6",
+            "mahabharata:e:c4407fee8c772989b502",
+            "mahabharata:e:764194f85191cc643b41"
+          ]
+        }
+      ],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:82242dec3266022c80a6"
+          ]
+        },
+        {
+          "label": "male",
+          "context": "Called the son of Lomaharshana.",
+          "evidenceIds": [
+            "mahabharata:e:82242dec3266022c80a6"
+          ]
+        }
+      ],
+      "description": "Narrator, surnamed Sauti; son of Lomaharshana.",
+      "evidenceIds": [
+        "mahabharata:e:82242dec3266022c80a6",
+        "mahabharata:e:c4407fee8c772989b502",
+        "mahabharata:e:764194f85191cc643b41"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:lomaharshana",
+      "name": "Lomaharshana",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Father of the narrator Ugrasrava.",
+      "evidenceIds": [
+        "mahabharata:e:82242dec3266022c80a6"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:saunaka",
+      "name": "Saunaka",
+      "aliases": [
+        {
+          "label": "Kulapati",
+          "evidenceIds": [
+            "mahabharata:e:29ca7fb5c61fad513266"
+          ]
+        }
+      ],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Host of the twelve-year sacrifice in the framing narrative.",
+      "evidenceIds": [
+        "mahabharata:e:95af7859863b767905aa",
+        "mahabharata:e:29ca7fb5c61fad513266"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:sarama",
+      "name": "Sarama",
+      "aliases": [],
+      "kind": "animal",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:93893cb4ea6451366cc1"
+          ]
+        }
+      ],
+      "description": "Celestial dog; mother of the unnamed dog at the sacrifice.",
+      "evidenceIds": [
+        "mahabharata:e:93893cb4ea6451366cc1"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:seed:sarama-offspring-unnamed",
+      "name": "Sarama\u2019s son (unnamed dog)",
+      "aliases": [],
+      "kind": "animal",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Gendered description in the cited passage.",
+          "evidenceIds": [
+            "mahabharata:e:93893cb4ea6451366cc1",
+            "mahabharata:e:ef87fde0c0feb0f5ef38"
+          ]
+        }
+      ],
+      "description": "The individual dog beaten at Janamejaya\u2019s sacrifice.",
+      "evidenceIds": [
+        "mahabharata:e:93893cb4ea6451366cc1",
+        "mahabharata:e:ef87fde0c0feb0f5ef38"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:narayana",
+      "name": "Narayana",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Being named in the opening invocation.",
+      "evidenceIds": [
+        "mahabharata:e:47cc58f545dad8a852e0"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:nara",
+      "name": "Nara",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Called the most exalted male being.",
+          "evidenceIds": [
+            "mahabharata:e:47cc58f545dad8a852e0"
+          ]
+        }
+      ],
+      "description": "Being invoked as the most exalted male being.",
+      "evidenceIds": [
+        "mahabharata:e:47cc58f545dad8a852e0"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:saraswati",
+      "name": "Saraswati",
+      "aliases": [],
+      "kind": "deity",
+      "gender": [
+        {
+          "label": "female",
+          "context": "Explicitly called a goddess.",
+          "evidenceIds": [
+            "mahabharata:e:47cc58f545dad8a852e0"
+          ]
+        }
+      ],
+      "description": "Goddess named in the opening invocation.",
+      "evidenceIds": [
+        "mahabharata:e:47cc58f545dad8a852e0"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:unnamed_questioning_rishi",
+      "name": "Unnamed Rishi who questions Sauti",
+      "aliases": [],
+      "kind": "sage",
+      "gender": [],
+      "description": "Individual Rishi who opens the conversation with Sauti and requests the Bharata narrative.",
+      "evidenceIds": [
+        "mahabharata:e:c4407fee8c772989b502",
+        "mahabharata:e:05514bd142058cf93f6c",
+        "mahabharata:e:39cea72965e96ac4d8f3"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:vaisampayana",
+      "name": "Vaisampayana",
+      "aliases": [],
+      "kind": "sage",
+      "gender": [],
+      "description": "Rishi who recites the history at Janamejaya's snake-sacrifice under Dwaipayana's direction.",
+      "evidenceIds": [
+        "mahabharata:e:6b17ccfb4d2243ceb446",
+        "mahabharata:e:39cea72965e96ac4d8f3"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:kuru",
+      "name": "Kuru",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Individual whose children are mentioned as participants in the former battle.",
+      "evidenceIds": [
+        "mahabharata:e:58d89afb77f457a89c5e"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:pandu",
+      "name": "Pandu",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Individual whose children are mentioned as participants in the former battle.",
+      "evidenceIds": [
+        "mahabharata:e:58d89afb77f457a89c5e"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:isana_primordial",
+      "name": "Isana",
+      "aliases": [
+        {
+          "label": "Brahma",
+          "evidenceIds": [
+            "mahabharata:e:ad786caafcee5ae6b569"
+          ]
+        },
+        {
+          "label": "Vishnu",
+          "evidenceIds": [
+            "mahabharata:e:ad786caafcee5ae6b569",
+            "mahabharata:e:65f407adb2a201ac59c9"
+          ]
+        },
+        {
+          "label": "Hari",
+          "evidenceIds": [
+            "mahabharata:e:ad786caafcee5ae6b569",
+            "mahabharata:e:65f407adb2a201ac59c9",
+            "mahabharata:e:ec16bb0accee749dbf6e"
+          ]
+        }
+      ],
+      "kind": "deity",
+      "gender": [],
+      "description": "Primordial being worshipped with offerings and invoked as the creator; the invocation identifies this being as Brahma, Vishnu and Hari.",
+      "evidenceIds": [
+        "mahabharata:e:ad786caafcee5ae6b569",
+        "mahabharata:e:65f407adb2a201ac59c9",
+        "mahabharata:e:ec16bb0accee749dbf6e"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:brahma_true_light",
+      "name": "Brahma",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Being described as the true light, eternal, inconceivable and present alike in all places.",
+      "evidenceIds": [
+        "mahabharata:e:5cde13d92456ce50d5e3"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:brahma_pitamaha",
+      "name": "Pitamaha Brahma",
+      "aliases": [
+        {
+          "label": "Brahma",
+          "evidenceIds": [
+            "mahabharata:e:058bc1defaa12cd56254"
+          ]
+        }
+      ],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Lord called the one only Prajapati, who emerges from the primordial egg.",
+      "evidenceIds": [
+        "mahabharata:e:058bc1defaa12cd56254"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:brahma_visitor",
+      "name": "Brahma",
+      "aliases": [
+        {
+          "label": "Hiranyagarbha",
+          "evidenceIds": [
+            "mahabharata:e:aef6a4858bd2685fa4f5",
+            "mahabharata:e:efee219433ecee643333"
+          ]
+        },
+        {
+          "label": "Brahma Parameshthi",
+          "evidenceIds": [
+            "mahabharata:e:efee219433ecee643333",
+            "mahabharata:e:4624c576c7bbd1fd3f75"
+          ]
+        },
+        {
+          "label": "Parameshthi",
+          "evidenceIds": [
+            "mahabharata:e:efee219433ecee643333",
+            "mahabharata:e:4624c576c7bbd1fd3f75"
+          ]
+        }
+      ],
+      "kind": "deity",
+      "gender": [
+        {
+          "label": "male",
+          "context": "The account says that Brahma retired to his own abode.",
+          "evidenceIds": [
+            "mahabharata:e:a7f547ea8e0a35c88244"
+          ]
+        }
+      ],
+      "description": "Divine preceptor who visits Vyasa and recommends Ganesa as the writer of the poem.",
+      "evidenceIds": [
+        "mahabharata:e:aef6a4858bd2685fa4f5",
+        "mahabharata:e:efee219433ecee643333",
+        "mahabharata:e:4624c576c7bbd1fd3f75",
+        "mahabharata:e:c71a6ed630b2184b4cb9",
+        "mahabharata:e:a7f547ea8e0a35c88244"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:suraguru",
+      "name": "Suraguru",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Being named with Pitamaha Brahma and Sthanu in the emergence from the primordial egg.",
+      "evidenceIds": [
+        "mahabharata:e:058bc1defaa12cd56254"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:sthanu",
+      "name": "Sthanu",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Being named with Pitamaha Brahma and Suraguru in the emergence from the primordial egg.",
+      "evidenceIds": [
+        "mahabharata:e:058bc1defaa12cd56254"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:manu",
+      "name": "Manu",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Individually named Prajapati in the creation list.",
+      "evidenceIds": [
+        "mahabharata:e:796cc3a17df922306ecf"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:vasishtha",
+      "name": "Vasishtha",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Individually named Prajapati in the creation list.",
+      "evidenceIds": [
+        "mahabharata:e:796cc3a17df922306ecf"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:parameshthi_list",
+      "name": "Parameshthi",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Individually named Prajapati in the creation list.",
+      "evidenceIds": [
+        "mahabharata:e:796cc3a17df922306ecf"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:daksha",
+      "name": "Daksha",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Named Prajapati whose seven sons are also mentioned collectively in the creation list.",
+      "evidenceIds": [
+        "mahabharata:e:796cc3a17df922306ecf"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:unnamed_inconceivable_man",
+      "name": "Unnamed man of inconceivable nature",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Explicitly described as a man.",
+          "evidenceIds": [
+            "mahabharata:e:dfe198193e5d92f3ef61"
+          ]
+        }
+      ],
+      "description": "Individual appearing in the creation account, said to be known to all the Rishis.",
+      "evidenceIds": [
+        "mahabharata:e:dfe198193e5d92f3ef61"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:div",
+      "name": "Div",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Parent of the sons enumerated in the generation account.",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:brihadbhanu",
+      "name": "Brihadbhanu",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Included among the sons of Div.",
+          "evidenceIds": [
+            "mahabharata:e:4531014d37a4a8ccdcf7"
+          ]
+        }
+      ],
+      "description": "One of the named sons of Div.",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:chakshus",
+      "name": "Chakshus",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Included among the sons of Div.",
+          "evidenceIds": [
+            "mahabharata:e:4531014d37a4a8ccdcf7"
+          ]
+        }
+      ],
+      "description": "One of the named sons of Div.",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:atma_vibhavasu",
+      "name": "Atma Vibhavasu",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "The source label occurs within the list of Div's sons; its division into individual names remains uncertain.",
+          "evidenceIds": [
+            "mahabharata:e:4531014d37a4a8ccdcf7"
+          ]
+        }
+      ],
+      "description": "Provisionally treated as one individual under the undelimited source label in the list of Div's sons.",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "provisional"
+    },
+    {
+      "id": "mahabharata:b0001:savita",
+      "name": "Savita",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Included among the sons of Div.",
+          "evidenceIds": [
+            "mahabharata:e:4531014d37a4a8ccdcf7"
+          ]
+        }
+      ],
+      "description": "One of the named sons of Div.",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:richika",
+      "name": "Richika",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Included among the sons of Div.",
+          "evidenceIds": [
+            "mahabharata:e:4531014d37a4a8ccdcf7"
+          ]
+        }
+      ],
+      "description": "One of the named sons of Div.",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:arka",
+      "name": "Arka",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Included among the sons of Div.",
+          "evidenceIds": [
+            "mahabharata:e:4531014d37a4a8ccdcf7"
+          ]
+        }
+      ],
+      "description": "One of the named sons of Div.",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:bhanu",
+      "name": "Bhanu",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Included among the sons of Div.",
+          "evidenceIds": [
+            "mahabharata:e:4531014d37a4a8ccdcf7"
+          ]
+        }
+      ],
+      "description": "One of the named sons of Div.",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:asavaha",
+      "name": "Asavaha",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Included among the sons of Div.",
+          "evidenceIds": [
+            "mahabharata:e:4531014d37a4a8ccdcf7"
+          ]
+        }
+      ],
+      "description": "One of the named sons of Div.",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:ravi",
+      "name": "Ravi",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Included among the sons of Div.",
+          "evidenceIds": [
+            "mahabharata:e:4531014d37a4a8ccdcf7"
+          ]
+        }
+      ],
+      "description": "One of the named sons of Div.",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:mahya",
+      "name": "Mahya",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Called the youngest of the referenced Vivaswans of old and the parent of Deva-vrata.",
+      "evidenceIds": [
+        "mahabharata:e:1a50976d33d72b52b076",
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:deva_vrata",
+      "name": "Deva-vrata",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Explicitly called Mahya's son.",
+          "evidenceIds": [
+            "mahabharata:e:1a50976d33d72b52b076"
+          ]
+        }
+      ],
+      "description": "Son of Mahya and parent of Su-vrata.",
+      "evidenceIds": [
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:su_vrata",
+      "name": "Su-vrata",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Explicitly called Deva-vrata's son.",
+          "evidenceIds": [
+            "mahabharata:e:1a50976d33d72b52b076"
+          ]
+        }
+      ],
+      "description": "Son of Deva-vrata and parent of Dasa-jyoti, Sata-jyoti and Sahasra-jyoti.",
+      "evidenceIds": [
+        "mahabharata:e:1a50976d33d72b52b076",
+        "mahabharata:e:bb4248b557d137434991"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:dasa_jyoti",
+      "name": "Dasa-jyoti",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Included among Su-vrata's three sons.",
+          "evidenceIds": [
+            "mahabharata:e:bb4248b557d137434991"
+          ]
+        }
+      ],
+      "description": "Son of Su-vrata, said to have ten thousand offspring.",
+      "evidenceIds": [
+        "mahabharata:e:bb4248b557d137434991",
+        "mahabharata:e:50f377ac2879ddfffda2"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:sata_jyoti",
+      "name": "Sata-jyoti",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Included among Su-vrata's three sons.",
+          "evidenceIds": [
+            "mahabharata:e:bb4248b557d137434991"
+          ]
+        }
+      ],
+      "description": "Son of Su-vrata, said to have ten times Dasa-jyoti's number of offspring.",
+      "evidenceIds": [
+        "mahabharata:e:bb4248b557d137434991",
+        "mahabharata:e:50f377ac2879ddfffda2"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:sahasra_jyoti",
+      "name": "Sahasra-jyoti",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [
+        {
+          "label": "male",
+          "context": "Included among Su-vrata's three sons.",
+          "evidenceIds": [
+            "mahabharata:e:bb4248b557d137434991"
+          ]
+        }
+      ],
+      "description": "Son of Su-vrata, said to have ten times Sata-jyoti's number of offspring.",
+      "evidenceIds": [
+        "mahabharata:e:bb4248b557d137434991",
+        "mahabharata:e:50f377ac2879ddfffda2"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:bharata",
+      "name": "Bharata",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Individual named through the family of Bharata in the descent account.",
+      "evidenceIds": [
+        "mahabharata:e:cf115ff221ca9a666599"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:yayati",
+      "name": "Yayati",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Individual whose family is named in the descent account.",
+      "evidenceIds": [
+        "mahabharata:e:cf115ff221ca9a666599"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:ikshwaku",
+      "name": "Ikshwaku",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Individual whose family is named in the descent account.",
+      "evidenceIds": [
+        "mahabharata:e:cf115ff221ca9a666599"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:astika",
+      "name": "Astika",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Named subject of a story from which some readers begin the Bharata.",
+      "evidenceIds": [
+        "mahabharata:e:9e43abb87e5c80b48907"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:uparichara",
+      "name": "Uparichara",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Named narrative figure from whom some readers begin the Bharata.",
+      "evidenceIds": [
+        "mahabharata:e:9e43abb87e5c80b48907"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:ganesa",
+      "name": "Ganesa",
+      "aliases": [],
+      "kind": "deity",
+      "gender": [
+        {
+          "label": "male",
+          "context": "The account refers to his votaries.",
+          "evidenceIds": [
+            "mahabharata:e:91a8d7a983379c9d723f"
+          ]
+        }
+      ],
+      "description": "Divinity called an obviator of obstacles who agrees to write Vyasa's work.",
+      "evidenceIds": [
+        "mahabharata:e:c71a6ed630b2184b4cb9",
+        "mahabharata:e:91a8d7a983379c9d723f",
+        "mahabharata:e:49281544e6c2964bb14a"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:suka",
+      "name": "Suka",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Individual whom Sauti says is acquainted with the eight thousand and eight hundred verses.",
+      "evidenceIds": [
+        "mahabharata:e:65759e873121292499d8"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:sanjaya",
+      "name": "Sanjaya",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Individual whom Sauti says may also be acquainted with the eight thousand and eight hundred verses.",
+      "evidenceIds": [
+        "mahabharata:e:65759e873121292499d8"
+      ],
+      "status": "supported"
+    },
+    {
+      "id": "mahabharata:b0001:unnamed_all_pervading_spirit",
+      "name": "Unnamed all-pervading spirit",
+      "aliases": [],
+      "kind": "unknown",
+      "gender": [],
+      "description": "Singular spirit included among the subjects Vyasa says he has represented in his poem.",
+      "evidenceIds": [
+        "mahabharata:e:4624c576c7bbd1fd3f75",
+        "mahabharata:e:9a289146b8724f8a956e"
+      ],
+      "status": "provisional"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "mahabharata:r:8299084c2d324cbc386d",
+      "from": "mahabharata:seed:ganga",
+      "to": "mahabharata:seed:santanu",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:60f33d0bd47c2f08158e"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:bbddeee694d89dcae3da",
+      "from": "mahabharata:seed:santanu",
+      "to": "mahabharata:seed:satyavati",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:15246d12401b2297f8bb"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:908c4576d9c4e2cb2d08",
+      "from": "mahabharata:seed:santanu",
+      "to": "mahabharata:seed:bhishma",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:60f33d0bd47c2f08158e"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:3a461dbf540fd13c0bdc",
+      "from": "mahabharata:seed:ganga",
+      "to": "mahabharata:seed:bhishma",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:60f33d0bd47c2f08158e"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:35a9e71bb6ce67a23533",
+      "from": "mahabharata:seed:satyavati",
+      "to": "mahabharata:seed:vyasa",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:15246d12401b2297f8bb"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:8aac71bd72797e6ba235",
+      "from": "mahabharata:seed:parasara",
+      "to": "mahabharata:seed:vyasa",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:15246d12401b2297f8bb",
+        "mahabharata:e:d783060af67b9703cd55"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:15eb8b696c52bd310035",
+      "from": "mahabharata:seed:santanu",
+      "to": "mahabharata:seed:chitrangada-son-santanu",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:15246d12401b2297f8bb"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:ca41443d8eb73a6667ad",
+      "from": "mahabharata:seed:satyavati",
+      "to": "mahabharata:seed:chitrangada-son-santanu",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:15246d12401b2297f8bb"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:b33fea2ffa4d75b104a6",
+      "from": "mahabharata:seed:santanu",
+      "to": "mahabharata:seed:vichitravirya",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:15246d12401b2297f8bb"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:c4e3c6f955b2634a392c",
+      "from": "mahabharata:seed:satyavati",
+      "to": "mahabharata:seed:vichitravirya",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:15246d12401b2297f8bb"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:d0443cbcd7774e137c21",
+      "from": "mahabharata:seed:ambika",
+      "to": "mahabharata:seed:vichitravirya",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:22838a53e25ddd4bbf29"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:1f2077ccc9d769603a03",
+      "from": "mahabharata:seed:ambalika",
+      "to": "mahabharata:seed:vichitravirya",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:22838a53e25ddd4bbf29"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:be987001165ee921916e",
+      "from": "mahabharata:seed:vyasa",
+      "to": "mahabharata:seed:dhritarashtra",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:2db44fd6e4d80613c4c3"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:210b62eb6b706e065171",
+      "from": "mahabharata:seed:vyasa",
+      "to": "mahabharata:seed:pandu",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:2db44fd6e4d80613c4c3"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:38b341faec342d12b789",
+      "from": "mahabharata:seed:vyasa",
+      "to": "mahabharata:seed:vidura",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:2db44fd6e4d80613c4c3"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:49ae556462c925fd00db",
+      "from": "mahabharata:seed:ambalika",
+      "to": "mahabharata:seed:pandu",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:14f0adfd67d3f4ccdc87"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:09e4f3a1f87821b0ba2f",
+      "from": "mahabharata:seed:vidura-mother-unnamed",
+      "to": "mahabharata:seed:vidura",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:c5510119cb28e7e329b7",
+        "mahabharata:e:97dc4563adab2cdd1297"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:68a780e9805f6bfbf131",
+      "from": "mahabharata:seed:dhritarashtra",
+      "to": "mahabharata:seed:gandhari",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:5b1594882c4e4110b109",
+      "from": "mahabharata:seed:dhritarashtra",
+      "to": "mahabharata:seed:duryodhana-son-dhritarashtra",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:491d148e50548991aae4",
+      "from": "mahabharata:seed:gandhari",
+      "to": "mahabharata:seed:duryodhana-son-dhritarashtra",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:71d7edb6eadc703f0030",
+      "from": "mahabharata:seed:dhritarashtra",
+      "to": "mahabharata:seed:duhsasana-son-dhritarashtra",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:0bb347d860189e80aed8",
+      "from": "mahabharata:seed:gandhari",
+      "to": "mahabharata:seed:duhsasana-son-dhritarashtra",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:a28a761e860c5e62378d",
+      "from": "mahabharata:seed:dhritarashtra",
+      "to": "mahabharata:seed:vikarna-son-dhritarashtra",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:43afdb662651713a714c",
+      "from": "mahabharata:seed:gandhari",
+      "to": "mahabharata:seed:vikarna-son-dhritarashtra",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:6c5be927c6fef4a3b6d3",
+      "from": "mahabharata:seed:dhritarashtra",
+      "to": "mahabharata:seed:chitrasena-son-dhritarashtra",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:4bf7fde21d752b11d6e9",
+      "from": "mahabharata:seed:gandhari",
+      "to": "mahabharata:seed:chitrasena-son-dhritarashtra",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:ea5524ce841e78c01dc4",
+      "from": "mahabharata:seed:kunti",
+      "to": "mahabharata:seed:pandu",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:14ae35a84f03b2d1bcd2"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:da9f324729733c1d4eda",
+      "from": "mahabharata:seed:madri",
+      "to": "mahabharata:seed:pandu",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:14ae35a84f03b2d1bcd2"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:a019c37d416f1cda51a1",
+      "from": "mahabharata:seed:kunti",
+      "to": "mahabharata:seed:yudhishthira",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:a5abb310425d023d02ec"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:9af6d1f02e3e99da004a",
+      "from": "mahabharata:seed:kunti",
+      "to": "mahabharata:seed:bhima",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:a5abb310425d023d02ec"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:cc4fc87896f8b9e59c2a",
+      "from": "mahabharata:seed:kunti",
+      "to": "mahabharata:seed:arjuna",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:a5abb310425d023d02ec"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:2662015b97f3c112bd55",
+      "from": "mahabharata:seed:dharma",
+      "to": "mahabharata:seed:yudhishthira",
+      "type": "parent_of",
+      "parenthood": "divine",
+      "evidenceIds": [
+        "mahabharata:e:a5abb310425d023d02ec"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:b2392e3506e5cabe0264",
+      "from": "mahabharata:seed:maruta",
+      "to": "mahabharata:seed:bhima",
+      "type": "parent_of",
+      "parenthood": "divine",
+      "evidenceIds": [
+        "mahabharata:e:a5abb310425d023d02ec"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:12de34c8eca9eb7ed3f2",
+      "from": "mahabharata:seed:sakra",
+      "to": "mahabharata:seed:arjuna",
+      "type": "parent_of",
+      "parenthood": "divine",
+      "evidenceIds": [
+        "mahabharata:e:a5abb310425d023d02ec"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:56ce7925dd48cf080601",
+      "from": "mahabharata:seed:madri",
+      "to": "mahabharata:seed:nakula",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:484d434cb864fb2c2062"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:63fcfd61abb7405f09e6",
+      "from": "mahabharata:seed:madri",
+      "to": "mahabharata:seed:sahadeva",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:484d434cb864fb2c2062"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:d2d5e072ba9a4fdd52b6",
+      "from": "mahabharata:seed:pandu",
+      "to": "mahabharata:seed:yudhishthira",
+      "type": "parent_of",
+      "parenthood": "social",
+      "evidenceIds": [
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:f44edef6e240f9b187b5",
+      "from": "mahabharata:seed:pandu",
+      "to": "mahabharata:seed:bhima",
+      "type": "parent_of",
+      "parenthood": "social",
+      "evidenceIds": [
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:f73356507514176d894e",
+      "from": "mahabharata:seed:pandu",
+      "to": "mahabharata:seed:arjuna",
+      "type": "parent_of",
+      "parenthood": "social",
+      "evidenceIds": [
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:28dd50dc426635189f15",
+      "from": "mahabharata:seed:pandu",
+      "to": "mahabharata:seed:nakula",
+      "type": "parent_of",
+      "parenthood": "social",
+      "evidenceIds": [
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:c33203ec04b16a1ff1b6",
+      "from": "mahabharata:seed:pandu",
+      "to": "mahabharata:seed:sahadeva",
+      "type": "parent_of",
+      "parenthood": "social",
+      "evidenceIds": [
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:4d0aa881e6af373dc698",
+      "from": "mahabharata:seed:nakula",
+      "to": "mahabharata:seed:sahadeva",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:484d434cb864fb2c2062"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:daa8026e9f89a2a3ac95",
+      "from": "mahabharata:seed:draupadi",
+      "to": "mahabharata:seed:yudhishthira",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:3f2918e7abc04fd0703c",
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:d5b1b53b29597298ee42",
+      "from": "mahabharata:seed:bhima",
+      "to": "mahabharata:seed:draupadi",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:3f2918e7abc04fd0703c",
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:ad95cee34b22a7cbdfc2",
+      "from": "mahabharata:seed:arjuna",
+      "to": "mahabharata:seed:draupadi",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:3f2918e7abc04fd0703c",
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:0e1d4f2cc23837771b5a",
+      "from": "mahabharata:seed:draupadi",
+      "to": "mahabharata:seed:nakula",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:3f2918e7abc04fd0703c",
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:4aaa062d3a545dbb5898",
+      "from": "mahabharata:seed:draupadi",
+      "to": "mahabharata:seed:sahadeva",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:3f2918e7abc04fd0703c",
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:fc2d93e64a515db13d1e",
+      "from": "mahabharata:seed:yudhishthira",
+      "to": "mahabharata:seed:prativindhya-son-yudhishthira",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:084b2ef8ae6c491528a0",
+      "from": "mahabharata:seed:bhima",
+      "to": "mahabharata:seed:sutasoma-son-bhima",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:eae7bae26074497097d2",
+      "from": "mahabharata:seed:arjuna",
+      "to": "mahabharata:seed:srutakriti-son-arjuna",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:d0904ac9a6109ecafb6a",
+      "from": "mahabharata:seed:nakula",
+      "to": "mahabharata:seed:satanika-son-nakula",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:fa5f9596764d9659b8cb",
+      "from": "mahabharata:seed:sahadeva",
+      "to": "mahabharata:seed:srutakarman-son-sahadeva",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:4473376d952a1bd52160",
+      "from": "mahabharata:seed:govasana",
+      "to": "mahabharata:seed:devika",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:36d51349efbc2e8e0b5d"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:99668e06931de091a9f7",
+      "from": "mahabharata:seed:devika",
+      "to": "mahabharata:seed:yudhishthira",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:36d51349efbc2e8e0b5d"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:a5d3aef4e382f10fc489",
+      "from": "mahabharata:seed:yudhishthira",
+      "to": "mahabharata:seed:yaudheya",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:36d51349efbc2e8e0b5d"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:363d39de6a23b59c089e",
+      "from": "mahabharata:seed:devika",
+      "to": "mahabharata:seed:yaudheya",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:36d51349efbc2e8e0b5d"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:af794b8d1d38e101cd7f",
+      "from": "mahabharata:seed:bhima",
+      "to": "mahabharata:seed:valandhara",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:1fcbd4d708fb07587f5a"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:2ee12acde5c1338fbc5b",
+      "from": "mahabharata:seed:bhima",
+      "to": "mahabharata:seed:sarvaga",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:1fcbd4d708fb07587f5a"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:967ecf2fc26cab20d023",
+      "from": "mahabharata:seed:valandhara",
+      "to": "mahabharata:seed:sarvaga",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:1fcbd4d708fb07587f5a"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:81a238db3414bc013953",
+      "from": "mahabharata:seed:arjuna",
+      "to": "mahabharata:seed:subhadra",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4e73aab55bcb4b6f1dca"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:bc9fc3a251863831245b",
+      "from": "mahabharata:seed:arjuna",
+      "to": "mahabharata:seed:abhimanyu",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:d6392979ce9927f2dca2"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:ff4e765f9a42b8e55ee9",
+      "from": "mahabharata:seed:subhadra",
+      "to": "mahabharata:seed:abhimanyu",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:d6392979ce9927f2dca2"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:deba78bc282d0b10a03d",
+      "from": "mahabharata:seed:krishna",
+      "to": "mahabharata:seed:subhadra",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:c67205d124b4ac453b88"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:f64d5c2286e9949cad7f",
+      "from": "mahabharata:seed:balarama",
+      "to": "mahabharata:seed:subhadra",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:c67205d124b4ac453b88"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:e0c77819679c151e083d",
+      "from": "mahabharata:seed:karenumati",
+      "to": "mahabharata:seed:nakula",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:0089ec9332700cb98903"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:842c5110b6dd4af5bd29",
+      "from": "mahabharata:seed:nakula",
+      "to": "mahabharata:seed:niramitra",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:0089ec9332700cb98903"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:a0ffa56e4560fe86375b",
+      "from": "mahabharata:seed:karenumati",
+      "to": "mahabharata:seed:niramitra",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:0089ec9332700cb98903"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:c84f92a6337eb210f652",
+      "from": "mahabharata:seed:dyutimat",
+      "to": "mahabharata:seed:vijaya-wife-sahadeva",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:b55e0c3e70f1952cddfb"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:1c658f10e57ed2ef5ee6",
+      "from": "mahabharata:seed:sahadeva",
+      "to": "mahabharata:seed:vijaya-wife-sahadeva",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:b55e0c3e70f1952cddfb"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:c371f3d0d316720db0a6",
+      "from": "mahabharata:seed:sahadeva",
+      "to": "mahabharata:seed:suhotra-son-sahadeva",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:b55e0c3e70f1952cddfb"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:1bfe012f3285fb9dd519",
+      "from": "mahabharata:seed:vijaya-wife-sahadeva",
+      "to": "mahabharata:seed:suhotra-son-sahadeva",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:b55e0c3e70f1952cddfb"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:a55f1672060fd21d9ab6",
+      "from": "mahabharata:seed:bhima",
+      "to": "mahabharata:seed:hidimva-wife-bhima",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:5e7f33c49d2cd3dc4afb"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:129274031b30ea03262a",
+      "from": "mahabharata:seed:bhima",
+      "to": "mahabharata:seed:ghatotkacha",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:bb7975fe289bc34a0e84"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:95e819a19c50f02a65a5",
+      "from": "mahabharata:seed:hidimva-wife-bhima",
+      "to": "mahabharata:seed:ghatotkacha",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:5e7f33c49d2cd3dc4afb"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:5d51c700de6e6a0512b8",
+      "from": "mahabharata:seed:virata",
+      "to": "mahabharata:seed:uttara-daughter-virata",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:018346805cd7ebaf1222"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:38d30ce90b82ff5a391c",
+      "from": "mahabharata:seed:abhimanyu",
+      "to": "mahabharata:seed:uttara-daughter-virata",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:018346805cd7ebaf1222"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:331632ea3a20421570d5",
+      "from": "mahabharata:seed:uttara-daughter-virata",
+      "to": "mahabharata:seed:parikshit-son-abhimanyu",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:018346805cd7ebaf1222",
+        "mahabharata:e:ec2d2c0e00fedb7d8775"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:c8dae6fe4deb682c428b",
+      "from": "mahabharata:seed:abhimanyu",
+      "to": "mahabharata:seed:parikshit-son-abhimanyu",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:018346805cd7ebaf1222",
+        "mahabharata:e:ec2d2c0e00fedb7d8775"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:c49e3b8def04cc9ae3ec",
+      "from": "mahabharata:seed:madravati",
+      "to": "mahabharata:seed:parikshit-son-abhimanyu",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:69caebda16f0bd62301a"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:fb00106137bad0ec55ef",
+      "from": "mahabharata:seed:parikshit-son-abhimanyu",
+      "to": "mahabharata:seed:janamejaya-son-parikshit",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:69caebda16f0bd62301a"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:547f4b088cadd352caed",
+      "from": "mahabharata:seed:madravati",
+      "to": "mahabharata:seed:janamejaya-son-parikshit",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:69caebda16f0bd62301a"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:ad159bf01a193bbcc7ad",
+      "from": "mahabharata:seed:janamejaya-son-parikshit",
+      "to": "mahabharata:seed:vapushtama",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:84bbba4d3411b5b2a056",
+        "mahabharata:e:69caebda16f0bd62301a"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:981960305d84052c3f55",
+      "from": "mahabharata:seed:janamejaya-son-parikshit",
+      "to": "mahabharata:seed:satanika-son-janamejaya",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:84bbba4d3411b5b2a056",
+        "mahabharata:e:69caebda16f0bd62301a"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:be8bb71bb74c53a478ec",
+      "from": "mahabharata:seed:vapushtama",
+      "to": "mahabharata:seed:satanika-son-janamejaya",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:84bbba4d3411b5b2a056"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:47338ca0fb390c352bab",
+      "from": "mahabharata:seed:janamejaya-son-parikshit",
+      "to": "mahabharata:seed:sankukarna-son-janamejaya",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:84bbba4d3411b5b2a056",
+        "mahabharata:e:69caebda16f0bd62301a"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:a0cd4b4c89aabc7917d6",
+      "from": "mahabharata:seed:vapushtama",
+      "to": "mahabharata:seed:sankukarna-son-janamejaya",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:84bbba4d3411b5b2a056"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:26fa1b5061bf4c290be5",
+      "from": "mahabharata:seed:kausalya-wife-puru",
+      "to": "mahabharata:seed:puru",
+      "type": "spouse_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:82923d539e0808801621"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:33af449b204af4d334bb",
+      "from": "mahabharata:seed:puru",
+      "to": "mahabharata:seed:janamejaya-son-puru",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:82923d539e0808801621"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:015befe9302bd100e623",
+      "from": "mahabharata:seed:kausalya-wife-puru",
+      "to": "mahabharata:seed:janamejaya-son-puru",
+      "type": "parent_of",
+      "parenthood": "biological",
+      "evidenceIds": [
+        "mahabharata:e:82923d539e0808801621"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:ae80a0038bcae1329f76",
+      "from": "mahabharata:seed:lomaharshana",
+      "to": "mahabharata:seed:ugrasrava-sauti",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:82242dec3266022c80a6"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:22bc60639bcef4e49867",
+      "from": "mahabharata:seed:sarama",
+      "to": "mahabharata:seed:sarama-offspring-unnamed",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:93893cb4ea6451366cc1"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:bd5a133eccd6a3127134",
+      "from": "mahabharata:seed:bhishma",
+      "to": "mahabharata:seed:chitrangada-son-santanu",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:60f33d0bd47c2f08158e",
+        "mahabharata:e:15246d12401b2297f8bb"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:908c4576d9c4e2cb2d08",
+        "mahabharata:r:15eb8b696c52bd310035"
+      ]
+    },
+    {
+      "id": "mahabharata:r:85c7bc0aa23d9386fea5",
+      "from": "mahabharata:seed:bhishma",
+      "to": "mahabharata:seed:vichitravirya",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:60f33d0bd47c2f08158e",
+        "mahabharata:e:15246d12401b2297f8bb"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:908c4576d9c4e2cb2d08",
+        "mahabharata:r:b33fea2ffa4d75b104a6"
+      ]
+    },
+    {
+      "id": "mahabharata:r:1a98e851fc32a27e76c1",
+      "from": "mahabharata:seed:chitrangada-son-santanu",
+      "to": "mahabharata:seed:vichitravirya",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:15246d12401b2297f8bb"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:15eb8b696c52bd310035",
+        "mahabharata:r:b33fea2ffa4d75b104a6"
+      ]
+    },
+    {
+      "id": "mahabharata:r:74d5e728f4375aa82788",
+      "from": "mahabharata:seed:chitrangada-son-santanu",
+      "to": "mahabharata:seed:vyasa",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:15246d12401b2297f8bb"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:35a9e71bb6ce67a23533",
+        "mahabharata:r:ca41443d8eb73a6667ad"
+      ]
+    },
+    {
+      "id": "mahabharata:r:b2e9fa11cbd747485ddb",
+      "from": "mahabharata:seed:vichitravirya",
+      "to": "mahabharata:seed:vyasa",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:15246d12401b2297f8bb"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:35a9e71bb6ce67a23533",
+        "mahabharata:r:c4e3c6f955b2634a392c"
+      ]
+    },
+    {
+      "id": "mahabharata:r:932cb53ed0fd83c44442",
+      "from": "mahabharata:seed:dhritarashtra",
+      "to": "mahabharata:seed:pandu",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:2db44fd6e4d80613c4c3"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:be987001165ee921916e",
+        "mahabharata:r:210b62eb6b706e065171"
+      ]
+    },
+    {
+      "id": "mahabharata:r:ed5352726452bf69e15b",
+      "from": "mahabharata:seed:dhritarashtra",
+      "to": "mahabharata:seed:vidura",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:2db44fd6e4d80613c4c3"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:be987001165ee921916e",
+        "mahabharata:r:38b341faec342d12b789"
+      ]
+    },
+    {
+      "id": "mahabharata:r:1bc9c2360216bce20b51",
+      "from": "mahabharata:seed:pandu",
+      "to": "mahabharata:seed:vidura",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:2db44fd6e4d80613c4c3"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:210b62eb6b706e065171",
+        "mahabharata:r:38b341faec342d12b789"
+      ]
+    },
+    {
+      "id": "mahabharata:r:e78876e1bd711fa2ecae",
+      "from": "mahabharata:seed:duhsasana-son-dhritarashtra",
+      "to": "mahabharata:seed:duryodhana-son-dhritarashtra",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:5b1594882c4e4110b109",
+        "mahabharata:r:71d7edb6eadc703f0030"
+      ]
+    },
+    {
+      "id": "mahabharata:r:14feb6f256a372fe5410",
+      "from": "mahabharata:seed:duryodhana-son-dhritarashtra",
+      "to": "mahabharata:seed:vikarna-son-dhritarashtra",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:5b1594882c4e4110b109",
+        "mahabharata:r:a28a761e860c5e62378d"
+      ]
+    },
+    {
+      "id": "mahabharata:r:da7e9f40e9df31869930",
+      "from": "mahabharata:seed:chitrasena-son-dhritarashtra",
+      "to": "mahabharata:seed:duryodhana-son-dhritarashtra",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:5b1594882c4e4110b109",
+        "mahabharata:r:6c5be927c6fef4a3b6d3"
+      ]
+    },
+    {
+      "id": "mahabharata:r:9993bac29e66ed759614",
+      "from": "mahabharata:seed:duhsasana-son-dhritarashtra",
+      "to": "mahabharata:seed:vikarna-son-dhritarashtra",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:71d7edb6eadc703f0030",
+        "mahabharata:r:a28a761e860c5e62378d"
+      ]
+    },
+    {
+      "id": "mahabharata:r:20c741fb67930e0e0b20",
+      "from": "mahabharata:seed:chitrasena-son-dhritarashtra",
+      "to": "mahabharata:seed:duhsasana-son-dhritarashtra",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:71d7edb6eadc703f0030",
+        "mahabharata:r:6c5be927c6fef4a3b6d3"
+      ]
+    },
+    {
+      "id": "mahabharata:r:c06edcbfa5e7a660bfcd",
+      "from": "mahabharata:seed:chitrasena-son-dhritarashtra",
+      "to": "mahabharata:seed:vikarna-son-dhritarashtra",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:7095b37fbed0d6413662"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:a28a761e860c5e62378d",
+        "mahabharata:r:6c5be927c6fef4a3b6d3"
+      ]
+    },
+    {
+      "id": "mahabharata:r:b399b1c5f153f0d2fc47",
+      "from": "mahabharata:seed:bhima",
+      "to": "mahabharata:seed:yudhishthira",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:a5abb310425d023d02ec"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:a019c37d416f1cda51a1",
+        "mahabharata:r:9af6d1f02e3e99da004a"
+      ]
+    },
+    {
+      "id": "mahabharata:r:0331674ddc9eb1f4fdc5",
+      "from": "mahabharata:seed:arjuna",
+      "to": "mahabharata:seed:yudhishthira",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:a5abb310425d023d02ec"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:a019c37d416f1cda51a1",
+        "mahabharata:r:cc4fc87896f8b9e59c2a"
+      ]
+    },
+    {
+      "id": "mahabharata:r:4993691656e33c025c61",
+      "from": "mahabharata:seed:arjuna",
+      "to": "mahabharata:seed:bhima",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:a5abb310425d023d02ec"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:9af6d1f02e3e99da004a",
+        "mahabharata:r:cc4fc87896f8b9e59c2a"
+      ]
+    },
+    {
+      "id": "mahabharata:r:6e406cbe1943491eca03",
+      "from": "mahabharata:seed:nakula",
+      "to": "mahabharata:seed:yudhishthira",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:d2d5e072ba9a4fdd52b6",
+        "mahabharata:r:28dd50dc426635189f15"
+      ]
+    },
+    {
+      "id": "mahabharata:r:2897a38477b27144662b",
+      "from": "mahabharata:seed:sahadeva",
+      "to": "mahabharata:seed:yudhishthira",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:d2d5e072ba9a4fdd52b6",
+        "mahabharata:r:c33203ec04b16a1ff1b6"
+      ]
+    },
+    {
+      "id": "mahabharata:r:5b283d307529b623d32f",
+      "from": "mahabharata:seed:bhima",
+      "to": "mahabharata:seed:nakula",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:f44edef6e240f9b187b5",
+        "mahabharata:r:28dd50dc426635189f15"
+      ]
+    },
+    {
+      "id": "mahabharata:r:2602a4217437cd610dde",
+      "from": "mahabharata:seed:bhima",
+      "to": "mahabharata:seed:sahadeva",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:f44edef6e240f9b187b5",
+        "mahabharata:r:c33203ec04b16a1ff1b6"
+      ]
+    },
+    {
+      "id": "mahabharata:r:b73d7ac2451721006351",
+      "from": "mahabharata:seed:arjuna",
+      "to": "mahabharata:seed:nakula",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:f73356507514176d894e",
+        "mahabharata:r:28dd50dc426635189f15"
+      ]
+    },
+    {
+      "id": "mahabharata:r:ef70f1e534ead2ed2660",
+      "from": "mahabharata:seed:arjuna",
+      "to": "mahabharata:seed:sahadeva",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:8b4d1c1ff21cee523bfa"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:f73356507514176d894e",
+        "mahabharata:r:c33203ec04b16a1ff1b6"
+      ]
+    },
+    {
+      "id": "mahabharata:r:683d9b40fa166addd191",
+      "from": "mahabharata:seed:prativindhya-son-yudhishthira",
+      "to": "mahabharata:seed:yaudheya",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:36d51349efbc2e8e0b5d"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:fc2d93e64a515db13d1e",
+        "mahabharata:r:a5d3aef4e382f10fc489"
+      ]
+    },
+    {
+      "id": "mahabharata:r:d91fbf42ff6c5cd70b4b",
+      "from": "mahabharata:seed:sarvaga",
+      "to": "mahabharata:seed:sutasoma-son-bhima",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:1fcbd4d708fb07587f5a"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:084b2ef8ae6c491528a0",
+        "mahabharata:r:2ee12acde5c1338fbc5b"
+      ]
+    },
+    {
+      "id": "mahabharata:r:b8259d3bb4a8d73fa3f8",
+      "from": "mahabharata:seed:ghatotkacha",
+      "to": "mahabharata:seed:sutasoma-son-bhima",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:bb7975fe289bc34a0e84"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:084b2ef8ae6c491528a0",
+        "mahabharata:r:129274031b30ea03262a"
+      ]
+    },
+    {
+      "id": "mahabharata:r:df452063b469a80de3b4",
+      "from": "mahabharata:seed:ghatotkacha",
+      "to": "mahabharata:seed:sarvaga",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:1fcbd4d708fb07587f5a",
+        "mahabharata:e:bb7975fe289bc34a0e84"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:2ee12acde5c1338fbc5b",
+        "mahabharata:r:129274031b30ea03262a"
+      ]
+    },
+    {
+      "id": "mahabharata:r:9a7f6f6c5e9f2986897b",
+      "from": "mahabharata:seed:abhimanyu",
+      "to": "mahabharata:seed:srutakriti-son-arjuna",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:d6392979ce9927f2dca2"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:eae7bae26074497097d2",
+        "mahabharata:r:bc9fc3a251863831245b"
+      ]
+    },
+    {
+      "id": "mahabharata:r:832e31b8cce024684aaa",
+      "from": "mahabharata:seed:niramitra",
+      "to": "mahabharata:seed:satanika-son-nakula",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:0089ec9332700cb98903"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:d0904ac9a6109ecafb6a",
+        "mahabharata:r:842c5110b6dd4af5bd29"
+      ]
+    },
+    {
+      "id": "mahabharata:r:5c87ff745516ac6b0d73",
+      "from": "mahabharata:seed:srutakarman-son-sahadeva",
+      "to": "mahabharata:seed:suhotra-son-sahadeva",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:c1184c69efaf499d45e3",
+        "mahabharata:e:b55e0c3e70f1952cddfb"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:fa5f9596764d9659b8cb",
+        "mahabharata:r:c371f3d0d316720db0a6"
+      ]
+    },
+    {
+      "id": "mahabharata:r:36f5dd5492b9857e204b",
+      "from": "mahabharata:seed:sankukarna-son-janamejaya",
+      "to": "mahabharata:seed:satanika-son-janamejaya",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:84bbba4d3411b5b2a056",
+        "mahabharata:e:69caebda16f0bd62301a"
+      ],
+      "status": "supported",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:981960305d84052c3f55",
+        "mahabharata:r:47338ca0fb390c352bab"
+      ]
+    },
+    {
+      "id": "mahabharata:r:0ccabb4532dc1d4ca9b3",
+      "from": "mahabharata:seed:parikshit-son-abhimanyu",
+      "to": "mahabharata:seed:janamejaya-son-parikshit",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:6b17ccfb4d2243ceb446"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:b5b331a5cc934d5fb5d7",
+      "from": "mahabharata:seed:satyavati",
+      "to": "mahabharata:seed:vyasa",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:25bfabc6f0c63dd5bf46"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:971490ef7df0081839c4",
+      "from": "mahabharata:seed:parasara",
+      "to": "mahabharata:seed:vyasa",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:25bfabc6f0c63dd5bf46"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:985573514ef9794a0015",
+      "from": "mahabharata:b0001:div",
+      "to": "mahabharata:b0001:brihadbhanu",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:0954b627f5d92ce91d52",
+      "from": "mahabharata:b0001:div",
+      "to": "mahabharata:b0001:chakshus",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:e7a7bf953e7fef2b12d8",
+      "from": "mahabharata:b0001:div",
+      "to": "mahabharata:b0001:atma_vibhavasu",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:ece5bdec931567705153",
+      "from": "mahabharata:b0001:div",
+      "to": "mahabharata:b0001:savita",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:0e205bed8606536bbf85",
+      "from": "mahabharata:b0001:div",
+      "to": "mahabharata:b0001:richika",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:9efe44a0c4cbd9928b01",
+      "from": "mahabharata:b0001:div",
+      "to": "mahabharata:b0001:arka",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:32216176c85db0d97e95",
+      "from": "mahabharata:b0001:div",
+      "to": "mahabharata:b0001:bhanu",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:6f8c7ee05f74b640b627",
+      "from": "mahabharata:b0001:div",
+      "to": "mahabharata:b0001:asavaha",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:2e33f630ba4029df197e",
+      "from": "mahabharata:b0001:div",
+      "to": "mahabharata:b0001:ravi",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:146147fe7475585ac618",
+      "from": "mahabharata:b0001:div",
+      "to": "mahabharata:b0001:mahya",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "provisional",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:5bd9a3931b1fb505f2e6",
+      "from": "mahabharata:b0001:mahya",
+      "to": "mahabharata:b0001:deva_vrata",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:9e2aa82aa7c80f75cfc4",
+      "from": "mahabharata:b0001:deva_vrata",
+      "to": "mahabharata:b0001:su_vrata",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:4aa32cfa86d8d3960d15",
+      "from": "mahabharata:b0001:su_vrata",
+      "to": "mahabharata:b0001:dasa_jyoti",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:bb4248b557d137434991"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:2ed3a1be90e9a29095ce",
+      "from": "mahabharata:b0001:su_vrata",
+      "to": "mahabharata:b0001:sata_jyoti",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:bb4248b557d137434991"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:138a507f3e68944c5dce",
+      "from": "mahabharata:b0001:su_vrata",
+      "to": "mahabharata:b0001:sahasra_jyoti",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:bb4248b557d137434991"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    },
+    {
+      "id": "mahabharata:r:75a601ccb736b1a7a207",
+      "from": "mahabharata:b0001:brihadbhanu",
+      "to": "mahabharata:b0001:chakshus",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:985573514ef9794a0015",
+        "mahabharata:r:0954b627f5d92ce91d52"
+      ]
+    },
+    {
+      "id": "mahabharata:r:14ed0cdffe7904824466",
+      "from": "mahabharata:b0001:atma_vibhavasu",
+      "to": "mahabharata:b0001:brihadbhanu",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:e7a7bf953e7fef2b12d8",
+        "mahabharata:r:985573514ef9794a0015"
+      ]
+    },
+    {
+      "id": "mahabharata:r:b82a43f181b19c4da4c6",
+      "from": "mahabharata:b0001:brihadbhanu",
+      "to": "mahabharata:b0001:savita",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:985573514ef9794a0015",
+        "mahabharata:r:ece5bdec931567705153"
+      ]
+    },
+    {
+      "id": "mahabharata:r:6bf7161cd30c38371831",
+      "from": "mahabharata:b0001:brihadbhanu",
+      "to": "mahabharata:b0001:richika",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:985573514ef9794a0015",
+        "mahabharata:r:0e205bed8606536bbf85"
+      ]
+    },
+    {
+      "id": "mahabharata:r:a7c15b933996b8ad6bf5",
+      "from": "mahabharata:b0001:arka",
+      "to": "mahabharata:b0001:brihadbhanu",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:9efe44a0c4cbd9928b01",
+        "mahabharata:r:985573514ef9794a0015"
+      ]
+    },
+    {
+      "id": "mahabharata:r:1dd8fa7bd6766ebc4169",
+      "from": "mahabharata:b0001:bhanu",
+      "to": "mahabharata:b0001:brihadbhanu",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:32216176c85db0d97e95",
+        "mahabharata:r:985573514ef9794a0015"
+      ]
+    },
+    {
+      "id": "mahabharata:r:e9d179632dc1f2b24e4d",
+      "from": "mahabharata:b0001:asavaha",
+      "to": "mahabharata:b0001:brihadbhanu",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:6f8c7ee05f74b640b627",
+        "mahabharata:r:985573514ef9794a0015"
+      ]
+    },
+    {
+      "id": "mahabharata:r:090c06324eea93fa32ac",
+      "from": "mahabharata:b0001:brihadbhanu",
+      "to": "mahabharata:b0001:ravi",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:985573514ef9794a0015",
+        "mahabharata:r:2e33f630ba4029df197e"
+      ]
+    },
+    {
+      "id": "mahabharata:r:659def163cc35e9b5d74",
+      "from": "mahabharata:b0001:atma_vibhavasu",
+      "to": "mahabharata:b0001:chakshus",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:e7a7bf953e7fef2b12d8",
+        "mahabharata:r:0954b627f5d92ce91d52"
+      ]
+    },
+    {
+      "id": "mahabharata:r:f751fce2af155a755030",
+      "from": "mahabharata:b0001:chakshus",
+      "to": "mahabharata:b0001:savita",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:0954b627f5d92ce91d52",
+        "mahabharata:r:ece5bdec931567705153"
+      ]
+    },
+    {
+      "id": "mahabharata:r:587c9682e87d0da5b21f",
+      "from": "mahabharata:b0001:chakshus",
+      "to": "mahabharata:b0001:richika",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:0954b627f5d92ce91d52",
+        "mahabharata:r:0e205bed8606536bbf85"
+      ]
+    },
+    {
+      "id": "mahabharata:r:ba47561b9b73142a4d63",
+      "from": "mahabharata:b0001:arka",
+      "to": "mahabharata:b0001:chakshus",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:9efe44a0c4cbd9928b01",
+        "mahabharata:r:0954b627f5d92ce91d52"
+      ]
+    },
+    {
+      "id": "mahabharata:r:fa9c6a5c7924110303c5",
+      "from": "mahabharata:b0001:bhanu",
+      "to": "mahabharata:b0001:chakshus",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:32216176c85db0d97e95",
+        "mahabharata:r:0954b627f5d92ce91d52"
+      ]
+    },
+    {
+      "id": "mahabharata:r:293dbf1c9f25cec8322d",
+      "from": "mahabharata:b0001:asavaha",
+      "to": "mahabharata:b0001:chakshus",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:6f8c7ee05f74b640b627",
+        "mahabharata:r:0954b627f5d92ce91d52"
+      ]
+    },
+    {
+      "id": "mahabharata:r:5d34d4b84c9ee81c5c95",
+      "from": "mahabharata:b0001:chakshus",
+      "to": "mahabharata:b0001:ravi",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:0954b627f5d92ce91d52",
+        "mahabharata:r:2e33f630ba4029df197e"
+      ]
+    },
+    {
+      "id": "mahabharata:r:1c686f15a43426022f1c",
+      "from": "mahabharata:b0001:atma_vibhavasu",
+      "to": "mahabharata:b0001:savita",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:e7a7bf953e7fef2b12d8",
+        "mahabharata:r:ece5bdec931567705153"
+      ]
+    },
+    {
+      "id": "mahabharata:r:1c34c6012c2ddc0f160b",
+      "from": "mahabharata:b0001:atma_vibhavasu",
+      "to": "mahabharata:b0001:richika",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:e7a7bf953e7fef2b12d8",
+        "mahabharata:r:0e205bed8606536bbf85"
+      ]
+    },
+    {
+      "id": "mahabharata:r:af5992b88ebfc56100f2",
+      "from": "mahabharata:b0001:arka",
+      "to": "mahabharata:b0001:atma_vibhavasu",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:9efe44a0c4cbd9928b01",
+        "mahabharata:r:e7a7bf953e7fef2b12d8"
+      ]
+    },
+    {
+      "id": "mahabharata:r:e6c434100f6c9abf7546",
+      "from": "mahabharata:b0001:atma_vibhavasu",
+      "to": "mahabharata:b0001:bhanu",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:e7a7bf953e7fef2b12d8",
+        "mahabharata:r:32216176c85db0d97e95"
+      ]
+    },
+    {
+      "id": "mahabharata:r:9584651354e7bd4f42ca",
+      "from": "mahabharata:b0001:asavaha",
+      "to": "mahabharata:b0001:atma_vibhavasu",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:6f8c7ee05f74b640b627",
+        "mahabharata:r:e7a7bf953e7fef2b12d8"
+      ]
+    },
+    {
+      "id": "mahabharata:r:e71a92b56b09cb9b4372",
+      "from": "mahabharata:b0001:atma_vibhavasu",
+      "to": "mahabharata:b0001:ravi",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:e7a7bf953e7fef2b12d8",
+        "mahabharata:r:2e33f630ba4029df197e"
+      ]
+    },
+    {
+      "id": "mahabharata:r:d209199f26dfa525867f",
+      "from": "mahabharata:b0001:richika",
+      "to": "mahabharata:b0001:savita",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:0e205bed8606536bbf85",
+        "mahabharata:r:ece5bdec931567705153"
+      ]
+    },
+    {
+      "id": "mahabharata:r:ef47ae58a4145ecb869a",
+      "from": "mahabharata:b0001:arka",
+      "to": "mahabharata:b0001:savita",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:9efe44a0c4cbd9928b01",
+        "mahabharata:r:ece5bdec931567705153"
+      ]
+    },
+    {
+      "id": "mahabharata:r:362692588a4999c88260",
+      "from": "mahabharata:b0001:bhanu",
+      "to": "mahabharata:b0001:savita",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:32216176c85db0d97e95",
+        "mahabharata:r:ece5bdec931567705153"
+      ]
+    },
+    {
+      "id": "mahabharata:r:cae37f547536d62ff174",
+      "from": "mahabharata:b0001:asavaha",
+      "to": "mahabharata:b0001:savita",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:6f8c7ee05f74b640b627",
+        "mahabharata:r:ece5bdec931567705153"
+      ]
+    },
+    {
+      "id": "mahabharata:r:72a940a3f3770864e4fc",
+      "from": "mahabharata:b0001:ravi",
+      "to": "mahabharata:b0001:savita",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:2e33f630ba4029df197e",
+        "mahabharata:r:ece5bdec931567705153"
+      ]
+    },
+    {
+      "id": "mahabharata:r:4fc637fc3756dcaba83b",
+      "from": "mahabharata:b0001:arka",
+      "to": "mahabharata:b0001:richika",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:9efe44a0c4cbd9928b01",
+        "mahabharata:r:0e205bed8606536bbf85"
+      ]
+    },
+    {
+      "id": "mahabharata:r:30a4aefd56d2edf80b6b",
+      "from": "mahabharata:b0001:bhanu",
+      "to": "mahabharata:b0001:richika",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:32216176c85db0d97e95",
+        "mahabharata:r:0e205bed8606536bbf85"
+      ]
+    },
+    {
+      "id": "mahabharata:r:23cf14880714f2ae53e8",
+      "from": "mahabharata:b0001:asavaha",
+      "to": "mahabharata:b0001:richika",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:6f8c7ee05f74b640b627",
+        "mahabharata:r:0e205bed8606536bbf85"
+      ]
+    },
+    {
+      "id": "mahabharata:r:46aeb32d6594eee69127",
+      "from": "mahabharata:b0001:ravi",
+      "to": "mahabharata:b0001:richika",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:2e33f630ba4029df197e",
+        "mahabharata:r:0e205bed8606536bbf85"
+      ]
+    },
+    {
+      "id": "mahabharata:r:75147d9ecbc4c592b0f7",
+      "from": "mahabharata:b0001:arka",
+      "to": "mahabharata:b0001:bhanu",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:9efe44a0c4cbd9928b01",
+        "mahabharata:r:32216176c85db0d97e95"
+      ]
+    },
+    {
+      "id": "mahabharata:r:2c298a502b759b8b38de",
+      "from": "mahabharata:b0001:arka",
+      "to": "mahabharata:b0001:asavaha",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:9efe44a0c4cbd9928b01",
+        "mahabharata:r:6f8c7ee05f74b640b627"
+      ]
+    },
+    {
+      "id": "mahabharata:r:fb205871822b1ded61a8",
+      "from": "mahabharata:b0001:arka",
+      "to": "mahabharata:b0001:ravi",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:9efe44a0c4cbd9928b01",
+        "mahabharata:r:2e33f630ba4029df197e"
+      ]
+    },
+    {
+      "id": "mahabharata:r:0ac08d50e55fbe6187ce",
+      "from": "mahabharata:b0001:asavaha",
+      "to": "mahabharata:b0001:bhanu",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:6f8c7ee05f74b640b627",
+        "mahabharata:r:32216176c85db0d97e95"
+      ]
+    },
+    {
+      "id": "mahabharata:r:52f4f99b65828cf949ec",
+      "from": "mahabharata:b0001:bhanu",
+      "to": "mahabharata:b0001:ravi",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:32216176c85db0d97e95",
+        "mahabharata:r:2e33f630ba4029df197e"
+      ]
+    },
+    {
+      "id": "mahabharata:r:9d7a57aacb9df578410c",
+      "from": "mahabharata:b0001:asavaha",
+      "to": "mahabharata:b0001:ravi",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:6f8c7ee05f74b640b627",
+        "mahabharata:r:2e33f630ba4029df197e"
+      ]
+    },
+    {
+      "id": "mahabharata:r:695b10115a65b50a3683",
+      "from": "mahabharata:b0001:brihadbhanu",
+      "to": "mahabharata:b0001:mahya",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:985573514ef9794a0015",
+        "mahabharata:r:146147fe7475585ac618"
+      ]
+    },
+    {
+      "id": "mahabharata:r:49b5d4a5344627a3890d",
+      "from": "mahabharata:b0001:chakshus",
+      "to": "mahabharata:b0001:mahya",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:0954b627f5d92ce91d52",
+        "mahabharata:r:146147fe7475585ac618"
+      ]
+    },
+    {
+      "id": "mahabharata:r:217db2d9b190e97a7267",
+      "from": "mahabharata:b0001:atma_vibhavasu",
+      "to": "mahabharata:b0001:mahya",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:e7a7bf953e7fef2b12d8",
+        "mahabharata:r:146147fe7475585ac618"
+      ]
+    },
+    {
+      "id": "mahabharata:r:f88a61ec18eefc067c46",
+      "from": "mahabharata:b0001:mahya",
+      "to": "mahabharata:b0001:savita",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:146147fe7475585ac618",
+        "mahabharata:r:ece5bdec931567705153"
+      ]
+    },
+    {
+      "id": "mahabharata:r:c6afdf18ef9bad7bc494",
+      "from": "mahabharata:b0001:mahya",
+      "to": "mahabharata:b0001:richika",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:146147fe7475585ac618",
+        "mahabharata:r:0e205bed8606536bbf85"
+      ]
+    },
+    {
+      "id": "mahabharata:r:b8a713b24888acd73fb8",
+      "from": "mahabharata:b0001:arka",
+      "to": "mahabharata:b0001:mahya",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:9efe44a0c4cbd9928b01",
+        "mahabharata:r:146147fe7475585ac618"
+      ]
+    },
+    {
+      "id": "mahabharata:r:7cd6dd862a5139a84ccc",
+      "from": "mahabharata:b0001:bhanu",
+      "to": "mahabharata:b0001:mahya",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:32216176c85db0d97e95",
+        "mahabharata:r:146147fe7475585ac618"
+      ]
+    },
+    {
+      "id": "mahabharata:r:2bd3e6cb1d9f9e368664",
+      "from": "mahabharata:b0001:asavaha",
+      "to": "mahabharata:b0001:mahya",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:6f8c7ee05f74b640b627",
+        "mahabharata:r:146147fe7475585ac618"
+      ]
+    },
+    {
+      "id": "mahabharata:r:b32780d0ab4c2cadd765",
+      "from": "mahabharata:b0001:mahya",
+      "to": "mahabharata:b0001:ravi",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:4531014d37a4a8ccdcf7",
+        "mahabharata:e:1a50976d33d72b52b076"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:146147fe7475585ac618",
+        "mahabharata:r:2e33f630ba4029df197e"
+      ]
+    },
+    {
+      "id": "mahabharata:r:ea38501def8fdf5fcb25",
+      "from": "mahabharata:b0001:dasa_jyoti",
+      "to": "mahabharata:b0001:sata_jyoti",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:bb4248b557d137434991"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:4aa32cfa86d8d3960d15",
+        "mahabharata:r:2ed3a1be90e9a29095ce"
+      ]
+    },
+    {
+      "id": "mahabharata:r:dedb17c686d97bdc8c3b",
+      "from": "mahabharata:b0001:dasa_jyoti",
+      "to": "mahabharata:b0001:sahasra_jyoti",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:bb4248b557d137434991"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:4aa32cfa86d8d3960d15",
+        "mahabharata:r:138a507f3e68944c5dce"
+      ]
+    },
+    {
+      "id": "mahabharata:r:8a6ef93bae8a16b13e7b",
+      "from": "mahabharata:b0001:sahasra_jyoti",
+      "to": "mahabharata:b0001:sata_jyoti",
+      "type": "sibling_of",
+      "parenthood": null,
+      "evidenceIds": [
+        "mahabharata:e:bb4248b557d137434991"
+      ],
+      "status": "provisional",
+      "derived": true,
+      "supportingRelationshipIds": [
+        "mahabharata:r:138a507f3e68944c5dce",
+        "mahabharata:r:2ed3a1be90e9a29095ce"
+      ]
+    },
+    {
+      "id": "mahabharata:r:efb9b79b188c97495f7d",
+      "from": "mahabharata:seed:ambika",
+      "to": "mahabharata:seed:dhritarashtra",
+      "type": "parent_of",
+      "parenthood": "unspecified",
+      "evidenceIds": [
+        "mahabharata:e:22dd87338359be588471"
+      ],
+      "status": "supported",
+      "derived": false,
+      "supportingRelationshipIds": []
+    }
+  ],
+  "evidence": [
+    {
+      "id": "mahabharata:e:60f33d0bd47c2f08158e",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "Santanu married Ganga, who bore him a son Devavrata who was afterwards called Bhishma.",
+      "start": 406,
+      "end": 492
+    },
+    {
+      "id": "mahabharata:e:15246d12401b2297f8bb",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "got him married to Satyavati who was also called Gandhakali. And in her maidenhood she had a son by Parasara, named Dwaipayana. And upon her Santanu begat two other sons named Chitrangada and Vichitravirya.",
+      "start": 555,
+      "end": 761
+    },
+    {
+      "id": "mahabharata:e:d783060af67b9703cd55",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "that learned Brahmarshi of strict vows, the noble Dwaipayana Vyasa, offspring of Parasara",
+      "start": 3396,
+      "end": 3485
+    },
+    {
+      "id": "mahabharata:e:a8d08c57a8e830df110c",
+      "sourceId": "mahabharata:ganguli",
+      "page": 103,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCVI",
+      "excerpt": "Ganga, the queen of rivers",
+      "start": 929,
+      "end": 955
+    },
+    {
+      "id": "mahabharata:e:22838a53e25ddd4bbf29",
+      "sourceId": "mahabharata:ganguli",
+      "page": 110,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "CII",
+      "excerpt": "he bestowed with due rites the two other daughters, Ambika and Ambalika on his younger brother Vichitravirya.",
+      "start": 1972,
+      "end": 2081
+    },
+    {
+      "id": "mahabharata:e:2db44fd6e4d80613c4c3",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "Dwaipayana, consenting to this, begat three children, viz., Dhritarashtra, Pandu, and Vidura.",
+      "start": 1284,
+      "end": 1377
+    },
+    {
+      "id": "mahabharata:e:14f0adfd67d3f4ccdc87",
+      "sourceId": "mahabharata:ganguli",
+      "page": 114,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "CVI",
+      "excerpt": "Ambalika beholding the Rishi, became pale with fear And, O Bharata, beholding her so afflicted and pale with fear, Vyasa addressed her and said, 'Because thou hast been pale with fear at the sight of my grim visage, therefore, thy child shall be pale in complexion. O thou of handsome face, the name also thy child shall bear will be Pandu (the pale).'",
+      "start": 216,
+      "end": 568
+    },
+    {
+      "id": "mahabharata:e:97dc4563adab2cdd1297",
+      "sourceId": "mahabharata:ganguli",
+      "page": 114,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "CVI",
+      "excerpt": "the son thus begotten upon her by Krishna-Dwaipayana was afterwards known by the name of Vidura.",
+      "start": 2027,
+      "end": 2123
+    },
+    {
+      "id": "mahabharata:e:c5510119cb28e7e329b7",
+      "sourceId": "mahabharata:ganguli",
+      "page": 114,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "CVI",
+      "excerpt": "She, however, sent unto him, a maid of hers, endued with the beauty of an Apsara and decked with her own ornaments.",
+      "start": 1479,
+      "end": 1594
+    },
+    {
+      "id": "mahabharata:e:7095b37fbed0d6413662",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "King Dhritarashtra had a hundred sons by his wife, Gandhari in consequence of the boon granted by Dwaipayana. And amongst those hundred sons of Dhritarashtra, four became celebrated. They are Duryodhana, Duhsasana, Vikarna, and Chitrasena.",
+      "start": 1378,
+      "end": 1617
+    },
+    {
+      "id": "mahabharata:e:14ae35a84f03b2d1bcd2",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "Pandu had two jewels of wives, viz., Kunti, also called Pritha, and Madri.",
+      "start": 1622,
+      "end": 1696
+    },
+    {
+      "id": "mahabharata:e:a5abb310425d023d02ec",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "he solicited Kunti to have offspring raised for him. And Kunti said, 'Let it be', So she raised up offspring. By Dharma she had Yudhishthira; by Maruta, Bhima: and by Sakra, Arjuna.",
+      "start": 2499,
+      "end": 2680
+    },
+    {
+      "id": "mahabharata:e:484d434cb864fb2c2062",
+      "sourceId": "mahabharata:ganguli",
+      "page": 128,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "CXXIV",
+      "excerpt": "Madri thought of the twin Aswins, who coming unto her with speed begat upon her two sons that were twins named Nakula and Sahadeva",
+      "start": 2579,
+      "end": 2709
+    },
+    {
+      "id": "mahabharata:e:8b4d1c1ff21cee523bfa",
+      "sourceId": "mahabharata:ganguli",
+      "page": 128,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "CXXIV",
+      "excerpt": "Thus, O king, were born unto Pandu five sons who were begotten by celestials",
+      "start": 4382,
+      "end": 4458
+    },
+    {
+      "id": "mahabharata:e:e5c3d772bc25c6b1158c",
+      "sourceId": "mahabharata:ganguli",
+      "page": 126,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "CXXIII",
+      "excerpt": "the birth of Vrikodara (Bhima)",
+      "start": 3658,
+      "end": 3688
+    },
+    {
+      "id": "mahabharata:e:16e94fe281f27c09bb20",
+      "sourceId": "mahabharata:ganguli",
+      "page": 126,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "CXXIII",
+      "excerpt": "Kunti then invoked Vayu. And the mighty god of wind",
+      "start": 2934,
+      "end": 2985
+    },
+    {
+      "id": "mahabharata:e:0bc2fe27de9fde214bae",
+      "sourceId": "mahabharata:ganguli",
+      "page": 127,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "CXXIII",
+      "excerpt": "invoked Sakra (the king of the gods)",
+      "start": 741,
+      "end": 777
+    },
+    {
+      "id": "mahabharata:e:a85a7c8af5e5419960a6",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "there obtaining Draupadi for a wife they returned to Hastinapura.",
+      "start": 4345,
+      "end": 4410
+    },
+    {
+      "id": "mahabharata:e:c1184c69efaf499d45e3",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "Yudhishthira begat Prativindhya; Bhima, Sutasoma; Arjuna, Srutakriti; Nakula, Satanika; and Sahadeva, Srutakarman.",
+      "start": 4479,
+      "end": 4593
+    },
+    {
+      "id": "mahabharata:e:bd6692aebe1094722cc7",
+      "sourceId": "mahabharata:ganguli",
+      "page": 66,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "LXIII",
+      "excerpt": "unto the five Pandavas were born five sons by (their common wife) Panchali.",
+      "start": 4190,
+      "end": 4265
+    },
+    {
+      "id": "mahabharata:e:3f2918e7abc04fd0703c",
+      "sourceId": "mahabharata:ganguli",
+      "page": 193,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "CCII",
+      "excerpt": "the handsome Draupadi had been united in marriage with the sons of Pandu.",
+      "start": 1204,
+      "end": 1277
+    },
+    {
+      "id": "mahabharata:e:36d51349efbc2e8e0b5d",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "Yudhishthira, having obtained for his wife Devika, the daughter of Govasana of the Saivya tribe, in a self-choice ceremony, begat upon her a son named Yaudheya.",
+      "start": 4609,
+      "end": 4769
+    },
+    {
+      "id": "mahabharata:e:1fcbd4d708fb07587f5a",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "Bhima also obtaining for a wife Valandhara, the daughter of the king of Kasi, offered his own prowess as dower and begat upon her a son named Sarvaga.",
+      "start": 4774,
+      "end": 4924
+    },
+    {
+      "id": "mahabharata:e:d6392979ce9927f2dca2",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "Arjuna also, repairing to Dwaravati, brought away by force Subhadra. the sweet-speeched sister of Vasudeva, and returned in happiness to Hastinapura. And he begat upon her a son named Abhimanyu",
+      "start": 4929,
+      "end": 5122
+    },
+    {
+      "id": "mahabharata:e:4e73aab55bcb4b6f1dca",
+      "sourceId": "mahabharata:ganguli",
+      "page": 6,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Subhadra of the race of Madhu had, after forcible seizure been married by Arjuna in the city of Dwaraka",
+      "start": 5116,
+      "end": 5219
+    },
+    {
+      "id": "mahabharata:e:c67205d124b4ac453b88",
+      "sourceId": "mahabharata:ganguli",
+      "page": 6,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Krishna and Balarama the brothers of Subhadra",
+      "start": 5269,
+      "end": 5314
+    },
+    {
+      "id": "mahabharata:e:0089ec9332700cb98903",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "Nakula obtaining for his wife Karenumati, the princess of Chedi, begat upon her a son named Niramitra.",
+      "start": 5189,
+      "end": 5291
+    },
+    {
+      "id": "mahabharata:e:b55e0c3e70f1952cddfb",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "Sahadeva also married Vijaya, the daughter of Dyutimat, the king of Madra, obtaining her in a self-choice ceremony and begat upon her a son named Suhotra.",
+      "start": 5296,
+      "end": 5450
+    },
+    {
+      "id": "mahabharata:e:5e7f33c49d2cd3dc4afb",
+      "sourceId": "mahabharata:ganguli",
+      "page": 61,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "LXI",
+      "excerpt": "Bhima gained Hidimva (the sister of the Rakshasa he slew) for a wife, and it was of her that Ghatotkacha was born.",
+      "start": 4895,
+      "end": 5009
+    },
+    {
+      "id": "mahabharata:e:bb7975fe289bc34a0e84",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "Bhimasena had some time before begat upon Hidimva a son named Ghatotkacha.",
+      "start": 5455,
+      "end": 5529
+    },
+    {
+      "id": "mahabharata:e:018346805cd7ebaf1222",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "Abhimanyu was the perpetuator of the family. He married Uttara, the daughter of Virata, who brought forth a dead child",
+      "start": 5591,
+      "end": 5709
+    },
+    {
+      "id": "mahabharata:e:ec2d2c0e00fedb7d8775",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "Vasudeva said, 'Because this child hath been born in an extinct race, therefore, he shall be called Parikshit'.",
+      "start": 6049,
+      "end": 6160
+    },
+    {
+      "id": "mahabharata:e:69caebda16f0bd62301a",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "Parikshit married Madravati, thy mother, O king, and thou art born to her, O Janamejaya!",
+      "start": 6165,
+      "end": 6253
+    },
+    {
+      "id": "mahabharata:e:b2990c9293e9fad6291e",
+      "sourceId": "mahabharata:ganguli",
+      "page": 3,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "royal sage Janamejaya and in the presence also of that chief of Princes, the son of Parikshit",
+      "start": 2209,
+      "end": 2302
+    },
+    {
+      "id": "mahabharata:e:84bbba4d3411b5b2a056",
+      "sourceId": "mahabharata:ganguli",
+      "page": 102,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "Thou hast also begotten two sons on thy wife Vapushtama, named Satanika and Sankukarna.",
+      "start": 6254,
+      "end": 6341
+    },
+    {
+      "id": "mahabharata:e:82923d539e0808801621",
+      "sourceId": "mahabharata:ganguli",
+      "page": 101,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "XCV",
+      "excerpt": "Puru had a wife of the name of Kausalya, on whom he begat a son named Janamejaya who performed three horse-sacrifices and a sacrifice called Viswajit.",
+      "start": 1506,
+      "end": 1656
+    },
+    {
+      "id": "mahabharata:e:82242dec3266022c80a6",
+      "sourceId": "mahabharata:ganguli",
+      "page": 3,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Ugrasrava, the son of Lomaharshana, surnamed Sauti, well-versed in the Puranas",
+      "start": 815,
+      "end": 893
+    },
+    {
+      "id": "mahabharata:e:95af7859863b767905aa",
+      "sourceId": "mahabharata:ganguli",
+      "page": 3,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "the twelve years' sacrifice of Saunaka, surnamed Kulapati",
+      "start": 1008,
+      "end": 1065
+    },
+    {
+      "id": "mahabharata:e:93893cb4ea6451366cc1",
+      "sourceId": "mahabharata:ganguli",
+      "page": 17,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "III",
+      "excerpt": "there arrived at the spot an offspring of Sarama (the celestial bitch).",
+      "start": 3085,
+      "end": 3156
+    },
+    {
+      "id": "mahabharata:e:ef87fde0c0feb0f5ef38",
+      "sourceId": "mahabharata:ganguli",
+      "page": 17,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "III",
+      "excerpt": "His mother Sarama hearing this and much distressed at the affliction of her son",
+      "start": 3685,
+      "end": 3764
+    },
+    {
+      "id": "mahabharata:e:b9c27edb57cd97d107fc",
+      "sourceId": "mahabharata:ganguli",
+      "page": 1,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "front matter",
+      "excerpt": "The Mahabharata of Krishna-Dwaipayana Vyasa",
+      "start": 105,
+      "end": 241
+    },
+    {
+      "id": "mahabharata:e:47cc58f545dad8a852e0",
+      "sourceId": "mahabharata:ganguli",
+      "page": 3,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Having bowed down to Narayana and Nara, the most exalted male being, and also to the goddess Saraswati",
+      "start": 679,
+      "end": 781
+    },
+    {
+      "id": "mahabharata:e:29ca7fb5c61fad513266",
+      "sourceId": "mahabharata:ganguli",
+      "page": 3,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "the great sages of rigid vows, sitting at their ease, who had attended the twelve years' sacrifice of Saunaka, surnamed Kulapati, in the forest of Naimisha.",
+      "start": 937,
+      "end": 1093
+    },
+    {
+      "id": "mahabharata:e:c4407fee8c772989b502",
+      "sourceId": "mahabharata:ganguli",
+      "page": 3,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "one of the Rishis beginning the conversation, asked him, 'Whence comest thou, O lotus-eyed Sauti, and where hast thou spent the time?",
+      "start": 1637,
+      "end": 1770
+    },
+    {
+      "id": "mahabharata:e:764194f85191cc643b41",
+      "sourceId": "mahabharata:ganguli",
+      "page": 3,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Accomplished in speech, Sauti, thus questioned, gave in the midst of that big assemblage of contemplative Munis a full and proper answer",
+      "start": 1807,
+      "end": 1943
+    },
+    {
+      "id": "mahabharata:e:c8ede4dd7317ab0ca09f",
+      "sourceId": "mahabharata:ganguli",
+      "page": 3,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "the diverse sacred and wonderful stories which were composed in his Mahabharata by Krishna- Dwaipayana",
+      "start": 2016,
+      "end": 2118
+    },
+    {
+      "id": "mahabharata:e:6b17ccfb4d2243ceb446",
+      "sourceId": "mahabharata:ganguli",
+      "page": 3,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "which were recited in full by Vaisampayana at the Snake-sacrifice of the high-souled royal sage Janamejaya and in the presence also of that chief of Princes, the son of Parikshit",
+      "start": 2124,
+      "end": 2302
+    },
+    {
+      "id": "mahabharata:e:58d89afb77f457a89c5e",
+      "sourceId": "mahabharata:ganguli",
+      "page": 3,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "where formerly was fought the battle between the children of Kuru and Pandu, and all the chiefs of the land ranged on either side.",
+      "start": 2468,
+      "end": 2598
+    },
+    {
+      "id": "mahabharata:e:05514bd142058cf93f6c",
+      "sourceId": "mahabharata:ganguli",
+      "page": 3,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "The Rishi replied, 'The Purana, first promulgated by the great Rishi Dwaipayana",
+      "start": 3148,
+      "end": 3227
+    },
+    {
+      "id": "mahabharata:e:39cea72965e96ac4d8f3",
+      "sourceId": "mahabharata:ganguli",
+      "page": 3,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "just as it was cheerfully recited by the Rishi Vaisampayana, under the direction of Dwaipayana himself, at the snake-sacrifice of Raja Janamejaya?",
+      "start": 3799,
+      "end": 3945
+    },
+    {
+      "id": "mahabharata:e:ad786caafcee5ae6b569",
+      "sourceId": "mahabharata:ganguli",
+      "page": 3,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Having bowed down to the primordial being Isana, to whom multitudes make offerings, and who is adored by the multitude; who is the true incorruptible one, Brahma",
+      "start": 3967,
+      "end": 4128
+    },
+    {
+      "id": "mahabharata:e:65f407adb2a201ac59c9",
+      "sourceId": "mahabharata:ganguli",
+      "page": 3,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "who is the creator of high and low; the ancient, exalted, inexhaustible one; who is Vishnu, beneficent and the beneficence itself",
+      "start": 4313,
+      "end": 4442
+    },
+    {
+      "id": "mahabharata:e:ec16bb0accee749dbf6e",
+      "sourceId": "mahabharata:ganguli",
+      "page": 3,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "who is Hari, the ruler of the faculties, the guide of all things moveable and immoveable",
+      "start": 4491,
+      "end": 4579
+    },
+    {
+      "id": "mahabharata:e:5cde13d92456ce50d5e3",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "in which we are told, was the true light Brahma, the eternal one, the wonderful and inconceivable being present alike in all places; the invisible and subtile cause, whose nature partaketh of entity and non-entity.",
+      "start": 37,
+      "end": 251
+    },
+    {
+      "id": "mahabharata:e:058bc1defaa12cd56254",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "From this egg came out the lord Pitamaha Brahma, the one only Prajapati; with Suraguru and Sthanu.",
+      "start": 252,
+      "end": 350
+    },
+    {
+      "id": "mahabharata:e:796cc3a17df922306ecf",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Then appeared the twenty-one Prajapatis, viz., Manu, Vasishtha and Parameshthi; ten Prachetas, Daksha, and the seven sons of Daksha.",
+      "start": 351,
+      "end": 483
+    },
+    {
+      "id": "mahabharata:e:dfe198193e5d92f3ef61",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Then appeared the man of inconceivable nature whom all the Rishis know",
+      "start": 484,
+      "end": 554
+    },
+    {
+      "id": "mahabharata:e:4531014d37a4a8ccdcf7",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "The sons of Div were Brihadbhanu, Chakshus, Atma Vibhavasu, Savita, Richika, Arka, Bhanu, Asavaha, and Ravi.",
+      "start": 1659,
+      "end": 1767
+    },
+    {
+      "id": "mahabharata:e:1a50976d33d72b52b076",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Of these Vivaswans of old, Mahya was the youngest whose son was Deva-vrata. The latter had for his son, Su-vrata",
+      "start": 1768,
+      "end": 1880
+    },
+    {
+      "id": "mahabharata:e:bb4248b557d137434991",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Su-vrata who, we learn, had three sons,--Dasa- jyoti, Sata-jyoti, and Sahasra-jyoti, each of them producing numerous offspring.",
+      "start": 1872,
+      "end": 1999
+    },
+    {
+      "id": "mahabharata:e:50f377ac2879ddfffda2",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "The illustrious Dasa-jyoti had ten thousand, Sata-jyoti ten times that number, and Sahasra-jyoti ten times the number of Sata-jyoti's offspring.",
+      "start": 2000,
+      "end": 2144
+    },
+    {
+      "id": "mahabharata:e:cf115ff221ca9a666599",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "From these are descended the family of the Kurus, of the Yadus, and of Bharata; the family of Yayati and of Ikshwaku; also of all the Rajarshis.",
+      "start": 2145,
+      "end": 2289
+    },
+    {
+      "id": "mahabharata:e:9e43abb87e5c80b48907",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Some read the Bharata beginning with the initial mantra (invocation), others with the story of Astika, others with Uparichara",
+      "start": 2925,
+      "end": 3050
+    },
+    {
+      "id": "mahabharata:e:25bfabc6f0c63dd5bf46",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "The son of Satyavati having, by penance and meditation, analysed the eternal Veda, afterwards composed this holy history, when that learned Brahmarshi of strict vows, the noble Dwaipayana Vyasa, offspring of Parasara, had finished this greatest of narrations",
+      "start": 3269,
+      "end": 3527
+    },
+    {
+      "id": "mahabharata:e:aef6a4858bd2685fa4f5",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Brahma, the world's preceptor, knowing of the anxiety of the Rishi Dwaipayana, came in person to the place where the latter was",
+      "start": 3631,
+      "end": 3758
+    },
+    {
+      "id": "mahabharata:e:efee219433ecee643333",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "And Vyasa having gone round him who is called Hiranyagarbha seated on that distinguished seat stood near it; and being commanded by Brahma Parameshthi",
+      "start": 3971,
+      "end": 4121
+    },
+    {
+      "id": "mahabharata:e:4624c576c7bbd1fd3f75",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Then the greatly glorious Vyasa, addressing Brahma Parameshthi, said, \"O divine Brahma, by me a poem hath been composed which is greatly respected.",
+      "start": 4188,
+      "end": 4335
+    },
+    {
+      "id": "mahabharata:e:9a289146b8724f8a956e",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "and the all-pervading spirit;--all these have been represented.",
+      "start": 5427,
+      "end": 5490
+    },
+    {
+      "id": "mahabharata:e:c71a6ed630b2184b4cb9",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Let Ganesa be thought of, O Muni, for the purpose of writing the poem.",
+      "start": 6058,
+      "end": 6128
+    },
+    {
+      "id": "mahabharata:e:a7f547ea8e0a35c88244",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Brahma having thus spoken to Vyasa, retired to his own abode.",
+      "start": 6145,
+      "end": 6206
+    },
+    {
+      "id": "mahabharata:e:91a8d7a983379c9d723f",
+      "sourceId": "mahabharata:ganguli",
+      "page": 4,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "And Ganesa, obviator of obstacles, ready to fulfil the desires of his votaries, was no sooner thought of, than he repaired to the place where Vyasa was seated.",
+      "start": 6248,
+      "end": 6407
+    },
+    {
+      "id": "mahabharata:e:49281544e6c2964bb14a",
+      "sourceId": "mahabharata:ganguli",
+      "page": 5,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "Ganesa, upon hearing this address, thus answered, 'I will become the writer of thy work, provided my pen do not for a moment cease writing.\" And Vyasa said unto that divinity",
+      "start": 1,
+      "end": 175
+    },
+    {
+      "id": "mahabharata:e:65759e873121292499d8",
+      "sourceId": "mahabharata:ganguli",
+      "page": 5,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "I",
+      "excerpt": "I am (continued Sauti) acquainted with eight thousand and eight hundred verses, and so is Suka, and perhaps Sanjaya.",
+      "start": 501,
+      "end": 617
+    },
+    {
+      "id": "mahabharata:e:f448f49039cadbd9480d",
+      "sourceId": "mahabharata:ganguli",
+      "page": 128,
+      "book": 1,
+      "parva": "Adi Parva",
+      "section": "CXXIV",
+      "excerpt": "The eldest of Kunti's children was called Yudhishthira",
+      "start": 3184,
+      "end": 3238
+    },
+    {
+      "id": "mahabharata:e:7d9a6c29ee3a679165fe",
+      "sourceId": "mahabharata:ganguli",
+      "page": 2134,
+      "book": 13,
+      "parva": "Anusasana Parva",
+      "section": "CLVIII",
+      "excerpt": "Know that this Krishna is Vishnu. Know that He is the soul of the universe.",
+      "start": 4797,
+      "end": 4872
+    },
+    {
+      "id": "mahabharata:e:22dd87338359be588471",
+      "sourceId": "mahabharata:ganguli",
+      "page": 1162,
+      "book": 8,
+      "parva": "Karna Parva",
+      "section": "front matter",
+      "excerpt": "Ambika's son Dhritarashtra",
+      "start": 957,
+      "end": 983
+    }
+  ],
+  "coverage": {
+    "totalPages": 2328,
+    "totalBooks": 18,
+    "totalWords": 2550347,
+    "totalBatches": 819,
+    "processedBatchIds": [
+      "b0001"
+    ],
+    "reviewedBatchIds": [
+      "b0001"
+    ],
+    "processedPages": [
+      1,
+      2,
+      3
+    ],
+    "reviewedPages": [
+      1,
+      2,
+      3
+    ],
+    "reviewedBooks": [],
+    "unresolvedCount": 66,
+    "phase": "extracting",
+    "message": "Extraction and omission checks are in progress. Characters and families are still being added.",
+    "updatedAt": "2026-10-04T04:30:02.464Z"
+  },
+  "issues": [
+    {
+      "id": "mahabharata:issue:37f9f68516fbee9694ae",
+      "batchId": "b0001",
+      "category": "extraction",
+      "description": "The invocation explicitly identifies Isana with Brahma, Vishnu and Hari. It does not explicitly link that referent to the true-light Brahma, Pitamaha Brahma emerging from the egg, or Brahma visiting Vyasa. Those references are retained separately pending evidence establishing identity; this does not assert that they are different beings.",
+      "status": "open"
+    },
+    {
+      "id": "mahabharata:issue:bffaca2f790207abed0d",
+      "batchId": "b0001",
+      "category": "extraction",
+      "description": "The candidate's combined creation-and-visit Brahma entry has been separated because the batch does not explicitly establish that Pitamaha Brahma and the visiting Brahma are identical. Hiranyagarbha and Brahma Parameshthi are explicitly connected within the visit scene.",
+      "status": "open"
+    },
+    {
+      "id": "mahabharata:issue:06e9cd58e090f637f9f1",
+      "batchId": "b0001",
+      "category": "extraction",
+      "description": "Parameshthi is explicitly named in the Prajapati list, so that mention is supported. Its identity with the visiting Brahma Parameshthi remains unresolved.",
+      "status": "open"
+    },
+    {
+      "id": "mahabharata:issue:7d0e063a35a218801f47",
+      "batchId": "b0001",
+      "category": "extraction",
+      "description": "The supplied list prints Atma Vibhavasu without a separating comma. Whether this denotes one individual or separate individuals named Atma and Vibhavasu cannot be settled from this batch. The combined source label and its parent relationship are therefore provisional.",
+      "status": "open"
+    },
+    {
+      "id": "mahabharata:issue:a2dc04f89a2e37ce3c32",
+      "batchId": "b0001",
+      "category": "extraction",
+      "description": "Mahya is called the youngest of these Vivaswans but is absent from the preceding enumeration of Div's sons. Div's parentage of Mahya and Mahya's sibling relationships to the enumerated sons depend on resolving that reference and remain provisional.",
+      "status": "open"
+    },
+    {
+      "id": "mahabharata:issue:47fc07fc0455ebbc9864",
+      "batchId": "b0001",
+      "category": "extraction",
+      "description": "Sibling relationships are deductions from the listed common parentage, not explicit statements using a sibling term. Each symmetric pair is recorded once and marked provisional.",
+      "status": "open"
+    },
+    {
+      "id": "mahabharata:issue:b5a8b62a5c124d9589c9",
+      "batchId": "b0001",
+      "category": "extraction",
+      "description": "The all-pervading spirit is a singular reference in Vyasa's catalogue, but the passage does not establish whether it denotes an individual being or a philosophical principle. Its entity entry is provisional, with no identification to another entry.",
+      "status": "open"
+    },
+    {
+      "id": "mahabharata:issue:03fc4b6b90ff5d1eb1eb",
+      "batchId": "b0001",
+      "category": "extraction",
+      "description": "The seven sons of Daksha, ten Prachetas, twin Aswins, children of Kuru and Pandu, other collective classes, and counted offspring of the three Jyotis are not individually distinguished in this batch. Counts and collective labels have not been converted into individual entities.",
+      "status": "open"
+    },
+    {
+      "id": "mahabharata:issue:7258875608685ce9e9b4",
+      "batchId": "b0001",
+      "category": "extraction",
+      "description": "The descent claim concerns families and unspecified generations. It does not establish direct parent_of relationships to Bharata, Yayati or Ikshwaku. The plural Yadus does not establish an individually named Yadu.",
+      "status": "open"
+    },
+    {
+      "id": "mahabharata:issue:6c22a98aca07f7b9f197",
+      "batchId": "b0001",
+      "category": "extraction",
+      "description": "Parentage does not establish the genders of Satyavati, Parasara, Lomaharshana or Parikshit in this batch, or a spouse relationship between Satyavati and Parasara.",
+      "status": "open"
+    },
+    {
+      "id": "mahabharata:issue:3ef54a524d1af3a062e5",
+      "batchId": "b0001",
+      "category": "extraction",
+      "description": "People mentioned only as translators, editors, commentators, literary authors, patrons or other participants in the translator's preface are outside the epic narrative inventory. Book and poem titles alone have not been converted into character mentions.",
+      "status": "open"
+    },
+    {
+      "id": "mahabharata:issue:40e0f2c968bcf1484189",
+      "batchId": "b0001",
+      "category": "identity",
+      "description": "pandu: CURRENT identifies only a Pandu whose children participated in the battle against Kuru's children. The existing excerpt identifies Pandu as a child of Dwaipayana; CURRENT does not corroborate that parentage or explicitly identify his children as the five Pandavas. The proposed identity remains uncertain.",
+      "status": "open"
+    },
+    {
+      "id": "mahabharata:issue:be7b7e9c75beab9593d7",
+      "batchId": "b0001",
+      "category": "identity",
+      "description": "unnamed_questioning_rishi: CURRENT never identifies the questioning Rishi as Saunaka. Attendance at Saunaka's sacrifice does not establish that identity.",
+      "status": "open"
+    },
+    {
+      "id": "mahabharata:issue:33f10cd79af00763aa59",
+      "batchId": "b0001",
+      "category": "identity",
+      "description": "No corresponding POSSIBLE EXISTING identity is supplied for these CURRENT keys: narayana, nara, saraswati, vaisampayana, kuru, isana_primordial, brahma_true_light, brahma_pitamaha, brahma_visitor, suraguru, sthanu, manu, vasishtha, parameshthi_list, daksha, unnamed_inconceivable_man, div, brihadbhanu, chakshus, atma_vibhavasu, savita, richika, arka, bhanu, asavaha, ravi, mahya, deva_vrata, su_vrata, dasa_jyoti, sata_jyoti, sahasra_jyoti, bharata, yayati, ikshwaku, astika, uparichara, ganesa, suka, sanjaya, unnamed_all_pervading_spirit.",
+      "status": "open"
+    }
+  ]
+}

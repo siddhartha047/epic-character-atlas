@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "epics": [
+    { "id": "mahabharata", "title": "Mahabharata", "subtitle": "Kisari Mohan Ganguli · English prose", "dataset": "epics/mahabharata/graph.json", "status": "available" },
+    { "id": "ramayana", "title": "Ramayana", "subtitle": "A future addition to the atlas", "dataset": null, "status": "planned" }
+  ]
+}

@@ -1,0 +1,15 @@
+Books/
+node_modules/
+dist/
+.tools/
+.corpus/
+.venv/
+.env
+.env.*
+!.env.example
+*.pdf
+*.log
+.DS_Store
+test-results/
+playwright-report/
+tmp/

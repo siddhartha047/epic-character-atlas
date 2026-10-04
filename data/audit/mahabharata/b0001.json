@@ -1,0 +1,1865 @@
+{
+  "sourceHash": "ffb659cbefb7c25473c2ff66ecb44ebec868273c7d39847397b395ce4ae48903",
+  "batchDigest": "f647eddabbb26702a77a9992bac06465fcd807e730ada84feed65a17e23ea96b",
+  "batchId": "b0001",
+  "pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "reviewedAt": "2026-10-04T04:28:56.757Z",
+  "reviewer": "Codex extraction + omission + identity passes; not human review",
+  "extraction": {
+    "entities": [
+      {
+        "key": "vyasa",
+        "name": "Vyasa",
+        "kind": "sage",
+        "description": "Composer of the history, called a Brahmarshi, the son of Satyavati and offspring of Parasara.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Krishna-Dwaipayana Vyasa",
+            "evidenceKeys": [
+              "e_title"
+            ]
+          },
+          {
+            "label": "Krishna-Dwaipayana",
+            "evidenceKeys": [
+              "e_title",
+              "e_composer",
+              "e_vyasa_parentage"
+            ]
+          },
+          {
+            "label": "Dwaipayana",
+            "evidenceKeys": [
+              "e_dwaipayana",
+              "e_vyasa_parentage"
+            ]
+          },
+          {
+            "label": "Dwaipayana Vyasa",
+            "evidenceKeys": [
+              "e_vyasa_parentage"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called the son of Satyavati.",
+            "evidenceKeys": [
+              "e_vyasa_parentage"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_title",
+          "e_composer",
+          "e_dwaipayana",
+          "e_vyasa_parentage"
+        ]
+      },
+      {
+        "key": "narayana",
+        "name": "Narayana",
+        "kind": "unknown",
+        "description": "Being named in the opening invocation.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_invocation"
+        ]
+      },
+      {
+        "key": "nara",
+        "name": "Nara",
+        "kind": "unknown",
+        "description": "Being invoked as the most exalted male being.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called the most exalted male being.",
+            "evidenceKeys": [
+              "e_invocation"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_invocation"
+        ]
+      },
+      {
+        "key": "saraswati",
+        "name": "Saraswati",
+        "kind": "deity",
+        "description": "Goddess named in the opening invocation.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "female",
+            "context": "Explicitly called a goddess.",
+            "evidenceKeys": [
+              "e_invocation"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_invocation"
+        ]
+      },
+      {
+        "key": "ugrasrava",
+        "name": "Ugrasrava",
+        "kind": "unknown",
+        "description": "Narrator versed in the Puranas who approaches the sages at Naimisha.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Sauti",
+            "evidenceKeys": [
+              "e_ugrasrava",
+              "e_rishi_question",
+              "e_sauti_answer"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Called the son of Lomaharshana.",
+            "evidenceKeys": [
+              "e_ugrasrava"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_ugrasrava",
+          "e_rishi_question",
+          "e_sauti_answer"
+        ]
+      },
+      {
+        "key": "lomaharshana",
+        "name": "Lomaharshana",
+        "kind": "unknown",
+        "description": "Parent of Ugrasrava.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_ugrasrava"
+        ]
+      },
+      {
+        "key": "saunaka",
+        "name": "Saunaka",
+        "kind": "unknown",
+        "description": "Individual whose twelve-year sacrifice the sages attended in Naimisha.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Kulapati",
+            "evidenceKeys": [
+              "e_saunaka"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "e_saunaka"
+        ]
+      },
+      {
+        "key": "unnamed_questioning_rishi",
+        "name": "Unnamed Rishi who questions Sauti",
+        "kind": "sage",
+        "description": "Individual Rishi who opens the conversation with Sauti and requests the Bharata narrative.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_rishi_question",
+          "e_dwaipayana",
+          "e_vaisampayana"
+        ]
+      },
+      {
+        "key": "vaisampayana",
+        "name": "Vaisampayana",
+        "kind": "sage",
+        "description": "Rishi who recites the history at Janamejaya's snake-sacrifice under Dwaipayana's direction.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_recitation",
+          "e_vaisampayana"
+        ]
+      },
+      {
+        "key": "janamejaya",
+        "name": "Janamejaya",
+        "kind": "sage",
+        "description": "Royal sage associated with the snake-sacrifice and referred to as the chief of Princes, the son of Parikshit.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Referred to as the son of Parikshit.",
+            "evidenceKeys": [
+              "e_recitation"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_recitation",
+          "e_vaisampayana"
+        ]
+      },
+      {
+        "key": "parikshit",
+        "name": "Parikshit",
+        "kind": "unknown",
+        "description": "Parent named in the reference to Janamejaya as the son of Parikshit.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_recitation"
+        ]
+      },
+      {
+        "key": "kuru",
+        "name": "Kuru",
+        "kind": "unknown",
+        "description": "Individual whose children are mentioned as participants in the former battle.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_battle"
+        ]
+      },
+      {
+        "key": "pandu",
+        "name": "Pandu",
+        "kind": "unknown",
+        "description": "Individual whose children are mentioned as participants in the former battle.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_battle"
+        ]
+      },
+      {
+        "key": "isana_primordial",
+        "name": "Isana",
+        "kind": "deity",
+        "description": "Primordial being worshipped with offerings and invoked as the creator; the invocation identifies this being as Brahma, Vishnu and Hari.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Brahma",
+            "evidenceKeys": [
+              "e_isana_brahma"
+            ]
+          },
+          {
+            "label": "Vishnu",
+            "evidenceKeys": [
+              "e_isana_brahma",
+              "e_isana_vishnu"
+            ]
+          },
+          {
+            "label": "Hari",
+            "evidenceKeys": [
+              "e_isana_brahma",
+              "e_isana_vishnu",
+              "e_isana_hari"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "e_isana_brahma",
+          "e_isana_vishnu",
+          "e_isana_hari"
+        ]
+      },
+      {
+        "key": "brahma_true_light",
+        "name": "Brahma",
+        "kind": "unknown",
+        "description": "Being described as the true light, eternal, inconceivable and present alike in all places.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_true_light"
+        ]
+      },
+      {
+        "key": "brahma_pitamaha",
+        "name": "Pitamaha Brahma",
+        "kind": "unknown",
+        "description": "Lord called the one only Prajapati, who emerges from the primordial egg.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Brahma",
+            "evidenceKeys": [
+              "e_egg_emergence"
+            ]
+          }
+        ],
+        "gender": [],
+        "evidenceKeys": [
+          "e_egg_emergence"
+        ]
+      },
+      {
+        "key": "brahma_visitor",
+        "name": "Brahma",
+        "kind": "deity",
+        "description": "Divine preceptor who visits Vyasa and recommends Ganesa as the writer of the poem.",
+        "status": "supported",
+        "aliases": [
+          {
+            "label": "Hiranyagarbha",
+            "evidenceKeys": [
+              "e_brahma_visit",
+              "e_hiranyagarbha"
+            ]
+          },
+          {
+            "label": "Brahma Parameshthi",
+            "evidenceKeys": [
+              "e_hiranyagarbha",
+              "e_brahma_address"
+            ]
+          },
+          {
+            "label": "Parameshthi",
+            "evidenceKeys": [
+              "e_hiranyagarbha",
+              "e_brahma_address"
+            ]
+          }
+        ],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The account says that Brahma retired to his own abode.",
+            "evidenceKeys": [
+              "e_brahma_departure"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_brahma_visit",
+          "e_hiranyagarbha",
+          "e_brahma_address",
+          "e_brahma_advice",
+          "e_brahma_departure"
+        ]
+      },
+      {
+        "key": "suraguru",
+        "name": "Suraguru",
+        "kind": "unknown",
+        "description": "Being named with Pitamaha Brahma and Sthanu in the emergence from the primordial egg.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_egg_emergence"
+        ]
+      },
+      {
+        "key": "sthanu",
+        "name": "Sthanu",
+        "kind": "unknown",
+        "description": "Being named with Pitamaha Brahma and Suraguru in the emergence from the primordial egg.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_egg_emergence"
+        ]
+      },
+      {
+        "key": "manu",
+        "name": "Manu",
+        "kind": "unknown",
+        "description": "Individually named Prajapati in the creation list.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_prajapatis"
+        ]
+      },
+      {
+        "key": "vasishtha",
+        "name": "Vasishtha",
+        "kind": "unknown",
+        "description": "Individually named Prajapati in the creation list.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_prajapatis"
+        ]
+      },
+      {
+        "key": "parameshthi_list",
+        "name": "Parameshthi",
+        "kind": "unknown",
+        "description": "Individually named Prajapati in the creation list.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_prajapatis"
+        ]
+      },
+      {
+        "key": "daksha",
+        "name": "Daksha",
+        "kind": "unknown",
+        "description": "Named Prajapati whose seven sons are also mentioned collectively in the creation list.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_prajapatis"
+        ]
+      },
+      {
+        "key": "unnamed_inconceivable_man",
+        "name": "Unnamed man of inconceivable nature",
+        "kind": "unknown",
+        "description": "Individual appearing in the creation account, said to be known to all the Rishis.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly described as a man.",
+            "evidenceKeys": [
+              "e_inconceivable_man"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_inconceivable_man"
+        ]
+      },
+      {
+        "key": "div",
+        "name": "Div",
+        "kind": "unknown",
+        "description": "Parent of the sons enumerated in the generation account.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_div_sons"
+        ]
+      },
+      {
+        "key": "brihadbhanu",
+        "name": "Brihadbhanu",
+        "kind": "unknown",
+        "description": "One of the named sons of Div.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the sons of Div.",
+            "evidenceKeys": [
+              "e_div_sons"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_div_sons"
+        ]
+      },
+      {
+        "key": "chakshus",
+        "name": "Chakshus",
+        "kind": "unknown",
+        "description": "One of the named sons of Div.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the sons of Div.",
+            "evidenceKeys": [
+              "e_div_sons"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_div_sons"
+        ]
+      },
+      {
+        "key": "atma_vibhavasu",
+        "name": "Atma Vibhavasu",
+        "kind": "unknown",
+        "description": "Provisionally treated as one individual under the undelimited source label in the list of Div's sons.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The source label occurs within the list of Div's sons; its division into individual names remains uncertain.",
+            "evidenceKeys": [
+              "e_div_sons"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_div_sons"
+        ]
+      },
+      {
+        "key": "savita",
+        "name": "Savita",
+        "kind": "unknown",
+        "description": "One of the named sons of Div.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the sons of Div.",
+            "evidenceKeys": [
+              "e_div_sons"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_div_sons"
+        ]
+      },
+      {
+        "key": "richika",
+        "name": "Richika",
+        "kind": "unknown",
+        "description": "One of the named sons of Div.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the sons of Div.",
+            "evidenceKeys": [
+              "e_div_sons"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_div_sons"
+        ]
+      },
+      {
+        "key": "arka",
+        "name": "Arka",
+        "kind": "unknown",
+        "description": "One of the named sons of Div.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the sons of Div.",
+            "evidenceKeys": [
+              "e_div_sons"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_div_sons"
+        ]
+      },
+      {
+        "key": "bhanu",
+        "name": "Bhanu",
+        "kind": "unknown",
+        "description": "One of the named sons of Div.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the sons of Div.",
+            "evidenceKeys": [
+              "e_div_sons"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_div_sons"
+        ]
+      },
+      {
+        "key": "asavaha",
+        "name": "Asavaha",
+        "kind": "unknown",
+        "description": "One of the named sons of Div.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the sons of Div.",
+            "evidenceKeys": [
+              "e_div_sons"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_div_sons"
+        ]
+      },
+      {
+        "key": "ravi",
+        "name": "Ravi",
+        "kind": "unknown",
+        "description": "One of the named sons of Div.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among the sons of Div.",
+            "evidenceKeys": [
+              "e_div_sons"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_div_sons"
+        ]
+      },
+      {
+        "key": "mahya",
+        "name": "Mahya",
+        "kind": "unknown",
+        "description": "Called the youngest of the referenced Vivaswans of old and the parent of Deva-vrata.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_mahya_line"
+        ]
+      },
+      {
+        "key": "deva_vrata",
+        "name": "Deva-vrata",
+        "kind": "unknown",
+        "description": "Son of Mahya and parent of Su-vrata.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called Mahya's son.",
+            "evidenceKeys": [
+              "e_mahya_line"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_mahya_line"
+        ]
+      },
+      {
+        "key": "su_vrata",
+        "name": "Su-vrata",
+        "kind": "unknown",
+        "description": "Son of Deva-vrata and parent of Dasa-jyoti, Sata-jyoti and Sahasra-jyoti.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Explicitly called Deva-vrata's son.",
+            "evidenceKeys": [
+              "e_mahya_line"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_mahya_line",
+          "e_su_vrata_sons"
+        ]
+      },
+      {
+        "key": "dasa_jyoti",
+        "name": "Dasa-jyoti",
+        "kind": "unknown",
+        "description": "Son of Su-vrata, said to have ten thousand offspring.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among Su-vrata's three sons.",
+            "evidenceKeys": [
+              "e_su_vrata_sons"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_su_vrata_sons",
+          "e_offspring_counts"
+        ]
+      },
+      {
+        "key": "sata_jyoti",
+        "name": "Sata-jyoti",
+        "kind": "unknown",
+        "description": "Son of Su-vrata, said to have ten times Dasa-jyoti's number of offspring.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among Su-vrata's three sons.",
+            "evidenceKeys": [
+              "e_su_vrata_sons"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_su_vrata_sons",
+          "e_offspring_counts"
+        ]
+      },
+      {
+        "key": "sahasra_jyoti",
+        "name": "Sahasra-jyoti",
+        "kind": "unknown",
+        "description": "Son of Su-vrata, said to have ten times Sata-jyoti's number of offspring.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "Included among Su-vrata's three sons.",
+            "evidenceKeys": [
+              "e_su_vrata_sons"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_su_vrata_sons",
+          "e_offspring_counts"
+        ]
+      },
+      {
+        "key": "bharata",
+        "name": "Bharata",
+        "kind": "unknown",
+        "description": "Individual named through the family of Bharata in the descent account.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_descendant_families"
+        ]
+      },
+      {
+        "key": "yayati",
+        "name": "Yayati",
+        "kind": "unknown",
+        "description": "Individual whose family is named in the descent account.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_descendant_families"
+        ]
+      },
+      {
+        "key": "ikshwaku",
+        "name": "Ikshwaku",
+        "kind": "unknown",
+        "description": "Individual whose family is named in the descent account.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_descendant_families"
+        ]
+      },
+      {
+        "key": "astika",
+        "name": "Astika",
+        "kind": "unknown",
+        "description": "Named subject of a story from which some readers begin the Bharata.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_reading_beginnings"
+        ]
+      },
+      {
+        "key": "uparichara",
+        "name": "Uparichara",
+        "kind": "unknown",
+        "description": "Named narrative figure from whom some readers begin the Bharata.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_reading_beginnings"
+        ]
+      },
+      {
+        "key": "satyavati",
+        "name": "Satyavati",
+        "kind": "unknown",
+        "description": "Parent of the son identified as Dwaipayana Vyasa.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_vyasa_parentage"
+        ]
+      },
+      {
+        "key": "parasara",
+        "name": "Parasara",
+        "kind": "unknown",
+        "description": "Individual whose offspring is Dwaipayana Vyasa.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_vyasa_parentage"
+        ]
+      },
+      {
+        "key": "ganesa",
+        "name": "Ganesa",
+        "kind": "deity",
+        "description": "Divinity called an obviator of obstacles who agrees to write Vyasa's work.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [
+          {
+            "label": "male",
+            "context": "The account refers to his votaries.",
+            "evidenceKeys": [
+              "e_ganesa_arrival"
+            ]
+          }
+        ],
+        "evidenceKeys": [
+          "e_brahma_advice",
+          "e_ganesa_arrival",
+          "e_ganesa_agreement"
+        ]
+      },
+      {
+        "key": "suka",
+        "name": "Suka",
+        "kind": "unknown",
+        "description": "Individual whom Sauti says is acquainted with the eight thousand and eight hundred verses.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_suka_sanjaya"
+        ]
+      },
+      {
+        "key": "sanjaya",
+        "name": "Sanjaya",
+        "kind": "unknown",
+        "description": "Individual whom Sauti says may also be acquainted with the eight thousand and eight hundred verses.",
+        "status": "supported",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_suka_sanjaya"
+        ]
+      },
+      {
+        "key": "unnamed_all_pervading_spirit",
+        "name": "Unnamed all-pervading spirit",
+        "kind": "unknown",
+        "description": "Singular spirit included among the subjects Vyasa says he has represented in his poem.",
+        "status": "provisional",
+        "aliases": [],
+        "gender": [],
+        "evidenceKeys": [
+          "e_brahma_address",
+          "e_all_pervading_spirit"
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "fromKey": "lomaharshana",
+        "toKey": "ugrasrava",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_ugrasrava"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "parikshit",
+        "toKey": "janamejaya",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_recitation"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "satyavati",
+        "toKey": "vyasa",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_vyasa_parentage"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "parasara",
+        "toKey": "vyasa",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_vyasa_parentage"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "div",
+        "toKey": "brihadbhanu",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "div",
+        "toKey": "chakshus",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "div",
+        "toKey": "atma_vibhavasu",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "div",
+        "toKey": "savita",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "div",
+        "toKey": "richika",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "div",
+        "toKey": "arka",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "div",
+        "toKey": "bhanu",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "div",
+        "toKey": "asavaha",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "div",
+        "toKey": "ravi",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "div",
+        "toKey": "mahya",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_div_sons",
+          "e_mahya_line"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "mahya",
+        "toKey": "deva_vrata",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_mahya_line"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "deva_vrata",
+        "toKey": "su_vrata",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_mahya_line"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "su_vrata",
+        "toKey": "dasa_jyoti",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_su_vrata_sons"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "su_vrata",
+        "toKey": "sata_jyoti",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_su_vrata_sons"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "su_vrata",
+        "toKey": "sahasra_jyoti",
+        "type": "parent_of",
+        "parenthood": "unspecified",
+        "evidenceKeys": [
+          "e_su_vrata_sons"
+        ],
+        "status": "supported"
+      },
+      {
+        "fromKey": "brihadbhanu",
+        "toKey": "chakshus",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "brihadbhanu",
+        "toKey": "atma_vibhavasu",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "brihadbhanu",
+        "toKey": "savita",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "brihadbhanu",
+        "toKey": "richika",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "brihadbhanu",
+        "toKey": "arka",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "brihadbhanu",
+        "toKey": "bhanu",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "brihadbhanu",
+        "toKey": "asavaha",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "brihadbhanu",
+        "toKey": "ravi",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "chakshus",
+        "toKey": "atma_vibhavasu",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "chakshus",
+        "toKey": "savita",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "chakshus",
+        "toKey": "richika",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "chakshus",
+        "toKey": "arka",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "chakshus",
+        "toKey": "bhanu",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "chakshus",
+        "toKey": "asavaha",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "chakshus",
+        "toKey": "ravi",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "atma_vibhavasu",
+        "toKey": "savita",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "atma_vibhavasu",
+        "toKey": "richika",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "atma_vibhavasu",
+        "toKey": "arka",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "atma_vibhavasu",
+        "toKey": "bhanu",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "atma_vibhavasu",
+        "toKey": "asavaha",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "atma_vibhavasu",
+        "toKey": "ravi",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "savita",
+        "toKey": "richika",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "savita",
+        "toKey": "arka",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "savita",
+        "toKey": "bhanu",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "savita",
+        "toKey": "asavaha",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "savita",
+        "toKey": "ravi",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "richika",
+        "toKey": "arka",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "richika",
+        "toKey": "bhanu",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "richika",
+        "toKey": "asavaha",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "richika",
+        "toKey": "ravi",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "arka",
+        "toKey": "bhanu",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "arka",
+        "toKey": "asavaha",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "arka",
+        "toKey": "ravi",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "bhanu",
+        "toKey": "asavaha",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "bhanu",
+        "toKey": "ravi",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "asavaha",
+        "toKey": "ravi",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "mahya",
+        "toKey": "brihadbhanu",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons",
+          "e_mahya_line"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "mahya",
+        "toKey": "chakshus",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons",
+          "e_mahya_line"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "mahya",
+        "toKey": "atma_vibhavasu",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons",
+          "e_mahya_line"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "mahya",
+        "toKey": "savita",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons",
+          "e_mahya_line"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "mahya",
+        "toKey": "richika",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons",
+          "e_mahya_line"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "mahya",
+        "toKey": "arka",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons",
+          "e_mahya_line"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "mahya",
+        "toKey": "bhanu",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons",
+          "e_mahya_line"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "mahya",
+        "toKey": "asavaha",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons",
+          "e_mahya_line"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "mahya",
+        "toKey": "ravi",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_div_sons",
+          "e_mahya_line"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "dasa_jyoti",
+        "toKey": "sata_jyoti",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_su_vrata_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "dasa_jyoti",
+        "toKey": "sahasra_jyoti",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_su_vrata_sons"
+        ],
+        "status": "provisional"
+      },
+      {
+        "fromKey": "sata_jyoti",
+        "toKey": "sahasra_jyoti",
+        "type": "sibling_of",
+        "parenthood": null,
+        "evidenceKeys": [
+          "e_su_vrata_sons"
+        ],
+        "status": "provisional"
+      }
+    ],
+    "evidence": [
+      {
+        "key": "e_title",
+        "page": 1,
+        "excerpt": "The Mahabharata of Krishna-Dwaipayana Vyasa"
+      },
+      {
+        "key": "e_invocation",
+        "page": 3,
+        "excerpt": "Having bowed down to Narayana and Nara, the most exalted male being, and also to the goddess Saraswati"
+      },
+      {
+        "key": "e_ugrasrava",
+        "page": 3,
+        "excerpt": "Ugrasrava, the son of Lomaharshana, surnamed Sauti, well-versed in the Puranas"
+      },
+      {
+        "key": "e_saunaka",
+        "page": 3,
+        "excerpt": "the great sages of rigid vows, sitting at their ease, who had attended the twelve years' sacrifice of Saunaka, surnamed Kulapati, in the forest of Naimisha."
+      },
+      {
+        "key": "e_rishi_question",
+        "page": 3,
+        "excerpt": "one of the Rishis beginning the conversation, asked him, 'Whence comest thou, O lotus-eyed Sauti, and where hast thou spent the time?"
+      },
+      {
+        "key": "e_sauti_answer",
+        "page": 3,
+        "excerpt": "Accomplished in speech, Sauti, thus questioned, gave in the midst of that big assemblage of contemplative Munis a full and proper answer"
+      },
+      {
+        "key": "e_composer",
+        "page": 3,
+        "excerpt": "the diverse sacred and wonderful stories which were composed in his Mahabharata by Krishna- Dwaipayana"
+      },
+      {
+        "key": "e_recitation",
+        "page": 3,
+        "excerpt": "which were recited in full by Vaisampayana at the Snake-sacrifice of the high-souled royal sage Janamejaya and in the presence also of that chief of Princes, the son of Parikshit"
+      },
+      {
+        "key": "e_battle",
+        "page": 3,
+        "excerpt": "where formerly was fought the battle between the children of Kuru and Pandu, and all the chiefs of the land ranged on either side."
+      },
+      {
+        "key": "e_dwaipayana",
+        "page": 3,
+        "excerpt": "The Rishi replied, 'The Purana, first promulgated by the great Rishi Dwaipayana"
+      },
+      {
+        "key": "e_vaisampayana",
+        "page": 3,
+        "excerpt": "just as it was cheerfully recited by the Rishi Vaisampayana, under the direction of Dwaipayana himself, at the snake-sacrifice of Raja Janamejaya?"
+      },
+      {
+        "key": "e_isana_brahma",
+        "page": 3,
+        "excerpt": "Having bowed down to the primordial being Isana, to whom multitudes make offerings, and who is adored by the multitude; who is the true incorruptible one, Brahma"
+      },
+      {
+        "key": "e_isana_vishnu",
+        "page": 3,
+        "excerpt": "who is the creator of high and low; the ancient, exalted, inexhaustible one; who is Vishnu, beneficent and the beneficence itself"
+      },
+      {
+        "key": "e_isana_hari",
+        "page": 3,
+        "excerpt": "who is Hari, the ruler of the faculties, the guide of all things moveable and immoveable"
+      },
+      {
+        "key": "e_true_light",
+        "page": 4,
+        "excerpt": "in which we are told, was the true light Brahma, the eternal one, the wonderful and inconceivable being present alike in all places; the invisible and subtile cause, whose nature partaketh of entity and non-entity."
+      },
+      {
+        "key": "e_egg_emergence",
+        "page": 4,
+        "excerpt": "From this egg came out the lord Pitamaha Brahma, the one only Prajapati; with Suraguru and Sthanu."
+      },
+      {
+        "key": "e_prajapatis",
+        "page": 4,
+        "excerpt": "Then appeared the twenty-one Prajapatis, viz., Manu, Vasishtha and Parameshthi; ten Prachetas, Daksha, and the seven sons of Daksha."
+      },
+      {
+        "key": "e_inconceivable_man",
+        "page": 4,
+        "excerpt": "Then appeared the man of inconceivable nature whom all the Rishis know"
+      },
+      {
+        "key": "e_div_sons",
+        "page": 4,
+        "excerpt": "The sons of Div were Brihadbhanu, Chakshus, Atma Vibhavasu, Savita, Richika, Arka, Bhanu, Asavaha, and Ravi."
+      },
+      {
+        "key": "e_mahya_line",
+        "page": 4,
+        "excerpt": "Of these Vivaswans of old, Mahya was the youngest whose son was Deva-vrata. The latter had for his son, Su-vrata"
+      },
+      {
+        "key": "e_su_vrata_sons",
+        "page": 4,
+        "excerpt": "Su-vrata who, we learn, had three sons,--Dasa- jyoti, Sata-jyoti, and Sahasra-jyoti, each of them producing numerous offspring."
+      },
+      {
+        "key": "e_offspring_counts",
+        "page": 4,
+        "excerpt": "The illustrious Dasa-jyoti had ten thousand, Sata-jyoti ten times that number, and Sahasra-jyoti ten times the number of Sata-jyoti's offspring."
+      },
+      {
+        "key": "e_descendant_families",
+        "page": 4,
+        "excerpt": "From these are descended the family of the Kurus, of the Yadus, and of Bharata; the family of Yayati and of Ikshwaku; also of all the Rajarshis."
+      },
+      {
+        "key": "e_reading_beginnings",
+        "page": 4,
+        "excerpt": "Some read the Bharata beginning with the initial mantra (invocation), others with the story of Astika, others with Uparichara"
+      },
+      {
+        "key": "e_vyasa_parentage",
+        "page": 4,
+        "excerpt": "The son of Satyavati having, by penance and meditation, analysed the eternal Veda, afterwards composed this holy history, when that learned Brahmarshi of strict vows, the noble Dwaipayana Vyasa, offspring of Parasara, had finished this greatest of narrations"
+      },
+      {
+        "key": "e_brahma_visit",
+        "page": 4,
+        "excerpt": "Brahma, the world's preceptor, knowing of the anxiety of the Rishi Dwaipayana, came in person to the place where the latter was"
+      },
+      {
+        "key": "e_hiranyagarbha",
+        "page": 4,
+        "excerpt": "And Vyasa having gone round him who is called Hiranyagarbha seated on that distinguished seat stood near it; and being commanded by Brahma Parameshthi"
+      },
+      {
+        "key": "e_brahma_address",
+        "page": 4,
+        "excerpt": "Then the greatly glorious Vyasa, addressing Brahma Parameshthi, said, \"O divine Brahma, by me a poem hath been composed which is greatly respected."
+      },
+      {
+        "key": "e_all_pervading_spirit",
+        "page": 4,
+        "excerpt": "and the all-pervading spirit;--all these have been represented."
+      },
+      {
+        "key": "e_brahma_advice",
+        "page": 4,
+        "excerpt": "Let Ganesa be thought of, O Muni, for the purpose of writing the poem."
+      },
+      {
+        "key": "e_brahma_departure",
+        "page": 4,
+        "excerpt": "Brahma having thus spoken to Vyasa, retired to his own abode."
+      },
+      {
+        "key": "e_ganesa_arrival",
+        "page": 4,
+        "excerpt": "And Ganesa, obviator of obstacles, ready to fulfil the desires of his votaries, was no sooner thought of, than he repaired to the place where Vyasa was seated."
+      },
+      {
+        "key": "e_ganesa_agreement",
+        "page": 5,
+        "excerpt": "Ganesa, upon hearing this address, thus answered, 'I will become the writer of thy work, provided my pen do not for a moment cease writing.\" And Vyasa said unto that divinity"
+      },
+      {
+        "key": "e_suka_sanjaya",
+        "page": 5,
+        "excerpt": "I am (continued Sauti) acquainted with eight thousand and eight hundred verses, and so is Suka, and perhaps Sanjaya."
+      }
+    ],
+    "unresolved": [
+      "The invocation explicitly identifies Isana with Brahma, Vishnu and Hari. It does not explicitly link that referent to the true-light Brahma, Pitamaha Brahma emerging from the egg, or Brahma visiting Vyasa. Those references are retained separately pending evidence establishing identity; this does not assert that they are different beings.",
+      "The candidate's combined creation-and-visit Brahma entry has been separated because the batch does not explicitly establish that Pitamaha Brahma and the visiting Brahma are identical. Hiranyagarbha and Brahma Parameshthi are explicitly connected within the visit scene.",
+      "Parameshthi is explicitly named in the Prajapati list, so that mention is supported. Its identity with the visiting Brahma Parameshthi remains unresolved.",
+      "The supplied list prints Atma Vibhavasu without a separating comma. Whether this denotes one individual or separate individuals named Atma and Vibhavasu cannot be settled from this batch. The combined source label and its parent relationship are therefore provisional.",
+      "Mahya is called the youngest of these Vivaswans but is absent from the preceding enumeration of Div's sons. Div's parentage of Mahya and Mahya's sibling relationships to the enumerated sons depend on resolving that reference and remain provisional.",
+      "Sibling relationships are deductions from the listed common parentage, not explicit statements using a sibling term. Each symmetric pair is recorded once and marked provisional.",
+      "The all-pervading spirit is a singular reference in Vyasa's catalogue, but the passage does not establish whether it denotes an individual being or a philosophical principle. Its entity entry is provisional, with no identification to another entry.",
+      "The seven sons of Daksha, ten Prachetas, twin Aswins, children of Kuru and Pandu, other collective classes, and counted offspring of the three Jyotis are not individually distinguished in this batch. Counts and collective labels have not been converted into individual entities.",
+      "The descent claim concerns families and unspecified generations. It does not establish direct parent_of relationships to Bharata, Yayati or Ikshwaku. The plural Yadus does not establish an individually named Yadu.",
+      "Parentage does not establish the genders of Satyavati, Parasara, Lomaharshana or Parikshit in this batch, or a spouse relationship between Satyavati and Parasara.",
+      "People mentioned only as translators, editors, commentators, literary authors, patrons or other participants in the translator's preface are outside the epic narrative inventory. Book and poem titles alone have not been converted into character mentions."
+    ]
+  },
+  "reconciliation": {
+    "matches": [
+      {
+        "localKey": "vyasa",
+        "existingId": "mahabharata:seed:vyasa",
+        "reason": "Both passages explicitly identify Dwaipayana Vyasa as a Brahmarshi and offspring of Parasara.",
+        "evidenceKeys": [
+          "e_vyasa_parentage"
+        ]
+      },
+      {
+        "localKey": "ugrasrava",
+        "existingId": "mahabharata:seed:ugrasrava-sauti",
+        "reason": "Both identify Ugrasrava as the narrator surnamed Sauti and the son of Lomaharshana.",
+        "evidenceKeys": [
+          "e_ugrasrava",
+          "e_sauti_answer"
+        ]
+      },
+      {
+        "localKey": "lomaharshana",
+        "existingId": "mahabharata:seed:lomaharshana",
+        "reason": "Both identify Lomaharshana through parentage of the same Ugrasrava, surnamed Sauti.",
+        "evidenceKeys": [
+          "e_ugrasrava"
+        ]
+      },
+      {
+        "localKey": "saunaka",
+        "existingId": "mahabharata:seed:saunaka",
+        "reason": "Both passages name Saunaka, surnamed Kulapati, in connection with the twelve-year sacrifice.",
+        "evidenceKeys": [
+          "e_saunaka"
+        ]
+      },
+      {
+        "localKey": "janamejaya",
+        "existingId": "mahabharata:seed:janamejaya-son-parikshit",
+        "reason": "Both identify the snake-sacrifice Janamejaya as the son of Parikshit. This distinguishes him from the existing Janamejaya whose parents are Puru and Kausalya.",
+        "evidenceKeys": [
+          "e_recitation",
+          "e_vaisampayana"
+        ]
+      },
+      {
+        "localKey": "parikshit",
+        "existingId": "mahabharata:seed:parikshit-son-abhimanyu",
+        "reason": "CURRENT identifies Parikshit through his son, the snake-sacrifice Janamejaya. The existing genealogical excerpts continue directly from naming Abhimanyu and Uttara's child Parikshit to identifying Parikshit and Madravati as Janamejaya's parents.",
+        "evidenceKeys": [
+          "e_recitation"
+        ]
+      },
+      {
+        "localKey": "satyavati",
+        "existingId": "mahabharata:seed:satyavati",
+        "reason": "CURRENT identifies Satyavati as the parent of Dwaipayana Vyasa, offspring of Parasara; existing evidence identifies her son by Parasara as Dwaipayana.",
+        "evidenceKeys": [
+          "e_vyasa_parentage"
+        ]
+      },
+      {
+        "localKey": "parasara",
+        "existingId": "mahabharata:seed:parasara",
+        "reason": "Both identify Parasara through parentage of Dwaipayana Vyasa.",
+        "evidenceKeys": [
+          "e_vyasa_parentage"
+        ]
+      }
+    ],
+    "unresolved": [
+      "pandu: CURRENT identifies only a Pandu whose children participated in the battle against Kuru's children. The existing excerpt identifies Pandu as a child of Dwaipayana; CURRENT does not corroborate that parentage or explicitly identify his children as the five Pandavas. The proposed identity remains uncertain.",
+      "unnamed_questioning_rishi: CURRENT never identifies the questioning Rishi as Saunaka. Attendance at Saunaka's sacrifice does not establish that identity.",
+      "No corresponding POSSIBLE EXISTING identity is supplied for these CURRENT keys: narayana, nara, saraswati, vaisampayana, kuru, isana_primordial, brahma_true_light, brahma_pitamaha, brahma_visitor, suraguru, sthanu, manu, vasishtha, parameshthi_list, daksha, unnamed_inconceivable_man, div, brihadbhanu, chakshus, atma_vibhavasu, savita, richika, arka, bhanu, asavaha, ravi, mahya, deva_vrata, su_vrata, dasa_jyoti, sata_jyoti, sahasra_jyoti, bharata, yayati, ikshwaku, astika, uparichara, ganesa, suka, sanjaya, unnamed_all_pervading_spirit."
+    ]
+  }
+}

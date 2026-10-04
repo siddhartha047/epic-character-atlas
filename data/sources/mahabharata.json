@@ -1,0 +1,15 @@
+{
+  "id": "mahabharata:ganguli",
+  "title": "The Complete Mahabharata in English",
+  "translator": "Kisari Mohan Ganguli",
+  "bookHeadingPattern": "^\\s*BOOK\\s+(\\d+)\\s*$",
+  "sectionHeadingPattern": "^\\s*SECTION\\s+([A-Z\\d.-]+)\\s*$",
+  "bookLabels": {
+    "1": "Adi Parva", "2": "Sabha Parva", "3": "Vana Parva", "4": "Virata Parva",
+    "5": "Udyoga Parva", "6": "Bhishma Parva", "7": "Drona Parva", "8": "Karna Parva",
+    "9": "Salya Parva", "10": "Sauptika Parva", "11": "Stri Parva", "12": "Santi Parva",
+    "13": "Anusasana Parva", "14": "Aswamedha Parva", "15": "Asramavasika Parva",
+    "16": "Mausala Parva", "17": "Mahaprasthanika Parva", "18": "Svargarohanika Parva"
+  },
+  "bookNumbers": { "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "10": 10, "11": 11, "12": 12, "13": 13, "14": 14, "15": 15, "16": 16, "17": 17, "18": 18 }
+}
