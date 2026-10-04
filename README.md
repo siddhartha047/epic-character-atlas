@@ -41,7 +41,7 @@ Browser checks cover desktop/mobile, aliases, namesakes, isolates, source passag
 
 ## Prepare the source and continue extraction
 
-Install Poppler (`brew install poppler` on a working Homebrew installation) and the official Codex CLI. Sign in to Codex with your existing ChatGPT account. This repository never requests a separately billed model API key. The current machine has portable Poppler under `.tools/poppler/bin`; scripts discover it automatically.
+Install Poppler (`brew install poppler` on a working Homebrew installation) and the official Codex CLI. Sign in to Codex with your existing ChatGPT account. This repository never requests a separately billed model API key. The current machine has the official Codex CLI in `.tools/node/bin`, using the existing ChatGPT sign-in. It has portable Poppler under `.tools/poppler/bin`; scripts discover it automatically.
 
 ```bash
 npm run corpus:prepare -- --epic mahabharata --pdf "Books/Mahabharata (Unabridged in English).pdf"

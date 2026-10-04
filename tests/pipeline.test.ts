@@ -195,3 +195,18 @@ it("rejects derived siblings supported by unrelated parent claims", () => {
   derived.supportingRelationshipIds = [unrelated.id, unrelated.id];
   expect(() => validateDataset(data)).toThrow("share");
 });
+
+it("never downgrades a disputed identity or relationship when another batch supports it", () => {
+  const first = mergeBatch(empty, corpus, batch, extraction, {
+    matches: [],
+    unresolved: [],
+  });
+  first.characters[0].status = "disputed";
+  first.relationships[0].status = "disputed";
+  const again = mergeBatch(first, corpus, batch, extraction, {
+    matches: [],
+    unresolved: [],
+  });
+  expect(again.characters[0].status).toBe("disputed");
+  expect(again.relationships[0].status).toBe("disputed");
+});

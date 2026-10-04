@@ -23,6 +23,14 @@ import {
   type Reconciliation,
 } from "./extraction-schema";
 
+function combineStatus(
+  a: Dataset["characters"][number]["status"],
+  b: Dataset["characters"][number]["status"],
+) {
+  if (a === "disputed" || b === "disputed") return "disputed";
+  if (a === "provisional" || b === "provisional") return "provisional";
+  return "supported";
+}
 export function validateExtraction(
   result: Extraction,
   corpus: Corpus,
@@ -148,7 +156,7 @@ export function mergeBatch(
           )
         )
           old.gender.push(claim);
-      if (old.status !== c.status) old.status = "provisional";
+      old.status = combineStatus(old.status, c.status);
     } else
       out.characters.push({
         id,
@@ -175,7 +183,7 @@ export function mergeBatch(
       old.evidenceIds = [
         ...new Set([...old.evidenceIds, ...mapped(r.evidenceKeys)]),
       ];
-      if (old.status !== r.status) old.status = "provisional";
+      old.status = combineStatus(old.status, r.status);
     } else
       out.relationships.push({
         id,
