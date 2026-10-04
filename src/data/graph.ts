@@ -119,7 +119,7 @@ export function makeGraph(
       label: c.name,
       x: radius * Math.cos(angle),
       y: radius * Math.sin(angle),
-      color: palette[c.kind],
+      color: c.status === "supported" ? palette[c.kind] : "#b075ac",
       size: 6,
       status: c.status,
     });

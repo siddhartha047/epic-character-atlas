@@ -67,6 +67,15 @@ git commit -m "Expand source-supported character inventory"
 git push
 ```
 
+A full-book run can take a long time. The working machine currently runs it as a detached local process; it continues while the machine is awake and stops cleanly on a usage/authentication failure. Inspect progress without starting a second writer:
+
+```bash
+tail -f .corpus/mahabharata/runner.log
+cat .corpus/mahabharata/runner.lock  # active process ID
+```
+
+New batches are saved locally. The public website changes after validated dataset updates are committed and pushed. Authenticate the GitHub CLI with `gh auth login` if you publish from your own terminal.
+
 If a runner is paused, inspect its `.corpus/mahabharata/runs/` logs locally. Do not publish them. Uncertain identities stay separate; source excerpts are verified mechanically but still require semantic review. The identity pass retrieves exact-name/alias candidates and requires corroborating context to merge. Remaining spelling variants and indirect aliases are intentionally conservative and need review. Open omission/identity notes are retained in the dataset and shown in the coverage panel alongside provisional and disputed records.
 
 ## Add Ramayana or another epic

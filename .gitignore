@@ -13,3 +13,11 @@ dist/
 test-results/
 playwright-report/
 tmp/
+
+# Local authentication and signing material
+.codex/
+credentials*
+auth.json
+*.pem
+*.key
+*.token

@@ -616,7 +616,8 @@ export default function App() {
                 <i />
                 Spouse
               </span>
-              {state.filters.uncertain && (
+              {(state.filters.uncertain ||
+                dataset?.characters.some((c) => c.status !== "supported")) && (
                 <span>
                   <i style={{ background: "#b075ac" }} />
                   Provisional / disputed
